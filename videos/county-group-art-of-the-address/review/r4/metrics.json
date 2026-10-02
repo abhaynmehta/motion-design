@@ -1,0 +1,140 @@
+{
+ "round": "4",
+ "source": "renders/draft_16x9.mp4",
+ "fps": 30.0,
+ "duration": 24.0,
+ "motion_peaks_s": [
+  14.47,
+  19.5,
+  2.27,
+  11.97,
+  2.8
+ ],
+ "longest_static": {
+  "seconds": 1.73,
+  "from_s": 16.2
+ },
+ "max_gap_between_visual_events": {
+  "seconds": 3.3,
+  "from_s": 15.87,
+  "rule": "something new every 2\u20134 s"
+ },
+ "near_blank_frames": [],
+ "loop_seam_jump": {
+  "value": 13.2,
+  "note": "typical hard cut 40\u201380; < 10 reads as continuous"
+ },
+ "sync": {
+  "cues": [
+   {
+    "t": 0,
+    "type": "shimmer",
+    "what": "hairline draws under the eyebrow",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 1.122,
+    "type": "chime",
+    "what": "'address.' lands",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 3.00183,
+    "type": "silk",
+    "what": "curtain closes, first render rises",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 4.49993,
+    "type": "silk",
+    "what": "wipe to Cleo County",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 6.00042,
+    "type": "silk",
+    "what": "wipe to County 107",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 7.5005,
+    "type": "silk",
+    "what": "wipe to Ivy County",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 9.00025,
+    "type": "silk",
+    "what": "wipe to Ivory County",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 10.50027,
+    "type": "silk",
+    "what": "wipe to Clove County",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 12.00017,
+    "type": "silk",
+    "what": "frame collapses into its grid tile",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 14.05665,
+    "type": "chime",
+    "what": "arch draws in tile 12",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 15.00027,
+    "type": "riser",
+    "what": "dive into tile 12 builds, peaks on the drop",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 15.00027,
+    "type": "boom",
+    "what": "Gurugram lands",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 18.00044,
+    "type": "shimmer",
+    "what": "light rises in the arch",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 19.50158,
+    "type": "silk",
+    "what": "cream arch opens to the end card",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 19.50158,
+    "type": "thump",
+    "what": "County lockup lands",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 20.43447,
+    "type": "chime",
+    "what": "url",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 22.1199,
+    "type": "shimmer",
+    "what": "gold sheen crosses COUNTY, rule sweeps under the URL",
+    "visual_minus_audio_ms": -67
+   }
+  ],
+  "hits_within_45ms": "12/16",
+  "hits_mean_abs_ms": 22.9,
+  "note": "positive = picture late. whoosh/riser build INTO the cue by design; ticks are texture. Visual hits should read ON the audio (|x| <= 45 ms)."
+ },
+ "loudness": {
+  "I": "-14.1 LUFS",
+  "Peak": "-1.5 dBFS"
+ }
+}

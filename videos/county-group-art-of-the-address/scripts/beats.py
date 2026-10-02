@@ -63,7 +63,7 @@ offs = [H[strong][np.argmin(np.abs(H[strong] - g))] - g for g in grid] if strong
 offs = [o for o in offs if abs(o) < 0.03]
 phase_corr = float(np.median(offs)) if offs else 0.0
 grid = grid + phase_corr
-if grid[0] < -0.5 * period: grid = grid[1:]          # keep a beat 0 nudged a few ms below zero (clamped below); dropping it shifted every beat one late
+if grid[0] < -0.5 * period: grid = grid[1:]          # project fix: a beat 0 nudged a few ms below zero is kept (clamped below)
 beats, snapped = [], 0
 for g in grid:
     cand = np.where((np.abs(H - g) <= 0.008) & (HS >= 0.2))[0] if len(H) else []

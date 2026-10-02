@@ -1,0 +1,8 @@
+{
+  "name": "county-group-art-of-the-address",
+  "private": true,
+  "description": "County Group brand film (Motion Reel Kit project)",
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}

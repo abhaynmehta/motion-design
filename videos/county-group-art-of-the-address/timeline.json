@@ -1,0 +1,284 @@
+{
+  "note": "Single source of truth for picture + sound, in BEATS on the measured grid (beats.json). film.js reads it via data.js; sync.mjs turns sfx into cues.json; scripts/music.py (project-local luxury score) reads marks and music.",
+  "title": "County Group — The art of the address",
+  "duration": 24,
+  "fps": 60,
+  "bpm": 80,
+  "formats": [
+    "16x9",
+    "9x16"
+  ],
+  "brand": {
+    "product": "County Group",
+    "url": "countygroup.in",
+    "since": 2005
+  },
+  "copy": {
+    "eyebrow": "County Group · Since 2005",
+    "headline": [
+      "The art of",
+      "the address."
+    ],
+    "gridTitle": "Two decades of addresses.",
+    "lifeLine": "County Life.",
+    "lifeSub": "Now in Gurugram",
+    "wordTop": "County",
+    "wordBottom": "Group",
+    "url": "countygroup.in",
+    "rera": ""
+  },
+  "projects": [
+    {
+      "id": "orange",
+      "big": "Orange",
+      "small": "County",
+      "place": "Indirapuram, Ghaziabad"
+    },
+    {
+      "id": "olive",
+      "big": "Olive",
+      "small": "County",
+      "place": "Vasundhara, Ghaziabad"
+    },
+    {
+      "id": "cherry",
+      "big": "Cherry",
+      "small": "County",
+      "place": "Greater Noida West"
+    },
+    {
+      "id": "cleo",
+      "big": "Cleo",
+      "small": "County",
+      "place": "Sector 121, Noida"
+    },
+    {
+      "id": "coco",
+      "big": "Coco",
+      "small": "County",
+      "place": "Greater Noida West"
+    },
+    {
+      "id": "county107",
+      "big": "107",
+      "small": "County",
+      "smallFirst": true,
+      "place": "Sector 107, Noida"
+    },
+    {
+      "id": "ivy",
+      "big": "Ivy",
+      "small": "County",
+      "place": "Sector 75, Noida"
+    },
+    {
+      "id": "courtyard",
+      "big": "Courtyard",
+      "small": "County",
+      "smallFirst": true,
+      "place": "Netaji Subhash Place, Delhi"
+    },
+    {
+      "id": "ivory",
+      "big": "Ivory",
+      "small": "County",
+      "place": "Sector 115, Noida"
+    },
+    {
+      "id": "jade",
+      "big": "Jade",
+      "small": "County",
+      "place": "Wave City, Ghaziabad"
+    },
+    {
+      "id": "clove",
+      "big": "Clove",
+      "small": "County",
+      "place": "Sector 151, Noida"
+    }
+  ],
+  "heroes": [
+    "orange",
+    "cleo",
+    "county107",
+    "ivy",
+    "ivory",
+    "clove"
+  ],
+  "marks": {
+    "open": 0,
+    "h_w1": -0.4,
+    "h_w2": 0,
+    "h_w3": 0.5,
+    "h_w4": 1,
+    "h_w5": 1.5,
+    "curtain": 3.1,
+    "hero0": 4,
+    "hero1": 6,
+    "hero2": 8,
+    "hero3": 10,
+    "hero4": 12,
+    "hero5": 14,
+    "grid": 16,
+    "grid_title": 17,
+    "tile12": 18.75,
+    "gap": 19,
+    "drop": 20,
+    "life_sub": 22,
+    "glow": 24,
+    "iris": 26,
+    "lockup": 26,
+    "word": 26,
+    "group": 26.5,
+    "url": 27.25,
+    "sweep": 29.5,
+    "done": 32,
+    "life": 21,
+    "ribbon": 28.25
+  },
+  "music": {
+    "source": "synth",
+    "engine": "scripts/music.py (project-local: felt piano, string pads, harp, clock pulse — the kit's groove engine replaced for a luxury brief)",
+    "key": "D major",
+    "chords_by_bar": [
+      "Dmaj9",
+      "Bm9",
+      "Gmaj7#11",
+      "Em9 | A13sus4",
+      "Dmaj9/F# (stops at gap)",
+      "Gmaj9 (drop)",
+      "A6sus4 | Dmaj9",
+      "Dmaj9"
+    ],
+    "accents": [
+      "drop",
+      "word"
+    ]
+  },
+  "voiceover": null,
+  "mix": {
+    "music": 0,
+    "sfx": -4,
+    "vo": 0,
+    "duck": false
+  },
+  "sfx": [
+    {
+      "at": "open",
+      "type": "shimmer",
+      "gain": 0.35,
+      "what": "hairline draws under the eyebrow",
+      "pitch": 1
+    },
+    {
+      "at": "h_w5",
+      "type": "chime",
+      "gain": 0.32,
+      "what": "'address.' lands",
+      "pitch": 1
+    },
+    {
+      "at": "hero0",
+      "type": "silk",
+      "gain": 0.55,
+      "what": "curtain closes, first render rises",
+      "pan": 0
+    },
+    {
+      "at": "hero1",
+      "type": "silk",
+      "gain": 0.42,
+      "what": "wipe to Cleo County",
+      "pan": 0
+    },
+    {
+      "at": "hero2",
+      "type": "silk",
+      "gain": 0.42,
+      "what": "wipe to County 107",
+      "pan": 0
+    },
+    {
+      "at": "hero3",
+      "type": "silk",
+      "gain": 0.42,
+      "what": "wipe to Ivy County",
+      "pan": 0
+    },
+    {
+      "at": "hero4",
+      "type": "silk",
+      "gain": 0.42,
+      "what": "wipe to Ivory County",
+      "pan": 0
+    },
+    {
+      "at": "hero5",
+      "type": "silk",
+      "gain": 0.42,
+      "what": "wipe to Clove County",
+      "pan": 0
+    },
+    {
+      "at": "grid",
+      "type": "silk",
+      "gain": 0.5,
+      "what": "frame collapses into its grid tile",
+      "pan": 0
+    },
+    {
+      "at": "tile12",
+      "type": "chime",
+      "gain": 0.3,
+      "what": "arch draws in tile 12",
+      "pitch": 1
+    },
+    {
+      "at": "drop",
+      "type": "riser",
+      "gain": 0.42,
+      "what": "dive into tile 12 builds, peaks on the drop"
+    },
+    {
+      "at": "drop",
+      "type": "boom",
+      "gain": 0.85,
+      "what": "Gurugram lands",
+      "pitch": 1
+    },
+    {
+      "at": "glow",
+      "type": "shimmer",
+      "gain": 0.28,
+      "what": "light rises in the arch",
+      "pitch": 1
+    },
+    {
+      "at": "iris",
+      "type": "silk",
+      "gain": 0.45,
+      "what": "cream arch opens to the end card",
+      "pan": 0
+    },
+    {
+      "at": "word",
+      "type": "thump",
+      "gain": 0.5,
+      "what": "County lockup lands"
+    },
+    {
+      "at": "url",
+      "type": "chime",
+      "gain": 0.26,
+      "what": "url",
+      "pitch": 1
+    },
+    {
+      "at": "sweep",
+      "type": "shimmer",
+      "gain": 0.18,
+      "what": "gold sheen crosses COUNTY, rule sweeps under the URL",
+      "pitch": 1
+    }
+  ]
+}
