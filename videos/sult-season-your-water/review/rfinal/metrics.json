@@ -1,0 +1,326 @@
+{
+ "round": "final",
+ "source": "renders/9x16.mp4",
+ "fps": 60.0,
+ "duration": 20.0,
+ "motion_peaks_s": [
+  15.93,
+  14.93,
+  14.0,
+  17.0,
+  3.82
+ ],
+ "longest_static": {
+  "seconds": 0.78,
+  "from_s": 18.6
+ },
+ "max_gap_between_visual_events": {
+  "seconds": 1.77,
+  "from_s": 18.23,
+  "rule": "something new every 2\u20134 s"
+ },
+ "near_blank_frames": [],
+ "loop_seam_jump": {
+  "value": 30.1,
+  "note": "typical hard cut 40\u201380; < 10 reads as continuous"
+ },
+ "sync": {
+  "cues": [
+   {
+    "t": 0.00013,
+    "type": "pop",
+    "what": "'Not a sports drink.' on frame 0",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 0.5,
+    "type": "shutter",
+    "what": "strike 1",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 0.5,
+    "type": "pop",
+    "what": "'Not a sugar rush.'",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 1.00015,
+    "type": "shutter",
+    "what": "strike 2",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 1.00015,
+    "type": "pop",
+    "what": "'Not a salt lick.'",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 1.5,
+    "type": "shutter",
+    "what": "strike 3",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 2.00015,
+    "type": "thump",
+    "what": "'Just right.'",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 2.5,
+    "type": "whoosh",
+    "what": "sachet rises in",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 3.00015,
+    "type": "rip",
+    "what": "sachet tears open",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 3.49998,
+    "type": "fizz",
+    "what": "powder pours",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 4.00013,
+    "type": "whoosh",
+    "what": "push into the glass",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 4.50017,
+    "type": "pop",
+    "what": "'your water.'",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 6.00015,
+    "type": "pop",
+    "what": "'All 6'",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 6.24798,
+    "type": "pop",
+    "what": "element pills",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 6.4958,
+    "type": "pop",
+    "what": "element pills",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 6.74797,
+    "type": "pop",
+    "what": "element pills",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 7.00013,
+    "type": "pop",
+    "what": "element pills",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 7.2485,
+    "type": "pop",
+    "what": "element pills",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 7.49688,
+    "type": "pop",
+    "what": "element pills",
+    "visual_minus_audio_ms": 50
+   },
+   {
+    "t": 7.7485,
+    "type": "thump",
+    "what": "'0 sugar.'",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 8.49797,
+    "type": "click",
+    "what": "scale dot swings",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 9.00013,
+    "type": "click",
+    "what": "dot lands in the middle",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 9.49905,
+    "type": "pop",
+    "what": "'The middle ground.'",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 10.00015,
+    "type": "whoosh",
+    "what": "Watermelon Berry",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 11.0001,
+    "type": "whoosh",
+    "what": "Peach Citrus",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 12.00013,
+    "type": "whoosh",
+    "what": "Mango Tropical",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 13.00015,
+    "type": "whoosh",
+    "what": "product card rises",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 13.24523,
+    "type": "pop",
+    "what": "sachets fan out",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 13.50015,
+    "type": "pop",
+    "what": "sachets fan out",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 13.74642,
+    "type": "pop",
+    "what": "sachets fan out",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 14.00013,
+    "type": "pop",
+    "what": "'Sold out in hours.'",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 15.00015,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 15.06265,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 15.12514,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -217
+   },
+   {
+    "t": 15.18764,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -167
+   },
+   {
+    "t": 15.24523,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 15.31442,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 15.37514,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -217
+   },
+   {
+    "t": 15.43763,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -167
+   },
+   {
+    "t": 15.50013,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 15.56263,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 15.62513,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -200
+   },
+   {
+    "t": 15.68763,
+    "type": "tick",
+    "what": "counter to 150",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 16.00012,
+    "type": "pop",
+    "what": "'0 investors. 1 community.'",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 17.00025,
+    "type": "riser",
+    "what": "build through the gap, peaks on the logo",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 17.00025,
+    "type": "thump",
+    "what": "logo slams",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 18.00015,
+    "type": "pop",
+    "what": "CTA pill",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 18.24523,
+    "type": "whoosh",
+    "what": "bottles rise",
+    "visual_minus_audio_ms": 17
+   }
+  ],
+  "hits_within_45ms": "20/28",
+  "hits_mean_abs_ms": 38.1,
+  "note": "positive = picture late. whoosh/riser build INTO the cue by design; ticks are texture. Visual hits should read ON the audio (|x| <= 45 ms)."
+ },
+ "loudness": {
+  "I": "-14.1 LUFS",
+  "Peak": "-1.1 dBFS"
+ }
+}
