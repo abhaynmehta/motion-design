@@ -1,0 +1,668 @@
+{
+ "round": "final",
+ "source": "renders/9x16.mp4",
+ "fps": 60.0,
+ "duration": 30.0,
+ "motion_peaks_s": [
+  2.98,
+  6.97,
+  7.8,
+  1.8,
+  11.92
+ ],
+ "longest_static": {
+  "seconds": 0.95,
+  "from_s": 20.05
+ },
+ "max_gap_between_visual_events": {
+  "seconds": 2.38,
+  "from_s": 9.53,
+  "rule": "something new every 2\u20134 s"
+ },
+ "near_blank_frames": [],
+ "loop_seam_jump": {
+  "value": 111.8,
+  "note": "typical hard cut 40\u201380; < 10 reads as continuous"
+ },
+ "sync": {
+  "cues": [
+   {
+    "t": 0.00013,
+    "type": "pop",
+    "what": "'70% OF US' box on frame 0",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 0.5,
+    "type": "pop",
+    "what": "'ARE'",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 0.74642,
+    "type": "thump",
+    "what": "'DEHYDRATED.'",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 1.24523,
+    "type": "pop",
+    "what": "sub line",
+    "visual_minus_audio_ms": -83
+   },
+   {
+    "t": 2.00015,
+    "type": "whoosh",
+    "what": "lime wipe into the POV shot",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 2.00015,
+    "type": "shutter",
+    "what": "flash",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 2.24523,
+    "type": "pop",
+    "what": "POV caption",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 3.00015,
+    "type": "whoosh",
+    "what": "second POV shot",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 3.24523,
+    "type": "pop",
+    "what": "caption 2",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 4.00013,
+    "type": "shutter",
+    "what": "flash cut 1",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 4.06264,
+    "type": "tick",
+    "what": "typing word 1",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 4.12514,
+    "type": "tick",
+    "what": "typing word 1",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 4.18764,
+    "type": "tick",
+    "what": "typing word 1",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 4.24523,
+    "type": "tick",
+    "what": "typing word 1",
+    "visual_minus_audio_ms": -133
+   },
+   {
+    "t": 4.31442,
+    "type": "tick",
+    "what": "typing word 1",
+    "visual_minus_audio_ms": -167
+   },
+   {
+    "t": 4.74642,
+    "type": "tick",
+    "what": "backspace 1",
+    "visual_minus_audio_ms": 50
+   },
+   {
+    "t": 4.81308,
+    "type": "tick",
+    "what": "backspace 1",
+    "visual_minus_audio_ms": 50
+   },
+   {
+    "t": 4.87514,
+    "type": "tick",
+    "what": "backspace 1",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 5.00013,
+    "type": "shutter",
+    "what": "flash cut 2",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 5.06263,
+    "type": "tick",
+    "what": "typing word 2",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 5.12512,
+    "type": "tick",
+    "what": "typing word 2",
+    "visual_minus_audio_ms": -217
+   },
+   {
+    "t": 5.18762,
+    "type": "tick",
+    "what": "typing word 2",
+    "visual_minus_audio_ms": -167
+   },
+   {
+    "t": 5.24523,
+    "type": "tick",
+    "what": "typing word 2",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 5.31442,
+    "type": "tick",
+    "what": "typing word 2",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 5.74642,
+    "type": "tick",
+    "what": "backspace 2",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 5.81308,
+    "type": "tick",
+    "what": "backspace 2",
+    "visual_minus_audio_ms": 50
+   },
+   {
+    "t": 5.87514,
+    "type": "tick",
+    "what": "backspace 2",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 6.00015,
+    "type": "shutter",
+    "what": "flash cut 3",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 6.06265,
+    "type": "tick",
+    "what": "typing word 3",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 6.12514,
+    "type": "tick",
+    "what": "typing word 3",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 6.18764,
+    "type": "tick",
+    "what": "typing word 3",
+    "visual_minus_audio_ms": -117
+   },
+   {
+    "t": 6.24523,
+    "type": "tick",
+    "what": "typing word 3",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 6.31442,
+    "type": "tick",
+    "what": "typing word 3",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 6.74642,
+    "type": "tick",
+    "what": "backspace 3",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 6.81308,
+    "type": "tick",
+    "what": "backspace 3",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 6.87511,
+    "type": "tick",
+    "what": "backspace 3",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 7.0001,
+    "type": "shutter",
+    "what": "flash cut 4",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 7.06261,
+    "type": "tick",
+    "what": "typing word 4",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 7.11975,
+    "type": "tick",
+    "what": "typing word 4",
+    "visual_minus_audio_ms": -117
+   },
+   {
+    "t": 7.18763,
+    "type": "tick",
+    "what": "typing word 4",
+    "visual_minus_audio_ms": -167
+   },
+   {
+    "t": 7.25014,
+    "type": "tick",
+    "what": "typing word 4",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 7.31264,
+    "type": "tick",
+    "what": "typing word 4",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 7.74642,
+    "type": "tick",
+    "what": "backspace 4",
+    "visual_minus_audio_ms": -117
+   },
+   {
+    "t": 7.81263,
+    "type": "tick",
+    "what": "backspace 4",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 7.8749,
+    "type": "tick",
+    "what": "backspace 4",
+    "visual_minus_audio_ms": 217
+   },
+   {
+    "t": 8.0001,
+    "type": "shutter",
+    "what": "flash cut 5",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 8.0001,
+    "type": "thump",
+    "what": "'WATER.' lands",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 8.0626,
+    "type": "tick",
+    "what": "typing word 5",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 8.12509,
+    "type": "tick",
+    "what": "typing word 5",
+    "visual_minus_audio_ms": -217
+   },
+   {
+    "t": 8.18759,
+    "type": "tick",
+    "what": "typing word 5",
+    "visual_minus_audio_ms": -167
+   },
+   {
+    "t": 8.25009,
+    "type": "tick",
+    "what": "typing word 5",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 8.31259,
+    "type": "tick",
+    "what": "typing word 5",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 8.50008,
+    "type": "whoosh",
+    "what": "sachet rises",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 9.00015,
+    "type": "rip",
+    "what": "sachet tears",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 9.50015,
+    "type": "fizz",
+    "what": "powder pours",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 10.00013,
+    "type": "pop",
+    "what": "1,900MG",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 10.50013,
+    "type": "pop",
+    "what": "6 ELECTROLYTES",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 11.00015,
+    "type": "pop",
+    "what": "0G SUGAR",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 12.00015,
+    "type": "whoosh",
+    "what": "lime marquee wipe lands",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 12.24523,
+    "type": "tick",
+    "what": "strikethroughs",
+    "visual_minus_audio_ms": -133
+   },
+   {
+    "t": 12.50015,
+    "type": "tick",
+    "what": "strikethroughs",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 12.74642,
+    "type": "tick",
+    "what": "strikethroughs",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 13.00013,
+    "type": "thump",
+    "what": "NO SUGAR,",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 13.24523,
+    "type": "pop",
+    "what": "NO CAFFEINE,",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 13.50013,
+    "type": "thump",
+    "what": "NO BULLSH*T.",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 14.00015,
+    "type": "whoosh",
+    "what": "WE'RE BUILT DIFFERENT.",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 14.75009,
+    "type": "click",
+    "what": "sugar bars race",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 15.00015,
+    "type": "pop",
+    "what": "0G",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 16.00015,
+    "type": "click",
+    "what": "electrolyte bars",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 16.24988,
+    "type": "thump",
+    "what": "1,900MG shoots past",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 17.24975,
+    "type": "pop",
+    "what": "\u00a31 per serving",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 18.00015,
+    "type": "whoosh",
+    "what": "six-electrolyte scene",
+    "visual_minus_audio_ms": -17
+   },
+   {
+    "t": 18.50012,
+    "type": "pop",
+    "what": "ingredient cards",
+    "visual_minus_audio_ms": 67
+   },
+   {
+    "t": 18.7464,
+    "type": "pop",
+    "what": "ingredient cards",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 19.00012,
+    "type": "pop",
+    "what": "ingredient cards",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 19.24523,
+    "type": "pop",
+    "what": "ingredient cards",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 19.50012,
+    "type": "pop",
+    "what": "ingredient cards",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 19.7464,
+    "type": "pop",
+    "what": "ingredient cards",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 21.00015,
+    "type": "whoosh",
+    "what": "Watermelon Berry",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 22.00012,
+    "type": "whoosh",
+    "what": "Peach Citrus",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 23.00012,
+    "type": "whoosh",
+    "what": "Mango Tropical",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 24.00015,
+    "type": "whoosh",
+    "what": "proof",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 24.12514,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 24.18763,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 24.24523,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 24.31442,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 24.37511,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": -217
+   },
+   {
+    "t": 24.43761,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": -167
+   },
+   {
+    "t": 24.5001,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 24.5626,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 24.6251,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": -217
+   },
+   {
+    "t": 24.68761,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": -167
+   },
+   {
+    "t": 24.7464,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": -100
+   },
+   {
+    "t": 24.81306,
+    "type": "tick",
+    "what": "counter",
+    "visual_minus_audio_ms": 133
+   },
+   {
+    "t": 25.00012,
+    "type": "pop",
+    "what": "4.9 stars",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 25.5001,
+    "type": "pop",
+    "what": "review card",
+    "visual_minus_audio_ms": -67
+   },
+   {
+    "t": 26.00012,
+    "type": "tick",
+    "what": "press logos",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 26.11975,
+    "type": "tick",
+    "what": "press logos",
+    "visual_minus_audio_ms": 0
+   },
+   {
+    "t": 26.25014,
+    "type": "tick",
+    "what": "press logos",
+    "visual_minus_audio_ms": -50
+   },
+   {
+    "t": 26.3749,
+    "type": "tick",
+    "what": "press logos",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 27.00021,
+    "type": "riser",
+    "what": "riser peaks on the logo",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 27.00021,
+    "type": "thump",
+    "what": "logo slam",
+    "visual_minus_audio_ms": 17
+   },
+   {
+    "t": 27.50008,
+    "type": "pop",
+    "what": "season your water.",
+    "visual_minus_audio_ms": 33
+   },
+   {
+    "t": 28.00015,
+    "type": "pop",
+    "what": "CTA",
+    "visual_minus_audio_ms": -33
+   },
+   {
+    "t": 28.50012,
+    "type": "click",
+    "what": "concept label",
+    "visual_minus_audio_ms": -100
+   }
+  ],
+  "hits_within_45ms": "21/38",
+  "hits_mean_abs_ms": 48.3,
+  "note": "positive = picture late. whoosh/riser build INTO the cue by design; ticks are texture. Visual hits should read ON the audio (|x| <= 45 ms)."
+ },
+ "loudness": {
+  "I": "-14.1 LUFS",
+  "Peak": "-0.7 dBFS"
+ }
+}
