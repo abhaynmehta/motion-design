@@ -1,0 +1,98 @@
+{
+  "note": "Single source of truth for picture + sound in BEATS on the measured grid.",
+  "title": "SULT \u2014 Season your water (spec reel)",
+  "duration": 20,
+  "fps": 60,
+  "bpm": 120,
+  "formats": [
+    "9x16"
+  ],
+  "brand": {
+    "product": "SULT",
+    "url": "drinksult.com",
+    "hook": "Season your water.",
+    "cta": "drinksult.com"
+  },
+  "music": {
+    "source": "synth",
+    "chords": [
+      "Fmaj7",
+      "G",
+      "Em7",
+      "Am"
+    ],
+    "sections": [
+      {
+        "at": "hook",
+        "kind": "intro"
+      },
+      {
+        "at": "season",
+        "kind": "full"
+      },
+      {
+        "at": "facts",
+        "kind": "dark"
+      },
+      {
+        "at": "flavours",
+        "kind": "full"
+      },
+      {
+        "at": "proof",
+        "kind": "build"
+      },
+      {
+        "at": "gap",
+        "kind": "gap"
+      },
+      {
+        "at": "logo",
+        "kind": "drop"
+      }
+    ],
+    "accents": [
+      "logo"
+    ]
+  },
+  "voiceover": null,
+  "mix": {
+    "music": 0,
+    "sfx": -3,
+    "vo": 0,
+    "duck": true
+  },
+  "marks": {
+    "hook": 0,
+    "not1": -0.4,
+    "strike1": 1,
+    "not2": 1,
+    "strike2": 2,
+    "not3": 2,
+    "strike3": 3,
+    "right": 4,
+    "sachet": 5,
+    "tear": 6,
+    "pour": 7,
+    "season": 8,
+    "season_w2": 9,
+    "facts": 12,
+    "el1": 13,
+    "zero": 16,
+    "scale": 17,
+    "middle": 18,
+    "natural": 19,
+    "flavours": 20,
+    "f2": 22,
+    "f3": 24,
+    "fan": 26,
+    "proof": 28,
+    "boots": 30,
+    "community": 32,
+    "gap": 33.5,
+    "logo": 34,
+    "cta": 36,
+    "done": 40
+  },
+  "sfx": []
+}

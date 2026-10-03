@@ -4,6 +4,7 @@ node_modules/
 .env.*
 videos/*
 !videos/county-group-art-of-the-address/
+!videos/sult-season-your-water/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
