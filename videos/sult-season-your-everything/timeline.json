@@ -1,0 +1,489 @@
+{
+  "note": "Single source of truth in BEATS on the measured grid.",
+  "title": "SULT \u2014 Season your ___ (motion concept)",
+  "duration": 30,
+  "fps": 60,
+  "bpm": 120,
+  "formats": [
+    "9x16"
+  ],
+  "brand": {
+    "product": "SULT",
+    "url": "drinksult.com"
+  },
+  "music": {
+    "source": "synth",
+    "chords": [
+      "C",
+      "G",
+      "Am",
+      "F"
+    ],
+    "sections": [
+      {
+        "at": "hook",
+        "kind": "intro"
+      },
+      {
+        "at": "season",
+        "kind": "full"
+      },
+      {
+        "at": "w4",
+        "kind": "build"
+      },
+      {
+        "at": "water",
+        "kind": "drop"
+      },
+      {
+        "at": "marquee",
+        "kind": "full"
+      },
+      {
+        "at": "built",
+        "kind": "dark"
+      },
+      {
+        "at": "six",
+        "kind": "full"
+      },
+      {
+        "at": "proof",
+        "kind": "build"
+      },
+      {
+        "at": "gap",
+        "kind": "gap"
+      },
+      {
+        "at": "logo",
+        "kind": "drop"
+      }
+    ],
+    "accents": [
+      "water",
+      "bs3",
+      "logo"
+    ]
+  },
+  "voiceover": null,
+  "mix": {
+    "music": 0,
+    "sfx": -4.5,
+    "vo": 0,
+    "duck": true
+  },
+  "marks": {
+    "hook": 0,
+    "h70": -0.4,
+    "h_are": 1,
+    "h_dehy": 1.5,
+    "h_sub": 2.5,
+    "pov": 4,
+    "pov_cap": 4.5,
+    "pov2": 6,
+    "pov2_cap": 6.5,
+    "season": 8,
+    "w1": 8,
+    "w2": 10,
+    "w3": 12,
+    "w4": 14,
+    "water": 16,
+    "sachet": 17,
+    "tear": 18,
+    "pour": 19,
+    "bloom": 20,
+    "f1900": 20,
+    "f6": 21,
+    "f0g": 22,
+    "wipe": 23.5,
+    "marquee": 24,
+    "bs1": 26,
+    "bs2": 26.5,
+    "bs3": 27,
+    "built": 28,
+    "sugar": 29.5,
+    "elec": 32,
+    "price": 34.5,
+    "six": 36,
+    "ing1": 37,
+    "flav": 42,
+    "flav2": 44,
+    "flav3": 46,
+    "proof": 48,
+    "stars": 50,
+    "review": 51,
+    "press": 52,
+    "gap": 53.5,
+    "logo": 54,
+    "slogan": 55,
+    "cta": 56,
+    "label": 57,
+    "done": 60
+  },
+  "sfx": [
+    {
+      "at": "hook",
+      "type": "pop",
+      "gain": 0.75,
+      "what": "'70% OF US' box on frame 0"
+    },
+    {
+      "at": "h_are",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "'ARE'"
+    },
+    {
+      "at": "h_dehy",
+      "type": "thump",
+      "gain": 0.75,
+      "what": "'DEHYDRATED.'"
+    },
+    {
+      "at": "h_sub",
+      "type": "pop",
+      "gain": 0.4,
+      "what": "sub line"
+    },
+    {
+      "at": "pov",
+      "type": "whoosh",
+      "gain": 0.7,
+      "what": "lime wipe into the POV shot"
+    },
+    {
+      "at": "pov",
+      "type": "shutter",
+      "gain": 0.55,
+      "what": "flash"
+    },
+    {
+      "at": "pov_cap",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "POV caption"
+    },
+    {
+      "at": "pov2",
+      "type": "whoosh",
+      "gain": 0.55,
+      "what": "second POV shot"
+    },
+    {
+      "at": "pov2_cap",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "caption 2"
+    },
+    {
+      "at": 8,
+      "type": "shutter",
+      "gain": 0.6,
+      "what": "flash cut 1"
+    },
+    {
+      "at": 8.125,
+      "to": 8.75,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.3,
+      "what": "typing word 1"
+    },
+    {
+      "at": 9.5,
+      "to": 9.875,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.22,
+      "what": "backspace 1"
+    },
+    {
+      "at": 10,
+      "type": "shutter",
+      "gain": 0.6,
+      "what": "flash cut 2"
+    },
+    {
+      "at": 10.125,
+      "to": 10.75,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.3,
+      "what": "typing word 2"
+    },
+    {
+      "at": 11.5,
+      "to": 11.875,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.22,
+      "what": "backspace 2"
+    },
+    {
+      "at": 12,
+      "type": "shutter",
+      "gain": 0.6,
+      "what": "flash cut 3"
+    },
+    {
+      "at": 12.125,
+      "to": 12.75,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.3,
+      "what": "typing word 3"
+    },
+    {
+      "at": 13.5,
+      "to": 13.875,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.22,
+      "what": "backspace 3"
+    },
+    {
+      "at": 14,
+      "type": "shutter",
+      "gain": 0.6,
+      "what": "flash cut 4"
+    },
+    {
+      "at": 14.125,
+      "to": 14.75,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.3,
+      "what": "typing word 4"
+    },
+    {
+      "at": 15.5,
+      "to": 15.875,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.22,
+      "what": "backspace 4"
+    },
+    {
+      "at": 16,
+      "type": "shutter",
+      "gain": 0.6,
+      "what": "flash cut 5"
+    },
+    {
+      "at": 16.125,
+      "to": 16.75,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.3,
+      "what": "typing word 5"
+    },
+    {
+      "at": "water",
+      "type": "thump",
+      "gain": 0.8,
+      "what": "'WATER.' lands"
+    },
+    {
+      "at": "sachet",
+      "type": "whoosh",
+      "gain": 0.55,
+      "what": "sachet rises"
+    },
+    {
+      "at": "tear",
+      "type": "rip",
+      "gain": 0.8,
+      "what": "sachet tears"
+    },
+    {
+      "at": "pour",
+      "type": "fizz",
+      "gain": 0.5,
+      "what": "powder pours"
+    },
+    {
+      "at": "f1900",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "1,900MG"
+    },
+    {
+      "at": "f6",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "6 ELECTROLYTES"
+    },
+    {
+      "at": "f0g",
+      "type": "pop",
+      "gain": 0.6,
+      "what": "0G SUGAR"
+    },
+    {
+      "at": "marquee",
+      "type": "whoosh",
+      "gain": 0.75,
+      "what": "lime marquee wipe lands"
+    },
+    {
+      "at": 24.5,
+      "to": 26,
+      "every": 0.5,
+      "type": "tick",
+      "gain": 0.4,
+      "what": "strikethroughs"
+    },
+    {
+      "at": "bs1",
+      "type": "thump",
+      "gain": 0.75,
+      "what": "NO SUGAR,"
+    },
+    {
+      "at": "bs2",
+      "type": "pop",
+      "gain": 0.6,
+      "what": "NO CAFFEINE,"
+    },
+    {
+      "at": "bs3",
+      "type": "thump",
+      "gain": 0.85,
+      "what": "NO BULLSH*T."
+    },
+    {
+      "at": "built",
+      "type": "whoosh",
+      "gain": 0.6,
+      "what": "WE'RE BUILT DIFFERENT."
+    },
+    {
+      "at": "sugar",
+      "type": "click",
+      "gain": 0.6,
+      "what": "sugar bars race"
+    },
+    {
+      "at": 30,
+      "type": "pop",
+      "gain": 0.6,
+      "what": "0G"
+    },
+    {
+      "at": "elec",
+      "type": "click",
+      "gain": 0.6,
+      "what": "electrolyte bars"
+    },
+    {
+      "at": 32.5,
+      "type": "thump",
+      "gain": 0.7,
+      "what": "1,900MG shoots past"
+    },
+    {
+      "at": "price",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "\u00a31 per serving"
+    },
+    {
+      "at": "six",
+      "type": "whoosh",
+      "gain": 0.6,
+      "what": "six-electrolyte scene"
+    },
+    {
+      "at": 37,
+      "to": 40,
+      "every": 0.5,
+      "type": "pop",
+      "gain": 0.45,
+      "what": "ingredient cards"
+    },
+    {
+      "at": "flav",
+      "type": "whoosh",
+      "gain": 0.7,
+      "what": "Watermelon Berry"
+    },
+    {
+      "at": "flav2",
+      "type": "whoosh",
+      "gain": 0.7,
+      "what": "Peach Citrus"
+    },
+    {
+      "at": "flav3",
+      "type": "whoosh",
+      "gain": 0.7,
+      "what": "Mango Tropical"
+    },
+    {
+      "at": "proof",
+      "type": "whoosh",
+      "gain": 0.55,
+      "what": "proof"
+    },
+    {
+      "at": 48.25,
+      "to": 49.75,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.26,
+      "what": "counter"
+    },
+    {
+      "at": "stars",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "4.9 stars"
+    },
+    {
+      "at": "review",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "review card"
+    },
+    {
+      "at": 52,
+      "to": 53,
+      "every": 0.25,
+      "type": "tick",
+      "gain": 0.4,
+      "what": "press logos"
+    },
+    {
+      "at": "logo",
+      "type": "riser",
+      "gain": 0.55,
+      "what": "riser peaks on the logo"
+    },
+    {
+      "at": "logo",
+      "type": "thump",
+      "gain": 0.9,
+      "what": "logo slam"
+    },
+    {
+      "at": "slogan",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "season your water."
+    },
+    {
+      "at": "cta",
+      "type": "pop",
+      "gain": 0.6,
+      "what": "CTA"
+    },
+    {
+      "at": "label",
+      "type": "click",
+      "gain": 0.45,
+      "what": "concept label"
+    }
+  ]
+}

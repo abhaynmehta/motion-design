@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SULT Motion Concept</title>
+<style>
+  /* Brief §3: ITC Franklin Gothic headlines (stand-in: Libre Franklin 900, OFL) + Chivo for body/UI (OFL). */
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/librefranklin.woff2) format('woff2'); font-weight: 100 900; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/chivo.woff2) format('woff2'); font-weight: 100 900; }
+  :root {
+    /* SULT tokens (brief §3, checked against the logo files): ONE accent — lime */
+    --lime: #CDFF00; --teal: #00C3C8; --ink: #261E1E; --stone: #E5E5EB; --white: #FFFFFF; --grey: #B7B7C2;
+    --sky: linear-gradient(180deg, #9FD3DA 0%, #CBE9EC 45%, #F2FAFB 100%);
+    --bg: var(--lime); --accent: var(--lime);
+  }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; overflow: hidden; background: var(--ink); transform-origin: 0 0;
+           font-family: 'UI', Arial, sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .abs { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+  .display { font-family: 'Display', Arial, sans-serif; font-weight: 900; letter-spacing: -0.035em; line-height: 0.9; text-transform: uppercase; white-space: nowrap; }
+  .lower { text-transform: none; letter-spacing: -0.03em; }
+  .ui { font-family: 'UI', Arial, sans-serif; font-weight: 700; line-height: 1.1; white-space: nowrap; }
+  .caps { text-transform: uppercase; letter-spacing: 0.06em; }
+  .line { position: absolute; overflow: hidden; padding: 0.08em 0.04em 0.12em; margin: -0.08em -0.04em 0; white-space: nowrap; }
+  .word { display: inline-block; }
+  .pill { position: absolute; display: flex; align-items: center; box-sizing: border-box; white-space: nowrap;
+          background: var(--lime); color: var(--ink); border-radius: 999px; }
+  .card { position: absolute; background: var(--white); border-radius: 32px; overflow: hidden;
+          box-shadow: 0 2px 6px rgba(0,0,0,.06), 0 40px 90px -30px rgba(0,0,0,.45); }
+  .cover { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; }
+  .shadow { filter: drop-shadow(0 40px 40px rgba(0,0,0,.25)) drop-shadow(0 8px 10px rgba(0,0,0,.14)); }
+  .mask { position: absolute; background: var(--ink); -webkit-mask-repeat: no-repeat; -webkit-mask-size: 100% 100%; mask-repeat: no-repeat; mask-size: 100% 100%; }
+  body.play { display: block; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="lib/motion.js"></script>
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script src="type.js"></script>
+<script src="film.js"></script>
+</body>
+</html>

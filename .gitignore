@@ -5,6 +5,7 @@ node_modules
 videos/*
 !videos/county-group-art-of-the-address/
 !videos/sult-season-your-water/
+!videos/sult-season-your-everything/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
@@ -17,3 +18,4 @@ videos/*/package-lock.json
 .DS_Store
 videos/*/review/sheets/*/
 videos/*/review/*.log
+brand/assets/
