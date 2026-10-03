@@ -44,4 +44,20 @@ Two sheet passes before the first draft.
 **Fixes:** chapter 1 retimed (second macro dropped, the swirl gets 1.5 s); label cards hold across two shots like a lower-third, with default-preset text; "One dab." and "18 ways…" lead in earlier; disclaimer moved under the claim label; cards fitted to their text.
 
 ## Round 3: final render (30 fps, adaptive motion blur, CRF 16)
-See the final numbers below (filled in from review/r3/metrics.json and `--verify`).
+First final: the blur shutter sometimes straddled two source frames, so the fast compact ring showed faint double edges, and
+the loop strip's 0.4x blend doubled the drip at the seam. **Fix:** footage time is quantized to the output frame (every
+sub-sample of a frame shows the same source frame; zooms keep their blur); the loop strip holds f86, then plays the drip
+at 1x into frame 0. Re-rendered.
+
+| Criterion | Score | Evidence |
+|---|---|---|
+| Hook (first 2 s) | 9 | frame 0: drip + "3 new"; b1 "drops."; doe-foot window, crème, Katrina by 2.0 s |
+| Readability at phone size | 8 | every product name holds ≥ 1 s on a porcelain card; claims at 300+ px; labels 36–42 px |
+| Motion quality | 9 | strip_fast (14.5 s): crisp compacts; strip_fast2 (10.0 s): radial blur on the zoom-through |
+| Variety / pacing | 9 | max gap 2.03 s (end card), longest static 1.37 s |
+| Brand accuracy | 9 | the brand's footage, faces, logo, photos, copy and disclaimer |
+| Sound sync | 8 | 21/25 hits within 45 ms, mean 14.7 ms (misses: count-up ticks) |
+| Composition | 8 | safe_9x16: type clear of every UI zone |
+| Polish | 8 | no near-blank frames; loop seam 9.0 (< 10 reads continuous); −14.2 LUFS; `--verify` 12/12 identical |
+
+**SHIP.** Deliverables: `renders/9x16.mp4` (score + SFX) and `renders/9x16_sfx-only.mp4` (SFX at their mix level, −22.8 LUFS, for adding Meta Sound Collection music in the app).
