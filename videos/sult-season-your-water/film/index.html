@@ -2,28 +2,38 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>motion reel</title>
+<title>SULT Season Your Water</title>
 <style>
-  /* One display face, one UI face. Point these at the brand's real files in assets/fonts/ (capture.mjs lists them). */
-  @font-face { font-family: 'Display'; src: url(../assets/fonts/display.woff2) format('woff2'); font-weight: 100 900; }
-  @font-face { font-family: 'UI'; src: url(../assets/fonts/ui.woff2) format('woff2'); font-weight: 100 900; }
+  /* One face, two roles: Archivo variable (wdth 62–125, wght 100–900) for display and UI — a match for drinksult.com's
+     heavy grotesk ("SUBSCRIBE & SAVE") and its UI grotesk. OFL, from Google Fonts. */
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/archivo.woff2) format('woff2'); font-weight: 100 900; font-stretch: 62% 125%; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/archivo.woff2) format('woff2'); font-weight: 100 900; font-stretch: 62% 125%; }
   :root {
-    /* style guide tokens: ONE accent unless the brief says otherwise */
-    --bg: #f6f5f1; --ink: #121212; --ink-2: #55534e; --accent: #e8552b; --card: #ffffff;
+    /* measured from the supplied SULT files: ONE accent (lime) */
+    --lime: #D7FC00; --lime-ui: #CCFF00; --ink: #141414; --teal: #00BFC2; --teal-deep: #0A7E86; --teal-night: #05545A;
+    --paper: #E5E3DD; --card: #FFFFFF; --cream: #F4F2EC;
+    --wb: #A1326A; --pc: #D28F7C; --mt: #E4BF7E;
+    --bg: var(--lime); --accent: var(--lime);
   }
   html, body { margin: 0; background: #000; overflow: hidden; }
-  #stage { position: relative; overflow: hidden; background: var(--bg); transform-origin: 0 0;
+  #stage { position: relative; overflow: hidden; background: var(--lime); transform-origin: 0 0;
            font-family: 'UI', 'Helvetica Neue', Arial, sans-serif; color: var(--ink);
            -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
   .scene { position: absolute; inset: 0; overflow: hidden; }
   .abs { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
-  .display { font-family: 'Display', 'Helvetica Neue', Arial, sans-serif; font-weight: 600; letter-spacing: -0.04em;
-             line-height: 0.95; white-space: nowrap; }
-  /* a line is a mask: words rise through it. Padding keeps descenders; start words >= 140% below so no sliver shows. */
-  .line { position: absolute; overflow: hidden; padding: 0.08em 0.04em 0.18em; margin: -0.08em -0.04em 0; white-space: nowrap; }
+  .display { font-family: 'Display', Arial, sans-serif; font-weight: 900; font-stretch: 82%; letter-spacing: -0.02em; line-height: 0.92; white-space: nowrap; }
+  .ui { font-family: 'UI', Arial, sans-serif; font-weight: 700; font-stretch: 100%; letter-spacing: 0.01em; line-height: 1.05; white-space: nowrap; }
+  .caps { text-transform: uppercase; letter-spacing: 0.08em; }
+  /* a line is a mask: words rise through it */
+  .line { position: absolute; overflow: hidden; padding: 0.08em 0.04em 0.16em; margin: -0.08em -0.04em 0; white-space: nowrap; }
   .word { display: inline-block; }
-  .card { position: absolute; background: var(--card); border-radius: 28px;
-          box-shadow: 0 2px 6px rgba(0,0,0,.05), 0 30px 80px -20px rgba(0,0,0,.22); }
+  .pill { position: absolute; display: flex; align-items: center; gap: 22px; padding: 0 34px; box-sizing: border-box;
+          background: var(--lime-ui); color: var(--ink); border-radius: 999px; white-space: nowrap; }
+  .card { position: absolute; background: var(--card); border-radius: 44px;
+          box-shadow: 0 2px 6px rgba(0,0,0,.05), 0 40px 90px -30px rgba(0,0,0,.35); }
+  .shadow { filter: drop-shadow(0 40px 40px rgba(0,0,0,.22)) drop-shadow(0 8px 10px rgba(0,0,0,.12)); }
+  .logo { position: absolute; background: var(--ink); -webkit-mask: url(../assets/brand/sult-logo-lime.png) no-repeat 0 0 / 100% 100%;
+          mask: url(../assets/brand/sult-logo-lime.png) no-repeat 0 0 / 100% 100%; }
   body.play { display: block; }
 </style>
 </head>

@@ -27,10 +27,11 @@
    */
   function rise(t, L, inAt, outAt = null, o = {}) {
     const stagger = o.stagger ?? 0.08, preset = o.preset || 'heavy', exit = o.exit ?? 0.28;
+    const lead = o.lead;   // project: optional lead override (seconds); default = the preset's half-travel time
     const below = L.size * 1.45, above = -L.size * 1.45;
     L.words.forEach((w, i) => {
       const bin = Array.isArray(inAt) ? inAt[i] : C.beatOf(inAt) + i * stagger;
-      let y = below * (1 - C.spHit(t, bin, preset));
+      let y = below * (1 - C.spHit(t, bin, preset, lead));
       if (outAt != null) y += above * C.sp(t, C.beatOf(outAt) + i * stagger * 0.5 - exit * 0.5, 'snappy');
       C.put(w, { y, hide: y >= below * 0.999 || y <= above * 0.999 });
     });

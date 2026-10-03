@@ -1,6 +1,6 @@
 # Shotlist: SULT spec reel · 20 s · 120 BPM · 40 beats · 9:16
 
-STATUS: DRAFT — waiting for the user's OK (and the brand assets below). Nothing gets built until this says APPROVED.
+STATUS: APPROVED — user: "ok go ahead" (3 Oct). Assets supplied by the user (logo, box, sachets, bottles, site UI). The sachet is rebuilt in vector from the product photo (tear + pour need it); boxes appear on SULT's own white product card UI; the end card adds the bottle trio and a SHOP NOW pill.
 
 | # | Beats | Time (s) | Shot | On-screen text (exact) | Motion | SFX |
 |---|---|---|---|---|---|---|
@@ -22,9 +22,8 @@ Rule check: hook readable on frame 0 · something new every ≤ 2 s · end card 
 ## Music
 Kit synth, 120 BPM, Fmaj7 · G · Em7 · Am. intro (hook) → full (season) → dark under the facts → full (flavours) → build (proof) → gap b33.5 → drop on the logo b34.
 
-## Needs (blocked from the container)
-- SULT logo (PNG/SVG) and 3–6 product images: each flavour sachet, the box / variety pack (cut-outs or on plain backgrounds).
-- Optional: the site's font names or a screenshot of the homepage (for exact colours and type).
+## Assets (supplied)
+- Logo PNG (lime, transparent) · variety box + sachets · bundle · bottles (trio, biggie, squeezy) · subscribe ad. Pack facts from the box: 500mg sodium, 304mg potassium, 120mg calcium, 100mg magnesium, coconut water, zero sugar.
 
 ## Open questions for the user
 - OK to use the fact lines (Boots 150 / sold out in hours / 0 investors) — all from press interviews; ⚠️ "0 investors" should be confirmed with SULT before sending.

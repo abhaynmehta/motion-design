@@ -68,7 +68,20 @@ function shutter(p, seed) {
   for (let i = 0; i < n; i++) { const t = i / SR; x[i] = nz[i] * (Math.exp(-t * 90) + 0.8 * (t > 0.035 ? Math.exp(-(t - 0.035) * 110) : 0)) * 1.3; }
   return { x, lead: 0 };
 }
-const SYN = { click, tick, pop, thump, whoosh, riser, shutter };
+
+// ---- additions for this project ----
+function rip(p, seed) {      // sachet tear: a fast run of band-passed crackle, rising, ~0.16 s
+  const n = Math.round(0.18 * SR), x = new Float32Array(n), r = mulberry32(seed);
+  const bp = sweepBP(noise(n, seed), (t) => (1800 + 5200 * Math.min(1, t / 0.15)) * p, 0.35);
+  for (let i = 0; i < n; i++) { const t = i / SR, grain = r() < 0.18 ? 1 : 0.25; x[i] = bp[i] * grain * Math.min(1, t / 0.004) * Math.exp(-Math.max(0, t - 0.12) * 60) * 1.6; }
+  return { x, lead: 0 };
+}
+function fizz(p, seed) {     // powder pour: soft granular hiss, 0.6 s
+  const n = Math.round(0.6 * SR), x = new Float32Array(n), r = mulberry32(seed), nz = hp(noise(n, seed + 3), 3500 * p);
+  for (let i = 0; i < n; i++) { const t = i / SR, env = Math.min(1, t / 0.05) * Math.exp(-t * 3.2); x[i] = nz[i] * env * (r() < 0.35 ? 1 : 0.2) * 0.9; }
+  return { x, lead: 0 };
+}
+const SYN = { click, tick, pop, thump, whoosh, riser, shutter, rip, fizz };
 
 cues.forEach((c, k) => {
   if (!SYN[c.type]) throw new Error(`unknown sfx type "${c.type}" (have: ${Object.keys(SYN).join(', ')})`);
