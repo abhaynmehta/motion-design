@@ -390,7 +390,7 @@
   });
 
   // the loop: a drip strip rises and opens to full frame, landing exactly on frame 0 ('3 new' mid-rise, drip at f96, 1.06x)
-  const LOOP = S('B', 86, 'loop', 0.4, { f1: 96 });
+  const LOOP = S('B', 96, 'done', 1, { fmin: 86, f1: 96 });   // holds f86 while it rises, then plays at 1x into frame 0's f96
   scene({
     name: 'loop', from: 'loop', to: 'done', cut: false,
     build(root, S_) {

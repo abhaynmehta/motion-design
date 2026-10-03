@@ -19,9 +19,12 @@
   }));
 
   // A shot: { k: clip, f0: first frame, t0: beat where f0 plays, rate: playback speed, f1: last usable frame, hold: beat to freeze at }
+  // Footage time is quantized to the output frame, so every motion-blur sub-sample of a frame shows the SAME source frame
+  // (the footage carries its own camera blur; blending two source frames inside one shutter would double-expose fast moves).
+  // Transforms (zooms, strips) still use continuous t and keep their blur.
   function frameAt(sh, t) {
     const c = CLIPS[sh.k];
-    let tt = t;
+    let tt = Math.round(t * C.FPS) / C.FPS;
     if (sh.hold != null) tt = Math.min(tt, C.bt(sh.hold));
     const f = sh.f0 + (tt - C.bt(sh.t0)) * c.fps * (sh.rate ?? 1);
     return C.clamp(f, sh.fmin ?? sh.f0, sh.f1 ?? c.n - 1);
