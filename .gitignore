@@ -6,6 +6,7 @@ videos/*
 !videos/county-group-art-of-the-address/
 !videos/sult-season-your-water/
 !videos/sult-season-your-everything/
+!videos/kay-beauty-three-drops/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
@@ -19,3 +20,10 @@ videos/*/package-lock.json
 videos/*/review/sheets/*/
 videos/*/review/*.log
 brand/assets/
+# Kay Beauty: client footage, licensed brand fonts, raw downloads and extracted frames are fetched by scripts, never committed
+videos/kay-beauty-three-drops/source/
+videos/kay-beauty-three-drops/research/
+videos/kay-beauty-three-drops/assets/frames/
+videos/kay-beauty-three-drops/assets/fonts/
+videos/kay-beauty-three-drops/assets/photo/*.jpg
+videos/kay-beauty-three-drops/review/src/

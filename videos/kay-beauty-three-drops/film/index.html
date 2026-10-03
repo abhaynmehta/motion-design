@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kay Beauty Three Drops</title>
+<style>
+  /* Kay Beauty's own faces (kaybeauty.com): Miegha for display, Nesans for UI. Fetched by scripts/fetch_sources.sh. */
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/Miegha.woff2) format('woff2'); font-weight: 400; font-style: normal; }
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/Miegha-Italic.woff2) format('woff2'); font-weight: 400; font-style: italic; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/nesans-600.woff2); font-weight: 600; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/nesans-700.woff2); font-weight: 700; }
+  :root {
+    /* sampled from Kay Beauty's own claims card + footage: ONE accent (Kay rose) */
+    --rose: #B36C5F; --ink: #2E1E1B; --porcelain: #FAF5F2; --blush: #F1E2DA; --cream: #FFF8F3; --cocoa: #4A2C24;
+    --accent: var(--rose); --bg: var(--blush);
+  }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; overflow: hidden; background: var(--blush); transform-origin: 0 0;
+           font-family: 'UI', 'Helvetica Neue', Arial, sans-serif; color: var(--ink);
+           -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .abs { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+  .display { font-family: 'Display', Georgia, serif; font-weight: 400; letter-spacing: -0.01em; line-height: 1.0; white-space: nowrap; }
+  .it { font-style: italic; }
+  .ui { font-family: 'UI', Arial, sans-serif; font-weight: 700; line-height: 1.15; white-space: nowrap; }
+  .caps { text-transform: uppercase; letter-spacing: 0.22em; }
+  /* a line is a mask: words rise through it */
+  .line { position: absolute; overflow: hidden; padding: 0.06em 0.05em 0.2em; margin: -0.06em -0.05em 0; white-space: nowrap; }
+  .word { display: inline-block; }
+  .fill { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+  .cover { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; }
+  .card { position: absolute; overflow: hidden; background: var(--porcelain); border-radius: 28px;
+          box-shadow: 0 2px 6px rgba(46,30,27,.08), 0 50px 90px -40px rgba(46,30,27,.55); }
+  .chip { position: absolute; display: flex; align-items: center; height: 64px; padding: 0 30px; box-sizing: border-box; border-radius: 999px;
+          font-family: 'UI', Arial, sans-serif; font-weight: 700; font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; white-space: nowrap; }
+  .rule { position: absolute; height: 2px; background: currentColor; transform-origin: 0 50%; }
+  .logo { position: absolute; background: currentColor; -webkit-mask: url(../assets/brand/kay-logo-mask.png) no-repeat 0 0 / 100% 100%;
+          mask: url(../assets/brand/kay-logo-mask.png) no-repeat 0 0 / 100% 100%; }
+  body.play { display: block; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="lib/motion.js"></script>
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script src="type.js"></script>
+<script src="footage.js"></script>
+<script src="film.js"></script>
+</body>
+</html>

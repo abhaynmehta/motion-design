@@ -1,0 +1,286 @@
+{
+  "note": "Single source of truth in BEATS on the measured grid. Footage shots live in film/film.js (SHOTS) and are keyed to these marks.",
+  "title": "Kay Beauty — 3 new drops (Instagram reel)",
+  "duration": 32,
+  "fps": 30,
+  "bpm": 120,
+  "formats": [
+    "9x16"
+  ],
+  "brand": {
+    "product": "Kay Beauty by Katrina Kaif",
+    "url": "kaybeauty.com"
+  },
+  "music": {
+    "source": "synth",
+    "chords": [
+      "Dm9",
+      "G13",
+      "Cmaj9",
+      "Am9"
+    ],
+    "sections": [
+      {
+        "at": "hook",
+        "kind": "intro"
+      },
+      {
+        "at": "c1",
+        "kind": "full"
+      },
+      {
+        "at": "c2_ring",
+        "kind": "build"
+      },
+      {
+        "at": "c3",
+        "kind": "full"
+      },
+      {
+        "at": "c3_kat",
+        "kind": "build"
+      },
+      {
+        "at": "gap",
+        "kind": "gap"
+      },
+      {
+        "at": "fin",
+        "kind": "drop"
+      },
+      {
+        "at": "end",
+        "kind": "outro"
+      }
+    ],
+    "accents": [
+      "end"
+    ]
+  },
+  "mix": {
+    "music": 0,
+    "sfx": -4
+  },
+  "voiceover": null,
+  "marks": {
+    "hook": 0,
+    "h_drops": 1,
+    "h_doe": 2,
+    "h_lift": 3,
+    "kat": 4,
+    "kat_name": 4.5,
+    "pick": 6,
+    "pick_txt": 6.5,
+    "pick_num": 7,
+    "c1": 8,
+    "c1_lift": 10,
+    "c1_mac": 12,
+    "c1_jar": 13,
+    "c1_hero": 15,
+    "c1_swirl": 17,
+    "c2": 20,
+    "c2_roll": 22,
+    "c2_pour": 24,
+    "c2_drip": 25,
+    "c2_dab": 26,
+    "c2_pack": 27,
+    "c2_ring": 29,
+    "c3": 32,
+    "c3_doe": 34,
+    "c3_wand": 36,
+    "c3_pat": 37,
+    "c3_shade": 38,
+    "c3_arm": 42,
+    "c3_lips": 44,
+    "c3_kat": 46,
+    "c3_hero": 48,
+    "gap": 49.5,
+    "fin": 50,
+    "fin_name": 51,
+    "ask": 54,
+    "ask_txt": 54.5,
+    "ask_sub": 55.5,
+    "end": 58,
+    "end_url": 59,
+    "loop": 62,
+    "done": 64
+  },
+  "sfx": [
+    {
+      "at": "hook",
+      "type": "thump",
+      "gain": 0.75,
+      "what": "frame 0: the drip and '3 new' land together"
+    },
+    {
+      "at": "h_drops",
+      "type": "drop",
+      "gain": 0.8,
+      "what": "'drops.' lands — a water-drop plip"
+    },
+    {
+      "at": "h_doe",
+      "type": "shutter",
+      "gain": 0.45,
+      "what": "flash cut"
+    },
+    {
+      "at": "h_lift",
+      "type": "shutter",
+      "gain": 0.45,
+      "what": "flash cut"
+    },
+    {
+      "at": "kat",
+      "type": "silk",
+      "gain": 0.6,
+      "what": "Katrina photo pushes in"
+    },
+    {
+      "at": "pick",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "three strips rise"
+    },
+    {
+      "at": "pick_num",
+      "type": "tick",
+      "gain": 0.5,
+      "what": "01 02 03"
+    },
+    {
+      "at": "c1",
+      "type": "whoosh",
+      "gain": 0.65,
+      "what": "strip 01 opens to full frame"
+    },
+    {
+      "at": 10.1,
+      "to": 10.9,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.28,
+      "what": "100 counts up"
+    },
+    {
+      "at": "c1_hero",
+      "type": "chime",
+      "gain": 0.45,
+      "what": "hero jar in water"
+    },
+    {
+      "at": 17.1,
+      "to": 17.9,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.28,
+      "what": "+138% counts up"
+    },
+    {
+      "at": "c2",
+      "type": "silk",
+      "gain": 0.6,
+      "what": "circle match cut: crème → cushion"
+    },
+    {
+      "at": "c2_roll",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "'6' lands"
+    },
+    {
+      "at": "c2_pack",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "packshot card"
+    },
+    {
+      "at": 27.5,
+      "to": 28.6,
+      "every": 0.5,
+      "type": "tick",
+      "gain": 0.45,
+      "what": "spec chips"
+    },
+    {
+      "at": "c2_ring",
+      "type": "shimmer",
+      "gain": 0.45,
+      "what": "compact ring sparkles"
+    },
+    {
+      "at": "c3",
+      "type": "silk",
+      "gain": 0.6,
+      "what": "circle match cut: compact → bottle mouth"
+    },
+    {
+      "at": "c3_doe",
+      "type": "shimmer",
+      "gain": 0.4,
+      "what": "doe-foot sparkle"
+    },
+    {
+      "at": 38,
+      "to": 41.6,
+      "every": 0.5,
+      "type": "shutter",
+      "gain": 0.4,
+      "what": "shade flip, one per half-beat"
+    },
+    {
+      "at": "c3_arm",
+      "type": "whoosh",
+      "gain": 0.45,
+      "what": "swatch pan"
+    },
+    {
+      "at": "c3_lips",
+      "type": "silk",
+      "gain": 0.5,
+      "what": "gloss → stain split wipes open"
+    },
+    {
+      "at": "c3_kat",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "trio card"
+    },
+    {
+      "at": "fin",
+      "type": "thump",
+      "gain": 0.85,
+      "what": "drop: Katrina portrait after the stop"
+    },
+    {
+      "at": "fin_name",
+      "type": "chime",
+      "gain": 0.5,
+      "what": "logo draws on"
+    },
+    {
+      "at": "ask",
+      "type": "whoosh",
+      "gain": 0.55,
+      "what": "three strips return"
+    },
+    {
+      "at": "ask_sub",
+      "type": "tick",
+      "gain": 0.45,
+      "what": "comment 1, 2 or 3"
+    },
+    {
+      "at": "end",
+      "type": "thump",
+      "gain": 0.6,
+      "what": "end card"
+    },
+    {
+      "at": "loop",
+      "type": "whoosh",
+      "gain": 0.55,
+      "what": "drip strip opens: loops to frame 0"
+    }
+  ]
+}
