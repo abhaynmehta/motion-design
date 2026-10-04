@@ -8,7 +8,7 @@ and the song's bass drop lands exactly when it reads **100 km/h · 3.2 s**. Then
 the race twin (M8 GTE), a grand-tourer breakdown ("A grand tourer. For the long way home."), the pickup ("Until you press **M.**")
 and the BMW M lockup on the second drop: *M. The most powerful letter in the world.*
 
-**Renders:** `renders/9x16.mp4` (track + SFX) · `renders/9x16_sfx-only.mp4` (SFX only, for adding music in-app).
+**Renders:** `renders/9x16.mp4` (track + SFX) · `renders/9x16_sfx-only.mp4` (SFX only, CRF 22, for adding music in-app; start the song so its drop hits at 3.2 s).
 
 ## Music
 The cut follows the track's measured grid: build bar → drop at 3.2 s → 8 bars → breakdown → pickup → second drop at 32.0 s.

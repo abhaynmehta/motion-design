@@ -43,3 +43,22 @@ flash cuts, where the punch-in reads as the onset), plus count-up ticks (a rolli
 | Polish | 8 | no black frames; letterbox gone |
 
 All ≥ 8 → finals (25 fps, adaptive motion blur, CRF 16) as round 3.
+
+## Round 3: final render, 9:16 only (the client asked for portrait), 25 fps, adaptive motion blur, CRF 16
+First final: at 25 fps the 3.202 s drop fell just after frame 80, so the hero shot arrived a frame late, and the timer's rounding
+read "3.2 s" one frame early. **Fix:** cuts snap to the nearest frame at or before their beat; the counter floors its readout, so
+100 km/h · 3.2 s first appears on the drop frame, with the boom. Re-rendered.
+
+| Criterion | Score | Evidence |
+|---|---|---|
+| Hook (first 2 s) | 9 | grille + live counter from frame 0; rev; 099 · 3.1 s → **100 · 3.2 s** on the drop frame |
+| Readability at phone size | 8 | phone sheet: every number and line legible on its scrim; lockup readable |
+| Motion quality | 8 | real frames, blur on graphics; count-ups blur like an odometer mid-roll |
+| Variety / pacing | 9 | max gap 2.36 s (the lockup) |
+| Brand accuracy | 9 | — |
+| Sound sync | 8 | drop on its frame; off-grid only the quarter-beat flashes (3.75 frames each) and the wipe that leads the lockup by design |
+| Composition | 8 | — |
+| Polish | 8 | no near-blank frames; `--verify` 12/12; −14.1 LUFS |
+
+**SHIP.** `renders/9x16.mp4` (1080x1920, 25 fps, 34.4 s, track + SFX, CRF 16 master) and `renders/9x16_sfx-only.mp4`
+(SFX only at their mix level, −19.2 LUFS, CRF 22) for adding music in the Instagram app.
