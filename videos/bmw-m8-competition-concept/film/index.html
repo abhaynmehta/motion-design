@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BMW M8 Competition Concept</title>
+<style>
+  /* BMW Group's corporate typeface (BMW Type Next / BMW Group TN Pro, served by press.bmwgroup.com; fetched by
+     scripts/fetch_sources.sh, not committed). Display = the Condensed cut, UI = the regular cut. */
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/BMWGroupTNCondensedPro-Bold.woff2) format('woff2'); font-weight: 700; }
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/BMWGroupTNCondensedPro-Light.woff2) format('woff2'); font-weight: 300; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/BMWGroupTNPro-Regular.woff2) format('woff2'); font-weight: 400; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/BMWGroupTNPro-Bold.woff2) format('woff2'); font-weight: 700; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/BMWGroupTNPro-Light.woff2) format('woff2'); font-weight: 300; }
+  :root {
+    /* BMW M: the tricolour (sampled from the client's lockup) is the one accent device; everything else is black + white */
+    --black: #07080A; --white: #F4F5F7; --grey: #9AA0A8;
+    --m1: #0060B0; --m2: #003070; --m3: #E02010; --accent: var(--m3); --bg: var(--black);
+  }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; overflow: hidden; background: var(--black); transform-origin: 0 0;
+           font-family: 'UI', Arial, sans-serif; color: var(--white); -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .abs { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+  .display { font-family: 'Display', Arial, sans-serif; font-weight: 700; letter-spacing: -0.01em; line-height: 0.92; white-space: nowrap; }
+  .thin { font-weight: 300; }
+  .ui { font-family: 'UI', Arial, sans-serif; font-weight: 400; line-height: 1.1; white-space: nowrap; }
+  .caps { text-transform: uppercase; letter-spacing: 0.28em; }
+  .prose { font-family: 'UI', Arial, sans-serif; font-weight: 300; letter-spacing: -0.01em; line-height: 1.0; white-space: nowrap; }
+  .line { position: absolute; overflow: hidden; padding: 0.06em 0.04em 0.14em; margin: -0.06em -0.04em 0; white-space: nowrap; }
+  .word { display: inline-block; }
+  .fill { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+  .stripe { position: absolute; top: -10%; height: 120%; }
+  body.play { display: block; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="lib/motion.js"></script>
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script src="type.js"></script>
+<script src="shots.js"></script>
+<script src="footage.js"></script>
+<script src="film.js"></script>
+</body>
+</html>

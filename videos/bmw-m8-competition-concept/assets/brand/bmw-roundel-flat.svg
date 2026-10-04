@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+  <!-- flat BMW roundel as in the client-supplied lockup: two blue quadrants on a white disc, hairline cross -->
+  <circle cx="140" cy="140" r="140" fill="#FFFFFF"/>
+  <path d="M140 140 V0 A140 140 0 0 0 0 140 Z" fill="#0060B0"/>
+  <path d="M140 140 V280 A140 140 0 0 0 280 140 Z" fill="#0060B0"/>
+</svg>

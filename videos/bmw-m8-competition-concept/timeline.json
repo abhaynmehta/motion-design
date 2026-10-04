@@ -1,0 +1,159 @@
+{
+  "note": "Single source of truth in BEATS on the measured grid of the supplied track (beat 0 = 0.194 s; t = 0 is beat -0.323). Cuts live in film/film.js (REEL).",
+  "title": "BMW M8 Competition \u2014 3.2 (concept film)",
+  "duration": 34.4,
+  "fps": 25,
+  "bpm": 100,
+  "formats": [
+    "16x9",
+    "9x16"
+  ],
+  "music": {
+    "source": "supplied",
+    "track": "Mixkit \u2014 \"Greed\" (Mixkit Stock Music Free License), from 6.4 s",
+    "sections": []
+  },
+  "voiceover": null,
+  "marks": {
+    "hook": -0.3233,
+    "drop": 5,
+    "hp": 9,
+    "nm": 13,
+    "kmh": 17,
+    "xd": 21,
+    "gte": 25,
+    "ovp": 29,
+    "climax": 33,
+    "gt": 37,
+    "home": 43.5,
+    "press": 49,
+    "m": 51,
+    "wipe": 52.5,
+    "end": 53,
+    "done": 57
+  },
+  "sfx": [
+    {
+      "at": "drop",
+      "type": "rev",
+      "gain": 0.75,
+      "what": "V8 launch: 0-100 km/h over the build, two upshifts, peaks on the drop"
+    },
+    {
+      "at": 4,
+      "to": 4.8,
+      "every": 0.25,
+      "type": "shutter",
+      "gain": 0.4,
+      "what": "flash cuts into the drop"
+    },
+    {
+      "at": "drop",
+      "type": "boom",
+      "gain": 0.9,
+      "what": "100 km/h \u00b7 3.2 s: the drop"
+    },
+    {
+      "at": "drop",
+      "type": "whoosh",
+      "gain": 0.6,
+      "what": "M stripes cross the cut"
+    },
+    {
+      "at": 6.55,
+      "type": "whoosh",
+      "gain": 0.65,
+      "pitch": 0.8,
+      "what": "car passes the lens"
+    },
+    {
+      "at": 8.6,
+      "type": "whoosh",
+      "gain": 0.45,
+      "pitch": 0.9,
+      "what": "front pass"
+    },
+    {
+      "at": 9,
+      "to": 9.9,
+      "every": 0.15,
+      "type": "tick",
+      "gain": 0.25,
+      "what": "625 counts up"
+    },
+    {
+      "at": 13,
+      "to": 13.9,
+      "every": 0.15,
+      "type": "tick",
+      "gain": 0.25,
+      "what": "750 counts up"
+    },
+    {
+      "at": 14.6,
+      "type": "whoosh",
+      "gain": 0.55,
+      "pitch": 0.85,
+      "what": "convertible passes, gravel"
+    },
+    {
+      "at": 17,
+      "to": 17.9,
+      "every": 0.15,
+      "type": "tick",
+      "gain": 0.25,
+      "what": "305 counts up"
+    },
+    {
+      "at": 30.4,
+      "type": "whoosh",
+      "gain": 0.6,
+      "pitch": 0.8,
+      "what": "car blasts out from the overpass"
+    },
+    {
+      "at": 33,
+      "to": 36.6,
+      "every": 0.5,
+      "type": "shutter",
+      "gain": 0.45,
+      "what": "climax flashes"
+    },
+    {
+      "at": "gt",
+      "type": "whoosh",
+      "gain": 0.55,
+      "pitch": 0.7,
+      "what": "M stripes into the breakdown"
+    },
+    {
+      "at": "gt",
+      "type": "boom",
+      "gain": 0.45,
+      "pitch": 0.8,
+      "what": "breakdown lands"
+    },
+    {
+      "at": "m",
+      "type": "thump",
+      "gain": 0.8,
+      "what": "'M.' slams"
+    },
+    {
+      "at": "end",
+      "type": "whoosh",
+      "gain": 0.6,
+      "what": "M stripes into the lockup"
+    },
+    {
+      "at": "end",
+      "type": "boom",
+      "gain": 0.95,
+      "what": "second drop: BMW M lockup"
+    }
+  ],
+  "mix": {
+    "music": 0,
+    "sfx": -5
+  }
+}

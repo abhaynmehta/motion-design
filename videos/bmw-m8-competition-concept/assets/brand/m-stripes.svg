@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 260" width="470" height="260">
+  <!-- BMW M stripes, vectorised from the client-supplied lockup (assets/brand/bmw-m-lockup-reference.png): three parallelograms,
+       slant dx/dy = 0.585, colours sampled from the reference -->
+  <polygon points="152,0 260,0 108,260 0,260" fill="#0060B0"/>
+  <polygon points="260,0 368,0 216,260 108,260" fill="#003070"/>
+  <polygon points="368,0 470,0 318,260 216,260" fill="#E02010"/>
+</svg>

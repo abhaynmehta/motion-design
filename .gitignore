@@ -7,6 +7,7 @@ videos/*
 !videos/sult-season-your-water/
 !videos/sult-season-your-everything/
 !videos/kay-beauty-three-drops/
+!videos/bmw-m8-competition-concept/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
@@ -27,3 +28,9 @@ videos/kay-beauty-three-drops/assets/frames/
 videos/kay-beauty-three-drops/assets/fonts/
 videos/kay-beauty-three-drops/assets/photo/*.jpg
 videos/kay-beauty-three-drops/review/src/
+# BMW M8: PressClub films, BMW's typeface, the track and extracted frames are fetched by scripts, never committed
+videos/bmw-m8-competition-concept/source/
+videos/bmw-m8-competition-concept/assets/frames/
+videos/bmw-m8-competition-concept/assets/fonts/
+videos/bmw-m8-competition-concept/audio/track/
+videos/bmw-m8-competition-concept/review/src/

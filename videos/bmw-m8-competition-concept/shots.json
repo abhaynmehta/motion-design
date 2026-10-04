@@ -1,0 +1,206 @@
+{
+  "note": "Source shots (seconds in the BMW PressClub films). A = PF0006852 The all-new BMW M8 Competition Coup\u00e9 \u00b7 B = PF0007121 M8 Competition Coup\u00e9 + Convertible, Algarve/Portim\u00e3o \u00b7 C = PF0006628 The new BMW M8 Coup\u00e9 and M8 GTE (2018). fx = horizontal focus (0..1) for the 9:16 crop. Optional 5th value = letterbox bar height in px (PF0006628 is letterboxed to 1920x898), cropped from the source.",
+  "films": {
+    "A": "PF0006852",
+    "B": "PF0007121",
+    "C": "PF0006628"
+  },
+  "shots": {
+    "grille": [
+      "A",
+      25.1,
+      25.95,
+      0.55
+    ],
+    "wheel": [
+      "A",
+      13.4,
+      14.05,
+      0.45
+    ],
+    "gear": [
+      "A",
+      23.1,
+      24.3,
+      0.4
+    ],
+    "gauge": [
+      "A",
+      24.34,
+      24.72,
+      0.5
+    ],
+    "light": [
+      "A",
+      62.58,
+      62.98,
+      0.4
+    ],
+    "fwheel": [
+      "A",
+      32.95,
+      33.25,
+      0.45
+    ],
+    "frear": [
+      "A",
+      64.0,
+      64.3,
+      0.45
+    ],
+    "fbadge": [
+      "B",
+      45.05,
+      45.26,
+      0.3
+    ],
+    "ffront": [
+      "A",
+      31.0,
+      31.3,
+      0.4
+    ],
+    "corner": [
+      "A",
+      35.1,
+      36.3,
+      0.45
+    ],
+    "frontpass": [
+      "A",
+      30.24,
+      31.62,
+      0.4
+    ],
+    "aerial1": [
+      "A",
+      37.46,
+      39.14,
+      0.48
+    ],
+    "aerial2": [
+      "A",
+      39.9,
+      41.38,
+      0.55
+    ],
+    "gravelin": [
+      "B",
+      22.7,
+      24.18,
+      0.45
+    ],
+    "gravelout": [
+      "B",
+      29.4,
+      30.8,
+      0.62
+    ],
+    "rearchase": [
+      "A",
+      63.52,
+      64.78,
+      0.45
+    ],
+    "exhaust": [
+      "A",
+      53.46,
+      55.06,
+      0.42
+    ],
+    "trackin": [
+      "B",
+      42.98,
+      44.22,
+      0.45
+    ],
+    "kerbs": [
+      "B",
+      45.95,
+      46.75,
+      0.42
+    ],
+    "aerialcurve": [
+      "B",
+      47.3,
+      48.5,
+      0.5
+    ],
+    "helmet": [
+      "C",
+      11.1,
+      11.8,
+      0.5,
+      91
+    ],
+    "gte1": [
+      "C",
+      21.9,
+      22.84,
+      0.55,
+      91
+    ],
+    "gte2": [
+      "C",
+      25.7,
+      26.8,
+      0.45,
+      91
+    ],
+    "overpass": [
+      "A",
+      43.6,
+      45.1,
+      0.38
+    ],
+    "camo": [
+      "C",
+      48.55,
+      49.95,
+      0.45,
+      91
+    ],
+    "sunrise": [
+      "A",
+      1.0,
+      3.4,
+      0.55
+    ],
+    "stitch": [
+      "A",
+      9.5,
+      11.5,
+      0.5
+    ],
+    "headrest": [
+      "A",
+      20.9,
+      21.95,
+      0.55
+    ],
+    "houseside": [
+      "A",
+      51.15,
+      53.4,
+      0.45
+    ],
+    "clouds": [
+      "A",
+      56.0,
+      59.5,
+      0.5
+    ],
+    "wheel2": [
+      "A",
+      14.0,
+      15.6,
+      0.45
+    ],
+    "aerialend": [
+      "A",
+      67.2,
+      71.0,
+      0.5
+    ]
+  }
+}
