@@ -54,7 +54,9 @@
       S.dim = C.reg(el('div', { class: 'fill', style: 'background:#000' }, root), { o: 0 }); },
     run(t, b, S) {
       const ctx = S.ctx; ctx.fillStyle = '#07080A'; ctx.fillRect(0, 0, W, H);
-      const e = REEL.find((r) => b >= C.beatOf(r.from) && b < C.beatOf(r.to));
+      // cuts snap to the nearest frame AT or before their beat (half a frame early), so a hit never lands a frame late
+      const bb = C.beatAt(t + 0.5 / C.FPS);
+      const e = REEL.find((r) => bb >= C.beatOf(r.from) && bb < C.beatOf(r.to));
       if (e) { const L = look(e, t); FOOT.draw(ctx, e, t, { s: L.s }); put(S.c, { x: L.ox, y: L.oy, s: L.ox || L.oy ? 1.02 : 1 }); }
       put(S.dim, { o: e && e.dim ? e.dim * sp(t, e.from, 'heavy') : 0 });
     },
@@ -78,16 +80,17 @@
       S.bar = C.reg(el('div', { style: `position:absolute;left:${X + 6}px;top:${P(604, 1104)}px;height:6px;width:${P(470, 500)}px;background:${RED};transform-origin:0 50%` }, root), { sx: 0 });
     },
     run(t, b, S) {
-      const tt = Math.round(t * C.FPS) / C.FPS, run = clamp(tt / bt(5));           // 0 → 1 across the launch, 1 at the drop
-      const v = Math.round(100 * (1 - Math.pow(1 - run, 1.35)));
+      // 0 → 1 across the launch, exactly 1 on the drop frame; floor so '100 km/h · 3.2 s' first reads ON the drop
+      const tt = Math.round(t * C.FPS) / C.FPS, run = clamp(tt / (bt(5) - 0.5 / C.FPS));
+      const v = Math.floor(100 * (1 - Math.pow(1 - run, 1.35)) + 1e-9);
       put(S.spd.n, { text: String(v).padStart(3, '0') });
-      put(S.tim.n, { text: `${(run * bt(5)).toFixed(1)} s` });
+      put(S.tim.n, { text: `${(Math.floor(run * 32 + 1e-9) / 10).toFixed(1)} s` });
       TYPE.rise(t, S.lab, T0 - 0.6, 8.7, { preset: 'snappy' });
       TYPE.rise(t, S.spd, T0 - 0.6, 8.7, { preset: 'snappy', stagger: 0.1 });
       TYPE.rise(t, S.tim, T0 - 0.4, 8.7, { preset: 'snappy' });
       // the drop: a red line slams under the label and the block punches
-      put(S.bar, { sx: sp(t, 5, 'snappy') - sp(t, 8.6, 'snappy') });
-      const k = 1 + 0.08 * (b >= 5 ? 1 - sp(t, 5, 'snappy') : 0);
+      put(S.bar, { sx: spHit(t, 5, 'snappy') - sp(t, 8.6, 'snappy') });
+      const k = 1 + 0.08 * (t >= bt(5) - 0.5 / C.FPS ? 1 - sp(t, C.beatAt(bt(5) - 0.5 / C.FPS), 'snappy') : 0);
       put(S.spd.el, { s: k }); put(S.tim.el, { s: k });
     },
   });
@@ -204,7 +207,7 @@
   });
 
   C.start();
-  const cuts = REEL.map((e) => C.beatOf(e.from)).filter((x) => x > T0 + 1e-6).map(bt);
+  const cuts = REEL.map((e) => C.beatOf(e.from)).filter((x) => x > T0 + 1e-6).map((x) => bt(x) - 0.5 / C.FPS);
   window.CUTS = [...new Set([...(window.CUTS || []), ...cuts].map((x) => +x.toFixed(6)))].sort((a, b) => a - b);
   const ready0 = window.READY;
   window.READY = Promise.all([ready0, FOOT.ready]).then(() => { window.seek(0); return true; });
