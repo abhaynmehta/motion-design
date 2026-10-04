@@ -27,3 +27,19 @@ Critic prompt: the skill's `reference/CRITIQUE.md`. Ship only when every score i
 **3 worst problems:** (1) the black gap before the lockup; (2) flash shots crossing source cuts (badge; gravel shot's 2-frame sub-cut);
 (3) late pass whooshes. **Fixes:** the gear shot runs under the stripe wipe to the lockup; badge trimmed to 45.26 s, gravel starts at 29.40 s;
 whooshes moved to b6.55 and b30.4.
+
+## Round 2: draft_16x9 + draft_9x16 after the fixes
+No near-blank frames; longest static 0.13 s; max gap 2.33 s (the lockup); −14.1 LUFS; sync 15/17 within 45 ms (misses: two climax
+flash cuts, where the punch-in reads as the onset), plus count-up ticks (a rolling number has no single onset).
+| Criterion | Score | Evidence |
+|---|---|---|
+| Hook (first 2 s) | 9 | unchanged |
+| Readability at phone size | 8 | scrims hold "038" and "625" on bright plates |
+| Motion quality | 8 | strip_fast2 (22.1 s): the M-stripe wipe crosses the breakdown cut cleanly; no flash crosses a source cut |
+| Variety / pacing | 9 | — |
+| Brand accuracy | 9 | — |
+| Sound sync | 8 | pass whooshes now on the passes |
+| Composition | 8 | — |
+| Polish | 8 | no black frames; letterbox gone |
+
+All ≥ 8 → finals (25 fps, adaptive motion blur, CRF 16) as round 3.
