@@ -1,4 +1,4 @@
-# Shotlist: BMW M8 Competition "3.2" · 34.4 s · 100 BPM · 57 beats · 16x9 + 9x16
+# Shotlist: BMW M8 Competition "3.2" · 34.4 s · 100 BPM · 57 beats · 9x16
 
 STATUS: BUILT (the user asked for the film directly). Beats are on the measured grid of the trimmed track (beat 0 = 0.194 s;
 t = 0 is beat −0.323). Shots: shots.json (source seconds in the PressClub films A / B / C).
