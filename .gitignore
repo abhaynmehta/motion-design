@@ -15,6 +15,7 @@ videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
 videos/*/review/r3/
+videos/*/review/r[0-9]*/
 videos/*/renders/draft_*.mp4
 videos/*/renders/clip_*.mp4
 videos/*/package-lock.json
