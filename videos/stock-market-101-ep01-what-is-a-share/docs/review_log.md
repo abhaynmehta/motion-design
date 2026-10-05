@@ -78,3 +78,15 @@ CHAI SHOP −33 · STOCK MARKET +33 · DONE 0 · EP 02 +33. One 3-frame low-luma
 - `renders/9x16.mp4`: 1080x1920, 30 fps, 34.7 s, guide music + SFX, CRF 16.
 - `renders/9x16_sfx-only.mp4`: SFX at their mix level, −23.8 LUFS, CRF 22, for adding the Instagram song.
 - `renders/covers/`: the EP01 cover, EP02–09 drafts and `grid_preview.jpg`.
+
+## Determinism follow-up (during EP 02)
+A denser 36-probe `--verify` (the stock check probes 12 times) found 5 frames that painted differently depending on the frame
+seeked before. All were sub-pixel to small differences (max 88 levels on a few pixels), but they break the render contract.
+Fixed in the source:
+- **The tile dimming** used group opacity on 99 tiles → a paper veil whose colour alpha follows the dim spring.
+- **The landed tile** kept a residual near-zero rotation → it snaps exactly when landed (and its animated blur shadow became a crisp outline).
+- **Pops** (₹ coins, buyer/seller dots, the dream-shop outline) started from ~0 scale → start at 30 % (`POP`); the level bars never draw below 3 %.
+- **Partial re-raster** → the base layer gets a new invisible style for every t, so each seek re-rasterises the whole frame;
+  canvases are CPU-backed (`willReadFrequently`).
+
+36/36 identical after the fixes; `renders/9x16.mp4` and the SFX-only copy were re-rendered from the fixed source.

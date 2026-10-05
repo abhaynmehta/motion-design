@@ -174,7 +174,7 @@
   }
   const canvas = (parent) => {
     const c = el('canvas', { width: W, height: H, style: `position:absolute;left:0;top:0;width:${W}px;height:${H}px` }, parent);
-    return c.getContext('2d');
+    return c.getContext('2d', { willReadFrequently: true });
   };
   const hooks = { before: [], after: [] };      // global per-frame hooks (camera, cursor, overlays)
 

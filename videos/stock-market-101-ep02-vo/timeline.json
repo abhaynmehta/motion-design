@@ -1,0 +1,285 @@
+{
+  "note": "VO edition. Single source of truth in BEATS on the score grid (98 bpm). Lines start on beats/half-beats (\"vo\"); visual marks sit on spoken words (whisper word timestamps). Record stop on b6.5, groove back on b15; the 30 s timer runs from l5 (b18) to Done (b67).",
+  "title": "Stock Market 101 · EP 02 · Sensex & Nifty (Hinglish voiceover edition)",
+  "duration": 47.756,
+  "fps": 30,
+  "bpm": 98,
+  "formats": [
+    "9x16"
+  ],
+  "music": {
+    "source": "supplied",
+    "track": "Mixkit — \"Hip Hop Two\" (Mixkit Stock Music Free License), 18.36–66.2 s with a record stop on b6.5: guide only",
+    "sections": []
+  },
+  "mix": {
+    "music": -5,
+    "sfx": -8,
+    "vo": 0,
+    "duck": true
+  },
+  "vo": {
+    "l1": 0,
+    "l2": 6.5,
+    "l3": 11.5,
+    "l4": 15,
+    "l5": 18,
+    "l6": 26.5,
+    "l7": 28,
+    "l8": 32,
+    "l9": 42.5,
+    "l10": 45.5,
+    "l11": 56.5,
+    "l12": 64.5,
+    "l13": 68.5
+  },
+  "marks": {
+    "hook": 0,
+    "msg2": 3.75,
+    "msg3": 5.5,
+    "scratch": 6.0,
+    "q": 8.5,
+    "pata": 11.5,
+    "family": 13,
+    "chal": 15,
+    "bat": 15.5,
+    "soch": 18,
+    "team30": 19.75,
+    "sensex": 25.5,
+    "niftyq": 26.75,
+    "nifty": 28.3,
+    "nse": 29,
+    "updown": 34.25,
+    "jodo": 37.4,
+    "board": 38,
+    "onescore": 40.5,
+    "girna": 42.5,
+    "tick": 43,
+    "onepct": 49.5,
+    "tension": 50.7,
+    "meme": 52.5,
+    "meme2": 54,
+    "hist": 56.5,
+    "today": 61.6,
+    "rocket": 65,
+    "done": 67,
+    "chat2": 68,
+    "sent": 70.5,
+    "left": 73,
+    "cta": 74,
+    "end": 78
+  },
+  "sfx": [
+    {
+      "at": "hook",
+      "type": "ping",
+      "gain": 0.7,
+      "what": "bubble: SENSEX CRASHED 800 POINTS"
+    },
+    {
+      "at": "hook",
+      "type": "thump",
+      "gain": 0.4,
+      "what": "frame 0 weight"
+    },
+    {
+      "at": "msg2",
+      "type": "ping",
+      "gain": 0.6,
+      "pitch": 1.06,
+      "what": "bubble: SELL EVERYTHING NOW"
+    },
+    {
+      "at": "msg3",
+      "type": "ping",
+      "gain": 0.6,
+      "pitch": 0.94,
+      "what": "bubble: Mummy 😱"
+    },
+    {
+      "at": "scratch",
+      "type": "scratch",
+      "gain": 0.95,
+      "what": "Bhai: Ruk! — record scratch, the music stops"
+    },
+    {
+      "at": "q",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "SENSEX = ?"
+    },
+    {
+      "at": "family",
+      "type": "boom",
+      "gain": 0.75,
+      "pitch": 1.15,
+      "what": "meme: poori family right now"
+    },
+    {
+      "at": "chal",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "the groove returns, the chat flies off"
+    },
+    {
+      "at": "bat",
+      "type": "pop",
+      "gain": 0.5,
+      "pitch": 1.1,
+      "what": "🏏"
+    },
+    {
+      "at": "team30",
+      "to": 21.1,
+      "every": 0.045,
+      "type": "tick",
+      "gain": 0.22,
+      "what": "30 jerseys"
+    },
+    {
+      "at": "sensex",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "SENSEX + BSE"
+    },
+    {
+      "at": "niftyq",
+      "type": "pop",
+      "gain": 0.5,
+      "pitch": 1.1,
+      "what": "NIFTY?"
+    },
+    {
+      "at": "nifty",
+      "to": 29.5,
+      "every": 0.06,
+      "type": "tick",
+      "gain": 0.2,
+      "what": "20 more jerseys"
+    },
+    {
+      "at": "updown",
+      "to": 35.5,
+      "every": 0.09,
+      "type": "pop",
+      "gain": 0.2,
+      "what": "scores up/down on the jerseys"
+    },
+    {
+      "at": "jodo",
+      "type": "whoosh",
+      "gain": 0.45,
+      "what": "sab jodo: jerseys fly into the scoreboard"
+    },
+    {
+      "at": "board",
+      "type": "click",
+      "gain": 0.55,
+      "what": "scoreboard"
+    },
+    {
+      "at": "tick",
+      "to": 44.5,
+      "every": 0.12,
+      "type": "tick",
+      "gain": 0.22,
+      "what": "Sensex ticks down 800"
+    },
+    {
+      "at": "onepct",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "1%"
+    },
+    {
+      "at": "meme",
+      "type": "boom",
+      "gain": 0.8,
+      "what": "meme: Sharma Uncle at −1% (The Scream)"
+    },
+    {
+      "at": "meme2",
+      "type": "chime",
+      "gain": 0.45,
+      "what": "you, after this video (calm)"
+    },
+    {
+      "at": "hist",
+      "type": "whoosh",
+      "gain": 0.4,
+      "what": "1979: 100"
+    },
+    {
+      "at": 57,
+      "to": 61.5,
+      "every": 0.25,
+      "type": "tick",
+      "gain": 0.15,
+      "what": "the line climbs"
+    },
+    {
+      "at": "today",
+      "type": "chime",
+      "gain": 0.45,
+      "pitch": 1.2,
+      "what": "TODAY: 72,000"
+    },
+    {
+      "at": "rocket",
+      "type": "pop",
+      "gain": 0.6,
+      "pitch": 0.9,
+      "what": "stonks sticker"
+    },
+    {
+      "at": 63.733,
+      "type": "tick",
+      "gain": 0.4,
+      "what": "00:02"
+    },
+    {
+      "at": 65.367,
+      "type": "tick",
+      "gain": 0.4,
+      "what": "00:01"
+    },
+    {
+      "at": "done",
+      "type": "boom",
+      "gain": 0.85,
+      "what": "DONE. 00:00.0"
+    },
+    {
+      "at": "done",
+      "type": "chime",
+      "gain": 0.45,
+      "pitch": 1.2,
+      "what": "DONE."
+    },
+    {
+      "at": "sent",
+      "type": "ping",
+      "gain": 0.6,
+      "what": "Chutki forwards the video"
+    },
+    {
+      "at": "left",
+      "type": "pop",
+      "gain": 0.55,
+      "pitch": 0.6,
+      "what": "Sharma Uncle left the group"
+    },
+    {
+      "at": "cta",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "FORWARD THIS TO YOUR SHARMA UNCLE"
+    },
+    {
+      "at": 75,
+      "type": "click",
+      "gain": 0.5,
+      "what": "FOLLOW chip"
+    }
+  ]
+}

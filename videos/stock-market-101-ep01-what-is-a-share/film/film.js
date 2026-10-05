@@ -16,15 +16,19 @@
   const rnd = C.mulberry32(101);
   const tri = (up, size, color) => el('div', { style: `position:absolute;width:${size}px;height:${size * 0.86}px;background:${color};clip-path:polygon(${up ? '50% 0, 100% 100%, 0 100%' : '0 0, 100% 0, 50% 100%'})` });   // ▲ / ▼ as vectors (no font has them)
   const maskBox = (p, x, y, w, h, child) => { const b = el('div', { style: `position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px;overflow:hidden` }, p); b.appendChild(child); C.reg(child, { y: 0 }); return { b, child, h }; };
+  const POP = (k) => 0.3 + 0.7 * k;   // pops start at 30 %: tiny scales rasterise differently depending on the previous frame (render --verify)
   const rise1 = (t, m, a, out = null, preset = 'snappy') => { let y = m.h * 1.15 * (1 - spHit(t, a, preset)); if (out != null) y -= m.h * 1.15 * sp(t, out, 'snappy'); put(m.child, { y, hide: Math.abs(y) >= m.h * 1.149 }); };
 
   // ------------------------------------------------------------------ background: ink + a recessive chart grid
   scene({
     name: 'bg', from: 'hook', to: 'end',
-    build(root) {
-      el('div', { class: 'fill', style: `background:${INK}` }, root);
+    build(root, S) {
+      S.base = C.reg(el('div', { class: 'fill', style: `background:${INK}` }, root));
       el('div', { class: 'fill', style: 'background-image:linear-gradient(rgba(255,255,255,0.045) 2px, transparent 2px),linear-gradient(90deg, rgba(255,255,255,0.045) 2px, transparent 2px);background-size:120px 120px;background-position:90px 60px' }, root);
     },
+    // invalidate the whole frame on every seek so everything re-rasterises from scratch: a solid image whose position
+    // follows t paints identical pixels but is a new style for every t (partial re-raster left 1-px AA differences)
+    run(t, b, S) { put(S.base, { css: { backgroundImage: `linear-gradient(${INK}, ${INK})`, backgroundPosition: `${Math.round(t * 1e4)}px 0px` } }); },
   });
 
   // ------------------------------------------------------------------ b0–b4 hook: candlestick chaos → one calm line → the timer bar
@@ -136,7 +140,10 @@
         S.tiles.push({ d: C.reg(d, { hide: true }), c, r, n: (rnd() - 0.5) });
       }
       // the card: what you own
-      S.card = C.reg(el('div', { class: 'card', style: `left:${X}px;top:${CARD.y}px;width:900px;height:270px` }, root), { hide: true });
+      // the other tiles dim under a paper veil (colour alpha, not group opacity: opacity on the tiles left raster state
+      // behind between seeks); your tile (z 5) and the card (z 6) sit above it
+      S.veil = C.reg(el('div', { style: `position:absolute;left:${BOX.x - 160}px;top:${BOX.y - 160}px;width:${BOX.w + 320}px;height:${BOX.h + 320}px;z-index:4` }, root), { hide: true });
+      S.card = C.reg(el('div', { class: 'card', style: `left:${X}px;top:${CARD.y}px;width:900px;height:270px;z-index:6` }, root), { hide: true });
       const cardIn = (html, x, y, css) => el('div', { style: `position:absolute;left:${x}px;top:${y}px;${css}` }, S.card, html);
       cardIn('YOU OWN', 40, 26, `font:700 22px Mono;letter-spacing:0.18em;color:${GREY}`);
       el('div', { style: `position:absolute;left:40px;top:72px;width:${TW * SLOT.s}px;height:${TH * SLOT.s}px;border-radius:12px;border:3px dashed #C9C4BA` }, S.card);
@@ -173,8 +180,8 @@
       put(S.shop.g.steam, { hide: b < 5.2 || b >= 11.5, y: -6 * Math.sin(t * 3.1), o: 0.55 + 0.45 * Math.sin(t * 2.3) ** 2 });
       put(S.shopBox, { s: 1 - 0.16 * dream, css: { transformOrigin: '50% 100%' } });
       const gk = spHit(t, 7.25, 'default'), gout = sp(t, 11.2, 'snappy');
-      put(S.ghost, { hide: b < 7 || gout > 0.99, sx: 0.7 + 0.3 * gk, sy: Math.max(0.001, gk * (1 - gout)) });
-      S.coins.forEach((c, i) => { const p = spHit(t, 9.3 + i * 0.3, 'snappy'), out = sp(t, 10.8, 'snappy'); put(c, { hide: b < 9 || out > 0.99, s: Math.max(0.001, p * (1 - out)), css: { transformOrigin: '50% 50%' } }); });
+      put(S.ghost, { hide: b < 7 || gk < 0.02 || gout > 0.98, sx: 0.7 + 0.3 * gk, sy: POP(gk) * (1 - 0.7 * gout) });
+      S.coins.forEach((c, i) => { const p = spHit(t, 9.3 + i * 0.3, 'snappy'), out = sp(t, 10.8, 'snappy'); put(c, { hide: b < 9 || p < 0.02 || out > 0.98, s: POP(p) * (1 - 0.7 * out), css: { transformOrigin: '50% 50%' } }); });
       // tiles: separate on the split, your tile flies to the card
       const cx = BOX.x + BOX.w / 2, cy = BOX.y + BOX.h / 2;
       const fly = spHit(t, 'lift', 'default'), dim = sp(t, 17.2, 'default');
@@ -189,16 +196,18 @@
           s *= 1 + 0.35 * lift;
           const tx = SLOT.x + TW * SLOT.s / 2 - ox, ty = SLOT.y + TH * SLOT.s / 2 - oy;
           x = lerp(x, tx, fly); y = lerp(y - 40 * lift, ty, fly); s = lerp(s, SLOT.s, fly); r = lerp(r, 0, fly);
-        } else if (b >= 17) o = 1 - 0.85 * dim;
-        put(T.d, { hide: b < 11.5, x, y, s, r, o, css: mine ? { zIndex: 5, boxShadow: `0 ${(24 * sp(t, 16.6, 'snappy')).toFixed(1)}px 40px rgba(0,0,0,0.25)` } : {} });
+          if (fly > 0.998) { x = Math.round(tx); y = Math.round(ty); s = SLOT.s; r = 0; }   // landed: exact, so it rasterises the same whatever frame came before
+        }
+        put(T.d, { hide: b < 11.5, x, y, s, r, css: mine ? { zIndex: 5, outline: `${b >= 16.6 ? 4 : 0}px solid ${INK}` } : {} });   // no animated blur shadow: blurred shadows re-rasterised inconsistently between seeks
       });
+      put(S.veil, { hide: b < 17 || dim < 0.005, css: { background: `rgba(242,238,230,${(0.85 * dim).toFixed(3)})` } });
       // the card rises as you buy; the price counts up when the shop does well
       const cardIn = spHit(t, 16.8, 'default');
       put(S.card, { hide: b < 16.6, y: 420 * (1 - cardIn) });
       const g = clamp(sp(t, 'count', 'heavy') / 0.995);
       put(S.price, { text: `₹${Math.round(100 + 80 * g)}`, css: { color: b >= 21 ? UPINK : INK } });
       const ch = spHit(t, 21.6, 'snappy'); put(S.chip, { hide: b < 21.5, s: 0.6 + 0.4 * ch, css: { transformOrigin: '0 50%' } });
-      const sc = S.spark.getContext('2d'); sc.clearRect(0, 0, 820, 40);
+      const sc = S.spark.getContext('2d', { willReadFrequently: true }); sc.clearRect(0, 0, 820, 40);
       const n = Math.floor(seg(t, 'count', 22.6) * 60);
       if (n > 1) { sc.strokeStyle = UPINK; sc.lineWidth = 4; sc.lineJoin = 'round'; sc.beginPath(); for (let i = 0; i <= n; i++) { const u = i / 60, v = u + Math.sin(i * 1.7) * 0.05; sc[i ? 'lineTo' : 'moveTo'](u * 816 + 2, 36 - v * 32); } sc.stroke(); }
       // copy: each line leaves ~0.35 beats before the next one lands
@@ -282,7 +291,7 @@
       R(t, S.u1, 28.05, 29.65); R(t, S.u2, 28.2, 29.65, { preset: 'snappy' });
       R(t, S.d1, 30.05, 31.5); R(t, S.d2, 30.2, 31.5, { preset: 'snappy' });
       R(t, S.labB, 28.1, 31.5); R(t, S.labS, 28.2, 31.5);
-      const pop = (arr, at, every) => arr.forEach((d, i) => { const k = spHit(t, at + i * every, 'snappy'), o = sp(t, 31.55, 'snappy'); put(d, { hide: k < 0.01 || o > 0.99, s: Math.max(0.001, k * (1 - o)) }); });
+      const pop = (arr, at, every) => arr.forEach((d, i) => { const k = spHit(t, at + i * every, 'snappy'), o = sp(t, 31.55, 'snappy'); put(d, { hide: k < 0.02 || o > 0.98, s: POP(k) * (1 - 0.7 * o) }); });
       pop(S.buy0, 28.1, 0.04); pop(S.sell0, 28.15, 0.04); pop(S.buy1, 28.3, 0.05); pop(S.sell1, 30.2, 0.04);
       const bb = Math.round(t * C.FPS) / C.FPS, p = PRICE(C.beatAt(bb)), rising = b < 30, falling = b >= 30;
       const out = sp(t, 31.55, 'snappy');
@@ -371,7 +380,7 @@
       const k = 1 + 0.06 * (b >= 40 ? 1 - sp(t, 'done', 'snappy') : 0); put(S.done.el, { s: k });
       R(t, S.next, 40.55, null); R(t, S.n1, 'cta', null, { preset: 'snappy' }); R(t, S.n2, 41.2, null, { preset: 'snappy' });
       rise1(t, S.chip, 41.6, null);
-      S.levels.forEach((L, i) => { put(L.seg_, { sx: spHit(t, 41.9 + i * 0.15, 'snappy') }); R(t, L.lab, 42 + i * 0.15, null); });
+      S.levels.forEach((L, i) => { const k = spHit(t, 41.9 + i * 0.15, 'snappy'); put(L.seg_, { sx: Math.max(0.03, k), hide: k < 0.03 }); R(t, L.lab, 42 + i * 0.15, null); });
       R(t, S.disc, 42.3, null);
     },
   });
@@ -383,7 +392,7 @@
       const r2 = C.mulberry32(5150);
       S.tiles = [0, 1, 2, 3, 4, 5].map(() => {
         const c = el('canvas', { width: 540, height: 960, style: 'position:absolute;left:0;top:0;width:1080px;height:1920px;mix-blend-mode:overlay;opacity:0.08' }, root);
-        const g = c.getContext('2d'), d = g.createImageData(540, 960);
+        const g = c.getContext('2d', { willReadFrequently: true }), d = g.createImageData(540, 960);
         for (let i = 0; i < d.data.length; i += 4) { const v = 128 + (r2() + r2() + r2() - 1.5) * 120; d.data[i] = d.data[i + 1] = d.data[i + 2] = v; d.data[i + 3] = 255; }
         g.putImageData(d, 0, 0); return C.reg(c, { hide: true });
       });

@@ -1,0 +1,108 @@
+{
+ "note": "EP02 voiceover edition: Bhai (know-it-all, Kokoro hm_omega) explains the Sensex and Nifty to Chutki (his little sister, Kokoro hf_alpha). TTS text is Devanagari (Hinglish); subtitles are Hinglish in Latin script; en is the gloss.",
+ "voices": {
+  "B": {
+   "name": "Bhai",
+   "voice": "hm_omega",
+   "speed": 1.12
+  },
+  "C": {
+   "name": "Chutki",
+   "voice": "hf_alpha",
+   "speed": 1.15
+  }
+ },
+ "lines": [
+  {
+   "id": "l1",
+   "who": "C",
+   "tts": "भाई, ये देख! सेंसेक्स क्रैश हो गया! सारे शेयर बेच दो!",
+   "sub": "Bhai, ye dekh! Sensex crash ho gaya! Saare share bech do!",
+   "en": "Bhai, look! The Sensex crashed! Sell all the shares!"
+  },
+  {
+   "id": "l2",
+   "who": "B",
+   "tts": "रुक! पहले ये बता, सेंसेक्स होता क्या है?",
+   "sub": "Ruk! Pehle ye bata… Sensex hota kya hai?",
+   "en": "Wait! First tell me: what is the Sensex?"
+  },
+  {
+   "id": "l3",
+   "who": "C",
+   "tts": "पता नहीं।",
+   "sub": "…pata nahi.",
+   "en": "…no idea."
+  },
+  {
+   "id": "l4",
+   "who": "B",
+   "tts": "चल, क्रिकेट से समझाता हूँ।",
+   "sub": "Chal, cricket se samjhaata hoon.",
+   "en": "Come, I'll explain it with cricket."
+  },
+  {
+   "id": "l5",
+   "who": "B",
+   "tts": "सोच, भारत की तीस सबसे बड़ी कंपनियों की एक टीम है। उसका नाम है सेंसेक्स।",
+   "sub": "Soch, Bharat ki 30 sabse badi companies ki ek team hai. Uska naam hai Sensex.",
+   "en": "Imagine a team of India's 30 biggest companies. Its name is the Sensex."
+  },
+  {
+   "id": "l6",
+   "who": "C",
+   "tts": "और निफ्टी?",
+   "sub": "Aur Nifty?",
+   "en": "And Nifty?"
+  },
+  {
+   "id": "l7",
+   "who": "B",
+   "tts": "वो पचास कंपनियों की बड़ी टीम है।",
+   "sub": "Woh 50 companies ki badi team hai.",
+   "en": "That's a bigger team, of 50 companies."
+  },
+  {
+   "id": "l8",
+   "who": "B",
+   "tts": "रोज़ हर कंपनी का स्कोर ऊपर नीचे होता है। सब जोड़ो, तो पूरी टीम का एक स्कोर बनता है।",
+   "sub": "Roz har company ka score upar-neeche hota hai. Sab jodo, toh poori team ka ek score banta hai.",
+   "en": "Every day each company's score goes up or down. Add them all up and you get one team score."
+  },
+  {
+   "id": "l9",
+   "who": "C",
+   "tts": "तो आठ सौ पॉइंट गिरना?",
+   "sub": "Toh 800 points girna?",
+   "en": "So, falling 800 points?"
+  },
+  {
+   "id": "l10",
+   "who": "B",
+   "tts": "बहत्तर हज़ार में से आठ सौ? बस एक परसेंट। टेंशन मत ले!",
+   "sub": "72,000 mein se 800? Bas 1 percent. Tension mat le!",
+   "en": "800 out of 72,000? Just 1 percent. Don't stress!"
+  },
+  {
+   "id": "l11",
+   "who": "B",
+   "tts": "उन्नीस सौ उन्यासी में सेंसेक्स सिर्फ़ सौ था। आज बहत्तर हज़ार है!",
+   "sub": "1979 mein Sensex sirf 100 tha. Aaj 72,000 hai!",
+   "en": "In 1979 the Sensex was only 100. Today it's 72,000!"
+  },
+  {
+   "id": "l12",
+   "who": "C",
+   "tts": "वाह, रॉकेट!",
+   "sub": "Waah, rocket!",
+   "en": "Wow, a rocket!"
+  },
+  {
+   "id": "l13",
+   "who": "C",
+   "tts": "रुको, मैं शर्मा अंकल को भेजती हूँ!",
+   "sub": "Ruko, main Sharma Uncle ko bhejti hoon!",
+   "en": "Hold on, I'm sending this to Sharma Uncle!"
+  }
+ ]
+}

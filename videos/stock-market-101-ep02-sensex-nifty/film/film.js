@@ -16,15 +16,20 @@
   const tri = (up, size, color, hollow = false) => el('div', { style: `position:absolute;width:${size}px;height:${size * 0.86}px;${hollow ? '' : `background:${color};`}clip-path:polygon(${up ? '50% 0, 100% 100%, 0 100%' : '0 0, 100% 0, 50% 100%'})` });
   const maskBox = (p, x, y, w, h, child) => { const b = el('div', { style: `position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px;overflow:hidden` }, p); b.appendChild(child); C.reg(child, { y: 0 }); return { b, child, h }; };
   const rise1 = (t, m, a, out = null, preset = 'snappy') => { let y = m.h * 1.15 * (1 - spHit(t, a, preset)); if (out != null) y -= m.h * 1.15 * sp(t, out, 'snappy'); put(m.child, { y, hide: Math.abs(y) >= m.h * 1.149 }); };
-  const popIn = (t, e, at, out = null, preset = 'snappy') => { const k = spHit(t, at, preset), o = out == null ? 0 : sp(t, out, 'snappy'); put(e, { hide: k < 0.01 || o > 0.99, s: Math.max(0.001, k * (1 - o)) }); };
+  const POP = (k) => 0.3 + 0.7 * k;   // pops start at 30 %: tiny scales rasterise differently depending on the previous frame (render --verify)
+  const popIn = (t, e, at, out = null, preset = 'snappy') => { const k = spHit(t, at, preset), o = out == null ? 0 : sp(t, out, 'snappy'); put(e, { hide: k < 0.02 || o > 0.98, s: POP(k) * (1 - 0.7 * o) }); };
 
   // ------------------------------------------------------------------ background
   scene({
     name: 'bg', from: 'hook', to: 'end',
-    build(root) {
-      el('div', { class: 'fill', style: `background:${INK}` }, root);
+    build(root, S) {
+      S.base = C.reg(el('div', { class: 'fill', style: `background:${INK}` }, root));
       el('div', { class: 'fill', style: 'background-image:linear-gradient(rgba(255,255,255,0.045) 2px, transparent 2px),linear-gradient(90deg, rgba(255,255,255,0.045) 2px, transparent 2px);background-size:120px 120px;background-position:90px 60px' }, root);
     },
+    // invalidate the whole frame on every seek so everything re-rasterises from scratch: a solid image whose position
+    // follows t paints identical pixels but is a new style for every t. Partial re-raster of regions next to changed
+    // elements left 1-px anti-aliasing differences that depended on the previous frame (render --verify).
+    run(t, b, S) { put(S.base, { css: { backgroundImage: `linear-gradient(${INK}, ${INK})`, backgroundPosition: `${Math.round(t * 1e4)}px 0px` } }); },
   });
 
   // ------------------------------------------------------------------ the family group (hook b0–b7, callback b49–b56)
@@ -48,7 +53,7 @@
     el('div', { style: `font:700 22px Mono, Emoji;color:${GREY};text-align:right;margin-top:6px` }, b, time);
     return C.reg(b, { hide: true });
   }
-  const bubbleIn = (t, e, at, out = null) => { const k = spHit(t, at, 'snappy'), o = out == null ? 0 : sp(t, out, 'default'); put(e, { hide: k < 0.01 || o > 0.99, s: Math.max(0.001, k), y: -1400 * o, o: 1 }); };
+  const bubbleIn = (t, e, at, out = null) => { const k = spHit(t, at, 'snappy'), o = out == null ? 0 : sp(t, out, 'default'); put(e, { hide: k < 0.02 || o > 0.99, s: POP(k), y: -1400 * o, o: 1 }); };
 
   scene({
     name: 'chat', from: 'hook', to: 7.8,
@@ -123,10 +128,13 @@
       S.js = Array.from({ length: 50 }, (_, i) => {
         const d = el('div', { style: `position:absolute;left:0;top:0;width:120px;height:120px;transform-origin:50% 50%` }, root);
         d.innerHTML = `<svg viewBox="0 0 100 100" width="120" height="120"><path d="${JERSEY}" fill="${PAPER}" stroke="${INK}" stroke-width="3"/><text x="50" y="76" text-anchor="middle" font-family="Mono" font-weight="800" font-size="30" fill="${INK}">${i + 1}</text></svg>`;
-        const badge = el('div', { style: `position:absolute;left:74px;top:-6px;width:46px;height:46px;border-radius:50%;background:${INK};transform-origin:50% 50%` }, d);
+        // the badge is a SIBLING that follows the jersey (as a child it changed the jersey's bounds, and with them how the
+        // jersey's raster snaps: a 1-px shift between seeks, caught by render --verify)
+        const bw = el('div', { style: `position:absolute;left:0;top:0;width:120px;height:120px;transform-origin:50% 50%` }, root);
+        const badge = el('div', { style: `position:absolute;left:74px;top:-6px;width:46px;height:46px;border-radius:50%;background:${INK};transform-origin:50% 50%` }, bw);
         const tr = tri(UPS[i], 26, UPS[i] ? UP : DOWN); tr.style.left = '10px'; tr.style.top = UPS[i] ? '9px' : '12px'; badge.appendChild(tr);
         if (!UPS[i]) { const hole = tri(false, 12, INK); hole.style.left = '17px'; hole.style.top = '15px'; badge.appendChild(hole); }   // down = hollow
-        return { d: C.reg(d, { hide: true }), badge: C.reg(badge, { hide: true }) };
+        return { d: C.reg(d, { hide: true }), bw: C.reg(bw, { hide: true }), badge: C.reg(badge, { hide: true }) };
       });
       // the scoreboard
       S.board = C.reg(el('div', { style: `position:absolute;left:${BOARD.x}px;top:${BOARD.y}px;width:${BOARD.w}px;height:${BOARD.h}px;border-radius:30px;background:#14181D;border:3px solid #2A2F37;transform-origin:50% 0` }, root), { hide: true });
@@ -151,18 +159,20 @@
       S.js.forEach((J, i) => {
         const a = SLOT30(Math.min(i, 29)), z = SLOT50(i);
         const k = i < 30 ? spHit(t, 12.3 + i * 0.045, 'snappy') : spHit(t, 16.8 + (i - 30) * 0.06, 'snappy');
-        let x = i < 30 ? lerp(a.x, z.x, toNifty) : z.x, y = i < 30 ? lerp(a.y, z.y, toNifty) : z.y, s = (i < 30 ? lerp(a.s, z.s, toNifty) : z.s) * k;
+        let x = i < 30 ? lerp(a.x, z.x, toNifty) : z.x, y = i < 30 ? lerp(a.y, z.y, toNifty) : z.y, s = (i < 30 ? lerp(a.s, z.s, toNifty) : z.s) * POP(k);
         // gather: every jersey flies into the scoreboard's centre and vanishes
         const gx = BOARD.x + BOARD.w / 2 - 60, gy = BOARD.y + 120;
         const g = clamp(gather * 1.15 - (i % 10) * 0.012);
-        x = lerp(x, gx, g); y = lerp(y, gy, g); s *= 1 - 0.9 * g;
-        put(J.d, { hide: k < 0.01 || g > 0.97, x, y, s: Math.max(0.001, s) });
+        x = lerp(x, gx, g); y = lerp(y, gy, g); s *= 1 - 0.65 * g;
+        x = Math.round(x); y = Math.round(y); s = Math.round(s * 1000) / 1000;   // whole pixels: settled springs repaint identically whatever came before
+        put(J.d, { hide: k < 0.02 || g > 0.97, x, y, s });
+        put(J.bw, { hide: k < 0.02 || g > 0.97, x, y, s });
         const bk = spHit(t, 21.3 + (i % 25) * 0.05, 'snappy');
-        put(J.badge, { hide: b < 21.1 || bk < 0.01, s: Math.max(0.001, bk) });
+        put(J.badge, { hide: b < 21.1 || bk < 0.02, s: POP(bk) });
       });
       // the scoreboard: values roll up when the scores land; Sensex ticks down 800 on "down"
       const bin = spHit(t, 24.15, 'default'), bout = sp(t, 30.6, 'snappy');
-      put(S.board, { hide: b < 23.9 || bout > 0.99, sy: Math.max(0.001, bin), y: 0, o: 1, css: {} });
+      put(S.board, { hide: b < 23.9 || bout > 0.99 || bin < 0.02, sy: POP(bin), y: 0, o: 1, css: {} });
       const roll = clamp(sp(t, 24.8, 'heavy') / 0.995), dn = clamp(seg(t, 27.1, 28));
       const sx = Math.round(72382 * roll - 800 * dn), nf = Math.round(22556 * roll - 250 * dn);
       put(S.vSx, { text: sx.toLocaleString('en-IN'), css: { color: b >= 27.1 ? DOWN : WHITE } });
@@ -222,7 +232,7 @@
       if (u > 0 && out < 0.98) {
         const yrEnd = lerp(1979, 2026.76, u);
         ctx.globalAlpha = 1 - out;
-        ctx.strokeStyle = 'rgba(139,144,153,0.35)'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(CH.x0, CH.y0); ctx.lineTo(CH.x1, CH.y0); ctx.stroke();
+        ctx.strokeStyle = 'rgba(139,144,153,0.35)'; ctx.lineWidth = 2; ctx.lineCap = 'butt'; ctx.beginPath();   // set every frame: canvas state persists between seeks ctx.moveTo(CH.x0, CH.y0); ctx.lineTo(CH.x1, CH.y0); ctx.stroke();
         ctx.strokeStyle = WHITE; ctx.lineWidth = 6; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.beginPath();
         let hx = CH.x0, hy = cy(100);
         for (let i = 0; i < MILES.length; i++) {
@@ -235,7 +245,7 @@
         ctx.globalAlpha = 1;
       }
       const k = spHit(t, 'stonks', 'snappy');
-      put(S.stk, { hide: k < 0.01 || out > 0.99, s: Math.max(0.001, k * (1 - out)), r: -7 });
+      put(S.stk, { hide: k < 0.02 || out > 0.98, s: POP(k) * (1 - 0.7 * out), r: -7 });
     },
   });
 
@@ -329,7 +339,7 @@
       const r2 = C.mulberry32(5150);
       S.tiles = [0, 1, 2, 3, 4, 5].map(() => {
         const c = el('canvas', { width: 540, height: 960, style: 'position:absolute;left:0;top:0;width:1080px;height:1920px;mix-blend-mode:overlay;opacity:0.08' }, root);
-        const g = c.getContext('2d'), d = g.createImageData(540, 960);
+        const g = c.getContext('2d', { willReadFrequently: true }), d = g.createImageData(540, 960);
         for (let i = 0; i < d.data.length; i += 4) { const v = 128 + (r2() + r2() + r2() - 1.5) * 120; d.data[i] = d.data[i + 1] = d.data[i + 2] = v; d.data[i + 3] = 255; }
         g.putImageData(d, 0, 0); return C.reg(c, { hide: true });
       });

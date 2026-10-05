@@ -35,3 +35,14 @@ Today, it's 72,000+." (Sheet re-checked: every line fits.)
 ## Round 3: final (30 fps, adaptive motion blur, CRF 16)
 −14.0 LUFS; longest static 1.1 s; max gap 2.03 s; no near-blank frames; sync 24/39 within 45 ms (the misses are tick/pop
 bursts and the 2-frame lead on rising words). Every score ≥ 8 → **SHIP**.
+
+## Determinism follow-up
+`--verify` (12 probes) caught the history chart's canvas keeping `lineCap = 'round'` from the previous frame. A denser 36-probe
+check found more: tiny-scale pops (badges, bubbles, the stonks sticker) and partial re-raster next to changed elements. Fixed:
+- the cap is set every frame
+- pops start at 30 % (`POP`)
+- the badges are siblings of the jerseys, which snap to whole pixels once settled
+- canvases are CPU-backed
+- the base layer gets a new invisible style for every t, forcing a full re-raster per seek
+
+36/36 identical; `renders/9x16.mp4` and the SFX-only copy were re-rendered from the fixed source.
