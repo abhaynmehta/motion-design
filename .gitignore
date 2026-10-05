@@ -9,6 +9,8 @@ videos/*
 !videos/kay-beauty-three-drops/
 !videos/bmw-m8-competition-concept/
 !videos/stock-market-101-ep01-what-is-a-share/
+!videos/stock-market-101-ep02-sensex-nifty/
+!videos/stock-market-101-ep02-vo/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
@@ -37,3 +39,6 @@ videos/bmw-m8-competition-concept/audio/track/
 videos/bmw-m8-competition-concept/review/src/
 # Stock Market 101 EP01: the Mixkit guide track is fetched by scripts/fetch_sources.sh, never committed (fonts are OFL and committed)
 videos/stock-market-101-ep01-what-is-a-share/audio/track/
+# Stock Market 101 EP02 (+ VO edition): the Mixkit guide track is fetched by scripts/fetch_sources.sh
+videos/stock-market-101-ep02-sensex-nifty/audio/track/
+videos/stock-market-101-ep02-vo/audio/track/

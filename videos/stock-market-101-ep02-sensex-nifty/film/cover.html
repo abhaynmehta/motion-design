@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stock Market 101 cover</title>
+<!-- Series cover template: cover.html?ep=1 → one 1080x1920 Reel cover. Everything that matters sits inside the centre
+     1080x1440 (3:4), the crop Instagram shows on the profile grid; the title is sized to read at grid size (~360 px wide).
+     Same fonts and tokens as the film. Rendered by scripts/covers.mjs. -->
+<style>
+  @font-face { font-family: 'Rupee'; src: url(../assets/fonts/rupee-800.woff2) format('woff2'); font-weight: 100 900; unicode-range: U+20B9; }
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/archivo.woff2) format('woff2'); font-weight: 100 900; font-stretch: 62% 125%; }
+  @font-face { font-family: 'Mono'; src: url(../assets/fonts/jetbrainsmono.woff2) format('woff2'); font-weight: 400 800; }
+  :root { --ink: #0B0D10; --white: #F7F7F5; --grey: #8B9099; --up: #16E07A; --down: #F2524A; }
+  html, body { margin: 0; background: var(--ink); }
+  #c { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--ink); color: var(--white);
+       font-family: 'Rupee', 'Display', sans-serif; -webkit-font-smoothing: antialiased; }
+  .grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.045) 2px, transparent 2px), linear-gradient(90deg, rgba(255,255,255,0.045) 2px, transparent 2px); background-size: 120px 120px; background-position: 90px 60px; }
+  .abs { position: absolute; white-space: nowrap; }
+  .mono { font-family: 'Rupee', 'Mono', monospace; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; }
+  .cond { font-stretch: 62%; font-weight: 900; text-transform: uppercase; line-height: 0.86; letter-spacing: -0.005em; }
+  .wide { font-stretch: 125%; font-weight: 200; }
+  .num { font-stretch: 62%; font-weight: 900; line-height: 0.8; color: transparent; -webkit-text-stroke: 6px var(--up); }
+  .pill { display: inline-flex; align-items: center; height: 58px; padding: 0 26px; border-radius: 999px; font: 800 28px Mono; letter-spacing: 0.14em; }
+  .safe { position: absolute; left: 0; right: 0; top: 240px; height: 1440px; outline: 2px dashed rgba(242,82,74,0.0); }
+</style>
+</head>
+<body>
+<div id="c">
+  <div class="grid"></div>
+  <div class="abs mono" style="left:90px;top:300px;font-size:30px;color:var(--grey)">Stock Market 101</div>
+  <div class="abs" id="level" style="right:90px;top:286px"></div>
+  <div class="abs num" id="num" style="left:84px;top:390px;font-size:400px"></div>
+  <svg class="abs" id="icon" style="left:600px;top:400px" width="390" height="330" viewBox="0 0 390 330"></svg>
+  <div class="abs wide" id="lead" style="left:92px;top:800px;font-size:96px"></div>
+  <div class="abs cond" id="title" style="left:86px;top:910px;font-size:340px;color:var(--up)"></div>
+  <div class="abs wide" id="with" style="left:92px;top:1300px;font-size:54px;color:var(--grey)"></div>
+  <div class="abs cond" id="what" style="left:90px;top:1376px;font-size:132px"></div>
+  <div class="abs" style="left:90px;top:1560px;display:flex;align-items:center;gap:26px">
+    <div class="mono" id="dur" style="font-size:52px;letter-spacing:0.02em;color:var(--white)">00:30</div>
+    <div style="width:520px;height:10px;background:var(--up)"></div>
+  </div>
+  <div class="safe"></div>
+</div>
+<script>
+  const INK = '#0B0D10', WHITE = '#F7F7F5', GREY = '#8B9099', UP = '#16E07A', DOWN = '#F2524A';
+  // The series plan. EP 01 is built; the rest are the proposed Beginner run (titles can change).
+  const EPS = {
+    1: { lead: 'What is a', title: 'Share?', with: 'explained with a', what: 'chai shop', icon: 'tiles' },
+    2: { lead: 'What are', title: 'Sensex & Nifty?', with: 'explained with', what: 'cricket', icon: 'ball', dur: 25 },
+    3: { lead: 'What is a', title: 'Demat?', with: 'explained with a', what: 'locker', icon: 'locker' },
+    4: { lead: 'Why do prices', title: 'Move?', with: 'explained with', what: 'mangoes', icon: 'updown' },
+    5: { lead: 'What is an', title: 'IPO?', with: 'explained with', what: 'Raju’s shop', icon: 'bell' },
+    6: { lead: 'What is a', title: 'Dividend?', with: 'explained with', what: 'chai profits', icon: 'coin' },
+    7: { lead: 'What is a', title: 'Bull run?', with: 'explained with', what: 'a cricket crowd', icon: 'bull' },
+    8: { lead: 'What is a', title: 'Mutual fund?', with: 'explained with a', what: 'thali', icon: 'thali' },
+    9: { lead: 'What is a', title: 'SIP?', with: 'explained with a', what: 'gullak', icon: 'gullak' },
+  };
+  const LEVELS = [['Beginner', 1, 9], ['Intermediate', 10, 19], ['Advanced', 20, 99]];
+  const ep = +(new URLSearchParams(location.search).get('ep') || 1), E = EPS[ep];
+  const lv = LEVELS.findIndex(([, a, b]) => ep >= a && ep <= b);
+  document.getElementById('num').textContent = String(ep).padStart(2, '0');
+  document.getElementById('lead').textContent = E.lead;
+  document.getElementById('title').textContent = E.title;
+  document.getElementById('with').textContent = E.with;
+  document.getElementById('what').textContent = E.what;
+  document.getElementById('dur').textContent = `00:${String(E.dur || 30).padStart(2, '0')}`;   // the episode's own countdown
+  document.getElementById('level').innerHTML = `<span class="pill" style="background:${UP};color:${INK}">${LEVELS[lv][0].toUpperCase()}</span>` +
+    `<div style="display:flex;gap:10px;margin-top:16px;justify-content:flex-end">${[0, 1, 2].map((i) => `<div style="width:64px;height:10px;border-radius:5px;background:${i <= lv ? UP : 'rgba(139,144,153,0.35)'}"></div>`).join('')}</div>`;
+  // icons: flat geometry in the film's language (ink-on-ink strokes, one green accent)
+  const svg = document.getElementById('icon'), ns = 'http://www.w3.org/2000/svg';
+  const add = (tag, at) => { const e = document.createElementNS(ns, tag); for (const [k, v] of Object.entries(at)) e.setAttribute(k, v); svg.appendChild(e); return e; };
+  const S = { fill: 'none', stroke: WHITE, 'stroke-width': 8, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' };
+  const ICONS = {
+    tiles() { for (let r = 0; r < 10; r++) for (let c = 0; c < 10; c++) add('rect', { x: 50 + c * 31, y: 10 + r * 31, width: 27, height: 27, rx: 4, fill: r === 5 && c === 2 ? UP : 'rgba(247,247,245,0.16)' }); },
+    ball() { add('circle', { cx: 210, cy: 165, r: 140, fill: UP }); add('path', { d: 'M120 58 Q210 165 120 272 M300 58 Q210 165 300 272', fill: 'none', stroke: INK, 'stroke-width': 9, 'stroke-dasharray': '18 12' }); },
+    locker() { add('rect', { x: 70, y: 20, width: 280, height: 290, rx: 24, ...S }); add('circle', { cx: 210, cy: 165, r: 62, fill: UP }); add('path', { d: 'M210 120 V165 L240 185', stroke: INK, 'stroke-width': 10, fill: 'none', 'stroke-linecap': 'round' }); add('path', { d: 'M110 310 V325 M310 310 V325', ...S }); },
+    updown() { add('path', { d: 'M60 300 L150 140 L240 300 Z', fill: UP }); add('path', { d: 'M200 30 L380 30 L290 190 Z', fill: 'none', stroke: DOWN, 'stroke-width': 10, 'stroke-linejoin': 'round' }); },
+    bell() { add('path', { d: 'M110 250 Q110 70 210 60 Q310 70 310 250 Z', fill: UP }); add('path', { d: 'M80 250 H340', ...S }); add('circle', { cx: 210, cy: 290, r: 26, fill: WHITE }); add('path', { d: 'M210 60 V22', ...S }); },
+    coin() { add('circle', { cx: 170, cy: 165, r: 135, fill: UP }); add('text', { x: 170, y: 225, 'text-anchor': 'middle', 'font-family': 'Rupee', 'font-weight': 800, 'font-size': 170, fill: INK }).textContent = '₹'; add('circle', { cx: 335, cy: 80, r: 40, ...S }); add('circle', { cx: 345, cy: 210, r: 28, ...S }); },
+    bull() { const pts = [[40, 290], [110, 240], [160, 260], [230, 170], [280, 190], [360, 50]]; add('path', { d: 'M' + pts.map((p) => p.join(' ')).join(' L'), fill: 'none', stroke: UP, 'stroke-width': 14, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }); add('path', { d: 'M300 50 H360 V110', fill: 'none', stroke: UP, 'stroke-width': 14, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }); },
+    thali() { add('circle', { cx: 210, cy: 165, r: 150, ...S }); [[150, 110, UP], [270, 110, 'none'], [150, 225, 'none'], [270, 225, 'none']].forEach(([x, y, f]) => add('circle', { cx: x, cy: y, r: 46, fill: f, stroke: f === 'none' ? WHITE : 'none', 'stroke-width': 8 })); },
+    gullak() { add('path', { d: 'M110 110 Q60 200 120 290 H300 Q360 200 310 110 Z', fill: UP }); add('rect', { x: 150, y: 70, width: 120, height: 42, rx: 12, fill: UP }); add('rect', { x: 180, y: 150, width: 60, height: 14, rx: 7, fill: INK }); add('circle', { cx: 210, cy: 40, r: 28, fill: 'none', stroke: WHITE, 'stroke-width': 8 }); },
+  };
+  ICONS[E.icon]();
+  // fit the title (and the hook word) to the column: shrink until it fits 908 px
+  document.fonts.ready.then(() => {
+    for (const [id, max] of [['title', 908], ['what', 908]]) {
+      const e = document.getElementById(id); let fs = parseFloat(e.style.fontSize);
+      while (e.getBoundingClientRect().width > max && fs > 60) { fs -= 4; e.style.fontSize = fs + 'px'; }
+      if (id === 'title' && fs < 340) e.style.top = (910 + (340 - fs) * 0.55) + 'px';   // keep the block vertically balanced
+    }
+    document.body.dataset.ready = '1';
+  });
+</script>
+</body>
+</html>
