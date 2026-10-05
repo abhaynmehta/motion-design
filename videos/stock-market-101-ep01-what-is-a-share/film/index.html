@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stock Market 101 EP01</title>
+<style>
+  /* One display family pushed to its extremes (Archivo variable: wdth 62–125, wght 100–900) + one UI mono (JetBrains Mono).
+     The ₹ sign comes from a one-glyph Noto Sans subset, mapped by unicode-range. All OFL. */
+  @font-face { font-family: 'Rupee'; src: url(../assets/fonts/rupee-500.woff2) format('woff2'); font-weight: 100 600; unicode-range: U+20B9; }
+  @font-face { font-family: 'Rupee'; src: url(../assets/fonts/rupee-800.woff2) format('woff2'); font-weight: 601 900; unicode-range: U+20B9; }
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/archivo.woff2) format('woff2'); font-weight: 100 900; font-stretch: 62% 125%; }
+  @font-face { font-family: 'Mono'; src: url(../assets/fonts/jetbrainsmono.woff2) format('woff2'); font-weight: 400 800; }
+  :root {
+    --ink: #0B0D10; --paper: #F2EEE6; --white: #F7F7F5; --grey: #8B9099;
+    --up: #16E07A; --down: #F2524A;          /* up = the one accent; down is semantic only (validated pair, ΔE 11 deutan) */
+    --accent: var(--up); --bg: var(--ink);
+  }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; overflow: hidden; background: var(--ink); transform-origin: 0 0; color: var(--white);
+           font-family: 'Rupee', 'Display', Arial, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .abs { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+  .fill { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+  .display { font-family: 'Rupee', 'Display', Arial, sans-serif; font-weight: 800; line-height: 0.92; white-space: nowrap; }
+  .cond { font-stretch: 62%; font-weight: 900; letter-spacing: -0.005em; text-transform: uppercase; }
+  .wide { font-stretch: 125%; }
+  .hair { font-weight: 200; letter-spacing: -0.01em; line-height: 1.05; }
+  .mono { font-family: 'Rupee', 'Mono', monospace; font-weight: 700; letter-spacing: 0.02em; line-height: 1.1; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .caps { text-transform: uppercase; letter-spacing: 0.16em; }
+  .outline { color: transparent !important; -webkit-text-stroke: 5px var(--stroke, #F7F7F5); }
+  .line { position: absolute; overflow: hidden; padding: 0.06em 0.04em 0.12em; margin: -0.06em -0.04em 0; white-space: nowrap; }
+  .word { display: inline-block; }
+  .card { position: absolute; border-radius: 30px; background: #FFFFFF; box-shadow: 0 2px 6px rgba(0,0,0,.08), 0 40px 80px -30px rgba(0,0,0,.45); }
+  .pill { position: absolute; display: flex; align-items: center; justify-content: center; border-radius: 999px; box-sizing: border-box; white-space: nowrap; }
+  body.play { display: block; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="lib/motion.js"></script>
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script src="type.js"></script>
+<script src="film.js"></script>
+</body>
+</html>

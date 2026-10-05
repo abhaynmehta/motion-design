@@ -1,0 +1,255 @@
+{
+  "note": "Single source of truth in BEATS on the measured grid of the guide track (76 bpm, beat 0 = 0.0 s). The edit is cut for mellow 70-100 bpm Reels songs; see docs/music.md.",
+  "title": "Stock Market 101 · EP 01 · What is a share?",
+  "duration": 34.74,
+  "fps": 30,
+  "bpm": 76,
+  "formats": [
+    "9x16"
+  ],
+  "music": {
+    "source": "supplied",
+    "track": "Mixkit — \"Sweet September\" (Mixkit Stock Music Free License), 12.633–47.4 s: guide only; the post uses an Instagram song",
+    "sections": []
+  },
+  "mix": {
+    "music": 0,
+    "sfx": -6
+  },
+  "marks": {
+    "hook": 0,
+    "scary": 1,
+    "snap": 2,
+    "fly": 2.6,
+    "chai": 3,
+    "raju": 4,
+    "sells": 5.5,
+    "grow": 7,
+    "money": 9,
+    "split": 11,
+    "shatter": 11.5,
+    "share": 14,
+    "fill": 15,
+    "buy": 16.5,
+    "lift": 17,
+    "land": 17.8,
+    "own": 18.5,
+    "up": 20.5,
+    "count": 21,
+    "where": 23,
+    "exch": 25.25,
+    "chips": 26,
+    "buyers": 28,
+    "sellers": 30,
+    "recap": 32,
+    "recap2": 35,
+    "thats": 38,
+    "done": 40,
+    "cta": 41,
+    "end": 44
+  },
+  "sfx": [
+    {
+      "at": "hook",
+      "type": "thump",
+      "gain": 0.6,
+      "what": "frame 0: chaos + STOCK MARKET"
+    },
+    {
+      "at": "scary",
+      "type": "thump",
+      "gain": 0.7,
+      "what": "looks scary?"
+    },
+    {
+      "at": "snap",
+      "type": "boom",
+      "gain": 0.8,
+      "what": "the chaos collapses: IT'S JUST A"
+    },
+    {
+      "at": "snap",
+      "type": "whoosh",
+      "gain": 0.45,
+      "what": "candles fold flat"
+    },
+    {
+      "at": "fly",
+      "type": "whoosh",
+      "gain": 0.4,
+      "pitch": 1.25,
+      "what": "the line flies up into the timer"
+    },
+    {
+      "at": "chai",
+      "type": "pop",
+      "gain": 0.6,
+      "what": "CHAI SHOP."
+    },
+    {
+      "at": "raju",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "paper panel rises"
+    },
+    {
+      "at": 4.25,
+      "to": 5.3,
+      "every": 0.25,
+      "type": "pop",
+      "gain": 0.38,
+      "what": "the stall builds, part by part"
+    },
+    {
+      "at": "sells",
+      "type": "click",
+      "gain": 0.5,
+      "what": "₹10 tag"
+    },
+    {
+      "at": 7.25,
+      "type": "whoosh",
+      "gain": 0.4,
+      "pitch": 0.8,
+      "what": "the bigger shop appears behind"
+    },
+    {
+      "at": 9.3,
+      "to": 10,
+      "every": 0.3,
+      "type": "pop",
+      "gain": 0.45,
+      "pitch": 1.15,
+      "what": "three rupee coins"
+    },
+    {
+      "at": "shatter",
+      "to": 12.3,
+      "every": 0.06,
+      "type": "tick",
+      "gain": 0.28,
+      "what": "the stall splits into 100 tiles"
+    },
+    {
+      "at": "fill",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "SHARE fills green"
+    },
+    {
+      "at": "lift",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "one tile flies to you"
+    },
+    {
+      "at": "land",
+      "type": "click",
+      "gain": 0.6,
+      "what": "lands in the card"
+    },
+    {
+      "at": "count",
+      "type": "chime",
+      "gain": 0.45,
+      "what": "your share grows"
+    },
+    {
+      "at": 21.1,
+      "to": 22.2,
+      "every": 0.25,
+      "type": "tick",
+      "gain": 0.22,
+      "what": "price counts up"
+    },
+    {
+      "at": 23.05,
+      "to": 24.4,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.3,
+      "what": "typewriter"
+    },
+    {
+      "at": "exch",
+      "type": "boom",
+      "gain": 0.65,
+      "what": "THE STOCK MARKET"
+    },
+    {
+      "at": "chips",
+      "to": 26.3,
+      "every": 0.3,
+      "type": "pop",
+      "gain": 0.45,
+      "what": "NSE, BSE"
+    },
+    {
+      "at": "buyers",
+      "to": 29.2,
+      "every": 0.125,
+      "type": "pop",
+      "gain": 0.28,
+      "pitch": 1.1,
+      "what": "buyers arrive"
+    },
+    {
+      "at": "sellers",
+      "to": 31.2,
+      "every": 0.125,
+      "type": "pop",
+      "gain": 0.28,
+      "pitch": 0.8,
+      "what": "sellers arrive (the music drops out)"
+    },
+    {
+      "at": "recap",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "recap card 1 (the groove returns)"
+    },
+    {
+      "at": "recap2",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "recap card 2"
+    },
+    {
+      "at": 37.468,
+      "type": "tick",
+      "gain": 0.6,
+      "what": "00:02"
+    },
+    {
+      "at": 38.735,
+      "type": "tick",
+      "gain": 0.6,
+      "what": "00:01"
+    },
+    {
+      "at": "done",
+      "type": "boom",
+      "gain": 0.9,
+      "what": "DONE. 00:00.0"
+    },
+    {
+      "at": "done",
+      "type": "chime",
+      "gain": 0.5,
+      "pitch": 1.2,
+      "what": "DONE."
+    },
+    {
+      "at": "cta",
+      "type": "pop",
+      "gain": 0.5,
+      "what": "next episode"
+    },
+    {
+      "at": 41.6,
+      "type": "click",
+      "gain": 0.5,
+      "what": "FOLLOW chip"
+    }
+  ]
+}
