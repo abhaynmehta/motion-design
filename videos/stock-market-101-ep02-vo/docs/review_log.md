@@ -55,4 +55,20 @@ The same fixes went into the EP 02 text edition and EP 01 (with their own extras
 opacity to a veil, and its landed tile snaps exactly). All three now pass 36/36 and were re-rendered.
 
 ## Round 3: final (30 fps, adaptive motion blur, CRF 16)
-See the end of this file once the final review has run.
+47.8 s; −14.0 LUFS, −1.5 dBFS; longest static 1.1 s (the end card); max gap 3.07 s (the Nifty team while Bhai starts the
+"roz…" line); no near-blank frames; 36-probe determinism 36/36. Sync: key hits on their words (scratch 0 ms, family boom
+0 ms, Done 0 ms). Misses are tick/pop bursts and the spring lead on rising words.
+| Criterion | Score | Evidence |
+|---|---|---|
+| Hook (first 2 s) | 9 | "🚨 SENSEX CRASHED 800 POINTS" on frame 0 + Chutki: "Bhai, ye dekh!" |
+| Readability at phone size | 8 | 56 px bold subtitles in ≤ 2-line pages, the current word lit; claims 200+ px |
+| Motion quality | 8 | the avatars talk with the voice; pops from 30 %; motion blur on swaps |
+| Variety / pacing | 9 | chat → meme → cricket → teams → scoreboard → memes → chart → chat, calmer than EP 01 |
+| Series accuracy | 9 | same type, colours and timer; Bhai and Chutki become recurring characters (on the cover too) |
+| Sound sync | 8 | lines on the beat grid; visuals on spoken words; the music stops on the scratch, back on "Chal…" |
+| Composition | 8 | the dialogue card sits above the bottom UI zone; visuals in the band above it |
+| Polish | 8 | VO intelligible in the full mix (ASR); deterministic |
+
+**SHIP.**
+- `renders/9x16.mp4`: voice + ducked guide music + SFX.
+- `renders/9x16_vo-sfx.mp4`: voice + SFX at −14.7 LUFS, no music, for adding an Instagram song at a low level.
