@@ -1,0 +1,199 @@
+{
+  "note": "Single source of truth in BEATS on the guide track's grid (95 bpm, beat 0.6316 s, beat 0 = 0.02 s; the full arrangement lifts on b4). Story: you can't eat this\u2026 but you can wear it \u2192 tonight's dessert menu \u2192 chocolate fondant \u2192 coconut crumble \u2192 strawberry cheesecake \u2192 the bill (0 calories, 100% compliments) \u2192 Spritz by Typsy.",
+  "title": "Typsy Beauty \u00b7 Spritz body & hair mists \u2014 the dessert menu (spec)",
+  "duration": 27.65,
+  "fps": 30,
+  "bpm": 95,
+  "formats": [
+    "9x16"
+  ],
+  "music": {
+    "source": "supplied",
+    "track": "Mixkit \u2014 \"Pop 05\" #695 (Mixkit Stock Music Free License), 22.73\u201352.06 s, 1.2 s fade",
+    "sections": []
+  },
+  "voiceover": null,
+  "mix": {
+    "music": 0,
+    "sfx": -6
+  },
+  "marks": {
+    "hook": 0,
+    "h_eat": 1,
+    "h_c2": 2,
+    "h_c3": 3,
+    "wear": 4,
+    "wear_it": 4.5,
+    "w_c2": 5.25,
+    "menu": 6.5,
+    "rows": 7,
+    "foot": 8,
+    "i1": 8.25,
+    "a1": 9,
+    "c1": 16,
+    "i2": 16.75,
+    "a2": 17.5,
+    "c2": 24.5,
+    "i3": 25.25,
+    "a3": 26,
+    "c3": 33,
+    "bill": 33.75,
+    "b1": 34.9,
+    "b2": 35.5,
+    "b3": 36.1,
+    "b4": 36.7,
+    "punch": 37.6,
+    "end": 39.75,
+    "logo": 40.25,
+    "tag": 40.9,
+    "done": 43.75
+  },
+  "sfx": [
+    {
+      "at": "hook",
+      "type": "drop",
+      "gain": 0.6,
+      "what": "frame 0: chocolate pours over the bottle"
+    },
+    {
+      "at": "h_c2",
+      "type": "shutter",
+      "gain": 0.35,
+      "what": "cheesecake"
+    },
+    {
+      "at": "h_c3",
+      "type": "shutter",
+      "gain": 0.35,
+      "what": "cream piped"
+    },
+    {
+      "at": "wear_it",
+      "type": "pop",
+      "gain": 0.55,
+      "what": "'wear it.' highlight"
+    },
+    {
+      "at": "menu",
+      "type": "silk",
+      "gain": 0.45,
+      "what": "the menu card"
+    },
+    {
+      "at": "rows",
+      "type": "pop",
+      "gain": 0.4,
+      "what": "row 1"
+    },
+    {
+      "at": 7.25,
+      "type": "pop",
+      "gain": 0.4,
+      "what": "row 2"
+    },
+    {
+      "at": 7.5,
+      "type": "pop",
+      "gain": 0.4,
+      "what": "row 3"
+    },
+    {
+      "at": "i1",
+      "type": "click",
+      "gain": 0.5,
+      "what": "pick chocolate fondant"
+    },
+    {
+      "at": "a1",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "the thumbnail opens to full frame"
+    },
+    {
+      "at": "c1",
+      "type": "silk",
+      "gain": 0.5,
+      "what": "folds back into the menu"
+    },
+    {
+      "at": 16.5,
+      "type": "drop",
+      "gain": 0.5,
+      "what": "tasted \u2713"
+    },
+    {
+      "at": "i2",
+      "type": "click",
+      "gain": 0.5,
+      "what": "pick coconut crumble"
+    },
+    {
+      "at": "a2",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "opens"
+    },
+    {
+      "at": "c2",
+      "type": "silk",
+      "gain": 0.5,
+      "what": "folds back"
+    },
+    {
+      "at": 25.0,
+      "type": "drop",
+      "gain": 0.5,
+      "what": "tasted \u2713"
+    },
+    {
+      "at": "i3",
+      "type": "click",
+      "gain": 0.5,
+      "what": "pick strawberry cheesecake"
+    },
+    {
+      "at": "a3",
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "opens"
+    },
+    {
+      "at": "c3",
+      "type": "silk",
+      "gain": 0.5,
+      "what": "folds back"
+    },
+    {
+      "at": 33.5,
+      "type": "drop",
+      "gain": 0.5,
+      "what": "tasted \u2713"
+    },
+    {
+      "at": "bill",
+      "type": "whoosh",
+      "gain": 0.4,
+      "what": "the bill slides up"
+    },
+    {
+      "at": 34.9,
+      "to": 37.2,
+      "every": 0.125,
+      "type": "tick",
+      "gain": 0.22,
+      "what": "receipt printer"
+    },
+    {
+      "at": "punch",
+      "type": "pop",
+      "gain": 0.6,
+      "what": "no sharing required."
+    },
+    {
+      "at": "logo",
+      "type": "chime",
+      "gain": 0.4,
+      "what": "Typsy logo"
+    }
+  ]
+}

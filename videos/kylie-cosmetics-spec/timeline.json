@@ -1,0 +1,149 @@
+{
+  "note": "Single source of truth in BEATS on the guide track's grid (67.5 bpm, beat 0.8889 s, beat 0 = 0.02 s). Story: 8 am / 3 pm / 11 pm, one Mood Stone each. sync.mjs turns sfx into cues.json.",
+  "title": "Kylie Cosmetics \u00b7 Mood Stones \u2014 one of each, obviously (spec)",
+  "duration": 30.6,
+  "fps": 30,
+  "bpm": 67.5,
+  "formats": [
+    "9x16"
+  ],
+  "music": {
+    "source": "supplied",
+    "track": "Mixkit \u2014 \"Smooth Jazz\" #640 (Mixkit Stock Music Free License), 6.25\u201336.85 s, 1.2 s fade",
+    "sections": []
+  },
+  "voiceover": null,
+  "mix": {
+    "music": 0,
+    "sfx": -7
+  },
+  "marks": {
+    "hook": 0,
+    "h_8am": 0.75,
+    "h_11pm": 2.15,
+    "h_why": 3.75,
+    "a1": 6,
+    "a1_name": 6.5,
+    "a1_notes": 7,
+    "a1_out": 8.2,
+    "a1_open": 8.5,
+    "a1_soft": 9,
+    "a1_clean": 9.75,
+    "a1_rocks": 10.5,
+    "a1_palms": 12,
+    "a1_trio": 12.75,
+    "a1_close": 13.5,
+    "a2": 14,
+    "a2_name": 14.5,
+    "a2_notes": 15,
+    "a2_cut": 15.5,
+    "a2_out": 16.2,
+    "a2_open": 16.5,
+    "a2_kylie": 17,
+    "a2_flirty": 17.75,
+    "a2_rose": 18.5,
+    "a2_rocks": 19.5,
+    "a2_bottle": 20.75,
+    "a2_close": 21.5,
+    "a3": 22,
+    "a3_name": 22.5,
+    "a3_notes": 23,
+    "a3_cut": 23.5,
+    "a3_out": 24.2,
+    "a3_open": 24.5,
+    "a3_coffee": 25,
+    "a3_plum": 25.75,
+    "a3_close": 26.5,
+    "a3_line": 27,
+    "a3_tea": 28.5,
+    "end": 30,
+    "end_l1": 30.5,
+    "end_l2": 31.25,
+    "logo": 32.5,
+    "done": 34.4
+  },
+  "sfx": [
+    {
+      "at": "hook",
+      "type": "silk",
+      "gain": 0.45,
+      "what": "frame 0: the stone window settles, first line rises"
+    },
+    {
+      "at": "h_why",
+      "type": "silk",
+      "gain": 0.4,
+      "what": "cut to the stacked stones"
+    },
+    {
+      "at": "a1",
+      "type": "whoosh",
+      "gain": 0.45,
+      "what": "morning card rises from the bottom"
+    },
+    {
+      "at": 8.55,
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "stone window opens to full frame"
+    },
+    {
+      "at": "a1_close",
+      "type": "silk",
+      "gain": 0.5,
+      "what": "full frame folds back into a stone"
+    },
+    {
+      "at": "a2",
+      "to": 14.62,
+      "every": 0.0625,
+      "type": "tick",
+      "gain": 0.26,
+      "what": "clock rolls 8 am \u2192 3 pm"
+    },
+    {
+      "at": 16.55,
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "window opens"
+    },
+    {
+      "at": "a2_close",
+      "type": "silk",
+      "gain": 0.5,
+      "what": "folds back"
+    },
+    {
+      "at": "a3",
+      "to": 22.62,
+      "every": 0.0625,
+      "type": "tick",
+      "gain": 0.26,
+      "what": "clock rolls 3 pm \u2192 11 pm"
+    },
+    {
+      "at": 24.55,
+      "type": "whoosh",
+      "gain": 0.5,
+      "what": "window opens"
+    },
+    {
+      "at": "a3_close",
+      "type": "silk",
+      "gain": 0.5,
+      "what": "folds back onto Kylie"
+    },
+    {
+      "at": "end",
+      "type": "whoosh",
+      "gain": 0.45,
+      "what": "morning again: card rises, one stone becomes three"
+    },
+    {
+      "at": "logo",
+      "type": "chime",
+      "gain": 0.4,
+      "what": "Kylie Cosmetics wordmark lands"
+    }
+  ]
+}

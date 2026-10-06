@@ -1,0 +1,127 @@
+{
+  "note": "Single source of truth in BEATS on the guide track's grid (70 bpm, beat 0.8572 s, beat 0 = 0.03 s). Story: you don't have to do it all today \u2192 just a little \u2192 one dot (okay, two) \u2192 a little goes a long way \u2192 made to feel good in \u2192 on the heavy days, find comfort \u2192 breathe \u2192 be gentle with yourself.",
+  "title": "Rare Beauty \u00b7 Soft Pinch + Find Comfort \u2014 just a little (spec)",
+  "duration": 26.2,
+  "fps": 30,
+  "bpm": 70,
+  "formats": [
+    "9x16"
+  ],
+  "music": {
+    "source": "supplied",
+    "track": "Mixkit \u2014 \"Thinking About You\" #234 (Mixkit Stock Music Free License), 24.84\u201351.44 s, 1.2 s fade",
+    "sections": []
+  },
+  "voiceover": null,
+  "mix": {
+    "music": 0,
+    "sfx": -7
+  },
+  "marks": {
+    "hook": 0,
+    "h_2": 0.6,
+    "h_3": 1.25,
+    "little": 3.5,
+    "dot": 5,
+    "one": 5.35,
+    "two": 6.42,
+    "blend": 7.5,
+    "glow": 9.6,
+    "grid": 10.75,
+    "grid_txt": 11.5,
+    "name": 12.5,
+    "gather": 15,
+    "heavy": 15,
+    "comfort": 17.5,
+    "breathe": 19.5,
+    "out": 21.5,
+    "selena": 23.5,
+    "gentle": 24,
+    "end": 27,
+    "logo": 27.5,
+    "end_l": 28.5,
+    "done": 30.5
+  },
+  "sfx": [
+    {
+      "at": "hook",
+      "type": "silk",
+      "gain": 0.45,
+      "what": "frame 0: the circle settles, the reminder rises"
+    },
+    {
+      "at": "little",
+      "type": "silk",
+      "gain": 0.4,
+      "what": "the circle shrinks; 'just a little.'"
+    },
+    {
+      "at": 4.45,
+      "type": "drop",
+      "gain": 0.7,
+      "what": "the full stop lands as a berry dot"
+    },
+    {
+      "at": "dot",
+      "type": "whoosh",
+      "gain": 0.45,
+      "what": "the dot opens to the full frame"
+    },
+    {
+      "at": "two",
+      "type": "pop",
+      "gain": 0.45,
+      "what": "\u2026okay, two."
+    },
+    {
+      "at": "blend",
+      "type": "silk",
+      "gain": 0.4,
+      "what": "cut to the blend"
+    },
+    {
+      "at": "glow",
+      "type": "shimmer",
+      "gain": 0.35,
+      "what": "the finished cheek"
+    },
+    {
+      "at": 10.75,
+      "to": 12.0,
+      "every": 0.25,
+      "type": "drop",
+      "gain": 0.4,
+      "what": "six faces dab into the grid"
+    },
+    {
+      "at": "gather",
+      "type": "silk",
+      "gain": 0.5,
+      "what": "six dots gather into one"
+    },
+    {
+      "at": "comfort",
+      "type": "chime",
+      "gain": 0.3,
+      "what": "find comfort."
+    },
+    {
+      "at": "selena",
+      "type": "whoosh",
+      "gain": 0.4,
+      "what": "the breathing circle opens onto Selena"
+    },
+    {
+      "at": "end",
+      "type": "silk",
+      "gain": 0.45,
+      "what": "the frame folds into the end card"
+    },
+    {
+      "at": "logo",
+      "type": "chime",
+      "gain": 0.4,
+      "what": "Rare Beauty wordmark"
+    }
+  ]
+}

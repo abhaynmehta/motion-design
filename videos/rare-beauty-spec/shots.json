@@ -1,0 +1,138 @@
+{
+ "note": "In/out points in source seconds (cuts from ffmpeg scene detection). full = 9:16 crop; square = circle windows; crop = the clean lower half of the Find Comfort ritual film (its top half carries burned-in captions).",
+ "films": {
+  "lb": "source/liquid-blush-brow-gel-duo_42f786.mp4",
+  "ct": "source/liquid-contour-blush-luminizer-cus_f41eba.mp4",
+  "fc": "source/find-comfort-body-hair-fragrance-m_2f3a57.mp4"
+ },
+ "shots": {
+  "sel_hold": {
+   "film": "lb",
+   "in": 0.05,
+   "out": 1.35,
+   "mode": "full",
+   "fx": 0.42
+  },
+  "sel_dot": {
+   "film": "lb",
+   "in": 1.4,
+   "out": 2.02,
+   "mode": "square",
+   "fy": 0.42,
+   "size": 760
+  },
+  "sel_smile": {
+   "film": "lb",
+   "in": 3.78,
+   "out": 4.98,
+   "mode": "full",
+   "fx": 0.5
+  },
+  "ct_dot": {
+   "film": "ct",
+   "in": 0.98,
+   "out": 2.11,
+   "mode": "full"
+  },
+  "ct_blend": {
+   "film": "ct",
+   "in": 7.52,
+   "out": 10.78,
+   "mode": "full"
+  },
+  "ct_glow": {
+   "film": "ct",
+   "in": 14.1,
+   "out": 15.2,
+   "mode": "full"
+  },
+  "m1": {
+   "film": "lb",
+   "in": 5.02,
+   "out": 5.57,
+   "mode": "square",
+   "fy": 0.4,
+   "size": 540
+  },
+  "m2": {
+   "film": "lb",
+   "in": 5.61,
+   "out": 6.07,
+   "mode": "square",
+   "fy": 0.4,
+   "size": 540
+  },
+  "m3": {
+   "film": "lb",
+   "in": 6.11,
+   "out": 6.61,
+   "mode": "square",
+   "fy": 0.4,
+   "size": 540
+  },
+  "m4": {
+   "film": "lb",
+   "in": 6.65,
+   "out": 7.27,
+   "mode": "square",
+   "fy": 0.4,
+   "size": 540
+  },
+  "m5": {
+   "film": "lb",
+   "in": 7.32,
+   "out": 7.86,
+   "mode": "square",
+   "fy": 0.4,
+   "size": 540
+  },
+  "m6": {
+   "film": "lb",
+   "in": 7.9,
+   "out": 8.45,
+   "mode": "square",
+   "fy": 0.4,
+   "size": 540
+  },
+  "m7": {
+   "film": "lb",
+   "in": 8.49,
+   "out": 9.05,
+   "mode": "square",
+   "fy": 0.4,
+   "size": 540
+  },
+  "fc_spray": {
+   "film": "fc",
+   "in": 2.4,
+   "out": 5.4,
+   "mode": "crop",
+   "box": [
+    0,
+    0.5,
+    1,
+    0.5
+   ],
+   "outsize": [
+    900,
+    900
+   ]
+  },
+  "fc_breathe": {
+   "film": "fc",
+   "in": 11.9,
+   "out": 16.2,
+   "mode": "crop",
+   "box": [
+    0,
+    0.5,
+    1,
+    0.5
+   ],
+   "outsize": [
+    900,
+    900
+   ]
+  }
+ }
+}

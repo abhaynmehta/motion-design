@@ -1,0 +1,1517 @@
+{
+  "url": "https://typsybeauty.com/",
+  "title": "Typsy Beauty – Innovative, High-Performance & Seriously Fun Makeup",
+  "description": "Typsy Beauty makes vegan, multifunctional makeup formulated for Indian skin tones — lip balms, lipstick, foundation and more. Shop now, free shipping.",
+  "font_families_by_use": [
+    [
+      "Poppins, sans-serif",
+      1398
+    ],
+    [
+      "Assistant, sans-serif",
+      794
+    ],
+    [
+      "Poppins, system-ui, sans-serif",
+      24
+    ],
+    [
+      "Neuton, serif",
+      15
+    ],
+    [
+      "\"DM Sans\", -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      5
+    ],
+    [
+      "Arial",
+      3
+    ],
+    [
+      "Helvetica",
+      1
+    ]
+  ],
+  "font_faces": [
+    {
+      "family": "JudgemeStar",
+      "weight": "normal",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAScAA0AAAAABrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAEgAAAABoAAAAcbyQ+3kdERUYAAARgAAAAHgAAACAAMwAGT1MvMgAAAZgAAABGAAAAVi+vS9xjbWFwAAAB8AAAAEAAAAFKwBMjvmdhc3AAAARYAAAACAAAAAj//wADZ2x5ZgAAAkAAAAEJAAABdH33LXtoZWFkAAABMAAAAC0AAAA2BroQKWhoZWEAAAFgAAAAHAAAACQD5QHQaG10eAAAAeAAAAAPAAAAFAYAAABsb2NhAAACMAAAAA4AAAAOAO4AeG1heHAAAAF8AAAAHAAAACAASgAvbmFtZQAAA0wAAADeAAABkorWfVZwb3N0AAAELAAAACkAAABEp3ubLXgBY2BkYADhPPP4OfH8Nl8ZuJkYQODS2fRrCPr/aSYGxq1ALgcDWBoAO60LkwAAAHgBY2BkYGDc+v80gx4TAwgASaAICmABAFB+Arl4AWNgZGBgYGPQYWBiAAIwyQgWc2AAAwAHVQB6eAFjYGRiYJzAwMrAwejDmMbAwOAOpb8ySDK0MDAwMbByMsCBAAMCBKS5pjA4PGB4wMR44P8BBj3GrQymQGFGkBwAjtgK/gAAeAFjYoAAEA1jAwAAZAAHAHgB3crBCcAwDEPRZydkih567CDdf4ZskmLwFBV8xBfCaC4BXkOUmx4sU0h2ngNb9V0vQCxaRKIAevT7fGWuBrEAAAAAAAAAAAA0AHgAugAAeAF9z79Kw1AUx/FzTm7un6QmJtwmQ5Bg1abgEGr/BAqlU6Gju+Cgg1MkQ/sA7Vj7BOnmO/gUvo2Lo14NqIO6/IazfD8HEODtmQCfoANwNsyp2/GJt3WKQrd1NLiYYWx2PBqOsmJMEOznPOTzfSCrhAtbbLdmeFLJV9eKd63WLrZcIcuaEVdssWCKM6pLCfTVOYbz/0pNSMSZKLIZpvh78sAUH6PlMrreTCabP9r+Z/puPZ2ur/RqpQHgh+MIegCnXeM4MRAPjYN//5tj4ZtTjkFqEdmeMShlEJ7tVAly2TAkx6R68Fl4E/aVvn8JqHFQ4JS1434gXKcuL31dDhzs3YbsEOAd/IU88gAAAHgBfY4xTgMxEEVfkk0AgRCioKFxQYd2ZRtpixxgRU2RfhU5q5VWseQ4JdfgAJyBlmNwAM7ABRhZQ0ORwp7nr+eZAa54YwYg9zm3ynPOeFRe8MCrciXOh/KSS76UV5L/iDmrLiS5AeU519wrL3jmSbkS5115yR2fyivJv9kx0ZMZ2RLZw27q87iNQi8EBo5FSPIMw3HqBboi5lKTGAGDp8FKXWP+t9TU01Lj5His1Ba6uM9dTEMwvrFmbf5GC/q2drW3ruXUhhsCiQOjznFlCzYhHUZp4xp76vsvQh89CQAAeAFjYGJABowM6IANLMrEyMTIzMjCXpyRWJBqZshWXJJYBKOMAFHFBucAAAAAAAAB//8AAngBY2BkYGDgA2IJBhBgAvKZGViBJAuYxwAABJsAOgAAeAFjYGBgZACCk535hiD60tn0azAaAEqpB6wAAA=="
+      ]
+    },
+    {
+      "family": "Circular Std",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "Circular Std",
+      "weight": "500",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "Circular Std",
+      "weight": "700",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "Circular Std",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "Circular Std",
+      "weight": "500",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "Circular Std",
+      "weight": "700",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    }
+  ],
+  "text_colors": [
+    [
+      "rgb(0, 0, 0)",
+      995
+    ],
+    [
+      "rgb(0, 0, 238)",
+      307
+    ],
+    [
+      "rgb(255, 255, 255)",
+      253
+    ],
+    [
+      "rgba(18, 18, 18, 0.75)",
+      146
+    ],
+    [
+      "rgb(18, 18, 18)",
+      143
+    ],
+    [
+      "rgb(90, 3, 75)",
+      119
+    ],
+    [
+      "rgba(18, 18, 18, 0.7)",
+      85
+    ],
+    [
+      "rgb(103, 27, 93)",
+      77
+    ],
+    [
+      "rgb(226, 66, 152)",
+      41
+    ],
+    [
+      "rgb(20, 87, 47)",
+      25
+    ],
+    [
+      "rgb(14, 122, 61)",
+      25
+    ],
+    [
+      "rgb(61, 15, 53)",
+      7
+    ],
+    [
+      "rgb(255, 196, 216)",
+      4
+    ],
+    [
+      "rgb(154, 90, 134)",
+      3
+    ],
+    [
+      "rgb(117, 6, 49)",
+      3
+    ],
+    [
+      "rgba(90, 3, 75, 0.65)",
+      2
+    ],
+    [
+      "rgb(123, 74, 110)",
+      2
+    ],
+    [
+      "rgb(52, 64, 84)",
+      1
+    ],
+    [
+      "rgb(255, 249, 254)",
+      1
+    ],
+    [
+      "rgb(102, 102, 102)",
+      1
+    ]
+  ],
+  "bg_colors": [
+    [
+      "rgb(255, 255, 255)",
+      327
+    ],
+    [
+      "rgb(226, 66, 152)",
+      172
+    ],
+    [
+      "rgb(243, 243, 243)",
+      85
+    ],
+    [
+      "rgb(0, 0, 0)",
+      79
+    ],
+    [
+      "rgb(208, 162, 255)",
+      35
+    ],
+    [
+      "rgb(233, 247, 239)",
+      25
+    ],
+    [
+      "rgb(36, 40, 51)",
+      19
+    ],
+    [
+      "rgb(251, 234, 227)",
+      18
+    ],
+    [
+      "rgb(253, 199, 207)",
+      6
+    ],
+    [
+      "rgb(90, 3, 75)",
+      4
+    ],
+    [
+      "rgb(254, 214, 214)",
+      3
+    ],
+    [
+      "rgb(255, 216, 216)",
+      3
+    ],
+    [
+      "rgb(255, 209, 209)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.5)",
+      2
+    ],
+    [
+      "rgba(202, 202, 202, 0.19)",
+      2
+    ],
+    [
+      "rgb(18, 18, 18)",
+      1
+    ],
+    [
+      "rgb(254, 77, 133)",
+      1
+    ],
+    [
+      "rgb(243, 196, 207)",
+      1
+    ],
+    [
+      "rgb(235, 205, 184)",
+      1
+    ],
+    [
+      "rgb(217, 184, 148)",
+      1
+    ]
+  ],
+  "css_vars": {
+    "--color-background": "255,255,255",
+    "--gradient-background": "#ffffff",
+    "--color-foreground": "18,18,18",
+    "--color-background-contrast": "191,191,191",
+    "--color-shadow": "18,18,18",
+    "--color-button": "18,18,18",
+    "--color-button-text": "255,255,255",
+    "--color-secondary-button": "255,255,255",
+    "--color-secondary-button-text": "18,18,18",
+    "--color-link": "18,18,18",
+    "--color-badge-foreground": "18,18,18",
+    "--color-badge-background": "255,255,255",
+    "--color-badge-border": "18,18,18",
+    "--payment-terms-background-color": "rgb(255 255 255)",
+    "--font-body-family": "Assistant, sans-serif",
+    "--font-body-style": "normal",
+    "--font-body-weight": "400",
+    "--font-body-weight-bold": "700",
+    "--font-heading-family": "Assistant, sans-serif",
+    "--font-heading-style": "normal",
+    "--font-heading-weight": "400",
+    "--font-body-scale": "1.0",
+    "--font-heading-scale": "1.0",
+    "--media-padding": "px",
+    "--media-border-opacity": "0.05",
+    "--media-border-width": "1px",
+    "--media-radius": "0px",
+    "--media-shadow-opacity": "0.0",
+    "--media-shadow-horizontal-offset": "0px",
+    "--media-shadow-vertical-offset": "4px",
+    "--media-shadow-blur-radius": "5px",
+    "--media-shadow-visible": "0",
+    "--page-width": "120rem",
+    "--page-width-margin": "0rem",
+    "--product-card-image-padding": "0.0rem",
+    "--product-card-corner-radius": "0.0rem",
+    "--product-card-text-alignment": "left",
+    "--product-card-border-width": "0.0rem",
+    "--product-card-border-opacity": "0.1",
+    "--product-card-shadow-opacity": "0.0",
+    "--product-card-shadow-visible": "0",
+    "--product-card-shadow-horizontal-offset": "0.0rem",
+    "--product-card-shadow-vertical-offset": "0.4rem",
+    "--product-card-shadow-blur-radius": "0.5rem",
+    "--collection-card-image-padding": "0.0rem",
+    "--collection-card-corner-radius": "0.0rem",
+    "--collection-card-text-alignment": "left",
+    "--collection-card-border-width": "0.0rem",
+    "--collection-card-border-opacity": "0.1",
+    "--collection-card-shadow-opacity": "0.0",
+    "--collection-card-shadow-visible": "0",
+    "--collection-card-shadow-horizontal-offset": "0.0rem",
+    "--collection-card-shadow-vertical-offset": "0.4rem",
+    "--collection-card-shadow-blur-radius": "0.5rem",
+    "--blog-card-image-padding": "0.0rem",
+    "--blog-card-corner-radius": "0.0rem",
+    "--blog-card-text-alignment": "left",
+    "--blog-card-border-width": "0.0rem",
+    "--blog-card-border-opacity": "0.1",
+    "--blog-card-shadow-opacity": "0.0",
+    "--blog-card-shadow-visible": "0",
+    "--blog-card-shadow-horizontal-offset": "0.0rem",
+    "--blog-card-shadow-vertical-offset": "0.4rem",
+    "--blog-card-shadow-blur-radius": "0.5rem",
+    "--badge-corner-radius": "4.0rem",
+    "--popup-border-width": "1px",
+    "--popup-border-opacity": "0.1",
+    "--popup-corner-radius": "0px",
+    "--popup-shadow-opacity": "0.05",
+    "--popup-shadow-horizontal-offset": "0px",
+    "--popup-shadow-vertical-offset": "4px",
+    "--popup-shadow-blur-radius": "5px",
+    "--drawer-border-width": "1px",
+    "--drawer-border-opacity": "0.1",
+    "--drawer-shadow-opacity": "0.0",
+    "--drawer-shadow-horizontal-offset": "0px",
+    "--drawer-shadow-vertical-offset": "4px",
+    "--drawer-shadow-blur-radius": "5px",
+    "--spacing-sections-desktop": "0px",
+    "--spacing-sections-mobile": "0px",
+    "--grid-desktop-vertical-spacing": "8px",
+    "--grid-desktop-horizontal-spacing": "8px",
+    "--grid-mobile-vertical-spacing": "4px",
+    "--grid-mobile-horizontal-spacing": "4px",
+    "--text-boxes-border-opacity": "0.1",
+    "--text-boxes-border-width": "0px",
+    "--text-boxes-radius": "0px",
+    "--text-boxes-shadow-opacity": "0.0",
+    "--text-boxes-shadow-visible": "0",
+    "--text-boxes-shadow-horizontal-offset": "0px",
+    "--text-boxes-shadow-vertical-offset": "4px",
+    "--text-boxes-shadow-blur-radius": "5px",
+    "--buttons-radius": "0px",
+    "--buttons-radius-outset": "0px",
+    "--buttons-border-width": "1px",
+    "--buttons-border-opacity": "1.0",
+    "--buttons-shadow-opacity": "0.0",
+    "--buttons-shadow-visible": "0",
+    "--buttons-shadow-horizontal-offset": "0px",
+    "--buttons-shadow-vertical-offset": "4px",
+    "--buttons-shadow-blur-radius": "5px",
+    "--buttons-border-offset": "0px",
+    "--inputs-radius": "0px",
+    "--inputs-border-width": "1px",
+    "--inputs-border-opacity": "0.55",
+    "--inputs-shadow-opacity": "0.0",
+    "--inputs-shadow-horizontal-offset": "0px",
+    "--inputs-margin-offset": "0px",
+    "--inputs-shadow-vertical-offset": "4px",
+    "--inputs-shadow-blur-radius": "5px",
+    "--inputs-radius-outset": "0px",
+    "--variant-pills-radius": "40px",
+    "--variant-pills-border-width": "1px",
+    "--variant-pills-border-opacity": "0.55",
+    "--variant-pills-shadow-opacity": "0.0",
+    "--variant-pills-shadow-horizontal-offset": "0px",
+    "--variant-pills-shadow-vertical-offset": "4px",
+    "--variant-pills-shadow-blur-radius": "5px",
+    "--alpha-button-background": "1",
+    "--alpha-button-border": "1",
+    "--alpha-link": ".85",
+    "--alpha-badge-border": ".1",
+    "--duration-short": ".1s",
+    "--duration-default": ".2s",
+    "--duration-announcement-bar": ".25s",
+    "--duration-medium": ".3s",
+    "--duration-long": ".5s",
+    "--duration-extra-long": ".6s",
+    "--duration-extended": "3s",
+    "--ease-out-slow": "cubic-bezier(0, 0, .3, 1)",
+    "--animation-slide-in": "slideIn var(--duration-extra-long) var(--ease-out-slow) forwards",
+    "--animation-fade-in": "fadeIn var(--duration-extra-long) var(--ease-out-slow)",
+    "--jdgm-primary-color": "#E24298",
+    "--jdgm-secondary-color": "rgba(226,66,152,0.1)",
+    "--jdgm-star-color": "#E24298",
+    "--jdgm-write-review-text-color": "white",
+    "--jdgm-write-review-bg-color": "#E24298",
+    "--jdgm-paginate-color": "#E24298",
+    "--jdgm-border-radius": "10",
+    "--jdgm-reviewer-name-color": "#E24298",
+    "--yt-base-color": "#ddd",
+    "--yt-shine-color": "#e8e8e8",
+    "--yt-animation-duration": "1.6s",
+    "--yt-cart-skeleton-loader-media-offset": "68px",
+    "--font-primary": "'Poppins', sans-serif",
+    "--font-secondary": "'Urbanist', sans-serif",
+    "--font-tertiary": "'Inter', sans-serif",
+    "--font-alt": "'Sansation', sans-serif",
+    "--font-brand": "sans-serif",
+    "--yt-rwmd-backdrop": "rgba(0, 0, 0, 0.55)",
+    "--yt-rwmd-surface": "#ffffff",
+    "--yt-rwmd-ink": "#141414",
+    "--yt-rwmd-muted": "#6c6c6c",
+    "--yt-rwmd-cta-bg": "#b85552",
+    "--yt-rwmd-cta-ink": "#ffffff",
+    "--yt-rwmd-band-left": "#2b252a",
+    "--yt-rwmd-band-right": "#c04d47",
+    "--otp-ink": "#1a1a1a",
+    "--otp-muted": "#6d6d6d",
+    "--otp-border": "#ececec",
+    "--otp-accent": "#b85552",
+    "--yt-rw-backdrop": "rgba(0, 0, 0, 0.55)",
+    "--purple": "#4f486a",
+    "--ink": "#111",
+    "--muted": "#5b5b5b",
+    "--border": "#e1e1e1",
+    "--cta-bg": "#efecf7",
+    "--card-bg": "#fff",
+    "--gpp-cta-bg": "#b52a58",
+    "--gpp-cta-text": "#ffffff",
+    "--gpp-close-color": "#ffffff",
+    "--gpp-radius": "12px"
+  },
+  "headings": [
+    "A: Skip to content  [Assistant, sans-serif 15px 400 ls 1px rgb(255, 255, 255)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: Flat 450 Off Above 1999 | Flat 250 Off Above 1399  [Assistant, sans-serif 24px 400 ls 2px rgba(18, 18, 18, 0.75)]",
+    "LI: BESTSELLERS  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: BESTSELLERS  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "A: foundcealer flex3 in 1 base ( foundation + concealer + spf)  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "H2: foundcealer flex3 in 1 base ( foundation + concealer + spf)  [Poppins, sans-serif 12px 400 ls 0.6px rgb(0, 0, 0)]",
+    "A: vanilla matcha mousseeau de parfum · 50 ml  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "H2: vanilla matcha mousseeau de parfum · 50 ml  [Poppins, sans-serif 12px 400 ls 0.6px rgb(0, 0, 0)]",
+    "A: blended blonzerblush + bronzer  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "H2: blended blonzerblush + bronzer  [Poppins, sans-serif 12px 400 ls 0.6px rgb(0, 0, 0)]",
+    "A: power pout duo - kit of 2matte blur balm + glossy peptide balm  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "H2: power pout duo - kit of 2matte blur balm + glossy peptide balm  [Poppins, sans-serif 12px 400 ls 0.6px rgb(0, 0, 0)]",
+    "A: pout polish lip treatment balm bundlepeptide + collagen  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "H2: pout polish lip treatment balm bundlepeptide + collagen  [Poppins, sans-serif 12px 400 ls 0.6px rgb(0, 0, 0)]",
+    "LI: SHOP ALL  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: SHOP ALL  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "A: LIPS  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Lipstick  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Lipstick  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Lip Gloss  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Lip Gloss  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Lipstick with Lip Liner  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Lipstick with Lip Liner  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Lip Oil  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Lip Oil  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Shop All  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Shop All  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "A: EYES  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Eyebrow Pencil  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Eyebrow Pencil  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Eyeliner  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Eyeliner  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Eye Shadow  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Eye Shadow  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: False Eyelashes  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: False Eyelashes  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Mascara  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Mascara  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Shop All  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Shop All  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "A: FACE  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Blush  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Blush  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Concealer  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Concealer  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Sheet Mask  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Sheet Mask  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Highlighter  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Highlighter  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Shop All  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Shop All  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: FRAGRANCE  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: FRAGRANCE  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: ACCESSORIES |                |                |              |  |             Blender |               Highlighter Brush |               Nailpaint |               Shop All  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: ACCESSORIES  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Blender  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Blender  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Highlighter Brush  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Highlighter Brush  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Nailpaint  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Nailpaint  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Shop All  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Shop All  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: COMBOS |                |                |              |  |             Gifting |               Value Sets  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: COMBOS  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Gifting  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Gifting  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Value Sets  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Value Sets  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: ABOUT US  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: ABOUT US  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: CONTACT US  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: CONTACT US  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: BLOG  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: BLOG  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: TRACK YOUR ORDER  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: TRACK YOUR ORDER  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: LOGIN / REGISTER  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: LOGIN / REGISTER  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]",
+    "LI: Eyes  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Eyes  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 0)]",
+    "LI: Face  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Face  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 0)]",
+    "LI: Lips  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Lips  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 0)]",
+    "LI: Value Sets  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Value Sets  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 0)]",
+    "LI: Gifting  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Gifting  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 0)]",
+    "LI: Accessories  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Accessories  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 0)]",
+    "LI: Fragrance  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "LI: Typsy Times  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Typsy Times  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 0)]",
+    "LI: Track Your Order  [Assistant, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "A: Track Your Order  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 0)]",
+    "A: Order History  [Assistant, sans-serif 16px 400 ls 0.6px rgb(255, 255, 255)]",
+    "P: Order History  [Assistant, sans-serif 14px 500 ls 0.6px rgb(0, 0, 0)]",
+    "BUTTON: Logout  [Arial 14px 600 ls normal rgb(52, 64, 84)]",
+    "A: Cart  [Assistant, sans-serif 14px 400 ls 0.6px rgb(18, 18, 18)]",
+    "BUTTON: Close  [Poppins, system-ui, sans-serif 11px 600 ls 0.88px rgba(90, 3, 75, 0.65)]",
+    "BUTTON: Clear  [Arial 11px 400 ls normal rgba(90, 3, 75, 0.65)]",
+    "LI: foundcealer flex  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: foundcealer flex  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: juicy glossy lips  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: juicy glossy lips  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: long-lasting perfumes  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: long-lasting perfumes  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: matte lip balm  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: matte lip balm  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: peptide lip care  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: peptide lip care  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: Perfect Foundation  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: Perfect Foundation  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: dry lip rescue  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: dry lip rescue  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: long lasting lipstick  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: long lasting lipstick  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: kajal that doesn't smudge  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: kajal that doesn't smudge  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: colour for pigmented lips  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: colour for pigmented lips  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: office makeup  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: office makeup  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: date night lips  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: date night lips  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: gifts under ₹999  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: gifts under ₹999  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: shaadi season ready  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: shaadi season ready  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: lip combos  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: lip combos  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: mini makeup  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: mini makeup  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: value sets  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: value sets  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "LI: bestsellers  [Poppins, system-ui, sans-serif 16px 400 ls 0.6px rgba(18, 18, 18, 0.75)]",
+    "BUTTON: bestsellers  [Poppins, system-ui, sans-serif 13px 500 ls normal rgb(90, 3, 75)]",
+    "A: Pout  [Assistant, sans-serif 16px 400 ls 0.6px rgb(0, 0, 238)]"
+  ],
+  "images": [
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/icon.png?v=1723613800",
+      "alt": "hamburger",
+      "w": 36,
+      "h": 24
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_12.png?v=1723615419",
+      "alt": "close",
+      "w": 11,
+      "h": 11
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_7.png?v=1722603274",
+      "alt": "alt",
+      "w": 8,
+      "h": 6
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/PDPCOVERFOUNDCEALERFLEX-01_150x.jpg?v=1786953612",
+      "alt": "",
+      "w": 150,
+      "h": 150
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/1st_d4847553-266f-44fd-99aa-f7991e1234ee_150x.jpg?v=1779790037",
+      "alt": "",
+      "w": 150,
+      "h": 150
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/MM_150x.jpg?v=1758113076",
+      "alt": "",
+      "w": 150,
+      "h": 150
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Pout_Cloud_peptide_Lip_balm_Combo_150x.jpg?v=1763462015",
+      "alt": "",
+      "w": 150,
+      "h": 150
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/pp-bundle-grazia-hero-2026_150x.jpg?v=1790073967",
+      "alt": "",
+      "w": 150,
+      "h": 150
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_7.png?v=1722603274",
+      "alt": "",
+      "w": 8,
+      "h": 6
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_7.png?v=1722603274",
+      "alt": "",
+      "w": 8,
+      "h": 6
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_7.png?v=1722603274",
+      "alt": "",
+      "w": 8,
+      "h": 6
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_7.png?v=1722603274",
+      "alt": "",
+      "w": 8,
+      "h": 6
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_7.png?v=1722603274",
+      "alt": "",
+      "w": 8,
+      "h": 6
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/new-logo-pink-st.png?v=1764591713&width=400",
+      "alt": "",
+      "w": 1600,
+      "h": 344
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_POUT_bubble.jpg?crop=center&height=240&v=1790956788&width=240",
+      "alt": "Pout",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_lipsticks.jpg?crop=center&height=240&v=1790957215&width=240",
+      "alt": "Lipsticks",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_gloss.jpg?crop=center&height=240&v=1790957216&width=240",
+      "alt": "Gloss & Balms",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_combos.jpg?crop=center&height=240&v=1790957218&width=240",
+      "alt": "Combos",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_face.jpg?crop=center&height=240&v=1790957220&width=240",
+      "alt": "Face",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_eyes.jpg?crop=center&height=240&v=1790957221&width=240",
+      "alt": "Eyes",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_spritz.jpg?crop=center&height=240&v=1790957223&width=240",
+      "alt": "Spritz",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_new.jpg?crop=center&height=240&v=1790957224&width=240",
+      "alt": "New",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_9_c8c2e648-10d1-4608-8693-02636d69c7ec.png?v=1730886836",
+      "alt": "",
+      "w": 19,
+      "h": 30
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/POUT_EXT_BANNER-01_1600x.jpg?v=1789645779",
+      "alt": "Typsy Beauty",
+      "w": 4,
+      "h": 1
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/POWER_DUO_BANNER-01_1600x.jpg?v=1773208878",
+      "alt": "Typsy Beauty",
+      "w": 4,
+      "h": 1
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/new_PC_Desktop-Banners_1600x.jpg?v=1764218911",
+      "alt": "Typsy Beauty",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_9_c8c2e648-10d1-4608-8693-02636d69c7ec.png?v=1730886836",
+      "alt": "",
+      "w": 19,
+      "h": 30
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector.png?v=1723102849",
+      "alt": "",
+      "w": 10,
+      "h": 16
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/pp-bundle-grazia-hero-2026.jpg?v=1790073967&width=360",
+      "alt": "Pout Polish Lip Treatment Balm Bundle",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Pout_Cloud_Kit_of_2_combo_1.jpg?v=1766646100&width=360",
+      "alt": "Pout Cloud Duo",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/M_C.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/CW.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/SC_bdb06d98-1df9-4e36-aac5-51b81a10e266.jpg?v=1770906679&width=360",
+      "alt": "Strawberry Cheesecake",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Strawberry_8871eddc-5a54-4580-8b09-2afc954d66af.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Chocolate_7cf59b61-8e87-4ce4-9534-20c79d0d00d4.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/M-C.jpg?v=1778501583&width=360",
+      "alt": "Milk-Cookies",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/M_C.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/CW.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Pout_Cloud_peptide_Lip_balm_Combo.jpg?v=1763462015&width=360",
+      "alt": "Power Pout Duo - Kit of 2",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Static-1_6.jpg?v=1764328485&width=360",
+      "alt": "Color & Care Duo",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Peptide_Silk_Cushion.jpg?v=1746426810&width=360",
+      "alt": "Silk Cushion Blush + Lip Treatment Balm",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Violet_Veil.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/1_0770cc74-7e39-49a8-9186-4f88a27f749f.jpg?v=1734600536&width=360",
+      "alt": "Pout Polish Lip Treatment + Happy Hour Mini Lippies Combo",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Strawberry_8871eddc-5a54-4580-8b09-2afc954d66af.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Strawberry_8871eddc-5a54-4580-8b09-2afc954d66af.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Peptide_-08.jpg?v=1746434716&width=360",
+      "alt": "Lip Treatment Balm + Double Shot Kajal + Eyeliner",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Strawberry_8871eddc-5a54-4580-8b09-2afc954d66af.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Raspberry_5a2df4a8-796a-4aa8-b98d-d8ed16807062.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/BLURBUBU_PDP_IMAGE-14.jpg?v=1768385126&width=360",
+      "alt": "Pout Cloud Collector’s Set",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/M_C.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/CW.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/POUT_POLISH_AND_BLURBUBU_AD_JUNE_26-08_jpg.jpg?v=1781881171&width=360",
+      "alt": "Pout Polish Collector's Set",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/M-C.jpg?v=1778501583&width=360",
+      "alt": "Milk-Cookies",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/CW_70fa9e62-0582-4c50-997b-5a2921df530d.jpg?v=1778501583&width=360",
+      "alt": "Cherry-Whip",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/IL.jpg?v=1778501583&width=360",
+      "alt": "Iced-Cafe-Latte",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/PP_3e2bbe2b-e626-4b34-8238-5ac71cc9f016.jpg?v=1778501584&width=360",
+      "alt": "Peach-Parfait",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/MM_eba313a3-6a16-4d81-9c29-41c388fd9567.jpg?v=1778501583&width=360",
+      "alt": "Mulberry-Mochi",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/SS_5b4974ae-d5cd-4def-999c-34571a653506.jpg?v=1778501583&width=360",
+      "alt": "Strawberry-Souffle",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+      "alt": "",
+      "w": 96,
+      "h": 96
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+      "alt": "",
+      "w": 19,
+      "h": 19
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/CF-Kajal.jpg?v=1787563669&width=360",
+      "alt": "CF",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Strawberry_8871eddc-5a54-4580-8b09-2afc954d66af.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Raspberry_5a2df4a8-796a-4aa8-b98d-d8ed16807062.jpg?width=28",
+      "alt": "",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_1.png?v=1723102848",
+      "alt": "",
+      "w": 10,
+      "h": 16
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/web_banner_pc-pp-05.jpg?v=1764245501&width=1600",
+      "alt": "",
+      "w": 1600,
+      "h": 533
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_POUT_PC_why.jpg?v=1790953238&width=720",
+      "alt": "",
+      "w": 420,
+      "h": 420
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_POUT_PP_why.jpg?v=1790953256&width=720",
+      "alt": "",
+      "w": 420,
+      "h": 420
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_POUT_PC_cooling_tip.jpg?v=1790953240&width=720",
+      "alt": "",
+      "w": 420,
+      "h": 420
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HOME_POUT_quiz_editorial.jpg?v=1790955285&width=1200",
+      "alt": "Find your Pout shade",
+      "w": 720,
+      "h": 1080
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/ChatGPT_Image_Jun_3__2026__05_19_38_PM-removebg-preview_150x.png?v=1780487441",
+      "alt": "",
+      "w": 150,
+      "h": 70
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HB_beta_logo_150x.svg?v=1780487833",
+      "alt": "",
+      "w": 257,
+      "h": 84
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/msn-2014-logo-svg-vector-removebg-preview_150x.png?v=1780488695",
+      "alt": "",
+      "w": 150,
+      "h": 65
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/idOo3wHR6w_1780487666203_150x.png?v=1780487728",
+      "alt": "",
+      "w": 150,
+      "h": 30
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Featured_Logos-18_150x.png?v=1683889434",
+      "alt": "",
+      "w": 150,
+      "h": 27
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Featured_Logos-19_150x.png?v=1683889434",
+      "alt": "",
+      "w": 150,
+      "h": 44
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/vogue-logo-01_150x.png?v=1685515677",
+      "alt": "",
+      "w": 150,
+      "h": 40
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Featured_Logos-21_150x.png?v=1683889434",
+      "alt": "",
+      "w": 150,
+      "h": 65
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/featured-logo_150x.png?v=1684479937",
+      "alt": "",
+      "w": 150,
+      "h": 55
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/idOo3wHR6w_1780487666203_150x.png?v=1780487728",
+      "alt": "",
+      "w": 150,
+      "h": 30
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/ChatGPT_Image_Jun_3__2026__05_19_38_PM-removebg-preview_150x.png?v=1780487441",
+      "alt": "",
+      "w": 150,
+      "h": 70
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/HB_beta_logo_150x.svg?v=1780487833",
+      "alt": "",
+      "w": 257,
+      "h": 84
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/msn-2014-logo-svg-vector-removebg-preview_150x.png?v=1780488695",
+      "alt": "",
+      "w": 150,
+      "h": 65
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/idOo3wHR6w_1780487666203_150x.png?v=1780487728",
+      "alt": "",
+      "w": 150,
+      "h": 30
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Featured_Logos-18_150x.png?v=1683889434",
+      "alt": "",
+      "w": 150,
+      "h": 27
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/Featured_Logos-19_150x.png?v=1683889434",
+      "alt": "",
+      "w": 150,
+      "h": 44
+    },
+    {
+      "src": "https://typsybeauty.com/cdn/shop/files/vogue-logo-01_150x.png?v=1685515677",
+      "alt": "",
+      "w": 150,
+      "h": 40
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://typsybeauty.com/cdn/shop/videos/c/vp/7ca3611266e94338a00888c5496c28e4/7ca3611266e94338a00888c5496c28e4.HD-1080p-7.2Mbps-67280255.mp4?v=0",
+      "poster": "https://typsybeauty.com/cdn/shop/files/preview_images/7ca3611266e94338a00888c5496c28e4.thumbnail.0000000000_400x.jpg?v=1768824946"
+    }
+  ],
+  "og_image": "http://typsybeauty.com/cdn/shop/files/Typsy_Beauty_Logo_hi-res-09_002.png?v=1645103175",
+  "favicons": [
+    "https://typsybeauty.com/cdn/shop/files/TB_Monogram_large_a9f253f3-392a-4cc9-a2af-88494b831fd5.png?crop=center&height=32&v=1740633287&width=32"
+  ],
+  "header_svgs": [
+    "<svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" fill=\"currentColor\">\n</path></svg>",
+    "<svg width=\"26\" height=\"26\" viewBox=\"0 0 27 27\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" id=\"svgkp\">\n      <path d=\"M22.9129 12.935L13.7571 23.0474C13.5348 23.2929 13.1284 23.1084 13.1669 22.7794L14.0816 14.9731H10.6991C10.4034 14.9731 10.2484 14.6219 10.4478 14.4035L20.3133 3.59739C20.5589 3.32834 20.9984 3.58134 20.8891 3.92887L18.2354 12.3664H22.6607C22.9557 12.3664 23.1109 12.7163 22.9129 12.935Z\" fill=\"#FEA203\"></path>\n      <path id=\"svgkp-path\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6079 5.35819C16.4805 5.1933 16.3421 5.03582 16.1932 4.8869C15.2702 3.96387 14.0183 3.44531 12.7129 3.44531C11.4075 3.44531 10.1556 3.96387 9.2326 4.8869C8.30957 5.80993 7.79102 7.06183 7.79102 8.36719C7.79102 9.67255 8.30957 10.9244 9.2326 11.8475C9.48368 12.0986 9.75909 12.3197 10.0533 12.5086L11.0235 11.4503C10.7335 11.2914 10.4649 11.0911 10.227 10.8531C9.56766 10.1938 9.19727 9.29959 9.19727 8.36719C9.19727 7.43479 9.56766 6.54057 10.227 5.88127C10.8863 5.22196 11.7805 4.85156 12.7129 4.85156C13.6453 4.85156 14.5395 5.22196 15.1988 5.88127C15.3636 6.04604 15.5103 6.22549 15.6377 6.41654L16.6079 5.35819ZM20.6413 18.6497L19.6746 19.7132C20.1676 20.4122 20.4473 21.2264 20.4473 22.0781V23.8359C20.4473 24.2243 20.7621 24.5391 21.1504 24.5391C21.5387 24.5391 21.8535 24.2243 21.8535 23.8359V22.0781C21.8535 20.7863 21.4016 19.6103 20.6413 18.6497ZM12.3111 17.5078H10.3026C7.27113 17.5078 4.97852 19.6394 4.97852 22.0781V23.8359C4.97852 24.2243 4.66372 24.5391 4.27539 24.5391C3.88707 24.5391 3.57227 24.2243 3.57227 23.8359V22.0781C3.57227 18.6922 6.67684 16.1016 10.3026 16.1016H12.4885L12.3111 17.5078Z\" fill=\"currentColor\" stroke=\"currentColor\"></path>\n      </svg>",
+    "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M18 6L6 18M6 6L18 18\" stroke=\"currentColor\" stroke-width=\"1.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n      </svg>",
+    "<svg width=\"26\" height=\"26\" viewBox=\"0 0 27 27\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" id=\"svgkp\">\n      <path d=\"M22.9129 12.935L13.7571 23.0474C13.5348 23.2929 13.1284 23.1084 13.1669 22.7794L14.0816 14.9731H10.6991C10.4034 14.9731 10.2484 14.6219 10.4478 14.4035L20.3133 3.59739C20.5589 3.32834 20.9984 3.58134 20.8891 3.92887L18.2354 12.3664H22.6607C22.9557 12.3664 23.1109 12.7163 22.9129 12.935Z\" fill=\"#FEA203\"></path>\n      <path id=\"svgkp-path\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6079 5.35819C16.4805 5.1933 16.3421 5.03582 16.1932 4.8869C15.2702 3.96387 14.0183 3.44531 12.7129 3.44531C11.4075 3.44531 10.1556 3.96387 9.2326 4.8869C8.30957 5.80993 7.79102 7.06183 7.79102 8.36719C7.79102 9.67255 8.30957 10.9244 9.2326 11.8475C9.48368 12.0986 9.75909 12.3197 10.0533 12.5086L11.0235 11.4503C10.7335 11.2914 10.4649 11.0911 10.227 10.8531C9.56766 10.1938 9.19727 9.29959 9.19727 8.36719C9.19727 7.43479 9.56766 6.54057 10.227 5.88127C10.8863 5.22196 11.7805 4.85156 12.7129 4.85156C13.6453 4.85156 14.5395 5.22196 15.1988 5.88127C15.3636 6.04604 15.5103 6.22549 15.6377 6.41654L16.6079 5.35819ZM20.6413 18.6497L19.6746 19.7132C20.1676 20.4122 20.4473 21.2264 20.4473 22.0781V23.8359C20.4473 24.2243 20.7621 24.5391 21.1504 24.5391C21.5387 24.5391 21.8535 24.2243 21.8535 23.8359V22.0781C21.8535 20.7863 21.4016 19.6103 20.6413 18.6497ZM12.3111 17.5078H10.3026C7.27113 17.5078 4.97852 19.6394 4.97852 22.0781V23.8359C4.97852 24.2243 4.66372 24.5391 4.27539 24.5391C3.88707 24.5391 3.57227 24.2243 3.57227 23.8359V22.0781C3.57227 18.6922 6.67684 16.1016 10.3026 16.1016H12.4885L12.3111 17.5078Z\" fill=\"currentColor\" stroke=\"currentColor\"></path>\n      </svg>",
+    "<svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M4.6 2.20033L3.3 3.93366C3.04251 4.27697 2.91377 4.44863 2.91676 4.59232C2.91936 4.71736 2.97799 4.83462 3.07646 4.91172C3.18962 5.00032 3.40419 5.00032 3.83333 5.00032H16.1667C16.5958 5.00032 16.8104 5.00032 16.9235 4.91172C17.022 4.83462 17.0806 4.71736 17.0832 4.59232C17.0862 4.44863 16.9575 4.27697 16.7 3.93366L15.4 2.20033M4.6 2.20033C4.74667 2.00477 4.82 1.90699 4.91294 1.83647C4.99525 1.77401 5.08846 1.72741 5.18782 1.69903C5.3 1.66699 5.42222 1.66699 5.66667 1.66699H14.3333C14.5778 1.66699 14.7 1.66699 14.8122 1.69903C14.9115 1.72741 15.0047 1.77401 15.0871 1.83647C15.18 1.90699 15.2533 2.00477 15.4 2.20033M4.6 2.20033L3.03333 4.28921C2.83545 4.55306 2.73651 4.68498 2.66625 4.83026C2.6039 4.95917 2.55843 5.09559 2.53096 5.23612C2.5 5.3945 2.5 5.55941 2.5 5.88921L2.5 15.667C2.5 16.6004 2.5 17.0671 2.68166 17.4236C2.84144 17.7372 3.09641 17.9922 3.41002 18.152C3.76654 18.3337 4.23325 18.3337 5.16667 18.3337L14.8333 18.3337C15.7668 18.3337 16.2335 18.3337 16.59 18.152C16.9036 17.9922 17.1586 17.7372 17.3183 17.4236C17.5 17.0671 17.5 16.6004 17.5 15.667V5.88921C17.5 5.55941 17.5 5.3945 17.469 5.23613C17.4416 5.09559 17.3961 4.95918 17.3338 4.83026C17.2635 4.68498 17.1646 4.55306 16.9667 4.28921L15.4 2.20033M13.3333 8.33366C13.3333 9.21771 12.9821 10.0656 12.357 10.6907C11.7319 11.3158 10.8841 11.667 10 11.667C9.11594 11.667 8.2681 11.3158 7.64298 10.6907C7.01786 10.0656 6.66667 9.21771 6.66667 8.33366\" stroke=\"currentColor\" stroke-width=\"1.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"></path>\n       </svg>",
+    "<svg class=\"loadergk kploader\" width=\"17\" height=\"16\" viewBox=\"0 0 17 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M8.50004 1.33325V3.99992M8.50004 11.9999V14.6666M4.50004 7.99992H1.83337M15.1667 7.99992H12.5M13.219 12.7189L11.3334 10.8333M13.219 3.33321L11.3334 5.21883M3.78109 12.7189L5.66671 10.8333M3.78109 3.33321L5.66671 5.21883\" stroke=\"#111\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n  </svg>"
+  ],
+  "network_media": [
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_12.png?v=1723615419",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_7.png?v=1722603274",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_11.png?v=1723551767",
+    "https://typsybeauty.com/cdn/shop/files/POUT_EXT_BANNER-01_1600x.jpg?v=1789645779",
+    "https://typsybeauty.com/cdn/shop/files/web_banner_pc-pp-05.jpg?v=1764245501&width=1600",
+    "https://typsybeauty.com/cdn/shop/files/F_TRIAL_KIT_BANNER-03_1600x.jpg?v=1786101547",
+    "https://typsybeauty.com/cdn/shop/files/Eyes_2_ccaf306d-5286-40d1-a352-da0e6a2701b4.png?v=1730957296",
+    "https://typsybeauty.com/cdn/shop/files/Group_70_1_1.png?v=1730957384",
+    "https://typsybeauty.com/cdn/shop/files/Lips_264393ef-9c23-4b00-afaa-676b2a8d7ad5.png?v=1730957298",
+    "https://typsybeauty.com/cdn/shop/files/Value-sets_edeb2e64-7853-449a-84e4-d5cbe521816d.png?v=1730957297",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/icon.png?v=1723613800",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Star_55521faf-6263-4ff5-9743-19429dde37a4.svg?v=1764594848",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/user.png?v=1736853633",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/tickmark_svg.svg?v=1764593145",
+    "https://typsybeauty.com/cdn/shop/files/PDPCOVERFOUNDCEALERFLEX-01_150x.jpg?v=1786953612",
+    "https://typsybeauty.com/cdn/shop/files/1st_d4847553-266f-44fd-99aa-f7991e1234ee_150x.jpg?v=1779790037",
+    "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/CW.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Strawberry_8871eddc-5a54-4580-8b09-2afc954d66af.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/M_C.jpg?width=28",
+    "https://typsybeauty.com/cdn/shop/files/MM_150x.jpg?v=1758113076",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Chocolate_7cf59b61-8e87-4ce4-9534-20c79d0d00d4.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Raspberry_5a2df4a8-796a-4aa8-b98d-d8ed16807062.jpg?width=28",
+    "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/2_S.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Violet_Veil.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/1_S.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/SC_aef252d7-c70a-4248-8656-edd0416e2c06.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/TT_1fe629de-63a2-4549-b584-ce9e2c5cd969.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/RR_ae4cc3d5-86f7-460c-bcc6-722eb1e4d892.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/MM_a6ad7f6c-76ad-47f1-90e9-84e2c46bb530.jpg?width=28",
+    "https://fonts.gstatic.com/s/neuton/v24/UMBRrPtMoH62xUZCyrg4Wi8.woff2",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/SG_Mauve_Light.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Cherry-blossom_19631af8-8fea-432d-b011-01d82024380a.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/SC_BM_WEBSITE_ICON_b221a8b1-3ab2-42c1-aa6e-11d6ca04b8fb.svg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Seoulmate_0b539d24-715d-403a-8344-27a2436c0c3b.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/SG_Pink_Deep_11zon.webp?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/CF_BM_WEBSITE_ICON_59177ba9-215e-40bd-8967-3903b2dcda76.svg?width=28",
+    "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2",
+    "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/SG-01.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Polar-Pink_18799f8a-d143-44b4-9eda-dbea5a07e4db.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Frosted-Fig_8076a683-469c-420f-afe4-1faa88316bd7.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Plum-Pie_bf8ac245-739c-4720-9fe1-bc834f7528eb.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Guava-Sorbet_d75c1000-b29f-4a57-8148-6e86369efef5.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/SG_pink_Medium_9160b41e-5e11-4f89-a603-03407c3e1ff0.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Orange-Corrector_3507427a-8062-4119-b795-c69a7a7307af.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Lychee-Lolly_e14658ca-a102-4ce1-aa45-f5e00097d6cd.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/White-Russian_62f65d46-e48a-481c-8af6-7be5b1df50df.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Prosecco_7f636548-2e66-4fb0-b1b2-9a687c4f1e14.jpg?width=28",
+    "https://typsybeauty.com/cdn/shop/files/pp-bundle-grazia-hero-2026_150x.jpg?v=1790073967",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/White-Russian_1.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Cherry-blossom_adf4971f-1f43-4592-ab49-b35eb42fb0a9.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Pina-Colada_1.jpg?width=28",
+    "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJnecmNE.woff2",
+    "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_lipsticks.jpg?crop=center&height=240&v=1790957215&width=240",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Baileys_1.jpg?width=28",
+    "https://typsybeauty.com/cdn/shop/files/Pout_Cloud_peptide_Lip_balm_Combo_150x.jpg?v=1763462015",
+    "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_gloss.jpg?crop=center&height=240&v=1790957216&width=240",
+    "https://typsybeauty.com/cdn/shop/files/new-logo-pink-st.png?v=1764591713&width=400",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Prosecco_1.jpg?width=28",
+    "https://typsybeauty.com/cdn/shop/files/HOME_POUT_bubble.jpg?crop=center&height=240&v=1790956788&width=240",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Whiskey_1.jpg?width=28",
+    "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2",
+    "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_combos.jpg?crop=center&height=240&v=1790957218&width=240",
+    "https://fonts.gstatic.com/s/neuton/v24/UMBQrPtMoH62xUZKdK0vfQr4.woff2",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_13.png?v=1723784797",
+    "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_face.jpg?crop=center&height=240&v=1790957220&width=240",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Dark-Rum_1.jpg?width=28",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_14.png?v=1723784797",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_16.png?v=1723784797",
+    "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_eyes.jpg?crop=center&height=240&v=1790957221&width=240",
+    "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_spritz.jpg?crop=center&height=240&v=1790957223&width=240",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_15.png?v=1723784797",
+    "https://typsybeauty.com/cdn/shop/files/HOME_BUBBLE_new.jpg?crop=center&height=240&v=1790957224&width=240",
+    "https://typsybeauty.com/cdn/shop/files/pp-bundle-grazia-hero-2026.jpg?v=1790073967&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Pout_Cloud_Kit_of_2_combo_1.jpg?v=1766646100&width=360",
+    "https://fonts.gstatic.com/s/neuton/v24/UMBTrPtMoH62xUZCz4g6.woff2",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Group_85_37b872e6-6558-42b9-9fe9-eb3b71a4449c.png?v=1723532161",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Brandy_1.jpg?width=28",
+    "https://typsybeauty.com/cdn/shop/files/SC_bdb06d98-1df9-4e36-aac5-51b81a10e266.jpg?v=1770906679&width=360",
+    "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+    "https://typsybeauty.com/cdn/shop/files/Static-1_6.jpg?v=1764328485&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Pout_Cloud_peptide_Lip_balm_Combo.jpg?v=1763462015&width=360",
+    "https://typsybeauty.com/cdn/shop/files/M-C.jpg?v=1778501583&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Peptide_Silk_Cushion.jpg?v=1746426810&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1_0770cc74-7e39-49a8-9186-4f88a27f749f.jpg?v=1734600536&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Peptide_-08.jpg?v=1746434716&width=360",
+    "https://typsybeauty.com/cdn/shop/files/BLURBUBU_PDP_IMAGE-14.jpg?v=1768385126&width=360",
+    "https://typsybeauty.com/cdn/shop/files/CW_70fa9e62-0582-4c50-997b-5a2921df530d.jpg?v=1778501583&width=360",
+    "https://typsybeauty.com/cdn/shop/files/POUT_POLISH_AND_BLURBUBU_AD_JUNE_26-08_jpg.jpg?v=1781881171&width=360",
+    "https://typsybeauty.com/cdn/shop/files/IL.jpg?v=1778501583&width=360",
+    "https://typsybeauty.com/cdn/shop/files/MM_eba313a3-6a16-4d81-9c29-41c388fd9567.jpg?v=1778501583&width=360",
+    "https://typsybeauty.com/cdn/shop/files/SS_5b4974ae-d5cd-4def-999c-34571a653506.jpg?v=1778501583&width=360",
+    "https://typsybeauty.com/cdn/shop/files/CF-Kajal.jpg?v=1787563669&width=360",
+    "https://typsybeauty.com/cdn/shop/files/PP_3e2bbe2b-e626-4b34-8238-5ac71cc9f016.jpg?v=1778501584&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Featured_Logos-19_150x.png?v=1683889434",
+    "https://typsybeauty.com/cdn/shop/files/vogue-logo-01_150x.png?v=1685515677",
+    "https://typsybeauty.com/cdn/shop/files/Featured_Logos-21_150x.png?v=1683889434",
+    "https://typsybeauty.com/cdn/shop/files/featured-logo_150x.png?v=1684479937",
+    "https://typsybeauty.com/cdn/shop/files/Featured_Logos-18_150x.png?v=1683889434",
+    "https://typsybeauty.com/cdn/shop/files/idOo3wHR6w_1780487666203_150x.png?v=1780487728",
+    "https://typsybeauty.com/cdn/shop/files/ChatGPT_Image_Jun_3__2026__05_19_38_PM-removebg-preview_150x.png?v=1780487441",
+    "https://typsybeauty.com/cdn/shop/files/HB_beta_logo_150x.svg?v=1780487833",
+    "https://typsybeauty.com/cdn/shop/files/msn-2014-logo-svg-vector-removebg-preview_150x.png?v=1780488695",
+    "https://typsybeauty.com/cdn/shop/files/PDPCOVERFOUNDCEALERFLEX-01.jpg?v=1786953612&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st_d4847553-266f-44fd-99aa-f7991e1234ee.jpg?v=1779790037&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Berry-Bingsu_925343d5-0366-4af0-96ea-baa7a20e6999.jpg?v=1773639204&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st-Image-Revised-2.jpg?v=1769074181&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st_25d5acd9-0e16-44d9-8c2f-a175602a81b8.jpg?v=1767594884&width=360",
+    "https://typsybeauty.com/cdn/shop/files/MM.jpg?v=1758113076&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Untitled-1_jpg.jpg?v=1773308276&width=360",
+    "https://typsybeauty.com/cdn/shop/files/3_25_a1940081-d56c-43fa-8dc6-8f5c6f47e84e.jpg?v=1773306276&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st_02735e1d-0e36-4729-9571-31c7b47aea26.webp?v=1772196861&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1_fe72f164-b213-4397-82a5-164745092df7.jpg?v=1772088712&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st_e6d789a5-fe29-4ed1-a0ab-02fcdf17b4cc.jpg?v=1772084994&width=360",
+    "https://typsybeauty.com/cdn/shop/files/CF_jpg.jpg?v=1772088661&width=360",
+    "https://typsybeauty.com/cdn/shop/files/SC_jpg.jpg?v=1772088712&width=360",
+    "https://typsybeauty.com/cdn/shop/files/CC_jpg.jpg?v=1772088750&width=360",
+    "https://typsybeauty.com/cdn/shop/files/CK-HB-RS.jpg_1.jpg?v=1778843968&width=360",
+    "https://typsybeauty.com/cdn/shop/files/HC-RR-RS.jpg_1.jpg?v=1778843968&width=360",
+    "https://typsybeauty.com/cdn/shop/files/HC-RR-PP.jpg_1.jpg?v=1778843968&width=360",
+    "https://typsybeauty.com/cdn/shop/files/BP-HB-RS.jpg_1.jpg?v=1778843968&width=360",
+    "https://typsybeauty.com/cdn/shop/files/BP-RR-RS.jpg_1.jpg?v=1778843968&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st-Image_6a082ea2-125c-4ec7-8fca-e1257933f438.jpg?v=1756099244&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st-Image_3b49e14f-d5c5-4c0f-9b6a-7b0ed132514b.jpg?v=1756099244&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st-Image_421f5cab-f8bd-4b60-a950-87683cd68136.jpg?v=1772090915&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st-image_82c962f4-ed8d-479f-8740-08e8691c40d2.jpg?v=1772090855&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st-Image_7fdb0729-4f43-4e7e-8692-a7f02b4dfabd.jpg?v=1772090886&width=360",
+    "https://typsybeauty.com/cdn/shop/files/FF_9b0d2a63-b3e5-4aec-a1a7-b89e3e591273.jpg?v=1778157832&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1st-Image-Website_1_8b22ffc3-f201-4a9f-aef5-3356e363e2b6.jpg?v=1750320537&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Cocoa-Peptide_Peptide-Lip-Balm_1.jpg?v=1746538974&width=360",
+    "https://typsybeauty.com/cdn/shop/files/pH-Blush_Mini.jpg?v=1746431151&width=360",
+    "https://typsybeauty.com/cdn/shop/files/pH-Blush_OTG-Brush.jpg?v=1746441059&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Peptide_pH-Blush-2.jpg?v=1746432734&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Peptide_Concealer.jpg?v=1746429435&width=360",
+    "https://typsybeauty.com/cdn/shop/files/pH-Blush_Concealer.jpg?v=1746448917&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Silk-Cushion_pH-Blush.jpg?v=1746437031&width=360",
+    "https://typsybeauty.com/cdn/shop/files/10_ede93dbb-a3ce-4ae0-bc76-1ab9c29e4b7d.jpg?v=1757307880&width=360",
+    "https://typsybeauty.com/cdn/shop/files/PowerTrio_Deep-1.jpg?v=1746008873&width=360",
+    "https://typsybeauty.com/cdn/shop/files/PowerTrio_Medium-1.jpg?v=1746008994&width=360",
+    "https://typsybeauty.com/cdn/shop/files/PowerTrio_Light-1_1cb0c259-8922-4607-ab89-f41b2b6b799e.jpg?v=1746009085&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Glossified_Mini.jpg?v=1746426029&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Peptide_Glossified.jpg?v=1746423014&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1_f855afcb-aef1-4c65-a448-0bf824a78df6.jpg?v=1777547341&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1_d869ffcd-e098-42ac-b93c-bfdf6720fbbc.jpg?v=1777547705&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1ST_44fc531c-f341-4e9e-87b5-cbe50bfc7923.jpg?v=1728652634&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1_1796fd53-2f30-474a-b1de-f874258e2516.jpg?v=1777547788&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Rose_-All-Day-01.jpg?v=1721226730&width=360",
+    "https://typsybeauty.com/cdn/shop/files/Concealer_Blender_13d0d754-089f-4d7c-973f-ff37c4d079e9.jpg?v=1737453746&width=360",
+    "https://typsybeauty.com/cdn/shop/files/1_8858e4e9-3084-4e1d-87a2-ddb58b844422.jpg?v=1711082973&width=360",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-4_a98edde4-9d96-4229-9bd8-6c94c08aeaea.jpg?v=1729758550",
+    "https://typsybeauty.com/cdn/shop/files/BOR_5085a3e7-bc47-4e47-853b-e2e5087fb977.jpg?v=1774618808&width=360",
+    "https://typsybeauty.com/cdn/shop/files/preview_images/7ca3611266e94338a00888c5496c28e4.thumbnail.0000000000_400x.jpg?v=1768824946",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-10_b4be0eb8-0f7b-4f2c-be6a-5727fad60ddc.jpg?v=1729758562",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-8.jpg?v=1726838466",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-12_7308f0b4-d196-4908-ba15-dd7825ccf7a1.jpg?v=1729758572",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-6.jpg?v=1726838466",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-5.jpg?v=1726838467",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-7.jpg?v=1726838467",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-11.jpg?v=1726838467",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-1_8c010a73-cab5-434f-8f4c-266424dc6f1d.jpg?v=1726838467",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-9.jpg?v=1726838467",
+    "https://typsybeauty.com/cdn/shop/files/IMAGE-2_e9c4b925-0a22-4e81-bc25-09c25cace193.jpg?v=1726838466",
+    "https://typsybeauty.com/cdn/shop/files/Untitled_design__2_-removebg-preview.png?v=1751981204",
+    "https://typsybeauty.com/cdn/shop/files/PERFORMANCE-OBSESSED.png?v=1729758515",
+    "https://typsybeauty.com/cdn/shop/files/FEEL-GOOD-BEAUTY.png?v=1729758446",
+    "https://typsybeauty.com/cdn/shop/files/INNOVATION-AT-EVERY-STEP.png?v=1729758437",
+    "https://typsybeauty.com/cdn/shop/files/INTERNATIONAL-QUALITY_e7c95e94-a9d9-4976-bbf2-5913e78aeeba.png?v=1729758505",
+    "https://typsybeauty.com/cdn/shop/files/EXPERTLY-FORMULATED.png?v=1729758465",
+    "https://typsybeauty.com/cdn/shop/files/EASY-_-MULTI-FUNCTIONAL.png?v=1729758481",
+    "https://typsybeauty.com/cdn/shop/files/grazia_award_pop_up_sep_26.jpg?v=1790248898&width=800",
+    "https://typsybeauty.com/cdn/shop/files/Group_117.png?v=1723181230",
+    "https://typsybeauty.com/cdn/shop/videos/c/vp/7ca3611266e94338a00888c5496c28e4/7ca3611266e94338a00888c5496c28e4.HD-1080p-7.2Mbps-67280255.mp4?v=0",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_1.png?v=1723102848",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_9_c8c2e648-10d1-4608-8693-02636d69c7ec.png?v=1730886836",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_9.png?v=1723212852",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector.png?v=1723102849",
+    "https://typsybeauty.com/cdn/shop/files/POWER_DUO_BANNER-01_1600x.jpg?v=1773208878",
+    "https://typsybeauty.com/cdn/shop/files/HOME_POUT_PC_why.jpg?v=1790953238&width=720",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Vector_10.png?v=1723212852",
+    "https://typsybeauty.com/cdn/shop/files/HOME_POUT_PP_why.jpg?v=1790953256&width=720",
+    "https://typsybeauty.com/cdn/shop/files/Quiz-Desktop-Banner_jpg_1600x.jpg?v=1784202033",
+    "https://typsybeauty.com/cdn/shop/files/HOME_POUT_quiz_editorial.jpg?v=1790955285&width=1200",
+    "https://typsybeauty.com/cdn/shop/files/HOME_POUT_PC_cooling_tip.jpg?v=1790953240&width=720",
+    "https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg",
+    "https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png",
+    "https://www.gstatic.com/images/branding/product/2x/translate_24dp.png",
+    "https://static.verifast.ai/bot_image_config_data/f949796a_Icon.png",
+    "https://cdn.shopify.com/s/files/1/0587/0531/3990/files/Email_header_new-logo-pink-st_x320.png?v=1723645916",
+    "https://typsybeauty.com/cdn/shop/files/Lips_08785923-de05-4716-93f1-ddccbd6fbeec_compressed.webp?v=1751536906&width=720",
+    "https://typsybeauty.com/cdn/shop/files/Face_13f14aff-dd2e-4227-b6eb-70dac17d8a74_compressed.webp?v=1751536906&width=720",
+    "https://typsybeauty.com/cdn/shop/files/Eyes_61d8b969-a6f5-4cb8-87c0-6ca1ac82fff0_compressed.webp?v=1751536906&width=720",
+    "https://typsybeauty.com/cdn/shop/files/low_res_PC_2.png?v=1764581925&width=1000",
+    "https://typsybeauty.com/cdn/shop/files/POUT_EXT_BANNER-03_400x.jpg?v=1789645780",
+    "https://typsybeauty.com/cdn/shop/files/F_TRIAL_KIT_BANNER-02_400x.jpg?v=1786101548",
+    "https://typsybeauty.com/cdn/shop/files/pp-bundle-grazia-hero-2026.jpg?v=1790073967&width=165"
+  ]
+}

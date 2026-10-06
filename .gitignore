@@ -11,6 +11,9 @@ videos/*
 !videos/stock-market-101-ep01-what-is-a-share/
 !videos/stock-market-101-ep02-sensex-nifty/
 !videos/stock-market-101-ep02-vo/
+!videos/kylie-cosmetics-spec/
+!videos/rare-beauty-spec/
+!videos/typsy-beauty-spec/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
@@ -43,3 +46,28 @@ videos/stock-market-101-ep01-what-is-a-share/audio/track/
 # Stock Market 101 EP02 (+ VO edition): the Mixkit guide track is fetched by scripts/fetch_sources.sh
 videos/stock-market-101-ep02-sensex-nifty/audio/track/
 videos/stock-market-101-ep02-vo/audio/track/
+# Beauty spec series (Kylie Cosmetics, Rare Beauty, Typsy): the brands' films, licensed webfonts, site screenshots, the
+# Mixkit guide tracks and extracted frames are fetched by scripts/fetch_sources.sh, never committed (Typsy's fonts are OFL)
+videos/kylie-cosmetics-spec/source/*
+!videos/kylie-cosmetics-spec/source/manifest.json
+videos/kylie-cosmetics-spec/assets/fonts/
+videos/kylie-cosmetics-spec/assets/frames/
+videos/kylie-cosmetics-spec/assets/site/*
+!videos/kylie-cosmetics-spec/assets/site/info.json
+videos/kylie-cosmetics-spec/audio/track/
+videos/rare-beauty-spec/source/*
+!videos/rare-beauty-spec/source/manifest.json
+videos/rare-beauty-spec/assets/fonts/
+videos/rare-beauty-spec/assets/frames/
+videos/rare-beauty-spec/assets/site/*
+!videos/rare-beauty-spec/assets/site/info.json
+videos/rare-beauty-spec/audio/track/
+videos/typsy-beauty-spec/source/*
+!videos/typsy-beauty-spec/source/manifest.json
+videos/typsy-beauty-spec/assets/frames/
+videos/typsy-beauty-spec/assets/site/*
+!videos/typsy-beauty-spec/assets/site/info.json
+videos/typsy-beauty-spec/audio/track/
+videos/*/review/rfinal/
+videos/*/review/strip_*.jpg
+videos/*/review/source_sheet.jpg

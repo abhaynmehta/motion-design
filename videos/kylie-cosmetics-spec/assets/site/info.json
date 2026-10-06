@@ -1,0 +1,930 @@
+{
+  "url": "https://kyliecosmetics.com/",
+  "title": "Kylie Cosmetics by Kylie Jenner | Kylie Jenner Fragrances | Kylie Skin",
+  "description": "Shop Kylie Cosmetics by Kylie Jenner, Kylie Jenner Fragrances and Kylie Skin featuring award-winning makeup, fragrance, and skincare that&#39;s clean, vegan, cruelty-free, and dermatologist-tested.",
+  "font_families_by_use": [
+    [
+      "Tt-Chocolate",
+      430
+    ],
+    [
+      "UniversLTStd-Bold",
+      53
+    ],
+    [
+      "Univers, Helvetica, Arial, sans-serif",
+      5
+    ],
+    [
+      "\"Times New Roman\"",
+      3
+    ],
+    [
+      "Arial, sans-serif",
+      1
+    ],
+    [
+      "sans-serif",
+      1
+    ],
+    [
+      "\"Open Sans\"",
+      1
+    ]
+  ],
+  "font_faces": [
+    {
+      "family": "Tt-Chocolate",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_regular-webfont.woff2?v=21416170975998103091788890069",
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_regular-webfont.woff?v=59471240006930599321788890069"
+      ]
+    },
+    {
+      "family": "Tt-Chocolate",
+      "weight": "400",
+      "style": "italic",
+      "range": "",
+      "urls": [
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_italic-webfont.woff2?v=25010122394420589941788890069",
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_italic-webfont.woff?v=40137117945426665521788890069"
+      ]
+    },
+    {
+      "family": "Tt-Chocolate",
+      "weight": "600",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_demibold-webfont.woff2?v=23781290936394902461788890069",
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_demibold-webfont.woff?v=93114617599209403221788890069"
+      ]
+    },
+    {
+      "family": "Tt-Chocolate",
+      "weight": "600",
+      "style": "italic",
+      "range": "",
+      "urls": [
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_demibold_italic-webfont.woff2?v=103160848268205273211788890069",
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_demibold_italic-webfont.woff?v=126143499338030412781788890069"
+      ]
+    },
+    {
+      "family": "UniversLTStd-Bold",
+      "weight": "700",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/universltstd-boldcn-webfont.woff2?v=112365896829129518631788890069",
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/universltstd-boldcn-webfont.woff?v=137239629949582787161788890069"
+      ]
+    },
+    {
+      "family": "script412displayregular",
+      "weight": "normal",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/script_412_1l-webfont.woff2?v=102739883151936094061788890069",
+        "https://kyliecosmetics.com/cdn/shop/t/2529/assets/script_412_1l-webfont.woff?v=79412137167873203841788890069"
+      ]
+    },
+    {
+      "family": "swiper-icons",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "data:application/font-woff;charset=utf-8;base64, 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"
+      ]
+    },
+    {
+      "family": "swiper-icons",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "data:application/font-woff;charset=utf-8;base64, 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"
+      ]
+    },
+    {
+      "family": "swiper-icons",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "data:application/font-woff;charset=utf-8;base64, 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"
+      ]
+    },
+    {
+      "family": "swiper-icons",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "data:application/font-woff;charset=utf-8;base64, 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"
+      ]
+    },
+    {
+      "family": "swiper-icons",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "data:application/font-woff;charset=utf-8;base64, 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"
+      ]
+    }
+  ],
+  "text_colors": [
+    [
+      "rgb(57, 57, 57)",
+      296
+    ],
+    [
+      "rgb(255, 255, 255)",
+      145
+    ],
+    [
+      "rgb(179, 132, 143)",
+      21
+    ],
+    [
+      "rgb(160, 102, 116)",
+      17
+    ],
+    [
+      "rgb(0, 0, 0)",
+      7
+    ],
+    [
+      "rgb(63, 32, 33)",
+      3
+    ],
+    [
+      "rgb(0, 112, 224)",
+      2
+    ],
+    [
+      "rgb(56, 56, 56)",
+      1
+    ],
+    [
+      "rgb(17, 17, 17)",
+      1
+    ],
+    [
+      "rgb(66, 97, 184)",
+      1
+    ]
+  ],
+  "bg_colors": [
+    [
+      "rgb(255, 255, 255)",
+      47
+    ],
+    [
+      "rgb(248, 241, 244)",
+      17
+    ],
+    [
+      "rgb(0, 0, 0)",
+      7
+    ],
+    [
+      "rgb(57, 57, 57)",
+      6
+    ],
+    [
+      "rgb(239, 215, 229)",
+      3
+    ],
+    [
+      "rgba(0, 0, 0, 0.5)",
+      2
+    ],
+    [
+      "rgba(116, 99, 99, 0.65)",
+      1
+    ],
+    [
+      "rgba(226, 226, 226, 0.5)",
+      1
+    ]
+  ],
+  "css_vars": {
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--offset--one-option": "-2.5rem",
+    "--offset--two-options": "-3.625rem",
+    "--offset--three-options": "-7rem",
+    "--offset--selling-plans": "-1.5rem",
+    "--height--one-option": "2.5rem",
+    "--height--two-options": "6rem",
+    "--height--three-options": "9.75rem",
+    "--z-deep": "-2",
+    "--z-below": "-1",
+    "--z-default": "1",
+    "--z-above": "2",
+    "--z-filters": "3",
+    "--z-swiper-arrows": "3",
+    "--z-atc": "4",
+    "--z-footer": "5",
+    "--z-header": "6",
+    "--z-overlay": "7",
+    "--z-flyout": "8",
+    "--z-modal": "9",
+    "--z-skip-to-content": "10",
+    "--app-height": "100%",
+    "--sparkle-rollover-bg-color": "#f8f1f4",
+    "--rc-color": "#040404",
+    "--rc-active-bg": "#efefef",
+    "--rc-active-color": "#000000",
+    "--fw-player-chat-background": "rgba(255, 255, 255, 1)",
+    "--fw-player-shop-background": "rgba(255, 255, 255, 1)",
+    "--fw-player-header-font-color": "rgba(0, 0, 0, 1)",
+    "--fw-product-name-font-color": "rgba(0, 0, 0, 1)",
+    "--fw-product-price-font-color": "rgba(0, 0, 0, 1)",
+    "--fw-product-description-font-color": "rgba(0, 0, 0, 1)",
+    "--fw-font-family": "'Tt-Chocolate'",
+    "--fw-player-background": "rgba(0, 0, 0, .9)",
+    "--fw-player-shop-font-color": "rgba(0, 0, 0, 1)",
+    "--fw-player-chat-font-color": "rgba(0, 0, 0, 1)’\n      --fw-thumbnail-font-size: 20px"
+  },
+  "headings": [
+    "A: skip to content  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "A: shop now  [Tt-Chocolate 15px 400 ls normal rgb(57, 57, 57)]",
+    "BUTTON: Pause slide rotation  [Tt-Chocolate 12px 400 ls normal rgb(56, 56, 56)]",
+    "A: Cart with 0 items  [Tt-Chocolate 16px 400 ls normal rgb(57, 57, 57)]",
+    "LI: new  [UniversLTStd-Bold 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: new  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: best sellers  [UniversLTStd-Bold 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: best sellers  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: • | cosmetics  [UniversLTStd-Bold 17px 400 ls normal rgb(57, 57, 57)]",
+    "BUTTON: •  [\"Times New Roman\" 30px 400 ls normal rgb(57, 57, 57)]",
+    "A: New  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: New  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "LI: Holiday Gift Sets  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Holiday Gift Sets  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Plumping Matte Lip Kit  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Plumping Matte Lip Kit  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Mood Stones  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Mood Stones  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Best Sellers  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Best Sellers  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "A: Lips  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Lips  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "LI: Lip Kits  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lip Kits  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: lip butters  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: lip butters  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Lipsticks  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lipsticks  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Liquid Lipsticks  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Liquid Lipsticks  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Lip Plumpers  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lip Plumpers  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Lip Stains  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lip Stains  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Lip Tints  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lip Tints  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Lip Balms  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lip Balms  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Lip Glosses  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lip Glosses  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Lip Liners  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lip Liners  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: lip oils  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: lip oils  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Lip Care  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lip Care  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Face  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Face  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "LI: Skin Tint  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Skin Tint  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Foundation  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Foundation  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Powder Foundation  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Powder Foundation  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Concealer  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Concealer  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Primer  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Primer  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Glow Balms  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Glow Balms  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Blushes  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Blushes  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Bronzers  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Bronzers  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Brighteners & Highlighters  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Brighteners & Highlighters  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Setting Spray & Powders  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Setting Spray & Powders  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Eyes & Brows  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Eyes & Brows  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "LI: Mascaras  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Mascaras  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Palettes  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Palettes  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Eyeliners  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Eyeliners  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Brows  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Brows  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Featured  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Featured  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "LI: Bundles & Sets  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Bundles & Sets  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Lip Duos  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Lip Duos  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Kylie's Favorites  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Kylie's Favorites  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: King Kylie Collection  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: King Kylie Collection  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Online Exclusives  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Online Exclusives  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Makeup Brushes & Accessories  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Makeup Brushes & Accessories  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Travel Essentials  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Travel Essentials  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: virtual try-on  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: virtual try-on  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: skincare  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: skincare  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: cosmetics  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: • | fragrance  [UniversLTStd-Bold 17px 400 ls normal rgb(57, 57, 57)]",
+    "BUTTON: •  [\"Times New Roman\" 30px 400 ls normal rgb(57, 57, 57)]",
+    "A: Mood Stones  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Mood Stones  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "LI: Cashmere Muse  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Cashmere Muse  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Blush Wood  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Blush Wood  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Velvet Brew  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Velvet Brew  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Cosmic Universe  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Cosmic Universe  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "LI: Cosmic Kylie Jenner  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Cosmic Kylie Jenner  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Cosmic Kylie Jenner 2.0  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Cosmic Kylie Jenner 2.0  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Cosmic Kylie Jenner Intense  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Cosmic Kylie Jenner Intense  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Hair & Body Mists  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Hair & Body Mists  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "LI: caramel cloud  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: caramel cloud  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Sweet Éclair  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Sweet Éclair  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: Vanilla Dew  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Vanilla Dew  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: Bundles & Gift Sets  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Bundles & Gift Sets  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "A: Shop all  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Shop all  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "A: fragrance  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: • | discover  [UniversLTStd-Bold 17px 400 ls normal rgb(57, 57, 57)]",
+    "BUTTON: •  [\"Times New Roman\" 30px 400 ls normal rgb(57, 57, 57)]",
+    "A: About Us  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: About Us  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "A: Kylie's Looks  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Kylie's Looks  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "A: shade finder quiz  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: shade finder quiz  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "A: Refer a Friend  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Refer a Friend  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "A: Gift Guide  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Gift Guide  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "A: Gift Cards  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "H2: Gift Cards  [Tt-Chocolate 20px 600 ls normal rgb(160, 102, 116)]",
+    "A: Virtual Try-On  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "A: Current  Offers  [Tt-Chocolate 17px 400 ls normal rgb(255, 255, 255)]",
+    "A: discover  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "LI: rewards  [UniversLTStd-Bold 17px 400 ls normal rgb(57, 57, 57)]",
+    "A: rewards  [Tt-Chocolate 17px 400 ls normal rgb(57, 57, 57)]",
+    "H1: JUST DROPPED | HOLIDAY GIFT SETS  [UniversLTStd-Bold 34px 700 ls normal rgb(179, 132, 143)]"
+  ],
+  "images": [
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1_MS_Cosmetics_New_Nav_1x1_6ccb7a7a-b45d-4e41-96b5-2b2b41267f1a.jpg?crop=center&height=200&v=1785341392&width=200",
+      "alt": "New",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3_Mood-Stones_Nav_1x1_1318d826-1e19-4d1d-bac4-f3b746b4f68f.jpg?crop=center&height=200&v=1785276433&width=200",
+      "alt": "Best Sellers ",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v4_Mood-Stones_Nav_1x1_cedb9820-89f8-4524-aa49-dc8ee8255646.jpg?crop=center&height=200&v=1785276434&width=200",
+      "alt": "Lips",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v5_Mood-Stones_Nav_1x1_685f0a68-62dc-421e-8a55-0b73eda89110.jpg?crop=center&height=200&v=1785276433&width=200",
+      "alt": "Face",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v6_Mood-Stones_Nav_1x1_2d44a3ce-ac81-4e9c-9885-40f97a8364bf.jpg?crop=center&height=200&v=1785276433&width=200",
+      "alt": "Eyes & Brows",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v4_Mood-Stones_Nav_featured_1x1_022064f8-3f25-46ff-a815-732649e1bdb6.jpg?crop=center&height=200&v=1785276478&width=200",
+      "alt": "Featured",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v4a_FY27-Fall-Gift-Sets_Nav_1x1_0e32018c-9c91-43e3-9df1-d5e193bc851e.jpg?crop=center&height=584&v=1790020448&width=540",
+      "alt": "Shop now",
+      "w": 1600,
+      "h": 1730
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2_Mood-Stones_FR_Nav_1x1_79d53a64-6efe-4a58-88fa-c5afd07d7b9b.jpg?crop=center&height=200&v=1785173403&width=200",
+      "alt": "Mood Stones",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3_Mood-Stones_FR_Nav_1x1_a55e04ea-7258-4038-be18-ff5a17a55132.jpg?crop=center&height=200&v=1785276433&width=200",
+      "alt": "Cosmic Universe ",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v4_Mood-Stones_FR_Nav_1x1_30d362ee-eeb2-4262-9201-0eb8bcee41a6.jpg?crop=center&height=200&v=1785276433&width=200",
+      "alt": "Hair & Body Mists",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v5_Mood-Stones_FR_Nav_1x1_c723ae93-6220-4638-99ef-15723790a53c.jpg?crop=center&height=200&v=1785276433&width=200",
+      "alt": "Bundles & Gift Sets",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v6_Mood-Stones_FR_Nav_1x1_5b6acc2f-5ece-4987-8ce4-7cdcc6f585c7.jpg?crop=center&height=200&v=1785276435&width=200",
+      "alt": "Shop all ",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3a_FY27-Fall-Gift-Sets_Nav_1x1_8cb7893f-cd27-46c5-a237-ed9fb3bfde88.jpg?crop=center&height=584&v=1790020448&width=540",
+      "alt": "Shop now",
+      "w": 1600,
+      "h": 1730
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1_About_Us_cosmetics_LP_2500x2500_a445a4e1-164c-4b15-99ad-a56a29146ce3.jpg?crop=center&height=200&v=1744931078&width=200",
+      "alt": "About Us",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1_2025_April_Kylie_s-Look_2500x2500_1x1_c6a981ed-3688-414c-969a-abda46bc360b.jpg?crop=center&height=200&v=1744931186&width=200",
+      "alt": "Kylie's Looks",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/0110_Foundation_Reveal-Banner_Mobile_390x462-ratio_OPT-4_7c92f408-d6bb-425f-bc09-74ccae9e41a0.jpg?crop=center&height=200&v=1705446969&width=200",
+      "alt": "shade finder quiz",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/image_2023_10_16_04_43_42_610.jpg?crop=center&height=200&v=1699292546&width=200",
+      "alt": "Refer a Friend",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1_FY27-Fall-Gift-Sets_mobile_PLP_banner_1000x754_3833a0f4-8645-4c6a-a040-05303be091fc.jpg?crop=center&height=200&v=1790219476&width=200",
+      "alt": "Gift Guide",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/E-Gift_Card_nav.jpg?crop=center&height=200&v=1766089390&width=200",
+      "alt": "Gift Cards",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3_May_Discover-Nav-Banner_vto_541x284_ratio.jpg?crop=center&height=378&v=1747408128&width=720",
+      "alt": "Virtual Try On Shop now",
+      "w": 1600,
+      "h": 840
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2_May_Discover-Nav-Banner_offer_541x284_ratio..jpg?crop=center&height=378&v=1747408128&width=720",
+      "alt": "Current Offers Shop now",
+      "w": 1600,
+      "h": 840
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_HP_Banner_Desktop.jpg?crop=center&height=1616&v=1790025677&width=2880",
+      "alt": "",
+      "w": 1600,
+      "h": 897
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_HP_Banner_Desktop.jpg?crop=center&height=1616&v=1790025677&width=2880",
+      "alt": "",
+      "w": 1600,
+      "h": 897
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1_FY27-Fall-Gift-Sets_HP_Banner_Mobile.jpg?crop=center&height=1890&v=1789500122&width=1440",
+      "alt": "",
+      "w": 1600,
+      "h": 2100
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1_FY27-Fall-Gift-Sets_MC_Desktop_576x1053_ratio_1b8726b6-1367-4bae-b6e4-fa36878997be.jpg?crop=center&height=1440&v=1789508921&width=1440",
+      "alt": "",
+      "w": 1600,
+      "h": 1600
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2b_FY27-Fall-Gift-Sets_MC_Desktop_576x1053_ratio.jpg?crop=center&height=1440&v=1789663630&width=1440",
+      "alt": "",
+      "w": 1600,
+      "h": 1600
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3_FY27-Fall-Gift-Sets_MC_Desktop_576x1053_ratio_45647891-739f-4934-ae64-f086441af87f.jpg?crop=center&height=1440&v=1789508921&width=1440",
+      "alt": "",
+      "w": 1600,
+      "h": 1600
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_MC_Mobile_390x480_ratio.jpg?crop=center&height=1480&v=1789748220&width=1480",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_MC_Mobile_390x480_ratio.jpg?v=1789748220&width=500",
+      "alt": "makeup gifts",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2b_FY27-Fall-Gift-Sets_MC_Mobile_390x480_ratio.jpg?crop=center&height=1480&v=1789748220&width=1480",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2b_FY27-Fall-Gift-Sets_MC_Mobile_390x480_ratio.jpg?v=1789748220&width=500",
+      "alt": "fragrance gifts",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3b_FY27-Fall-Gift-Sets_MC_Mobile_390x480_ratio.jpg?crop=center&height=1480&v=1789748220&width=1480",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3b_FY27-Fall-Gift-Sets_MC_Mobile_390x480_ratio.jpg?v=1789748220&width=500",
+      "alt": "ready-to-gift sets",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/Mood_Stone_Play_Icons.svg?v=1785276414&width=120",
+      "alt": "",
+      "w": 40,
+      "h": 40
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/Mood_Stone_Play_Icons.svg?v=1785276414&width=120",
+      "alt": "",
+      "w": 40,
+      "h": 40
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_Mobille_2UP_360x360_ratio.jpg?crop=center&height=897&v=1789505101&width=720",
+      "alt": "",
+      "w": 1600,
+      "h": 1993
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_Mobille_2UP_360x360_ratio.jpg?crop=center&height=720&v=1789505101&width=720",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2_FY27-Fall-Gift-Sets_Banner_Desktop.jpg?crop=center&height=1616&v=1789509056&width=2880",
+      "alt": "",
+      "w": 1388,
+      "h": 778
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2_FY27-Fall-Gift-Sets_Banner_Desktop.jpg?crop=center&height=1616&v=1789509056&width=2880",
+      "alt": "",
+      "w": 1388,
+      "h": 778
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2_FY27-Fall-Gift-Sets_Banner_Mobile.jpg?crop=center&height=1890&v=1789509058&width=1440",
+      "alt": "",
+      "w": 1600,
+      "h": 2100
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1b_Summer-Lip-Drop_SBC_1x1_10c89d7e-0390-4f85-b61a-32d718cac664.jpg?crop=center&height=720&v=1778277371&width=720",
+      "alt": "",
+      "w": 1600,
+      "h": 1600
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2b_Summer-Lip-Drop_SBC_1x1_12d130a7-b337-40f4-9d8d-961bd3d9d823.jpg?crop=center&height=720&v=1778277371&width=720",
+      "alt": "",
+      "w": 1600,
+      "h": 1600
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2_Summer-Lip-Drop_SBC_FR_Kylie_1x1_c3b1cda4-cd22-4ecf-9f07-11560cf3d0fa.jpg?v=1778277370&width=600",
+      "alt": "",
+      "w": 300,
+      "h": 300
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3b_Summer-Lip-Drop_SBC_1x1_de18b2b1-8013-42b3-b3a5-75b36f6739e8.jpg?crop=center&height=720&v=1778277370&width=720",
+      "alt": "",
+      "w": 1600,
+      "h": 1600
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v4b_Summer-Lip-Drop_SBC_1x1_e112445a-4335-4e29-a6ef-f95b9d31480e.jpg?crop=center&height=720&v=1778277371&width=720",
+      "alt": "",
+      "w": 1600,
+      "h": 1600
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v6b_Summer-Lip-Drop_SBC_1x1_307da51e-f374-4e6f-92bd-1b78dd5b6747.jpg?crop=center&height=720&v=1778277371&width=720",
+      "alt": "",
+      "w": 1600,
+      "h": 1600
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1_Summer-Lip-Drop_SBC_skin_kylie_1x1_67f09143-2bc5-47ad-93f1-0fbfe35b2b34.jpg?v=1778277370&width=600",
+      "alt": "",
+      "w": 300,
+      "h": 300
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v5b_Summer-Lip-Drop_SBC_1x1_602c085f-1d8b-4d7f-b380-d427957d6770.jpg?crop=center&height=720&v=1778277370&width=720",
+      "alt": "",
+      "w": 1600,
+      "h": 1600
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v1_Lip-Butter-Cake-_-PPLL-SE-_-Lip-Brush_MC_1x1_SBC.jpg?crop=center&height=1480&v=1772485566&width=1480",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2_Lip-Butter-Cake-_-PPLL-SE-_-Lip-Brush_MC_1x1_SBC.jpg?crop=center&height=1480&v=1772485648&width=1480",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3_Lip-Butter-Cake-_-PPLL-SE-_-Lip-Brush_MC_1x1_SBC.jpg?crop=center&height=1480&v=1772485648&width=1480",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v6_Lip-Butter-Cake-_-PPLL-SE-_-Lip-Brush_MC_1x1_SBC.jpg?crop=center&height=1480&v=1772485648&width=1480",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v5_Lip-Butter-Cake-_-PPLL-SE-_-Lip-Brush_MC_1x1_SBC.jpg?crop=center&height=1480&v=1772485648&width=1480",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v4_Lip-Butter-Cake-_-PPLL-SE-_-Lip-Brush_MC_1x1_SBC.jpg?crop=center&height=1480&v=1772485648&width=1480",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3_July_VTO_update_desktop_3336x954.psd.jpg?crop=center&height=1616&v=1752788452&width=2880",
+      "alt": "",
+      "w": 1388,
+      "h": 482
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v3_July_VTO_update_desktop_3336x954.psd.jpg?crop=center&height=1616&v=1752788452&width=2880",
+      "alt": "",
+      "w": 1388,
+      "h": 482
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2_March_VTO_update_desktop_2500x2500_c4e875aa-fc69-44b0-9f89-e07d8740a67b.jpg?crop=center&height=1616&v=1742992901&width=2880",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/v2_March_VTO_update_desktop_2500x2500_c4e875aa-fc69-44b0-9f89-e07d8740a67b.jpg?crop=center&height=1440&v=1742992901&width=1440",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://foursixty.com/tracking-pixel.gif?extension=kylie_1",
+      "alt": "",
+      "w": 1,
+      "h": 1
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/Icons_ffa14b39-9427-426d-9d05-ba7d439824d1_1.png?v=1756806498",
+      "alt": "",
+      "w": 23,
+      "h": 40
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/Icons_f091deed-9395-4df6-8fdb-78572c688b66.png?v=1756806497",
+      "alt": "",
+      "w": 41,
+      "h": 40
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/Icons_fc834e3d-90f0-4e07-b6fd-34cf2401020d.png?v=1756806497",
+      "alt": "",
+      "w": 49,
+      "h": 40
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/Icons_654c53c4-4189-4722-b655-2e04940f2df7.png?v=1756806497",
+      "alt": "",
+      "w": 36,
+      "h": 40
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/ip_modal_3_720x_crop_center.jpg?v=16989124577036497008",
+      "alt": "Modal Banner Desktop",
+      "w": 720,
+      "h": 274
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/files/ip_modal_3_mobile_480x_crop_center.jpg?v=7341324257062088988",
+      "alt": "Modal Banner Mobile",
+      "w": 480,
+      "h": 255
+    },
+    {
+      "src": "https://bat.bing.com/action/0?ti=28484233&Ver=2&mid=26ef3ba4-25cf-4174-8936-cd3d9060a67d&bo=1&sid=8cf602e0c1d111f189f8f1088250dbb6&vid=8cf5fab0c1d111f18605d97f2e92f57d&vids=0&msclkid=N&pi=0&lg=en-US@posix&sw=1600&sh=1000&sc=24&nwd=1&tl=Kylie%20Cosmetics%20by%20Kylie%20Jenner%20%7C%20Kylie%20Jenner%20Fragrances%20%7C%20Kylie%20Skin&p=https%3A%2F%2Fkyliecosmetics.com%2F&r=&lt=1900&evt=pageLoad&sv=2&cdb=AQET&rn=833201",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://cdn.shopify.com/videos/c/o/v/ff485794140b4fbaa3c74ec880262a0f.mp4",
+      "poster": "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_Mobille_2UP_360x360_ratio.jpg?v=1789505101&width=2500"
+    },
+    {
+      "src": "https://cdn.shopify.com/videos/c/o/v/ff485794140b4fbaa3c74ec880262a0f.mp4",
+      "poster": "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_Mobille_2UP_360x360_ratio.jpg?v=1789505101&width=780"
+    },
+    {
+      "src": "https://cdn.shopify.com/videos/c/o/v/ff485794140b4fbaa3c74ec880262a0f.mp4",
+      "poster": ""
+    },
+    {
+      "src": "https://cdn.shopify.com/videos/c/o/v/8c61da6e19664b02a5c02f942e8b0107.mp4",
+      "poster": ""
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/videos/c/vp/def8dcd614c04993988a8cb61ae345b1/def8dcd614c04993988a8cb61ae345b1.HD-720p-4.5Mbps-92173511.mp4?v=0",
+      "poster": ""
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/videos/c/vp/20a1f6b708204c11b6e40b83c73e143c/20a1f6b708204c11b6e40b83c73e143c.HD-720p-3.0Mbps-92173570.mp4?v=0",
+      "poster": ""
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/videos/c/vp/aedd9cdab69e49448b79769e2e1a8614/aedd9cdab69e49448b79769e2e1a8614.HD-1080p-4.8Mbps-92173628.mp4?v=0",
+      "poster": ""
+    },
+    {
+      "src": "https://kyliecosmetics.com/cdn/shop/videos/c/vp/fe5a3586a4e34b1eba8da0bec68355c7/fe5a3586a4e34b1eba8da0bec68355c7.HD-1080p-4.8Mbps-92173673.mp4?v=0",
+      "poster": ""
+    },
+    {
+      "src": "https://cdn.shopify.com/videos/c/o/v/d29ef8109acc48a59a501a609dee09a9.mp4",
+      "poster": ""
+    }
+  ],
+  "og_image": "http://kyliecosmetics.com/cdn/shop/files/kylie-cosmetics-by-kylie-jenner-logo_07a782a4-7a90-4d46-b7a0-31bbafd38552.png?crop=center&height=1024&v=1677023111&width=1024",
+  "favicons": [
+    "https://kyliecosmetics.com/cdn/shop/files/Favicon_V2_200px.png?crop=center&height=32&v=1677026183&width=32"
+  ],
+  "header_svgs": [
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 194 51\" role=\"img\" aria-labelledby=\"Kylie Cosmetics Logo\">    <title id=\"svgTitle\">Kylie Cosmetics Kylie Jenner Homepage</title>    <path fill=\"currentColor\" d=\"M50.427 35.174v4.015l3.23-4.015h1.316l-3.336 4.13 3.524 5.02h-1.496l-3.247-4.775v4.775H49.25v-9.15h1.178ZM58.718 35.174l1.8 4.424 1.84-4.424h1.193l-2.51 5.479v3.671h-1.153V40.62l-2.47-5.454h1.308l-.008.008ZM67.893 35.174v8.136h3.344v1.014h-4.513v-9.15h1.169ZM75.71 35.174v9.15h-1.177v-9.15h1.178ZM84.657 35.174v1.014h-3.55v2.944h3.296v1.006h-3.295v3.18h3.639v1.014h-4.808v-9.15h4.718v-.008ZM97.332 35.174v6.812c0 1.61-.81 2.518-2.47 2.518-1.512 0-2.346-.826-2.346-2.6 0-.188 0-.303.008-.442h1.218c-.008.09-.008.213-.008.352 0 .769.074 1.7 1.145 1.7.875 0 1.292-.645 1.292-1.733v-6.607h1.17-.009ZM106.253 35.174v1.014h-3.548v2.944H106v1.006h-3.295v3.18h3.638v1.014h-4.808v-9.15h4.718v-.008ZM111.609 35.174l3.598 7.834v-7.834h1.039v9.15h-1.586l-3.639-7.932v7.932h-1.055v-9.15h1.643ZM122.101 35.174l3.598 7.834v-7.834h1.038v9.15h-1.586l-3.639-7.932v7.932h-1.055v-9.15h1.644ZM135.61 35.174v1.014h-3.549v2.944h3.295v1.006h-3.295v3.18h3.639v1.014h-4.808v-9.15h4.718v-.008ZM142.479 35.174c1.194 0 2.142.785 2.142 2.273 0 1.129-.605 1.914-1.676 2.118.989.164 1.472.622 1.496 2.355.017.85.115 1.62.303 2.404h-1.219a3.2 3.2 0 0 1-.212-1.038c-.025-.597-.09-1.48-.098-1.71-.09-1.332-.687-1.455-1.791-1.455h-.99v4.211h-1.177v-9.15h3.222v-.008Zm-2.045 1.014v2.944h1.423c1.088 0 1.57-.556 1.57-1.538 0-.981-.482-1.406-1.316-1.406h-1.677ZM14.275 6.807h4.17l-5.078 8.144 5.078 10.01h-4.277l-4.35-9.307h-.05v9.306H5.976V6.807h3.794v7.768h.049l4.457-7.768Zm8.823 18.153h3.794v-6.288L31.97 6.807h-3.876l-2.895 7.67-2.706-7.67h-4.146l4.75 11.865v6.288Zm20.304 0v-3.017H37.72V6.807h-3.794V24.96h9.477Zm1.832 0h3.794V6.807h-3.794V24.96Zm15.733 0v-2.788h-6.313v-5.307h5.634v-2.789h-5.634v-4.48h6.109v-2.79h-9.911V24.96H60.967Zm54.616 0V10.952h.049l3.32 14h3.623l3.492-14h.049v14h3.696V6.807h-5.904l-3.018 12.34h-.049l-2.837-12.34h-6.109V24.96h3.697-.009Zm26.168 0v-2.788h-6.313v-5.307h5.634v-2.789h-5.634v-4.48h6.108v-2.79h-9.902V24.96h10.107Zm1.643-18.153v3.017h4.228V24.96h3.794V9.824h4.228V6.807h-12.25Zm17.868 18.153V6.807h-3.794V24.96h3.794Zm-84.112.295c3.54 0 5.479-1.562 5.479-6.411h-3.745c-.05 1.43.024 3.696-1.734 3.696-2.134 0-2.412-2.012-2.412-6.665 0-4.653.278-6.664 2.412-6.664 1.128 0 1.562.907 1.562 3.32h3.72c.148-3.893-1.406-6.035-5.282-6.035-6.264 0-6.264 4.571-6.264 9.38 0 4.807 0 9.379 6.264 9.379Zm13.435 0c6.256 0 6.256-4.629 6.256-9.38 0-4.75 0-9.38-6.256-9.38-6.255 0-6.263 4.572-6.263 9.38 0 4.808 0 9.38 6.263 9.38Zm0-2.715c-2.134 0-2.412-2.012-2.412-6.665 0-4.653.278-6.664 2.412-6.664 2.135 0 2.413 2.011 2.413 6.664s-.278 6.665-2.413 6.665Zm19.65-2.535c0-5.708-7.645-5.405-7.645-8.848 0-1.26.727-1.938 1.962-1.938 1.529 0 1.758 1.382 1.758 2.74h3.696c.254-3.795-1.586-5.455-5.282-5.455-4.628 0-5.986 2.265-5.986 5.103 0 5.405 7.646 5.61 7.646 8.872 0 1.235-.63 2.06-1.914 2.06-2.085 0-2.158-1.455-2.158-3.197h-3.795c-.204 3.14.679 5.913 5.381 5.913 2.887 0 6.337-.556 6.337-5.25Zm59.122 5.25c3.541 0 5.479-1.562 5.479-6.411h-3.745c-.049 1.43.025 3.696-1.734 3.696-2.134 0-2.412-2.012-2.412-6.665 0-4.653.278-6.664 2.412-6.664 1.129 0 1.562.907 1.562 3.32h3.721c.147-3.893-1.407-6.035-5.283-6.035-6.263 0-6.263 4.571-6.263 9.38 0 4.807 0 9.379 6.263 9.379Zm18.669-5.25c0-5.708-7.646-5.405-7.646-8.848 0-1.26.728-1.938 1.963-1.938 1.529 0 1.758 1.382 1.758 2.74h3.696c.254-3.795-1.586-5.455-5.282-5.455-4.629 0-5.986 2.265-5.986 5.103 0 5.405 7.646 5.61 7.646 8.872 0 1.235-.63 2.06-1.914 2.06-2.085 0-2.159-1.455-2.159-3.197h-3.794c-.204 3.14.679 5.913 5.381 5.913 2.886 0 6.337-.556 6.337-5.25Z\"></path></svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" fill=\"none\">  <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M6.512.563A.527.527 0 0 1 7.26.047a.53.53 0 0 1 .308.52c-.009 1.466-.008 2.529.08 3.314.088.792.257 1.22.515 1.479.26.26.686.434 1.479.534.788.098 1.857.116 3.334.13a.527.527 0 0 1 .37.897.528.528 0 0 1-.373.154h-.002c-1.477-.009-2.547-.008-3.337.08-.793.088-1.22.257-1.48.516-.262.26-.436.687-.536 1.478-.098.785-.116 1.85-.13 3.32a.523.523 0 0 1-.537.53.527.527 0 0 1-.52-.525v-.002c.008-1.475.008-2.543-.08-3.331-.088-.793-.257-1.22-.516-1.479-.26-.261-.689-.435-1.48-.535-.789-.1-1.858-.116-3.334-.13h-.004a.527.527 0 0 1 .01-1.054h.002c1.477.01 2.547.009 3.337-.079.793-.088 1.22-.256 1.481-.514.261-.259.435-.685.535-1.477.098-.784.116-1.846.13-3.31Zm.446 12.049.006-.135v-.002h-.005v.137Zm0-.137h.006l.01-.251h-.016v.25Zm.03-4.996c.11-.207.245-.39.409-.553.165-.164.352-.296.561-.405a2.294 2.294 0 0 1-.554-.41 2.296 2.296 0 0 1-.403-.559c-.111.207-.246.392-.412.555a2.296 2.296 0 0 1-.56.403c.208.11.393.246.556.411.163.165.295.35.403.558Z\" clip-rule=\"evenodd\"></path></svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" fill=\"none\">  <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M6.512.563A.527.527 0 0 1 7.26.047a.53.53 0 0 1 .308.52c-.009 1.466-.008 2.529.08 3.314.088.792.257 1.22.515 1.479.26.26.686.434 1.479.534.788.098 1.857.116 3.334.13a.527.527 0 0 1 .37.897.528.528 0 0 1-.373.154h-.002c-1.477-.009-2.547-.008-3.337.08-.793.088-1.22.257-1.48.516-.262.26-.436.687-.536 1.478-.098.785-.116 1.85-.13 3.32a.523.523 0 0 1-.537.53.527.527 0 0 1-.52-.525v-.002c.008-1.475.008-2.543-.08-3.331-.088-.793-.257-1.22-.516-1.479-.26-.261-.689-.435-1.48-.535-.789-.1-1.858-.116-3.334-.13h-.004a.527.527 0 0 1 .01-1.054h.002c1.477.01 2.547.009 3.337-.079.793-.088 1.22-.256 1.481-.514.261-.259.435-.685.535-1.477.098-.784.116-1.846.13-3.31Zm.446 12.049.006-.135v-.002h-.005v.137Zm0-.137h.006l.01-.251h-.016v.25Zm.03-4.996c.11-.207.245-.39.409-.553.165-.164.352-.296.561-.405a2.294 2.294 0 0 1-.554-.41 2.296 2.296 0 0 1-.403-.559c-.111.207-.246.392-.412.555a2.296 2.296 0 0 1-.56.403c.208.11.393.246.556.411.163.165.295.35.403.558Z\" clip-rule=\"evenodd\"></path></svg>"
+  ],
+  "network_media": [
+    "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_regular-webfont.woff2?v=21416170975998103091788890069",
+    "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_HP_Banner_Desktop.jpg?crop=center&height=1616&v=1790025677&width=2880",
+    "https://kyliecosmetics.com/cdn/shop/files/v2_FY27-Fall-Gift-Sets_Banner_Mobile.jpg?crop=center&height=1890&v=1789509058&width=1440",
+    "https://kyliecosmetics.com/cdn/shop/files/v2_FY27-Fall-Gift-Sets_Banner_Desktop.jpg?crop=center&height=1616&v=1789509056&width=2880",
+    "https://kyliecosmetics.com/cdn/shop/files/v1_FY27-Fall-Gift-Sets_HP_Banner_Mobile.jpg?crop=center&height=1890&v=1789500122&width=1440",
+    "https://kyliecosmetics.com/cdn/shop/files/v3_July_VTO_update_desktop_3336x954.psd.jpg?crop=center&height=1616&v=1752788452&width=2880",
+    "https://kyliecosmetics.com/cdn/shop/t/2529/assets/universltstd-boldcn-webfont.woff2?v=112365896829129518631788890069",
+    "https://cdn.shopify.com/videos/c/o/v/ff485794140b4fbaa3c74ec880262a0f.mp4",
+    "https://kyliecosmetics.com/cdn/shop/t/2529/assets/tt_chocolates_demibold-webfont.woff2?v=23781290936394902461788890069",
+    "https://cdn.shopify.com/videos/c/o/v/d29ef8109acc48a59a501a609dee09a9.mp4",
+    "https://cdn.shopify.com/videos/c/o/v/8c61da6e19664b02a5c02f942e8b0107.mp4",
+    "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_Mobille_2UP_360x360_ratio.jpg?v=1789505101&width=780",
+    "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_Mobille_2UP_360x360_ratio.jpg?v=1789505101&width=2500",
+    "https://kyliecosmetics.com/cdn/shop/files/v3a_FY27-Fall-Gift-Sets_Nav_1x1_8cb7893f-cd27-46c5-a237-ed9fb3bfde88.jpg?crop=center&height=584&v=1790020448&width=540",
+    "https://cdn.cookielaw.org/logos/static/ot_close.svg",
+    "https://kyliecosmetics.com/cdn/shop/files/v4a_FY27-Fall-Gift-Sets_Nav_1x1_0e32018c-9c91-43e3-9df1-d5e193bc851e.jpg?crop=center&height=584&v=1790020448&width=540",
+    "https://kyliecosmetics.com/cdn/shop/files/v3_May_Discover-Nav-Banner_vto_541x284_ratio.jpg?crop=center&height=378&v=1747408128&width=720",
+    "https://kyliecosmetics.com/cdn/shop/files/v2_May_Discover-Nav-Banner_offer_541x284_ratio..jpg?crop=center&height=378&v=1747408128&width=720",
+    "https://kyliecosmetics.com/cdn/shop/files/ip_modal_3_720x_crop_center.jpg?v=16989124577036497008",
+    "https://kyliecosmetics.com/cdn/shop/files/ip_modal_3_mobile_480x_crop_center.jpg?v=7341324257062088988",
+    "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_Mobille_2UP_360x360_ratio.jpg?v=1789505101&width=1480",
+    "https://kyliecosmetics.com/cdn/shop/files/v1_FY27-Fall-Gift-Sets_MC_Desktop_576x1053_ratio_1b8726b6-1367-4bae-b6e4-fa36878997be.jpg?crop=center&height=1440&v=1789508921&width=1440",
+    "https://kyliecosmetics.com/cdn/shop/files/v2b_FY27-Fall-Gift-Sets_MC_Desktop_576x1053_ratio.jpg?crop=center&height=1440&v=1789663630&width=1440",
+    "https://kyliecosmetics.com/cdn/shop/files/v3_FY27-Fall-Gift-Sets_MC_Desktop_576x1053_ratio_45647891-739f-4934-ae64-f086441af87f.jpg?crop=center&height=1440&v=1789508921&width=1440",
+    "https://kyliecosmetics.com/cdn/shop/files/Mood_Stone_Play_Icons.svg?v=1785276414&width=120",
+    "https://kyliecosmetics.com/cdn/shop/files/v1b_Summer-Lip-Drop_SBC_1x1_10c89d7e-0390-4f85-b61a-32d718cac664.jpg?crop=center&height=720&v=1778277371&width=720",
+    "https://kyliecosmetics.com/cdn/shop/files/v1b_FY27-Fall-Gift-Sets_Mobille_2UP_360x360_ratio.jpg?crop=center&height=897&v=1789505101&width=720",
+    "https://kyliecosmetics.com/cdn/shop/files/v2b_Summer-Lip-Drop_SBC_1x1_12d130a7-b337-40f4-9d8d-961bd3d9d823.jpg?crop=center&height=720&v=1778277371&width=720",
+    "https://kyliecosmetics.com/cdn/shop/files/v3b_Summer-Lip-Drop_SBC_1x1_de18b2b1-8013-42b3-b3a5-75b36f6739e8.jpg?crop=center&height=720&v=1778277370&width=720",
+    "https://kyliecosmetics.com/cdn/shop/files/v2_Summer-Lip-Drop_SBC_FR_Kylie_1x1_c3b1cda4-cd22-4ecf-9f07-11560cf3d0fa.jpg?v=1778277370&width=600",
+    "https://kyliecosmetics.com/cdn/shop/videos/c/vp/20a1f6b708204c11b6e40b83c73e143c/20a1f6b708204c11b6e40b83c73e143c.HD-720p-3.0Mbps-92173570.mp4?v=0",
+    "https://kyliecosmetics.com/cdn/shop/videos/c/vp/def8dcd614c04993988a8cb61ae345b1/def8dcd614c04993988a8cb61ae345b1.HD-720p-4.5Mbps-92173511.mp4?v=0",
+    "https://kyliecosmetics.com/cdn/shop/videos/c/vp/aedd9cdab69e49448b79769e2e1a8614/aedd9cdab69e49448b79769e2e1a8614.HD-1080p-4.8Mbps-92173628.mp4?v=0",
+    "https://kyliecosmetics.com/cdn/shop/videos/c/vp/fe5a3586a4e34b1eba8da0bec68355c7/fe5a3586a4e34b1eba8da0bec68355c7.HD-1080p-4.8Mbps-92173673.mp4?v=0",
+    "https://cdn6.fireworktv.com/medias/2026/8/26/1787757655-mcqhuejd/transcoded/720x1200/quymaile_mood_stones.jpg.62.webp",
+    "https://cdn4.fireworktv.com/medias/2026/8/26/1787757655-uzltnhxd/transcoded/720x1200/syl.img_mood_stones.jpg.62.webp",
+    "https://cdn5.fireworktv.com/medias/2026/8/26/1787757655-xwhjcmfi/transcoded/720x1200/samanthaciara_mood_stones.jpg.62.webp",
+    "https://cdn6.fireworktv.com/medias/2026/8/26/1787757655-kfevmdqb/transcoded/720x1200/sydneealexis_mood_stones.jpg.62.webp",
+    "https://cdn7.fireworktv.com/medias/2026/8/26/1787757655-otimyjdk/transcoded/720x1200/jadenfamilo_mood_stones.jpg.62.webp",
+    "https://asset.fwcdn3.com/js/module/assets/shared/Ba5spw5P.png",
+    "https://cdn7.fireworktv.com/medias/2026/8/26/1787757655-srepmiuj/transcoded/720x1200/kateoliver_mood_stones.jpg.62.webp",
+    "https://cdn7.fireworktv.com/medias/2026/8/26/1787757655-qftelusj/transcoded/720x1200/lucasofia_mood_stones.jpg.62.webp",
+    "https://cdn5.fireworktv.com/medias/2026/8/26/1787757655-xfurwcde/transcoded/720x1200/clotravels_mood_stones.jpg.62.webp",
+    "https://cdn.shopify.com/s/files/1/0662/4598/4498/files/tt_chocolates_regular-webfont.woff2?v=1679588177",
+    "https://cdn.shopify.com/s/files/1/0662/4598/4498/files/universltstd-boldcn-webfont.woff2?v=1679588177",
+    "https://cdn.shopify.com/s/files/1/0662/4598/4498/files/kylie-cosmetics-by-kylie-jenner-logo_44d4b830-b42b-4558-aa22-54adf26a234c_x320.png?v=1677055250",
+    "https://kyliecosmetics.com/cdn/shop/files/v4b_Summer-Lip-Drop_SBC_1x1_e112445a-4335-4e29-a6ef-f95b9d31480e.jpg?crop=center&height=720&v=1778277371&width=720",
+    "https://kyliecosmetics.com/cdn/shop/files/v6b_Summer-Lip-Drop_SBC_1x1_307da51e-f374-4e6f-92bd-1b78dd5b6747.jpg?crop=center&height=720&v=1778277371&width=720",
+    "https://kyliecosmetics.com/cdn/shop/files/v1_Summer-Lip-Drop_SBC_skin_kylie_1x1_67f09143-2bc5-47ad-93f1-0fbfe35b2b34.jpg?v=1778277370&width=600",
+    "https://kyliecosmetics.com/cdn/shop/files/v5b_Summer-Lip-Drop_SBC_1x1_602c085f-1d8b-4d7f-b380-d427957d6770.jpg?crop=center&height=720&v=1778277370&width=720",
+    "https://kyliecosmetics.com/cdn/shop/files/Icons_ffa14b39-9427-426d-9d05-ba7d439824d1_1.png?v=1756806498",
+    "https://kyliecosmetics.com/cdn/shop/files/Icons_f091deed-9395-4df6-8fdb-78572c688b66.png?v=1756806497",
+    "https://kyliecosmetics.com/cdn/shop/files/Icons_fc834e3d-90f0-4e07-b6fd-34cf2401020d.png?v=1756806497",
+    "https://kyliecosmetics.com/cdn/shop/files/Icons_654c53c4-4189-4722-b655-2e04940f2df7.png?v=1756806497",
+    "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyosBO5Xw.woff2",
+    "https://creatives.attn.tv/kyliecosmetics/TT%20Chocolates%20DemiBold_7b09dd39.otf",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/831504820_18569669686072786_8391049550510837757_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=yurp7jfJllIQ7kNvwEUHhNc&_nc_oc=AdrAhJQiB7X64rALGmWdtay_95SteuZNYIxK8Wvi4lhC-3ZlANnnQE9PQhYMvuuHt_A&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQPQANWmB1N86O6yQdWG_uKMu6muc-OJQVc_o2tostIpVQ&oe=6AC7CAED",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/830563134_18569396992072786_1993559059035587970_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Z0bwlm7vyZwQ7kNvwG8mguV&_nc_oc=AdoNabD6-ZNnGIr1eY3p_90n5EvkfUuUqXwTncMLpJPkKvZYhzioZj0SzbjQzYhA30s&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQNZ51vCNRZR2GEbZrxyHC5QSNvEf6XbDIFk74kNHSk-LA&oe=6AC7DF4C",
+    "https://creatives.attn.tv/kyliecosmetics/UniversLTPro-65Bold_781604cc_c39e3a56.ttf",
+    "https://creatives.attn.tv/kyliecosmetics/TT%20Chocolates%20Regular_a118fe2d.otf",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/830669910_18569135911072786_7649814194237249714_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bwtMVf5ck6sQ7kNvwE9YWoM&_nc_oc=Adrmuzf3ht7CnUPTj4Sg8g-ZY17NQnVsLO7V3fxAOgPB0H6sfFO7V5yVMqM_28bgVsw&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQNSd5_qXsIwwuhLW0QK415dLu1ND1KfMyNlPxUyumxL_g&oe=6AC7DA95",
+    "https://creatives.attn.tv/kyliecosmetics/UniversLTPro-BoldCond%20%281%29%20%281%29_453ecedb.otf",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/828164037_18568470583072786_4788901745661101062_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dxe3T07rYvkQ7kNvwHPhgb1&_nc_oc=Adq7lTFSkotVVrIH0gicrf1Z75OzkMMDT6FtViqDUioslJE7USAaXH6ogFi9-LhBDJ8&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&_nc_tpa=Q5bMBQINtvTueR0Qcanv7kbTrAYK2wicaOVHgnXqz99cAvsqFoFgSgwvb_AipOJuLLL6FUXcZNnhFoxIMA&oh=00_AQOV4YmUH-DlyFdJtXKeoBDgRaxNVAkHDpro7yVgkk_qFw&oe=6AC7C2F3",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/827208394_18568639630072786_5884090869826398706_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=PescT5MlIgoQ7kNvwF2-pkL&_nc_oc=AdqN-Akiezj0kO42gOEzP7TWzWwJUN7kXyHdRcYGy1xqU-CBQJw75xinbNPFV2n4sQY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQNvHx_er1yEUIkliB__WbEyU9s9xr7-YpQPwBILtX_m0w&oe=6AC7BEC2",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/825324146_18568173133072786_4636891197427679511_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=g25iyYrWrlEQ7kNvwGftuZc&_nc_oc=Adolg8sa1C9rbNFQh0nA5xPodMUYgMx0vyM7PoNLYx6bkMaHxrsLfZtBLDJjHXxB5xs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQOv7aWWuU07Ncbi0prj3znO7snvjuIftY_M5PmJX1UF4g&oe=6AC7C958",
+    "https://creatives.attn.tv/kyliecosmetics/TT%20Chocolates%20DemiBold%203_e5a2cb34.ttf",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/825277200_18568421728072786_6549876725577549767_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=crRlQB5wJHIQ7kNvwGUpw17&_nc_oc=AdraAfvBAJiSP5A-01fGYAN-Z7HwDPoz6FZIfur9AGJS9w_3mlPIcJFc-49U8vAnuHM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQO53bQ_1qtdpOqXlniNg2gpez7Q3X3oQlHVqLiVK7004A&oe=6AC7B528",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/825326520_18567930394072786_5120064669454078553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=SZ40X4j8OsAQ7kNvwG2Eh5L&_nc_oc=AdqXdp5kfHq0s8C-Winv3qlU61tXI1PRFl-ae6ABLZRhFioHP6vATVRjt5DKxchFa4Y&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQOPSyWzu0Oddhk8TtWkZ_vagovePjPkC5Fw8rGWruAa_A&oe=6AC7D236",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/825324361_18567659344072786_1824138323183971188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=2BAp78eC69YQ7kNvwECENOz&_nc_oc=AdpJaUZiwDYfOzAd80yThG7T_kx3EzuQolAGJXU9ETfNjGxpAnVtR348-nnP4A9QQJo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQOQS37G1giNoIGcne5pFqY_YzlD1uJrqanXaEIi6doHQA&oe=6AC7CBBA",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/809184137_18565378687072786_9014223903504295861_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bmkOYW_UpvkQ7kNvwH2VIq_&_nc_oc=Adp6jcZWCYUOxF7b0r-lummZnE1QG-QLtb0G0xhqznsq_ga0twk-UdOBgoRKR3SgbwM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQMweFuxCEEi8pOA6nKbh3jlymmu_z2W8qqgp3AuvEn9IQ&oe=6AC7DE64",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/819031207_18567160783072786_7911133234401575486_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=kXGixo0FWlMQ7kNvwE8Eypi&_nc_oc=Adp2Z5ccpo-ipma-xA4heBkDTBvb8btHi_OvOcuFVZQ_GQ5sJuK-XVYNfSHp186IZ6E&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQNPRqWNSUw5pFbzlZkzSSqDQbJh6TWwfYs-cRUPVmS3rQ&oe=6AC7C30A",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/817176737_18564833797072786_1710238646992266637_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=2j-Ut1XJ0PkQ7kNvwHi3j_6&_nc_oc=Adp0ZGo7gX3oGfBZQ_pllLLLUacTGJEo_rAe4uOU6VzjM05gqcSmuxz13VfJAAAItn0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&oh=00_AQOm_2Zhb04EJhOc7Exbdgv-cME7kzpxUhk-538prqtJVw&oe=6AC7DC3B",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/802505223_18565111162072786_8874358980397773453_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=O6yaO0l3VZoQ7kNvwF5ZFvW&_nc_oc=AdoQkHc7gHkv3DxxZABKrCxR5T-5xGZgPKdv_oe2CrmKT36Mzuebs6Guaf4UCg8eU2s&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&_nc_tpa=Q5bMBQKwscq4fXhhuwhgW86pIFl9zoADI8YdKu1w981Mc0uHNvpQ73aOBZOrR02liIjkub6utDHpcgW_mA&oh=00_AQP_Pi6GkCa9ZizaPeGo3VEj8MIhw7T_XbSfA54ElRPqZg&oe=6AC7D94C",
+    "https://scontent.cdninstagram.com/v/t51.82787-15/813832256_18564501925072786_4713182947943760081_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=x_WsjQSfw9EQ7kNvwGzWZhQ&_nc_oc=AdowDxXdXYgX3knMpEnjjA1aCKPzoH8HeS4_UXco3UNfKOGed9SX-QAcqtcUh5ZjDOM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=4Wer3OEoIP4HYYBZUfA3AQ&_nc_tpa=Q5bMBQJUBY6HcwnBxUziLqFZpe0bOHKtQRyji2lkG8FdYd58q9J77XGhdFbNbsv_ZQWu713lXJ-RAo1_5Q&oh=00_AQNuTPwiiA5A8RPtHjNyLu1D_MsKG27phDw6zxCZIxff1g&oe=6AC7B6A1"
+  ]
+}

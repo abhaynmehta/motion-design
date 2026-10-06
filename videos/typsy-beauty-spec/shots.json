@@ -1,0 +1,172 @@
+{
+ "note": "In/out points in source seconds (cuts from ffmpeg scene detection). All 1:1 sources at 1920 so a 9:16 frame is a 1:1 draw of the square's centre band.",
+ "films": {
+  "ch": "source/chocolate-body-mist_bac71b.mp4",
+  "co": "source/coconut-body-mist_cf319b.mp4",
+  "st": "source/strawberry-body-mist_8cd3b6.mp4"
+ },
+ "shots": {
+  "ch_pour": {
+   "film": "ch",
+   "in": 0.05,
+   "out": 2.15,
+   "mode": "square",
+   "size": 1920
+  },
+  "st_cake": {
+   "film": "st",
+   "in": 21.44,
+   "out": 22.32,
+   "mode": "square",
+   "size": 1920
+  },
+  "co_pipe": {
+   "film": "co",
+   "in": 41.8,
+   "out": 42.52,
+   "mode": "square",
+   "size": 1920
+  },
+  "ch_spritz": {
+   "film": "ch",
+   "in": 26.36,
+   "out": 27.04,
+   "mode": "square",
+   "size": 1920
+  },
+  "co_bliss": {
+   "film": "co",
+   "in": 43.24,
+   "out": 43.84,
+   "mode": "square",
+   "size": 1920
+  },
+  "ch_bite": {
+   "film": "ch",
+   "in": 30.28,
+   "out": 31.2,
+   "mode": "square",
+   "size": 1920
+  },
+  "ch_slice": {
+   "film": "ch",
+   "in": 19.16,
+   "out": 19.88,
+   "mode": "square",
+   "size": 1920
+  },
+  "ch_lips": {
+   "film": "ch",
+   "in": 13.88,
+   "out": 14.72,
+   "mode": "square",
+   "size": 1920
+  },
+  "ch_candle": {
+   "film": "ch",
+   "in": 19.96,
+   "out": 21.88,
+   "mode": "square",
+   "size": 1920
+  },
+  "ch_drip": {
+   "film": "ch",
+   "in": 43.56,
+   "out": 45.28,
+   "mode": "square",
+   "size": 1920
+  },
+  "ch_bottle": {
+   "film": "ch",
+   "in": 48.1,
+   "out": 50.7,
+   "mode": "square",
+   "size": 1920
+  },
+  "co_turn": {
+   "film": "co",
+   "in": 0.05,
+   "out": 1.72,
+   "mode": "square",
+   "size": 1920
+  },
+  "co_nut": {
+   "film": "co",
+   "in": 8.16,
+   "out": 9.4,
+   "mode": "square",
+   "size": 1920
+  },
+  "co_smile": {
+   "film": "co",
+   "in": 33.36,
+   "out": 34.28,
+   "mode": "square",
+   "size": 1920,
+   "fx": 0.6
+  },
+  "co_bottle": {
+   "film": "co",
+   "in": 61.1,
+   "out": 64.4,
+   "mode": "square",
+   "size": 1920
+  },
+  "st_picnic": {
+   "film": "st",
+   "in": 6.12,
+   "out": 7.4,
+   "mode": "square",
+   "size": 1920
+  },
+  "st_berry": {
+   "film": "st",
+   "in": 7.48,
+   "out": 8.84,
+   "mode": "square",
+   "size": 1920
+  },
+  "st_kiss": {
+   "film": "st",
+   "in": 20.52,
+   "out": 21.36,
+   "mode": "square",
+   "size": 1920
+  },
+  "st_bottle": {
+   "film": "st",
+   "in": 45.2,
+   "out": 46.96,
+   "mode": "square",
+   "size": 1920
+  },
+  "co_bite": {
+   "film": "co",
+   "in": 54.12,
+   "out": 55.0,
+   "mode": "square",
+   "size": 1920
+  },
+  "co_oven": {
+   "film": "co",
+   "in": 59.04,
+   "out": 60.9,
+   "mode": "square",
+   "size": 1920
+  },
+  "st_basket": {
+   "film": "st",
+   "in": 17.32,
+   "out": 18.48,
+   "mode": "square",
+   "size": 1920
+  },
+  "st_hold": {
+   "film": "st",
+   "in": 37.1,
+   "out": 37.84,
+   "mode": "square",
+   "size": 1920
+  }
+ }
+}

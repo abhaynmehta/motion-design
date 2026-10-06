@@ -1,0 +1,1089 @@
+{
+  "url": "https://www.rarebeauty.com/",
+  "title": "Rare Beauty by Selena Gomez | Vegan & Cruelty Free Makeup",
+  "description": "Rare Beauty is makeup made to feel good in, without hiding what makes you unique. Shop airy, breathable formulas that are easy to apply, blend and build.",
+  "font_families_by_use": [
+    [
+      "\"Neue Hass Unica Regular\"",
+      344
+    ],
+    [
+      "\"Ogg Regular\"",
+      49
+    ],
+    [
+      "\"Rare Script\"",
+      11
+    ],
+    [
+      "\"Open Sans\"",
+      9
+    ],
+    [
+      "\"Neue Hass Unica Bold\"",
+      8
+    ],
+    [
+      "\"Neue Hass Unica Medium\"",
+      4
+    ]
+  ],
+  "font_faces": [
+    {
+      "family": "Neue Hass Unica Regular",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-regular.woff2?v=92766390133576145611599672467",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-regular.woff?v=11457767048876747441599672466"
+      ]
+    },
+    {
+      "family": "Neue Hass Unica Medium",
+      "weight": "500",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-medium.woff2?v=70845254785548219591619716473",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-medium.woff?v=3126548884188460351619716482"
+      ]
+    },
+    {
+      "family": "Neue Hass Unica Medium",
+      "weight": "500",
+      "style": "italic",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-medium-italic.woff2?v=181850701805043132191619716485",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-medium-italic.woff?v=10629560650659419131619716491"
+      ]
+    },
+    {
+      "family": "Neue Hass Unica Bold",
+      "weight": "700",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-bold.woff2?v=85554310630904660111599672466",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-bold.woff?v=155947686969832229031599672465"
+      ]
+    },
+    {
+      "family": "Ogg Regular",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/ogg-regular.woff2?v=118891629237246559021599672468",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/ogg-regular.woff?v=85060303277141565311599672467"
+      ]
+    },
+    {
+      "family": "Ogg Medium",
+      "weight": "500",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/ogg-medium.woff2?v=178169752715929818291732147859",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/ogg-medium.woff?v=159318755696939579701732147858"
+      ]
+    },
+    {
+      "family": "Ogg Roman",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "Rare Script",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/rarescript-regular.woff2?v=176122394251287531551599672473",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/rarescript-regular.woff?v=111340007272130237391599672472"
+      ]
+    },
+    {
+      "family": "Neue Hass Unica Regular",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-regular.woff2?v=92766390133576145611599672467",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-regular.woff?v=11457767048876747441599672466"
+      ]
+    },
+    {
+      "family": "Neue Hass Unica Medium",
+      "weight": "500",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-medium.woff2?v=70845254785548219591619716473",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-medium.woff?v=3126548884188460351619716482"
+      ]
+    },
+    {
+      "family": "Neue Hass Unica Medium",
+      "weight": "500",
+      "style": "italic",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-medium-italic.woff2?v=181850701805043132191619716485",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-medium-italic.woff?v=10629560650659419131619716491"
+      ]
+    },
+    {
+      "family": "Neue Hass Unica Bold",
+      "weight": "700",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-bold.woff2?v=85554310630904660111599672466",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-bold.woff?v=155947686969832229031599672465"
+      ]
+    },
+    {
+      "family": "Ogg Regular",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/ogg-regular.woff2?v=118891629237246559021599672468",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/ogg-regular.woff?v=85060303277141565311599672467"
+      ]
+    },
+    {
+      "family": "Ogg Medium",
+      "weight": "500",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/ogg-medium.woff2?v=178169752715929818291732147859",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/ogg-medium.woff?v=159318755696939579701732147858"
+      ]
+    },
+    {
+      "family": "Ogg Roman",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": []
+    },
+    {
+      "family": "Rare Script",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/rarescript-regular.woff2?v=176122394251287531551599672473",
+        "https://www.rarebeauty.com/cdn/shop/t/127/assets/rarescript-regular.woff?v=111340007272130237391599672472"
+      ]
+    }
+  ],
+  "text_colors": [
+    [
+      "rgb(111, 9, 54)",
+      254
+    ],
+    [
+      "rgb(0, 9, 20)",
+      86
+    ],
+    [
+      "rgb(255, 247, 231)",
+      20
+    ],
+    [
+      "rgb(105, 105, 105)",
+      19
+    ],
+    [
+      "rgb(70, 69, 69)",
+      11
+    ],
+    [
+      "rgb(106, 108, 119)",
+      9
+    ],
+    [
+      "rgb(255, 255, 255)",
+      7
+    ],
+    [
+      "rgb(0, 0, 0)",
+      5
+    ],
+    [
+      "rgb(25, 25, 25)",
+      5
+    ],
+    [
+      "rgba(0, 0, 0, 0)",
+      2
+    ],
+    [
+      "rgb(127, 38, 73)",
+      2
+    ],
+    [
+      "rgb(85, 85, 85)",
+      2
+    ],
+    [
+      "rgb(104, 182, 49)",
+      1
+    ],
+    [
+      "rgb(127, 37, 73)",
+      1
+    ],
+    [
+      "rgb(56, 96, 190)",
+      1
+    ]
+  ],
+  "bg_colors": [
+    [
+      "rgb(237, 238, 233)",
+      28
+    ],
+    [
+      "rgb(253, 251, 248)",
+      12
+    ],
+    [
+      "rgb(253, 246, 240)",
+      10
+    ],
+    [
+      "rgb(255, 255, 255)",
+      6
+    ],
+    [
+      "rgb(127, 37, 73)",
+      4
+    ],
+    [
+      "rgb(39, 69, 92)",
+      4
+    ],
+    [
+      "rgb(111, 9, 54)",
+      3
+    ],
+    [
+      "rgba(253, 251, 248, 0.5)",
+      2
+    ],
+    [
+      "rgb(248, 248, 248)",
+      2
+    ],
+    [
+      "rgb(192, 187, 180)",
+      1
+    ],
+    [
+      "rgb(252, 251, 247)",
+      1
+    ],
+    [
+      "rgb(239, 239, 239)",
+      1
+    ],
+    [
+      "rgb(128, 37, 73)",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.5)",
+      1
+    ],
+    [
+      "rgb(249, 255, 250)",
+      1
+    ],
+    [
+      "rgb(205, 220, 242)",
+      1
+    ],
+    [
+      "rgb(56, 96, 190)",
+      1
+    ],
+    [
+      "rgb(244, 244, 244)",
+      1
+    ]
+  ],
+  "css_vars": {
+    "--rc-color": "#040404",
+    "--rc-active-bg": "#efefef",
+    "--rc-active-color": "#000000"
+  },
+  "headings": [
+    "A: Skip to Main  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(70, 69, 69)]",
+    "BUTTON: Open Navigation  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "BUTTON: Close Navigation  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Account  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "LI: SHOP⌃ | Shop menu  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: SHOP  [\"Neue Hass Unica Regular\" 12px 400 ls 3px rgb(111, 9, 54)]",
+    "BUTTON: ⌃ | Shop menu  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgba(0, 0, 0, 0)]",
+    "LI: SHADE FINDER  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: SHADE FINDER  [\"Neue Hass Unica Regular\" 12px 400 ls 3px rgb(111, 9, 54)]",
+    "LI: RARE IMPACT  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: RARE IMPACT  [\"Neue Hass Unica Regular\" 12px 400 ls 3px rgb(111, 9, 54)]",
+    "H1: Rare Beauty  [\"Ogg Regular\" 48px 400 ls normal rgb(0, 9, 20)]",
+    "BUTTON: Search  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 0, 0)]",
+    "BUTTON: Search  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Account  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "BUTTON: Items in cart: 0. Toggle Cart | 0  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "BUTTON: Close Bag  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "BUTTON: Close Search  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 0, 0)]",
+    "P: We couldn’t find any matches  [\"Neue Hass Unica Regular\" 12px 400 ls 1px rgb(0, 9, 20)]",
+    "H2: Try These Best Sellers  [\"Neue Hass Unica Regular\" 15px 400 ls 3px rgb(111, 9, 54)]",
+    "A: See all Best Sellers  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(111, 9, 54)]",
+    "P: NEW  [\"Neue Hass Unica Regular\" 14px 700 ls 5.74px rgb(25, 25, 25)]",
+    "H2: Jumbo Brow Harmony Flexible Lifting Gel  [\"Ogg Regular\" 56px 400 ls normal rgb(25, 25, 25)]",
+    "P: A whole lot more of our bestselling clear brow gel—supersized for a limited time.  [\"Neue Hass Unica Regular\" 18px 400 ls 1px rgb(25, 25, 25)]",
+    "A: SHOP NOW  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(0, 0, 0)]",
+    "H3: Bestsellers  [\"Ogg Regular\" 48px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: SHOP NOW  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(111, 9, 54)]",
+    "H3: Jumbo Brow Harmony Flexible Lifting Gel  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Jumbo Brow Harmony Flexible Lifting Gel  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "BUTTON: ADD TO BAG • | $28  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "P: 50 mL  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "H3: Rare Beginnings Eau de Parfum  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Rare Beginnings Eau de Parfum  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: 72 REVIEWS  [\"Neue Hass Unica Regular\" 10px 400 ls 2px rgb(111, 9, 54)]",
+    "LI: 50 mL  [\"Neue Hass Unica Regular\" 10px 400 ls normal rgb(111, 9, 54)]",
+    "LI: 10 mL  [\"Neue Hass Unica Regular\" 10px 400 ls normal rgb(111, 9, 54)]",
+    "BUTTON: ADD TO BAG • | $78  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "H3: Hope Faves 4 Piece Set  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Hope Faves 4 Piece Set  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: 6 REVIEWS  [\"Neue Hass Unica Regular\" 10px 400 ls 2px rgb(111, 9, 54)]",
+    "BUTTON: ADD TO BAG • | ORIGINAL PRICE: | $78 | CURRENT PRICE: | $54  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "P: 50 mL  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "H3: Rare Eau de Parfum  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Rare Eau de Parfum  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: 817 REVIEWS  [\"Neue Hass Unica Regular\" 10px 400 ls 2px rgb(111, 9, 54)]",
+    "LI: 50 mL  [\"Neue Hass Unica Regular\" 10px 400 ls normal rgb(111, 9, 54)]",
+    "LI: 10 mL  [\"Neue Hass Unica Regular\" 10px 400 ls normal rgb(111, 9, 54)]",
+    "BUTTON: ADD TO BAG • | $78  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "H3: Violet Faves Mini Cheek & Lip Trio  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Violet Faves Mini Cheek & Lip Trio  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: 2 REVIEWS  [\"Neue Hass Unica Regular\" 10px 400 ls 2px rgb(111, 9, 54)]",
+    "BUTTON: ADD TO BAG • | ORIGINAL PRICE: | $48 | CURRENT PRICE: | $34  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "H3: Rare Beginnings Mini Eau de Parfum Set  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Rare Beginnings Mini Eau de Parfum Set  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: 38 REVIEWS  [\"Neue Hass Unica Regular\" 10px 400 ls 2px rgb(111, 9, 54)]",
+    "BUTTON: ADD TO BAG • | $38  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "P: Hope  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "H3: Soft Pinch Liquid Blush  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Soft Pinch Liquid Blush  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: 5033 REVIEWS  [\"Neue Hass Unica Regular\" 10px 400 ls 2px rgb(111, 9, 54)]",
+    "A: +7 More  [\"Neue Hass Unica Regular\" 10px 400 ls normal rgb(111, 9, 54)]",
+    "BUTTON: ADD TO BAG • | $25  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "P: Wish  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "H3: Soft Pinch Lip Oil Stick  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Soft Pinch Lip Oil Stick  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: 179 REVIEWS  [\"Neue Hass Unica Regular\" 10px 400 ls 2px rgb(111, 9, 54)]",
+    "BUTTON: ADD TO BAG • | $25  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "H3: Fragrance Layering Balm – Sweet Marshmallow  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Fragrance Layering Balm – Sweet Marshmallow  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: 22 REVIEWS  [\"Neue Hass Unica Regular\" 10px 400 ls 2px rgb(111, 9, 54)]",
+    "BUTTON: ADD TO BAG • | $20  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "H3: Fragrance Layering Balm – Fruity Pear  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Fragrance Layering Balm – Fruity Pear  [\"Ogg Regular\" 17px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: 26 REVIEWS  [\"Neue Hass Unica Regular\" 10px 400 ls 2px rgb(111, 9, 54)]",
+    "BUTTON: ADD TO BAG • | $20  [\"Neue Hass Unica Regular\" 12px 700 ls 4px rgb(111, 9, 54)]",
+    "H3: Soft Pinch Liquid Blush  [\"Ogg Regular\" 48px 400 ls normal rgb(0, 9, 20)]",
+    "A: SHOP SOFT PINCH  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(111, 9, 54)]",
+    "H2: Foundation | Shade Finder  [\"Ogg Regular\" 48px 400 ls normal rgb(0, 9, 20)]",
+    "P: Find your best shade of True to Myself Natural Matte Longwear Foundation in just 4 simple steps.  [\"Neue Hass Unica Regular\" 20px 400 ls 1px rgb(0, 9, 20)]",
+    "A: MATCH ME  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(111, 9, 54)]",
+    "P: FAIR  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "P: LIGHT  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "P: LIGHT MEDIUM  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "P: MEDIUM  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "P: MEDIUM DEEP  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "P: DEEP  [\"Neue Hass Unica Regular\" 9px 400 ls 2px rgb(0, 9, 20)]",
+    "H3: @RareBeauty  [\"Ogg Regular\" 48px 400 ls 0.5px rgb(0, 9, 20)]",
+    "BUTTON: PAUSE PHOTO ANIMATION  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(111, 9, 54)]",
+    "H3: This is Your Community  [\"Ogg Regular\" 48px 400 ls 0.5px rgb(0, 9, 20)]",
+    "P: Share your #RareRoutine and tag @rarebeauty for a chance to be featured!  [\"Neue Hass Unica Regular\" 15px 400 ls 1px rgb(0, 9, 20)]",
+    "A: LEARN MORE  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(111, 9, 54)]",
+    "H3: This is Your Community  [\"Ogg Regular\" 48px 400 ls 0.5px rgb(0, 9, 20)]",
+    "P: Share your #RareRoutine and tag @rarebeauty for a chance to be featured!  [\"Neue Hass Unica Regular\" 15px 400 ls 1px rgb(0, 9, 20)]",
+    "A: LEARN MORE  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(111, 9, 54)]",
+    "H3: This is Your Community  [\"Ogg Regular\" 48px 400 ls 0.5px rgb(0, 9, 20)]",
+    "P: Share your #RareRoutine and tag @rarebeauty for a chance to be featured!  [\"Neue Hass Unica Regular\" 20px 400 ls 1px rgb(0, 9, 20)]",
+    "A: Learn More  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(111, 9, 54)]",
+    "H3: Shop by | Category  [\"Ogg Regular\" 48px 400 ls 0.5px rgb(0, 9, 20)]",
+    "A: Eye  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(70, 69, 69)]",
+    "A: Face  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(70, 69, 69)]",
+    "A: Bestsellers  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(70, 69, 69)]",
+    "A: Eye  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(70, 69, 69)]",
+    "A: Face  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(70, 69, 69)]",
+    "A: Bestsellers  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(70, 69, 69)]",
+    "H2: Make an impact on mental health  [\"Ogg Regular\" 48px 400 ls normal rgb(0, 9, 20)]",
+    "P: 1% of Rare Beauty’s annual sales will go directly to the Rare Impact Fund to expand mental health services in underserved communities.  [\"Neue Hass Unica Regular\" 20px 400 ls normal rgb(0, 9, 20)]",
+    "A: LEARN MORE  [\"Neue Hass Unica Regular\" 10px 400 ls 5px rgb(111, 9, 54)]",
+    "BUTTON: SCROLL TO TOP  [\"Neue Hass Unica Regular\" 16px 400 ls 5px rgb(111, 9, 54)]",
+    "A: Privacy Policy  [\"Neue Hass Unica Regular\" 11px 400 ls normal rgb(111, 9, 54)]",
+    "A: Terms of Service.  [\"Neue Hass Unica Regular\" 11px 400 ls normal rgb(111, 9, 54)]",
+    "BUTTON: JOIN US  [\"Neue Hass Unica Regular\" 11px 300 ls 2.29px rgb(111, 9, 54)]",
+    "A: Terms  [\"Neue Hass Unica Regular\" 11px 400 ls normal rgb(111, 9, 54)]",
+    "A: Privacy Policy.  [\"Neue Hass Unica Regular\" 11px 400 ls normal rgb(111, 9, 54)]",
+    "BUTTON: JOIN US  [\"Neue Hass Unica Regular\" 11px 300 ls 2.29px rgb(111, 9, 54)]",
+    "LI: Instagram  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(0, 9, 20)]",
+    "A: Instagram  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(70, 69, 69)]",
+    "LI: Facebook  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(0, 9, 20)]",
+    "A: Facebook  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(70, 69, 69)]",
+    "LI: Twitter  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(0, 9, 20)]",
+    "A: Twitter  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(70, 69, 69)]",
+    "LI: YouTube  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(0, 9, 20)]",
+    "A: YouTube  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(70, 69, 69)]",
+    "LI: Pinterest  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(0, 9, 20)]",
+    "A: Pinterest  [\"Neue Hass Unica Regular\" 15px 400 ls normal rgb(70, 69, 69)]",
+    "LI: Face  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Face  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Eye  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Eye  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Lip  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Lip  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Tools  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Tools  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Online Only  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Online Only  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: About Us  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: About Us  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Rare Impact  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Rare Impact  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Made Accessible  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Made Accessible  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Sustainability  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Sustainability  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Store Locator  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Store Locator  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Partnerships  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Partnerships  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Contact Us  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Contact Us  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]",
+    "LI: Shipping & Returns  [\"Neue Hass Unica Regular\" 16px 400 ls normal rgb(0, 9, 20)]",
+    "A: Shipping & Returns  [\"Neue Hass Unica Regular\" 11px 400 ls 1.5px rgb(111, 9, 54)]"
+  ],
+  "images": [
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-SHOP-ALL.png?v=1774669137&width=400",
+      "alt": "",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/LATE-FA26-NAVIGATION-NEW.png?v=1786106615&width=400",
+      "alt": "",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-BESTSELLERS.png?v=1774669137&width=400",
+      "alt": "",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/FRAGRANCE-NAVIGATION-V1.png?v=1786106615&width=400",
+      "alt": "",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-FACE.png?v=1774669137&width=400",
+      "alt": "",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/gnav-shop-body-sp26.png?v=1764623240&width=400",
+      "alt": "",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-TOOLS.png?v=1774669137&width=400",
+      "alt": "",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-ONLINE-ONLY.png?v=1774669137&width=400",
+      "alt": "",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://cdn.shopify.com/static/images/flags/us.svg?crop=center&height=25&width=25",
+      "alt": "",
+      "w": 12800,
+      "h": 9600
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/HP-HERO-D-HOL26-JUMBO-BROW-16x9.jpg?format=pjpg&v=1790104700&width=5120",
+      "alt": "",
+      "w": 1600,
+      "h": 900
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-BH-BROW-GEL-JUMBO-CLEAR.jpg?format=pjpg&v=1788988192&width=720",
+      "alt": "Jumbo Brow Harmony Flexible Lifting Gel",
+      "w": 310,
+      "h": 420
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-RARE-BEGINNINGS-EDP-50ML-V1.jpg?format=pjpg&v=1784666725&width=720",
+      "alt": "Rare Beginnings Eau de Parfum bottle by Rare Beauty",
+      "w": 310,
+      "h": 420
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-HOPE-FAVES-01.jpg?format=pjpg&v=1788547760&width=720",
+      "alt": "Hope Faves 4 Piece Set",
+      "w": 310,
+      "h": 420
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-RARE-EAU-DE-PARFUM-01.jpg?format=pjpg&v=1753218416&width=720",
+      "alt": "50 mL| The Rare Eau de Parfum features a rounded bottle design and a gold cap with script writing.",
+      "w": 310,
+      "h": 420
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-VIOLET-FAVES-01.jpg?format=pjpg&v=1788553499&width=720",
+      "alt": "Violet Faves Mini Cheek & Lip Trio",
+      "w": 310,
+      "h": 420
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/ECOMM-RARE-BEGINNINGS-MINI-EDP-SET-BOX-PRODUCT.jpg?format=pjpg&v=1784738742&width=720",
+      "alt": "Rare Beauty Rare Beginnings mini eau de parfum fragrance set",
+      "w": 310,
+      "h": 420
+    },
+    {
+      "src": "",
+      "alt": "Hope| Rare Beauty's Soft Pinch Liquid Blush in the dewy nude mauve shade \"Hope.\"",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-hope.png?v=1727733747&width=64",
+      "alt": "Swatch for Hope",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-bliss.png?v=1727733524&width=64",
+      "alt": "Swatch for Bliss",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-adore.png?v=1757613768&width=64",
+      "alt": "Swatch for Adore",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-happy.png?v=1727733783&width=64",
+      "alt": "Swatch for Happy",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-worth.png?v=1727733578&width=64",
+      "alt": "Swatch for Worth",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-virtue.png?v=1727733616&width=64",
+      "alt": "Swatch for Virtue",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-love.png?v=1727733373&width=64",
+      "alt": "Swatch for Love",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-resilience.png?v=1757613768&width=64",
+      "alt": "Swatch for Resilience",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-joy.png?v=1727733705&width=64",
+      "alt": "Swatch for Joy",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-grateful.png?v=1727733811&width=64",
+      "alt": "Swatch for Grateful",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-lucky.png?v=1727733657&width=64",
+      "alt": "Swatch for Lucky",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-spirited.png?v=1748021256&width=64",
+      "alt": "Swatch for Spirited",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-grace.png?v=1727733425&width=64",
+      "alt": "Swatch for Grace",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-encourage.png?v=1727733844&width=64",
+      "alt": "Swatch for Encourage",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-believe.png?v=1727733885&width=64",
+      "alt": "Swatch for Believe",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-b-faith.png?v=1727733485&width=64",
+      "alt": "Swatch for Faith",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "",
+      "alt": "Wish| Open Rare Beauty Soft Pinch Lip Oil Stick in Wish, a bright coral shade",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-los-wish.png?v=1782784289&width=64",
+      "alt": "Swatch for Wish",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-los-embrace.png?v=1782784289&width=64",
+      "alt": "Swatch for Embrace",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-los-success.png?v=1782784289&width=64",
+      "alt": "Swatch for Success",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-los-bloom.png?v=1782784289&width=64",
+      "alt": "Swatch for Bloom",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-los-fortune.png?v=1782784289&width=64",
+      "alt": "Swatch for Fortune",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-los-journey.png?v=1782784289&width=64",
+      "alt": "Swatch for Journey",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-los-dream.png?v=1782784289&width=64",
+      "alt": "Swatch for Dream",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/swatch-los-muse.png?v=1782784289&width=64",
+      "alt": "Swatch for Muse",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "",
+      "alt": "Sweet Marshmallow Fragrance Layering Balm by Rare Beauty",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "Fruity Pear Fragrance Layering Balm by Rare Beauty",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/HP-SPLIT-TOUT-ABOUT-1522x1522-V2.jpg?format=pjpg&v=1775105293&width=1296",
+      "alt": "",
+      "w": 603,
+      "h": 603
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/hp-shade-finder-hero-left-ttm-foundation-fair-2.jpg?format=pjpg&v=1775082924&width=556",
+      "alt": "",
+      "w": 278,
+      "h": 278
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/hp-shade-finder-hero-middle-ttm-foundation-light-medium-19.jpg?format=pjpg&v=1775082924&width=556",
+      "alt": "",
+      "w": 423,
+      "h": 423
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/hp-shade-finder-hero-right-ttm-foundation-deep-48.jpg?format=pjpg&v=1775082924&width=556",
+      "alt": "",
+      "w": 278,
+      "h": 278
+    },
+    {
+      "src": "https://photorankmedia-a.akamaihd.net/media/3/q/3/3q3bwd5/original.jpg",
+      "alt": "ugc image 0",
+      "w": 3072,
+      "h": 4096
+    },
+    {
+      "src": "https://z1photorankmedia-a.akamaihd.net/media/5/b/7/5b7gxd5/original.jpg",
+      "alt": "ugc image 1",
+      "w": 1170,
+      "h": 1521
+    },
+    {
+      "src": "https://z3photorankmedia-a.akamaihd.net/media/6/c/j/6cjgxd5/original.jpg",
+      "alt": "ugc image 2",
+      "w": 3116,
+      "h": 4096
+    },
+    {
+      "src": "https://z1photorankmedia-a.akamaihd.net/media/f/a/6/fa6gxd5/original.jpg",
+      "alt": "ugc image 3",
+      "w": 2268,
+      "h": 3024
+    },
+    {
+      "src": "https://z2photorankmedia-a.akamaihd.net/media/o/4/7/o47gxd5/original.jpg",
+      "alt": "ugc image 4",
+      "w": 1500,
+      "h": 2000
+    },
+    {
+      "src": "https://z2photorankmedia-a.akamaihd.net/media/2/t/k/2tkgxd5/original.jpg",
+      "alt": "ugc image 5",
+      "w": 4096,
+      "h": 4096
+    },
+    {
+      "src": "https://photorankmedia-a.akamaihd.net/media/q/b/r/qbrbfd5/original.jpg",
+      "alt": "ugc image 6",
+      "w": 1440,
+      "h": 1920
+    },
+    {
+      "src": "https://z3photorankmedia-a.akamaihd.net/media/j/f/a/jfagxd5/original.jpg",
+      "alt": "ugc image 7",
+      "w": 2316,
+      "h": 3088
+    },
+    {
+      "src": "",
+      "alt": "ugc image 8",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 9",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 10",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 11",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 12",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 13",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 14",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 15",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 16",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 17",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 18",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "ugc image 19",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "Rare Beauty makeup model featured on the site.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/D-HP-SB-CATEGORY-EYES-1600x2120-V1.jpg?format=pjpg&v=1778530939&width=900",
+      "alt": "",
+      "w": 400,
+      "h": 530
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/D-HP-SB-CATEGORY-FACE-1600x2120.jpg?format=pjpg&v=1778530740&width=900",
+      "alt": "",
+      "w": 400,
+      "h": 530
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/D-HP-SB-CATEGORY-BESTSELLERS-1600x2120-V4.jpg?format=pjpg&v=1778530873&width=900",
+      "alt": "",
+      "w": 400,
+      "h": 530
+    },
+    {
+      "src": "",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.rarebeauty.com/cdn/shop/files/HP-B1-RIF-SG-MODULE.jpg?format=pjpg&v=1778521871&width=1080",
+      "alt": "",
+      "w": 530,
+      "h": 688
+    },
+    {
+      "src": "",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "Liquid Touch Brightening Concealer Sample Card",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "",
+      "alt": "Positive Light Under Eye Brightener Sample Card",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://cdn.shopify.com/static/images/flags/us.svg?crop=center&height=45&width=45",
+      "alt": "",
+      "w": 7111,
+      "h": 5333
+    },
+    {
+      "src": "https://cookie-cdn.cookiepro.com/logos/b4c91311-3ca8-44ff-ac28-b9b9149618f0/f4670da6-eac2-423c-bac2-350d7cdf43e4/5b5a7509-d81d-472c-9977-5d8bade32fc6/rare-beauty-logo-400x71.png",
+      "alt": "Company Logo",
+      "w": 400,
+      "h": 71
+    },
+    {
+      "src": "https://cookie-cdn.cookiepro.com/logos/static/poweredBy_cp_logo.svg",
+      "alt": "Powered by Onetrust",
+      "w": 568,
+      "h": 53
+    }
+  ],
+  "videos": [],
+  "og_image": "http://www.rarebeauty.com/cdn/shop/files/share-image.jpg?format=pjpg&v=1613733998&width=1202",
+  "favicons": [
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/apple-touch-icon.png?v=28133104293963788031599672458",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/favicon-32x32.png?v=76223987145792751131599672462",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/favicon-16x16.png?v=37076717212713025111599672461",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/safari-pinned-tab.svg?v=73975017335477840401599672473"
+  ],
+  "header_svgs": [
+    "<svg class=\"flickity-button-icon\" viewBox=\"0 0 100 100\"><path d=\"M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z\" class=\"arrow\"></path></svg>",
+    "<svg class=\"flickity-button-icon\" viewBox=\"0 0 100 100\"><path d=\"M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z\" class=\"arrow\" transform=\"translate(100, 100) rotate(180) \"></path></svg>"
+  ],
+  "network_media": [
+    "https://www.rarebeauty.com/cdn/shop/files/HP-HERO-D-HOL26-JUMBO-BROW-16x9.jpg?format=pjpg&v=1790104700&width=5120",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/ogg-regular.woff2?v=118891629237246559021599672468",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-regular.woff2?v=92766390133576145611599672467",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/rarescript-regular.woff2?v=176122394251287531551599672473",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-medium.woff2?v=70845254785548219591619716473",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-hope.png?v=1727733747&width=64",
+    "https://cdn.shopify.com/static/images/flags/us.svg?crop=center&height=25&width=25",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-bliss.png?v=1727733524&width=64",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/neue-hass-unica-bold.woff2?v=85554310630904660111599672466",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-adore.png?v=1757613768&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-worth.png?v=1727733578&width=64",
+    "https://cdn.shopify.com/static/images/flags/us.svg?crop=center&height=45&width=45",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-virtue.png?v=1727733616&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-happy.png?v=1727733783&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-joy.png?v=1727733705&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-resilience.png?v=1757613768&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-love.png?v=1727733373&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-grateful.png?v=1727733811&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-lucky.png?v=1727733657&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-spirited.png?v=1748021256&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-grace.png?v=1727733425&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-encourage.png?v=1727733844&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-believe.png?v=1727733885&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-b-faith.png?v=1727733485&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-los-wish.png?v=1782784289&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-los-embrace.png?v=1782784289&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-los-fortune.png?v=1782784289&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-los-journey.png?v=1782784289&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-los-bloom.png?v=1782784289&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-los-dream.png?v=1782784289&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-los-success.png?v=1782784289&width=64",
+    "https://www.rarebeauty.com/cdn/shop/files/swatch-los-muse.png?v=1782784289&width=64",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/sprite-icon-63447b8e.svg?v=172542823338762394711789507469",
+    "https://www.rarebeauty.com/cdn/shop/t/127/assets/loading.svg?v=7860191987170627441599672465",
+    "https://www.rarebeauty.com/cdn/shop/files/ECOMM-BH-BROW-GEL-JUMBO-CLEAR.jpg?format=pjpg&v=1788988192&width=720",
+    "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-HOPE-FAVES-01.jpg?format=pjpg&v=1788547760&width=720",
+    "https://www.rarebeauty.com/cdn/shop/files/ECOMM-HOL26-VIOLET-FAVES-01.jpg?format=pjpg&v=1788553499&width=720",
+    "https://www.rarebeauty.com/cdn/shop/files/ECOMM-RARE-BEGINNINGS-EDP-50ML-V1.jpg?format=pjpg&v=1784666725&width=720",
+    "https://www.rarebeauty.com/cdn/shop/files/ECOMM-RARE-EAU-DE-PARFUM-01.jpg?format=pjpg&v=1753218416&width=720",
+    "https://cookie-cdn.cookiepro.com/logos/b4c91311-3ca8-44ff-ac28-b9b9149618f0/f4670da6-eac2-423c-bac2-350d7cdf43e4/5b5a7509-d81d-472c-9977-5d8bade32fc6/rare-beauty-logo-400x71.png",
+    "https://cookie-cdn.cookiepro.com/logos/static/poweredBy_cp_logo.svg",
+    "https://creatives.attn.tv/rarebeauty/Ogg%20Roman_c161626d.ttf",
+    "https://cookie-cdn.cookiepro.com/logos/static/ot_guard_logo.svg",
+    "https://creatives.attn.tv/rarebeauty/NeueHaasUnicaPro-Bold_1ee4e11b.otf",
+    "https://creatives.attn.tv/rarebeauty/NeueHaasUnicaPro-Regular_7049905d.otf",
+    "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyosBO5Xw.woff2",
+    "https://creatives.attn.tv/rarebeauty/NeueHaasUnicaPro-Medium_98cb15b1.otf",
+    "https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
+    "https://creatives.attn.tv/rarebeauty/d_pre_a96e304c.jpg",
+    "https://staticw2.yotpo.com/web-fonts/opensans/v34/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2",
+    "https://staticw2.yotpo.com/assets/yotpo-widget-font.woff?version=2026-10-06_06-28-15",
+    "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-SHOP-ALL.png?v=1774669137&width=400",
+    "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-BESTSELLERS.png?v=1774669137&width=400",
+    "https://www.rarebeauty.com/cdn/shop/files/LATE-FA26-NAVIGATION-NEW.png?v=1786106615&width=400",
+    "https://www.rarebeauty.com/cdn/shop/files/ECOMM-RARE-BEGINNINGS-MINI-EDP-SET-BOX-PRODUCT.jpg?format=pjpg&v=1784738742&width=720",
+    "https://www.rarebeauty.com/cdn/shop/files/FRAGRANCE-NAVIGATION-V1.png?v=1786106615&width=400",
+    "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-FACE.png?v=1774669137&width=400",
+    "https://www.rarebeauty.com/cdn/shop/files/gnav-shop-body-sp26.png?v=1764623240&width=400",
+    "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-TOOLS.png?v=1774669137&width=400",
+    "https://www.rarebeauty.com/cdn/shop/files/GNAV-SU26-ONLINE-ONLY.png?v=1774669137&width=400",
+    "https://cdn.shopify.com/s/files/1/0314/1143/7703/files/rare-beauty-logo-400x71_x320.png?v=1613736139",
+    "https://www.rarebeauty.com/cdn/shop/files/HP-SPLIT-TOUT-ABOUT-1522x1522-V2.jpg?format=pjpg&v=1775105293&width=1296",
+    "https://www.rarebeauty.com/cdn/shop/files/hp-shade-finder-hero-middle-ttm-foundation-light-medium-19.jpg?format=pjpg&v=1775082924&width=556",
+    "https://www.rarebeauty.com/cdn/shop/files/hp-shade-finder-hero-left-ttm-foundation-fair-2.jpg?format=pjpg&v=1775082924&width=556",
+    "https://www.rarebeauty.com/cdn/shop/files/hp-shade-finder-hero-right-ttm-foundation-deep-48.jpg?format=pjpg&v=1775082924&width=556",
+    "https://z3photorankmedia-a.akamaihd.net/media/6/c/j/6cjgxd5/original.jpg",
+    "https://www.rarebeauty.com/cdn/shop/files/D-HP-SB-CATEGORY-FACE-1600x2120.jpg?format=pjpg&v=1778530740&width=900",
+    "https://z1photorankmedia-a.akamaihd.net/media/5/b/7/5b7gxd5/original.jpg",
+    "https://z1photorankmedia-a.akamaihd.net/media/f/a/6/fa6gxd5/original.jpg",
+    "https://z2photorankmedia-a.akamaihd.net/media/o/4/7/o47gxd5/original.jpg",
+    "https://photorankmedia-a.akamaihd.net/media/3/q/3/3q3bwd5/original.jpg",
+    "https://z3photorankmedia-a.akamaihd.net/media/j/f/a/jfagxd5/original.jpg",
+    "https://photorankmedia-a.akamaihd.net/media/q/b/r/qbrbfd5/original.jpg",
+    "https://www.rarebeauty.com/cdn/shop/files/D-HP-SB-CATEGORY-BESTSELLERS-1600x2120-V4.jpg?format=pjpg&v=1778530873&width=900",
+    "https://www.rarebeauty.com/cdn/shop/files/D-HP-SB-CATEGORY-EYES-1600x2120-V1.jpg?format=pjpg&v=1778530939&width=900",
+    "https://z2photorankmedia-a.akamaihd.net/media/2/t/k/2tkgxd5/original.jpg",
+    "https://www.rarebeauty.com/cdn/shop/files/HP-B1-RIF-SG-MODULE.jpg?format=pjpg&v=1778521871&width=1080"
+  ]
+}
