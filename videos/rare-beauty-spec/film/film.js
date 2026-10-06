@@ -25,7 +25,7 @@
     cut(-1, 3.5, 'sel_hold', { t0: 0, rate: 0.43, fit: 'circle' }), // Selena, smiling, Soft Pinch in hand (never opens: fills its circle)
     cut(3.5, 5, 'sel_dot', { rate: 0.48 }),                        // one dab on the cheek
     cut(5, 7.5, 'ct_dot', { rate: 0.72 }),                         // one dot (lands b5.1)… and a second (b6.42)
-    cut(7.5, 9.6, 'ct_blend'),                                     // 7.52–9.35 s: ends before the source's soft angle change at 9.6 s
+    cut(7.5, 9.6, 'ct_blend'),                                     // 7.52–9.35 s of a fast handheld blend (no cuts inside)
     cut(9.6, 15.3, 'ct_glow', { rate: 0.5 }),                       // the finished cheek; becomes the first swatch
     cut(15.3, 19.5, 'fc_spray', { rate: 0.8 }),                    // Find Comfort, spritzed
     cut(19.5, 23.5, 'fc_breathe'),                                 // eyes closed, breathing

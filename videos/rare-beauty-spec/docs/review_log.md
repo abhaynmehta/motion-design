@@ -27,12 +27,13 @@ Fixes:
 | 8 | 8 | 7 | 8 | 9 | 8 |
 
 Evidence: stills t4.25–4.5: the berry full stop vanished ~0.15 s before the opening circle appeared (the open used a leading
-spring, the stop's hide did not). r2/strip_fast f243→f244 (8.13 s): a jump inside the blend clip — the source changes angle
-at 9.6 s (too soft for the scene detector) — and "a long way." had only 0.9 s on screen before leaving.
+spring, the stop's hide did not). r2/strip_fast f243→f244 (8.13 s): what looked like a jump inside the blend clip. Measured frame
+differences over 7.4–11 s show no cut between 7.53 and 10.82 s, just a fast handheld move (head turn + brush sweep, mean
+difference 19–30 vs 60 at a real cut), so it stays. "a long way." had only 0.9 s on screen before leaving.
 
 Fixes:
 1. The opening circle grows from the full stop with no lead, and the stop hides only when it does: one continuous dot.
-2. The blend clip now plays 7.52–9.35 s (ends before the angle change); "a little goes / a long way." holds to b9.55.
+2. The blend clip now starts on its first frame (7.52 s) and "a little goes / a long way." holds to b9.55.
 
 ## Round 3 (draft render, review/r3) — SHIP
 | hook | phone | motion | variety | brand | sync |
