@@ -134,10 +134,10 @@
   scene({
     name: 'words', from: 'hook', to: 34,
     build(root, S) {
-      const big = (text, y, it = false) => line(root, text, X, y, 150, { cls: it ? 'display it' : 'display', color: WHITE });
-      S.h1 = big("you can't", 1060); S.h2 = big('eat this…', 1222);
-      S.mark = C.reg(el('div', { style: `position:absolute;left:${X - 14}px;top:1236px;width:640px;height:168px;border-radius:18px;background:${PINK}` }, root), { hide: true });
-      S.h3 = big('…but you can', 1060); S.h4 = big('wear it.', 1222, true);
+      const big = (text, y, it = false) => line(root, text, X, y, 134, { cls: it ? 'display it' : 'display', color: WHITE });   // '…but you can' clears the right-hand UI rail
+      S.h1 = big("you can't", 1080); S.h2 = big('eat this…', 1226);
+      S.mark = C.reg(el('div', { style: `position:absolute;left:${X - 14}px;top:1238px;width:574px;height:152px;border-radius:16px;background:${PINK}` }, root), { hide: true });
+      S.h3 = big('…but you can', 1080); S.h4 = big('wear it.', 1226, true);
       S.acts = DISH.map((d) => ({
         a: line(root, d.a, X, 1030, 136, { color: WHITE }),
         b: line(root, d.b, X, 1176, 136, { cls: 'display it', color: WHITE }),
@@ -154,7 +154,7 @@
       R_(t, S.h4, 'wear_it', 6.25, { stagger: 0.1 });
       // the pink marker wipes in behind "wear it." and leaves with it
       const m = spHit(t, 4.45, 'snappy') - sp(t, 6.05, 'snappy');   // leaves just before its words
-      put(S.mark, { hide: m < 0.005, clip: `inset(0 ${(100 * (1 - clamp(m))).toFixed(2)}% 0 0 round 18px)` });
+      put(S.mark, { hide: m < 0.005, clip: `inset(0 ${(100 * (1 - clamp(m))).toFixed(2)}% 0 0 round 16px)` });
       S.acts.forEach((A, i) => {
         const d = DISH[i];
         for (const L of [A.a, A.b, A.s, A.n]) tint(L, WHITE, true);

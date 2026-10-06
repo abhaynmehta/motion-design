@@ -34,3 +34,14 @@ Remaining: the music bed was cut for the old 28.3 s length, so the new end (27.6
 
 Fixes:
 1. Re-cut the guide track for 27.65 s (fade on the last 1.2 s), re-mixed to −14 LUFS.
+
+## Round 3 (draft render, review/r3) — SHIP
+| hook | phone | motion | variety | brand | sync |
+|---|---|---|---|---|---|
+| 8 | 8 | 8 | 9 | 9 | 8 |
+
+Evidence: r3/contact — chocolate pour + "you can't / eat this…" on frame 0, the lift on "…but you can wear it."; the menu
+reads; each dish opens, plays six cuts with its smell line and notes, folds back with a tick; the bill prints; the logo
+and three bottles. Music re-cut for 27.65 s with its fade; −14.0 LUFS. Sync: every cue −100…+133 ms. Determinism 36/36.
+Last fix (stills t2.9 / t3.3): the cover frame showed "…but you can" running into the right-hand Reels rail; hook type
+150 → 134 px and the pink marker resized to match.
