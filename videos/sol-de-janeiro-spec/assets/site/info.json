@@ -1,0 +1,1612 @@
+{
+  "url": "https://soldejaneiro.com/products/cheirosa-62-hair-body-fragrance-mist",
+  "title": "Cheirosa 62 Perfume Mist - Sol de Janeiro",
+  "description": "Shop the original Sol de Janeiro hair and body fragrance spray. This vanilla perfume mist features notes of salted caramel and pistachio.",
+  "font_families_by_use": [
+    [
+      "\"Noto Sans\", Helvetica, Arial, sans-serif",
+      720
+    ],
+    [
+      "Knockout, \"Arial Narrow\", sans-serif",
+      239
+    ],
+    [
+      "\"Noto Sans\"",
+      84
+    ],
+    [
+      "\"Noto Sans\", sans-serif",
+      82
+    ],
+    [
+      "noto-sans-condensed, Arial, \"Helvetica Neue\", Helvetica, sans-serif",
+      9
+    ],
+    [
+      "Knockout, sans-serif",
+      5
+    ],
+    [
+      "Knockout, Arial, \"Helvetica Neue\", Helvetica, sans-serif",
+      1
+    ],
+    [
+      "sans-serif",
+      1
+    ],
+    [
+      "\"Open Sans\"",
+      1
+    ]
+  ],
+  "font_faces": [
+    {
+      "family": "Knockout",
+      "weight": "100 900",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://soldejaneiro.com/cdn/shop/t/562/assets/knockout-47bantamweight-webfont.woff2?v=124183142491658336761788376708",
+        "https://soldejaneiro.com/cdn/shop/t/562/assets/knockout-47bantamweight-webfont.woff?v=15530687688636256651788376708"
+      ]
+    },
+    {
+      "family": "Noto Sans",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://soldejaneiro.com/cdn/shop/t/562/assets/noto-sans-regular.woff2?v=30489427087628015741788376709"
+      ]
+    },
+    {
+      "family": "Noto Sans",
+      "weight": "500",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://soldejaneiro.com/cdn/shop/t/562/assets/noto-sans-medium.woff2?v=30222764728119968161788376709"
+      ]
+    },
+    {
+      "family": "Noto Sans",
+      "weight": "600",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://soldejaneiro.com/cdn/shop/t/562/assets/noto-sans-semibold.woff2?v=30222764728119968161788376709"
+      ]
+    },
+    {
+      "family": "Morning Memories Script",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0-7E, U+A9, U+B0, U+2013-2014, U+2018-2019, U+201C-201D, U+2022, U+2026, U+20AC, U+2122",
+      "urls": [
+        "https://soldejaneiro.com/cdn/shop/t/562/assets/morning-memories-script-latin.woff2?v=89093354678437343341789674723"
+      ]
+    },
+    {
+      "family": "Morning Memories Script",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+A1-A8, U+AA-AF, U+B1-FF, U+100-24F, U+2C6-2DD, U+1E80-1EF3, U+201A, U+201E, U+2039-203A, U+2044, U+2212",
+      "urls": [
+        "https://soldejaneiro.com/cdn/shop/t/562/assets/morning-memories-script-ext.woff2?v=95728748259368072221789674723"
+      ]
+    },
+    {
+      "family": "GTStandard-M",
+      "weight": "450",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MRegular.woff2"
+      ]
+    },
+    {
+      "family": "GTStandard-M",
+      "weight": "500",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MMedium.woff2"
+      ]
+    },
+    {
+      "family": "GTStandard-M",
+      "weight": "600",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MSemibold.woff2"
+      ]
+    },
+    {
+      "family": "InterVariable",
+      "weight": "100 900",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/static/fonts/inter/v4/InterVariable.woff2"
+      ]
+    },
+    {
+      "family": "Knockout-klaviyo",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/s/files/1/2826/2250/files/knockout-47bantamweight-webfont.woff2?v=1744293064"
+      ]
+    },
+    {
+      "family": "swym-font",
+      "weight": "normal",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://procdn.swymrelay.com/code/v3/swym_fonts.woff2",
+        "https://procdn.swymrelay.com/code/v3/swym_fonts.ttf"
+      ]
+    }
+  ],
+  "text_colors": [
+    [
+      "rgb(33, 39, 34)",
+      766
+    ],
+    [
+      "rgb(100, 100, 100)",
+      195
+    ],
+    [
+      "rgb(73, 74, 74)",
+      65
+    ],
+    [
+      "rgb(105, 105, 105)",
+      33
+    ],
+    [
+      "rgb(55, 51, 48)",
+      25
+    ],
+    [
+      "rgb(255, 255, 255)",
+      14
+    ],
+    [
+      "rgb(85, 85, 85)",
+      12
+    ],
+    [
+      "rgba(33, 39, 34, 0.4)",
+      9
+    ],
+    [
+      "rgb(79, 78, 78)",
+      8
+    ],
+    [
+      "rgb(56, 96, 190)",
+      4
+    ],
+    [
+      "rgb(231, 10, 150)",
+      3
+    ],
+    [
+      "rgb(163, 7, 92)",
+      2
+    ],
+    [
+      "rgb(64, 64, 64)",
+      2
+    ],
+    [
+      "rgb(0, 0, 0)",
+      2
+    ],
+    [
+      "rgb(102, 102, 102)",
+      1
+    ],
+    [
+      "rgb(46, 103, 60)",
+      1
+    ]
+  ],
+  "bg_colors": [
+    [
+      "rgb(245, 245, 245)",
+      264
+    ],
+    [
+      "rgb(255, 255, 255)",
+      102
+    ],
+    [
+      "rgb(235, 235, 235)",
+      40
+    ],
+    [
+      "rgba(33, 39, 34, 0.05)",
+      32
+    ],
+    [
+      "rgb(254, 223, 244)",
+      26
+    ],
+    [
+      "rgb(255, 203, 72)",
+      19
+    ],
+    [
+      "rgba(33, 39, 34, 0.5)",
+      15
+    ],
+    [
+      "rgb(255, 182, 0)",
+      13
+    ],
+    [
+      "rgb(234, 234, 234)",
+      11
+    ],
+    [
+      "rgba(46, 79, 124, 0.7)",
+      10
+    ],
+    [
+      "rgb(46, 79, 124)",
+      10
+    ],
+    [
+      "rgb(231, 10, 150)",
+      5
+    ],
+    [
+      "rgb(39, 69, 92)",
+      4
+    ],
+    [
+      "rgb(244, 237, 228)",
+      3
+    ],
+    [
+      "rgb(118, 118, 118)",
+      3
+    ],
+    [
+      "rgb(33, 39, 34)",
+      2
+    ],
+    [
+      "rgba(255, 255, 255, 0.8)",
+      2
+    ],
+    [
+      "rgba(32, 82, 182, 0.3)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.4)",
+      2
+    ],
+    [
+      "rgb(248, 248, 248)",
+      2
+    ]
+  ],
+  "css_vars": {
+    "--ia-color-primary-500": "#ffb600",
+    "--ia-color-primary-450": "#ffc531",
+    "--ia-color-primary-400": "#ffcb48",
+    "--ia-color-primary-300": "#f9dd9f",
+    "--ia-color-primary-200": "#fcecca",
+    "--ia-color-primary-100": "#fef8ec",
+    "--ia-color-secondary-500": "#4bb9b2",
+    "--ia-color-secondary-400": "#70c7c2",
+    "--ia-color-secondary-100": "#edf8f7",
+    "--ia-color-tertiary-500": "#f4ede4",
+    "--ia-color-tertiary-400": "#f9f7f2",
+    "--ia-color-gray-950": "#212722",
+    "--ia-color-gray-700": "#484848",
+    "--ia-color-gray-600": "#5c5c5c",
+    "--ia-color-gray-500": "#646464",
+    "--ia-color-gray-400": "#7f7f7f",
+    "--ia-color-gray-300": "#a9a9a9",
+    "--ia-color-gray-100": "#ebebeb",
+    "--ia-color-gray-50": "#f5f5f5",
+    "--ia-color-black": "#000000",
+    "--ia-color-white": "#FFFFFF",
+    "--ia-color-red-900": "#6f0c41",
+    "--ia-color-red-700": "#a3075c",
+    "--ia-color-red-500": "#e70a96",
+    "--ia-color-red-300": "#fa8eda",
+    "--ia-color-red-100": "#fedff4",
+    "--ia-color-red-50": "#feeef9",
+    "--ia-color-yellow-900": "#7c3e0b",
+    "--ia-color-yellow-700": "#bb6202",
+    "--ia-color-yellow-500": "#ffb600",
+    "--ia-color-yellow-300": "#ffe746",
+    "--ia-color-yellow-100": "#fff9c5",
+    "--ia-color-yellow-50": "#fffeea",
+    "--ia-color-green-900": "#23442c",
+    "--ia-color-green-700": "#2e673c",
+    "--ia-color-green-500": "#479e5d",
+    "--ia-color-green-300": "#9ed7ac",
+    "--ia-color-green-100": "#e3f5e7",
+    "--ia-color-green-50": "#f3faf4",
+    "--ia-color-blue-900": "#2b514f",
+    "--ia-color-blue-700": "#317976",
+    "--ia-color-blue-500": "#4bb9b2",
+    "--ia-color-blue-300": "#a1d9d3",
+    "--ia-color-blue-100": "#e2f4f1",
+    "--ia-color-blue-50": "#f6fcfb",
+    "--ia-color-franchise-bum-bum": "#ffb600",
+    "--ia-color-franchise-bum-bum-aux": "#d76d2c",
+    "--ia-color-franchise-rio-radiance": "#f9e547",
+    "--ia-color-franchise-rio-radiance-aux": "#ca0088",
+    "--ia-color-franchise-beija-flor": "#fabbcb",
+    "--ia-color-franchise-beija-flor-aux": "#e64686",
+    "--ia-color-franchise-bom-dia": "#ff5959",
+    "--ia-color-franchise-bom-dia-aux": "#ffb700",
+    "--ia-color-franchise-doce-de-leite": "#e89e6d",
+    "--ia-color-franchise-doce-de-leite-aux": "#a65a29",
+    "--ia-color-franchise-delicia": "#635f9a",
+    "--ia-color-franchise-delicia-aux": "#c7a2cd",
+    "--ia-color-franchise-rosa": "#faab8d",
+    "--ia-color-franchise-cheirosa-48": "#e70a96",
+    "--ia-color-franchise-cheirosa-39": "#4cb9b3",
+    "--ia-color-opacity-gray950-90": "#212722e5",
+    "--ia-color-opacity-gray950-80": "#212722cc",
+    "--ia-color-opacity-gray950-70": "#212722b2",
+    "--ia-color-opacity-gray950-60": "#21272299",
+    "--ia-color-opacity-gray950-50": "#21272280",
+    "--ia-color-opacity-gray950-40": "#21272266",
+    "--ia-color-opacity-gray950-30": "#2127224d",
+    "--ia-color-opacity-gray950-20": "#21272233",
+    "--ia-color-opacity-gray950-10": "#2127221a",
+    "--ia-color-opacity-gray950-05": "#2127220d",
+    "--ia-color-opacity-white-90": "#ffffffe5",
+    "--ia-color-opacity-white-80": "#ffffffcc",
+    "--ia-color-opacity-white-70": "#ffffffb2",
+    "--ia-color-opacity-white-60": "#ffffff99",
+    "--ia-color-opacity-white-50": "#ffffff80",
+    "--ia-color-opacity-white-40": "#ffffff66",
+    "--ia-color-opacity-white-30": "#ffffff4d",
+    "--ia-color-opacity-white-20": "#ffffff33",
+    "--ia-color-opacity-white-10": "#ffffff1a",
+    "--ia-color-opacity-white-05": "#ffffff0d",
+    "--ia-color-payment-shoppay": "#5a31f4",
+    "--ia-color-payment-google-pay-red": "#e94235",
+    "--ia-color-payment-afterpay": "#b2fce4",
+    "--ia-fg-primary": "#212722",
+    "--ia-fg-secondary": "#646464",
+    "--ia-fg-tertiary": "var(--ia-color-opacity-gray950-50)",
+    "--ia-fg-disabled": "var(--ia-color-opacity-gray950-40)",
+    "--ia-fg-primary-inverse": "#ffffff",
+    "--ia-bg-primary": "#ffffff",
+    "--ia-bg-secondary": "#f5f5f5",
+    "--ia-bg-tertiary": "var(--ia-color-gray-500)",
+    "--ia-bg-brand-primary": "var(--ia-color-primary-500)",
+    "--ia-bg-brand-tertiary": "var(--ia-color-tertiary-500)",
+    "--ia-bg-product-image": "var(--ia-color-gray-50)",
+    "--ia-border": "#ebebeb",
+    "--ia-button-primary-bg": "var(--ia-color-gray-100)",
+    "--ia-button-primary-fg": "var(--ia-color-gray-950)",
+    "--ia-button-primary-border": "var(--ia-color-gray-100)",
+    "--ia-button-primary-bg-hover": "var(--ia-color-primary-500)",
+    "--ia-button-primary-fg-hover": "var(--ia-color-gray-950)",
+    "--ia-button-primary-border-hover": "var(--ia-color-primary-500)",
+    "--ia-button-primary-bg-disabled": "var(--ia-color-opacity-gray950-10)",
+    "--ia-button-primary-fg-disabled": "var(--ia-color-opacity-gray950-30)",
+    "--ia-button-secondary-bg": "transparent",
+    "--ia-button-secondary-fg": "var(--ia-color-gray-950)",
+    "--ia-button-secondary-border": "var(--ia-color-gray-950)",
+    "--ia-button-secondary-bg-hover": "var(--ia-color-gray-950)",
+    "--ia-button-secondary-fg-hover": "var(--ia-color-white)",
+    "--ia-button-secondary-border-hover": "var(--ia-color-gray-950)",
+    "--ia-button-secondary-disabled": "var(--ia-color-opacity-gray950-30)",
+    "--ia-button-link-hover": "var(--ia-color-gray-600)",
+    "--ia-button-outline-bg": "transparent",
+    "--ia-button-outline-fg": "#3d484e",
+    "--ia-button-outline-border": "#3d484e",
+    "--ia-button-outline-bg-hover": "#3d484e0d",
+    "--ia-button-outline-fg-hover": "#3d484e",
+    "--ia-button-outline-border-hover": "#3d484e",
+    "--ia-button-card-bg": "var(--ia-color-gray-100)",
+    "--ia-button-card-fg": "var(--ia-color-gray-950)",
+    "--ia-button-card-bg-hover": "var(--ia-color-primary-500)",
+    "--ia-button-card-fg-hover": "var(--ia-color-gray-950)",
+    "--ia-button-add-to-bag-bg": "var(--ia-color-primary-500)",
+    "--ia-button-add-to-bag-fg": "var(--ia-color-gray-950)",
+    "--ia-button-add-to-bag-bg-hover": "var(--ia-color-primary-400)",
+    "--ia-button-add-to-bag-fg-hover": "var(--ia-button-add-to-bag-fg)",
+    "--ia-special-sale-bg": "var(--ia-color-red-500)",
+    "--ia-progress-bar-active": "var(--ia-color-primary-400)",
+    "--ia-notification-fg-text": "#252527",
+    "--ia-notification-bg-error": "var(--ia-color-red-100)",
+    "--ia-notification-fg-error": "var(--ia-color-red-700)",
+    "--ia-notification-bg-success": "var(--ia-color-green-100)",
+    "--ia-notification-fg-success": "var(--ia-color-green-700)",
+    "--ia-notification-bg-warning": "var(--ia-color-yellow-100)",
+    "--ia-notification-fg-warning": "var(--ia-color-yellow-700)",
+    "--ia-notification-bg-information": "var(--ia-color-blue-100)",
+    "--ia-notification-fg-information": "var(--ia-color-blue-700)",
+    "--ia-product-badge": "#ffcb48",
+    "--ia-color-primary-button-text-rgb": "61, 72, 78, 1.0",
+    "--ia-color-primary-button-background-rgb": "249, 195, 165, 1.0",
+    "--ia-color-primary-button-border-rgb": "249, 195, 165, 1.0",
+    "--ia-color-primary-button-text-hover-rgb": "61, 72, 78, 1.0",
+    "--ia-color-primary-button-background-hover-rgb": "249, 195, 165, 1.0",
+    "--ia-color-primary-button-border-hover-rgb": "249, 195, 165, 1.0",
+    "--ia-color-secondary-button-text-rgb": "61, 72, 78, 1.0",
+    "--ia-color-secondary-button-background-rgb": "255, 255, 255, 1.0",
+    "--ia-color-secondary-button-border-rgb": "255, 255, 255, 1.0",
+    "--ia-color-secondary-button-text-hover-rgb": "61, 72, 78, 1.0",
+    "--ia-color-secondary-button-background-hover-rgb": "255, 255, 255, 1.0",
+    "--ia-color-secondary-button-border-hover-rgb": "61, 72, 78, 1.0",
+    "--ia-color-outline-button-text-rgb": "61, 72, 78, 1.0",
+    "--ia-color-outline-button-background-rgb": "255, 255, 255, 0.0",
+    "--ia-color-outline-button-border-rgb": "61, 72, 78, 1.0",
+    "--ia-color-outline-button-text-hover-rgb": "61, 72, 78, 1.0",
+    "--ia-color-outline-button-background-hover-rgb": "61, 72, 78, 0.05",
+    "--ia-color-outline-button-border-hover-rgb": "61, 72, 78, 1.0",
+    "--ia-button-border-width": "1px",
+    "--ia-button-border-radius": "2px",
+    "--ia-color-background-rgb": "255, 255, 255",
+    "--ia-color-background-secondary-rgb": "245, 245, 245",
+    "--ia-color-text-primary-rgb": "33, 39, 34",
+    "--ia-color-text-secondary-rgb": "100, 100, 100",
+    "--ia-color-border-rgb": "235, 235, 235",
+    "--ia-color-foreground-muted": "color-mix(in srgb, var(--ia-fg-primary) 60%, transparent)",
+    "--ia-color-scheme-overlay": "color-mix(in srgb, var(--ia-bg-primary) 80%, transparent)",
+    "--ia-font-heading": "Knockout, 'Arial Narrow', sans-serif",
+    "--ia-font-subheading": "Noto Sans, Helvetica, Arial, sans-serif",
+    "--ia-font-body": "Noto Sans, Helvetica, Arial, sans-serif",
+    "--ia-font-accent": "Morning Memories Script, cursive",
+    "--ia-line-height-small": "1.04",
+    "--ia-line-height-medium": "1.3",
+    "--ia-line-height-large": "1.4",
+    "--ia-line-height-relaxed": "1.6",
+    "--ia-line-height-heading": "0.78",
+    "--ia-letter-spacing-heading": "normal",
+    "--ia-letter-spacing-body": "normal",
+    "--ia-font-weight-medium": "400",
+    "--ia-font-weight-bold": "700",
+    "--ia-font-button": "var(--ia-font-heading)",
+    "--ia-button-font-weight": "400",
+    "--ia-button-line-height": "0.78",
+    "--ia-button-letter-spacing": "normal",
+    "--ia-button-text-transform": "uppercase",
+    "--ia-button-min-height": "48px",
+    "--ia-button-padding-y": "4px",
+    "--ia-button-padding-x": "20px",
+    "--ia-button-min-height-desktop": "48px",
+    "--ia-button-padding-y-desktop": "4px",
+    "--ia-button-padding-x-desktop": "20px",
+    "--ia-button-small-min-height-desktop": "33.6px",
+    "--ia-button-small-padding-y-desktop": "5px",
+    "--ia-button-small-padding-x-desktop": "10px",
+    "--ia-button-small-font-size-desktop": "12px",
+    "--ia-button-small-min-height": "33.6px",
+    "--ia-button-small-padding-y": "5px",
+    "--ia-button-small-padding-x": "10px",
+    "--ia-button-small-font-size": "12px",
+    "--ia-color-white-rgb": "255 255 255",
+    "--ia-color-black-rgb": "0 0 0",
+    "--ia-page-padding-x": "20px",
+    "--ia-page-width": "1440px",
+    "--ia-upscale": "1px",
+    "--ia-wishlist-cols": "2",
+    "--ia-wishlist-title-size": "var(--ia-text-h2)",
+    "--ia-wishlist-title-align": "center",
+    "--ia-max-text-width": "1072px",
+    "--ia-spacing-margin": "16px",
+    "--ia-header-height": "0px",
+    "--ia-anchors-height": "0px",
+    "--ia-sticky-offset": "calc(var(--ia-header-height) + var(--ia-anchors-height))",
+    "--ia-transition-function": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "--ia-transition-duration": "0.3s",
+    "--ia-section-border-radius": "10px",
+    "--ia-corner-radius-form-input-dropdown": "2px",
+    "--ia-corner-radius-flags-chips": "2px",
+    "--ia-corner-radius-xs": "4px",
+    "--ia-corner-radius-tooltip-notification": "2px",
+    "--ia-corner-radius-button": "2px",
+    "--ia-text-h0": "48px",
+    "--ia-text-h1": "40px",
+    "--ia-text-h2": "32px",
+    "--ia-text-h3": "22px",
+    "--ia-text-subtitle": "18px",
+    "--ia-text-md": "16px",
+    "--ia-text-base": "14px",
+    "--ia-text-caption": "12px",
+    "--ia-text-caption-xs": "10px",
+    "--ia-text-product": "16px",
+    "--ia-text-button-lg": "18px",
+    "--ia-text-button-md": "22px",
+    "--ia-text-button-sm": "18px",
+    "--ia-text-accent": "24px",
+    "--ia-text-button": "15px",
+    "--ia-body-font-size": "14px",
+    "--ia-text-xs": "var(--ia-text-caption)",
+    "--ia-text-sm": "var(--ia-text-base)",
+    "--ia-text-lg": "var(--ia-text-subtitle)",
+    "--ia-text-xlg": "var(--ia-text-subtitle)",
+    "--ia-text-h-xl": "var(--ia-text-h0)",
+    "--ia-text-h4": "var(--ia-text-subtitle)",
+    "--ia-text-h5": "var(--ia-text-h3)",
+    "--ia-text-h6": "var(--ia-text-subtitle)",
+    "--ia-text-xs-desktop": "var(--ia-text-caption)",
+    "--ia-text-sm-desktop": "var(--ia-text-base)",
+    "--ia-text-md-desktop": "var(--ia-text-md)",
+    "--ia-text-lg-desktop": "var(--ia-text-subtitle)",
+    "--ia-text-xlg-desktop": "var(--ia-text-subtitle)",
+    "--ia-text-h-xl-desktop": "var(--ia-text-h0)",
+    "--ia-text-h1-desktop": "var(--ia-text-h1)",
+    "--ia-text-h2-desktop": "var(--ia-text-h2)",
+    "--ia-text-h3-desktop": "var(--ia-text-h3)",
+    "--ia-text-h4-desktop": "var(--ia-text-subtitle)",
+    "--ia-text-h5-desktop": "var(--ia-text-h3)",
+    "--ia-text-h6-desktop": "var(--ia-text-subtitle)",
+    "--ia-text-button-desktop": "var(--ia-text-button)",
+    "--ia-text-h3-flat": "28px",
+    "--ia-grid-cols": "4",
+    "--ia-grid-cols-mobile": "2",
+    "--ia-grid-gap": "32px",
+    "--ia-grid-gap-mobile": "8px",
+    "--ia-container-max-width": "1440px",
+    "--ia-container-padding-x": "16px",
+    "--ia-background-blur-base": "40px",
+    "--ia-dropshadow-color-xs": "var(--ia-color-opacity-gray950-10)",
+    "--ia-dropshadow-color-sm": "var(--ia-color-opacity-gray950-10)",
+    "--ia-dropshadow-color-base": "var(--ia-color-opacity-gray950-20)",
+    "--ia-dropshadow-color-lg": "var(--ia-color-opacity-gray950-20)",
+    "--ia-dropshadow-color-xl": "var(--ia-color-opacity-gray950-30)",
+    "--ia-dropshadow-color-polaroid": "color-mix(in srgb, var(--ia-color-black) 30%, transparent)",
+    "--ia-dropshadow-xs": "0 2px 8px -2px var(--ia-dropshadow-color-xs)",
+    "--ia-dropshadow-sm": "0 4px 12px -2px var(--ia-dropshadow-color-sm)",
+    "--ia-dropshadow-base": "0 8px 24px -4px var(--ia-dropshadow-color-base)",
+    "--ia-dropshadow-lg": "0 12px 32px -4px var(--ia-dropshadow-color-lg)",
+    "--ia-dropshadow-xl": "0 24px 46px -6px var(--ia-dropshadow-color-xl)",
+    "--ia-dropshadow-polaroid": "-4px 4px 2px 0 var(--ia-dropshadow-color-polaroid)",
+    "--ia-slider-progress-width": "100px",
+    "--ia-slider-progress-height": "4px",
+    "--ia-slider-progress-fill": "rgb(var(--ia-color-primary-button-background-rgb))",
+    "--ia-slider-progress-bg": "rgb(var(--ia-color-primary-button-text-rgb))",
+    "--ia-slider-progress-margin": "40px",
+    "--ia-slider-progress-transition": "width .3s ease",
+    "--ia-chat-launcher-bottom": "70px",
+    "--ia-bottom-bars-height": "calc( var(--ia-offers-bar-height, 0px) + var(--ia-bundle-bar-height, 0px) + var(--ia-pdp-sticky-height, 0px) )",
+    "--ia-bottom-bars-cover": "calc( var(--ia-offers-bar-open-height, var(--ia-offers-bar-height, 0px)) + var(--ia-bundle-bar-height, 0px) + var(--ia-pdp-sticky-height, 0px) )",
+    "--ia-chat-launcher-lift": "max(0px, var(--ia-bottom-bars-cover) - var(--ia-chat-launcher-bottom) / 2)",
+    "--ia-chat-window-lift": "max(0px, var(--ia-bottom-bars-height) - var(--ia-chat-launcher-bottom) / 2)",
+    "--swym-remind-cta-bg-color": "#00a65a",
+    "--swym-remind-cta-text-color": "white",
+    "--swym-remind-cta-bg-color-v2": "#000000",
+    "--swym-remind-cta-text-color-v2": "white",
+    "--swym-subscribe-success-bg-color": "#AEE9D1",
+    "--swym-subscribe-success-text-color": "#202223",
+    "--swym-recently-viewed-pointer-pos": "92%",
+    "--kl-reviews-color-light-gray": "#e9e9eb"
+  },
+  "headings": [
+    "A: My Wishlist  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(255, 255, 255)]",
+    "A: Free Sample With Every Order  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Subscribe To Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Bundle & Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Free Sample With Every Order  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Subscribe To Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Bundle & Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Free Sample With Every Order  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Subscribe To Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Bundle & Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Free Sample With Every Order  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Subscribe To Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Bundle & Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Free Sample With Every Order  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Subscribe To Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Bundle & Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Free Sample With Every Order  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Subscribe To Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: Bundle & Save  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: Menu |       Close  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "P: Current Obsessions  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 700 ls normal rgb(33, 39, 34)]",
+    "A: NewChoose Your Cheirosa Candle Bundle  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: NewBrazilian Bum Bum® Cream Iconic Glass Edition  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: NewIntense Perfume Mist Quad  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: GIFT GUIDE  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: CANDLES  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: INTENSE PERFUME MIST  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: NEW + FEATURED  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: FRAGRANCE  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: BODY  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: HAIR  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: BUNDLES  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: PERKS  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: ABOUT  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "P: Limited Edition Collectible Glass Jar  [Knockout, \"Arial Narrow\", sans-serif 28px 400 ls normal rgb(33, 39, 34)]",
+    "A: Shop Now  [Knockout, \"Arial Narrow\", sans-serif 18px 400 ls normal rgb(33, 39, 34)]",
+    "LI: My Account  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: My Account  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 500 ls -0.14px rgb(100, 100, 100)]",
+    "LI: Help Center & FAQs  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: Help Center & FAQs  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 500 ls -0.14px rgb(100, 100, 100)]",
+    "LI: Authorized Retailers  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: Authorized Retailers  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 500 ls -0.14px rgb(100, 100, 100)]",
+    "LI: Our Story  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: Our Story  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 500 ls -0.14px rgb(100, 100, 100)]",
+    "A: SEARCH  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: ACCOUNT  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: BAG  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "LI: Home  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: Home  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "LI: Cheirosa 62™ Perfume Mist  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "H1: CHEIROSA 62™ PERFUME MIST  [Knockout, \"Arial Narrow\", sans-serif 40px 400 ls normal rgb(33, 39, 34)]",
+    "A: 8100 Reviews  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "P: Pistachio & salted caramel body perfume mist  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(33, 39, 34)]",
+    "BUTTON: ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: oz  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(100, 100, 100)]",
+    "LI: Free shipping on order $35+  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "LI: Choose a free sample with every order  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "P: The maximum quantity of this item is already in your cart.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(163, 7, 92)]",
+    "BUTTON: ADD TO BAG | $39.00  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "P: Free U.S. Shipping on orders $35+ | Free sample with every order  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "A: Log in  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 500 ls normal rgb(33, 39, 34)]",
+    "BUTTON: PAIR WITH  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: Cheirosa 62™ Intense Perfume Mist  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 500 ls -0.14px rgb(33, 39, 34)]",
+    "P: Rich, long-lasting amber gourmand perfume mist in the iconic Cheirosa 62 scent  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $34.00  [Knockout, \"Arial Narrow\", sans-serif 18px 400 ls normal rgb(33, 39, 34)]",
+    "A: Cheirosa 62™ Jelly Perfume Balm  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 500 ls -0.14px rgb(33, 39, 34)]",
+    "P: Pistachio & vanilla perfume stick lasts up to 10 hours  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $26.00  [Knockout, \"Arial Narrow\", sans-serif 18px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: Description  [Arial 13.3333px 400 ls normal rgb(33, 39, 34)]",
+    "LI: Not sure which scent fits your mood? Take our quiz to find your fragrance.  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "P: Not sure which scent fits your mood? Take our quiz to find your fragrance.  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "A: find your fragrance  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "LI: Due to shipping regulations, this item is not available to ship to select zip codes within Alaska and Hawaii.* Find the full list here.  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "P: Due to shipping regulations, this item is not available to ship to select zip codes within Alaska and Hawaii.* Find the full list here.  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "A: here.  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "BUTTON: Ingredients  [Arial 13.3333px 400 ls normal rgb(33, 39, 34)]",
+    "H3: All Ingredients:  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 600 ls -0.14px rgb(33, 39, 34)]",
+    "BUTTON: Fragrance Notes  [Arial 13.3333px 400 ls normal rgb(33, 39, 34)]",
+    "P: Cheirosa 62™ Scent Profile: | Top: pistachio, almond | Mid: heliotrope, jasmine petals | Dry: vanilla, salted caramel, sandalwood  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(100, 100, 100)]",
+    "P: In Portuguese, cheirosa means to smell incredibly delicious.  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(100, 100, 100)]",
+    "BUTTON: Recycling & Sustainability  [Arial 13.3333px 400 ls normal rgb(33, 39, 34)]",
+    "A: here  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(100, 100, 100)]",
+    "P: Use 62% less plastic by purchasing a refill for your 240ml mist!  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(100, 100, 100)]",
+    "BUTTON: FAQs  [Arial 13.3333px 400 ls normal rgb(33, 39, 34)]",
+    "H3: Does Cheirosa 62™ Perfume Mist smell like Brazilian Bum Bum® Cream?  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 600 ls -0.14px rgb(33, 39, 34)]",
+    "H3: Does Cheirosa 62™ Perfume Mist contain nuts?  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 600 ls -0.14px rgb(33, 39, 34)]",
+    "H3: Can I spray Cheirosa 62™ Perfume Mist on my hair or my clothes?  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 600 ls -0.14px rgb(33, 39, 34)]",
+    "H3: How can I make the Cheirosa 62™ Perfume Mist last longer?  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 600 ls -0.14px rgb(33, 39, 34)]",
+    "H3: Are other products available in this scent?  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 600 ls -0.14px rgb(33, 39, 34)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "A: See Full Product Details  [\"Noto Sans\", Helvetica, Arial, sans-serif 18px 400 ls -0.18px rgb(33, 39, 34)]",
+    "BUTTON: TOP: PISTACHIO, ALMOND  [Knockout, \"Arial Narrow\", sans-serif 56px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: MID: HELIOTROPE, JASMINE PETALS​  [Knockout, \"Arial Narrow\", sans-serif 56px 400 ls normal rgba(33, 39, 34, 0.4)]",
+    "BUTTON: DRY: VANILLA, SALTED CARAMEL, SANDALWOOD  [Knockout, \"Arial Narrow\", sans-serif 56px 400 ls normal rgba(33, 39, 34, 0.4)]",
+    "P: THE SUNNY GOURMAND  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 600 ls normal rgb(33, 39, 34)]",
+    "P: Irresistible & sunny. Feel that summer crush.  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(33, 39, 34)]",
+    "H2: CHEIROSA 62™ RITUAL  [Knockout, \"Arial Narrow\", sans-serif 56px 400 ls normal rgb(33, 39, 34)]",
+    "P: Apply on your bum bum, legs, tummy, arms and anywhere your body craves it. For optimal absorption and circulation, massage into skin in circular motions.  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "H3: Nourish & improve the appearance of stretch marks  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $52.00  [Knockout, \"Arial Narrow\", sans-serif 18px 400 ls normal rgb(33, 39, 34)]",
+    "H3: Visibly firm & tighten  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $48.00  [Knockout, \"Arial Narrow\", sans-serif 18px 400 ls normal rgb(33, 39, 34)]",
+    "H3: Layer the irresistible & sunny scent  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls -0.14px rgb(100, 100, 100)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $39.00  [Knockout, \"Arial Narrow\", sans-serif 18px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD FULL RITUAL | $139  [Knockout, \"Arial Narrow\", sans-serif 18px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: MOST LOVED  [Knockout, \"Arial Narrow\", sans-serif 40px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: PICKED JUST FOR YOU  [Knockout, \"Arial Narrow\", sans-serif 40px 400 ls normal rgba(33, 39, 34, 0.4)]",
+    "A: Best Seller  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: Brazilian Bum Bum® Cream  [\"Noto Sans\", Helvetica, Arial, sans-serif 16px 500 ls -0.16px rgb(33, 39, 34)]",
+    "P: A visibly firming body cream with the irresistible scent of pistachio, salted caramel, and vanilla  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "BUTTON: 240ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: 150ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: 75ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: 25ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: 240ml Refill  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $48.00  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: Bum Bum Jet Set  [\"Noto Sans\", Helvetica, Arial, sans-serif 16px 500 ls -0.16px rgb(33, 39, 34)]",
+    "P: Brazilian Bum Bum Cream Travel Size & Other Travel-Ready Minis  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $34.00  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: Best Seller  [\"Noto Sans\", Helvetica, Arial, sans-serif 14px 400 ls normal rgb(33, 39, 34)]",
+    "A: Cheirosa 62™ Perfume Mist  [\"Noto Sans\", Helvetica, Arial, sans-serif 16px 500 ls -0.16px rgb(33, 39, 34)]",
+    "P: Pistachio & salted caramel body perfume mist  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "BUTTON: 240ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: 90ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: Refill (240ml)  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $39.00  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: GlowMotions™ Glow Body Oil  [\"Noto Sans\", Helvetica, Arial, sans-serif 16px 500 ls -0.16px rgb(33, 39, 34)]",
+    "P: Skin-softening glow oil with a warm bronze finish  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "BUTTON: Copacabana Bronze  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: Rio Sunset  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $36.00  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: Beija Flor™ Jet Set  [\"Noto Sans\", Helvetica, Arial, sans-serif 16px 500 ls -0.16px rgb(33, 39, 34)]",
+    "P: Beija Flor™ Elasti-Cream Travel Size & Other Travel-Ready Minis  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "P: There was an error adding the item to your cart. Please try again.  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: ADD TO BAG | $34.00  [Knockout, \"Arial Narrow\", sans-serif 22px 400 ls normal rgb(33, 39, 34)]",
+    "A: Beija Flor™ Elasti-Cream  [\"Noto Sans\", Helvetica, Arial, sans-serif 16px 500 ls -0.16px rgb(33, 39, 34)]",
+    "P: Body Cream with Cacay Oil, a natural alternative to retinol  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(100, 100, 100)]",
+    "BUTTON: 240ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: 150ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]",
+    "BUTTON: 75ml  [\"Noto Sans\", Helvetica, Arial, sans-serif 12px 400 ls normal rgb(33, 39, 34)]"
+  ],
+  "images": [
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/logo.svg?v=1788375686&width=163",
+      "alt": "Sol de Janeiro",
+      "w": 200,
+      "h": 26
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/ContentSlot-2-Candles-DSK.jpg?v=1789146595&width=540",
+      "alt": "Choose Your Cheirosa Candle Bundle",
+      "w": 240,
+      "h": 256
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_ProductHighlight_GlassJar_0364925b-5e6d-47a9-b1ac-aac31a8fe67d.jpg?v=1788384431&width=600",
+      "alt": "Brazilian Bum Bum® Cream Iconic Glass Edition",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_Intense_Mist_4_Collection.jpg?v=1790262442&width=401",
+      "alt": "Intense Perfume Mist Quad",
+      "w": 239,
+      "h": 239
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_GiftGuide.jpg?v=1791234431&width=401",
+      "alt": "Gift Guide",
+      "w": 239,
+      "h": 239
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Site_Holiday_Gift_Guide_Landing_Page_Hero-M.jpg?v=1790795261&width=540",
+      "alt": "Limited Edition Sets",
+      "w": 240,
+      "h": 417
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/ContentSlot-2-Candles-MOB.jpg?v=1789146524&width=540",
+      "alt": "Cheirosa Candle Collection",
+      "w": 240,
+      "h": 256
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_GlassJar.jpg?v=1788384251&width=400",
+      "alt": "Limited Edition Brazilian Bum Bum® Cream",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/ContentSlot-2-Candles-DSK.jpg?v=1789146595&width=540",
+      "alt": "Choose Your Cheirosa Candle Bundle",
+      "w": 240,
+      "h": 256
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_GlassJar.jpg?v=1788384251&width=400",
+      "alt": "Brazilian Bum Bum® Cream Iconic Glass Edition",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_Intense_Mist_4_Collection.jpg?v=1790262442&width=401",
+      "alt": "Intense Perfume Mist Quad",
+      "w": 239,
+      "h": 239
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Bundles_CologneMistDuo.jpg?v=1788384191&width=402",
+      "alt": "Cheiroso Cologne Mist Duo",
+      "w": 240,
+      "h": 238
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Fragrance_CustomDuo240mL.jpg?v=1788384076&width=400",
+      "alt": "Choose Your Perfume Mist Duo | 240ml",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_C62.jpg?v=1788384038&width=402",
+      "alt": "Cheirosa 62™ Perfume Mist",
+      "w": 240,
+      "h": 238
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_IM59.jpg?v=1788384371&width=401",
+      "alt": "Cheirosa 59 Intense Perfume Mist",
+      "w": 239,
+      "h": 239
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Body_GlassJar.jpg?v=1788383891&width=400",
+      "alt": "Brazilian Bum Bum® Cream Iconic Glass Edition",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Body_C39_Badalada.jpg?v=1788383712&width=402",
+      "alt": "Body Badalada™ Moisture Melting Lotion",
+      "w": 240,
+      "h": 238
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Body_DD_ShowerGel.jpg?v=1788383801&width=401",
+      "alt": "Delícia Drench™ Shower Oil",
+      "w": 239,
+      "h": 239
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Hair_MLIC_Mini_Trio.jpg?v=1788384311&width=401",
+      "alt": "Milky Leave-In Conditioner Cheirosa 62™",
+      "w": 239,
+      "h": 239
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Hair_Shampoo.jpg?v=1788383952&width=400",
+      "alt": "Brazilian Joia™ Strengthening + Smoothing Shampoo",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Hair_Conditioner.jpg?v=1788384279&width=400",
+      "alt": "Brazilian Joia™ Strengthening + Smoothing Conditioner",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/ContentSlot-2-Candles-DSK.jpg?v=1789146595&width=540",
+      "alt": "Choose Your Cheirosa Candle Bundle",
+      "w": 240,
+      "h": 256
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Bundles_CologneMistDuo.jpg?v=1788384191&width=402",
+      "alt": "Cheiroso Cologne Mist Duo",
+      "w": 240,
+      "h": 238
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_Intense_Mist_4_Collection.jpg?v=1790262442&width=401",
+      "alt": "Intense Perfume Mist Quad",
+      "w": 239,
+      "h": 239
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Bundles_GlassJar.jpg?v=1788383979&width=400",
+      "alt": "Full-Sized Routine Builder",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C59_30ML_OVERHEAD_RGB_1452X1452_228590d8-6fc3-45f2-8bd9-5d80993df9ec.jpg?v=1789751680&width=540",
+      "alt": "Cheirosa 59 Perfume Mist (30ml)",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_RC_DC_25ML_OVERHEAD_RGB_1452X1452_59b12378-73a5-47e4-8c3e-cf2e1d3150e2.jpg?v=1790694492&width=540",
+      "alt": "Rosa Charmosa™ Dewy Cream (25ml)",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_JB_C48_OVERHEAD_RGB_1452X1452_f4f7a3db-e42c-49e0-9022-381bb9064009.jpg?v=1788889933&width=540",
+      "alt": "Jelly Balm Cheirosa 48",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_LEAVE-IN-CONDITIONER_C59_210ML_OVERHEAD_RGB_1452X1452_f0635bdb-8ac0-437d-a64c-60806930909d.jpg?v=1788873579&width=540",
+      "alt": "Milky Leave-In Conditioner Cheirosa 59",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_ContentSlot_M_GlassJar_49f5fbda-3af0-4cb1-ada0-6c383793a47b.jpg?v=1788384010&width=900",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_240ML_OVERHEAD_RGB_1452X1452_222bd1a6-2a46-4d97-9101-d4c20edacc6c.jpg?v=1788866500&width=1452",
+      "alt": "",
+      "w": 800,
+      "h": 800
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_90ML_OVERHEAD_RGB_1452X1452_9f411850-de16-4951-96a2-7e8ce076c547.jpg?v=1788869245&width=1600",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_REFILL_240ML_OVERHEAD_RGB_1452X1452_41fe6e48-7542-45e0-9d48-cb16f7b2fb99.jpg?v=1789060059&width=1600",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/2.INGREDIENTS_C62_1600x1600_text.webp?v=1782401620&width=1600",
+      "alt": "Vanilla extract bottle with vanilla beans and pistachios on a light blue background",
+      "w": 800,
+      "h": 800
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/1._PRODUCT_HERO_C62_1600x1600_text.webp?v=1782402220&width=1600",
+      "alt": "Perfume bottle with vanilla beans and a sprig of mint on a light blue background",
+      "w": 800,
+      "h": 800
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/3.FEELSLIKE_C62_1600x1600_text.webp?v=1782402101&width=1600",
+      "alt": "Three people on a beach with a large umbrella, ocean, and clear sky.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/10.TRAVELSIZE_C62_1600x1600_text.webp?v=1782402041&width=1600",
+      "alt": "Two Sol de Janeiro perfume bottles on a beach with ocean view",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/8.LAYERING_C62_1600x1600_text.webp?v=1782401980&width=1600",
+      "alt": "Two bottles of Cheirosa perfume with vanilla, dragon fruit, and flower elements on a colorful background.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/4.YEARSTORY_C62_1600x1600_text.webp?v=1782402130&width=1600",
+      "alt": "Sol de Janeiro fragrance bottle with text about 'The Girl from Ipanema' on a blurred beach background",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/7.SOUNDSLIKE_C62_1600x1600_text.webp?v=1782401952&width=1600",
+      "alt": "Beach scene with people, umbrellas, and mountains in the background",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/6.ROUTINE_C62_1600x1600_text.webp?v=1782402191&width=1600",
+      "alt": "Collection of Sol de Janeiro skincare products with text describing their benefits.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/5.CHEIROSAEFFECT_C62_1600x1600_text.webp?v=1782402159&width=1600",
+      "alt": "Woman in an orange dress holding two bottles against a yellow background with text.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/9.PERFUMEMISTCOLLECTION_C62_1600x1600_text.webp?v=1782402012&width=1600",
+      "alt": "Collection of skincare bottles with various colors on a light background, featuring text about product ingredients and certifications.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/11.OLFACTORYMAP_C62_1600x1600_text.webp?v=1782402072&width=1600",
+      "alt": "endless scents, always delicious ",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_240ML_OVERHEAD_RGB_1452X1452_222bd1a6-2a46-4d97-9101-d4c20edacc6c.jpg?v=1788866500&width=180",
+      "alt": "",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_90ML_OVERHEAD_RGB_1452X1452_9f411850-de16-4951-96a2-7e8ce076c547.jpg?v=1788869245&width=200",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_REFILL_240ML_OVERHEAD_RGB_1452X1452_41fe6e48-7542-45e0-9d48-cb16f7b2fb99.jpg?v=1789060059&width=200",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/2.INGREDIENTS_C62_1600x1600_text.webp?v=1782401620&width=180",
+      "alt": "Vanilla extract bottle with vanilla beans and pistachios on a light blue background",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/1._PRODUCT_HERO_C62_1600x1600_text.webp?v=1782402220&width=180",
+      "alt": "Perfume bottle with vanilla beans and a sprig of mint on a light blue background",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/3.FEELSLIKE_C62_1600x1600_text.webp?v=1782402101&width=180",
+      "alt": "Three people on a beach with a large umbrella, ocean, and clear sky.",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/10.TRAVELSIZE_C62_1600x1600_text.webp?v=1782402041&width=180",
+      "alt": "Two Sol de Janeiro perfume bottles on a beach with ocean view",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/8.LAYERING_C62_1600x1600_text.webp?v=1782401980&width=180",
+      "alt": "Two bottles of Cheirosa perfume with vanilla, dragon fruit, and flower elements on a colorful background.",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/4.YEARSTORY_C62_1600x1600_text.webp?v=1782402130&width=180",
+      "alt": "Sol de Janeiro fragrance bottle with text about 'The Girl from Ipanema' on a blurred beach background",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/7.SOUNDSLIKE_C62_1600x1600_text.webp?v=1782401952&width=180",
+      "alt": "Beach scene with people, umbrellas, and mountains in the background",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/6.ROUTINE_C62_1600x1600_text.webp?v=1782402191&width=180",
+      "alt": "Collection of Sol de Janeiro skincare products with text describing their benefits.",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/5.CHEIROSAEFFECT_C62_1600x1600_text.webp?v=1782402159&width=180",
+      "alt": "Woman in an orange dress holding two bottles against a yellow background with text.",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/9.PERFUMEMISTCOLLECTION_C62_1600x1600_text.webp?v=1782402012&width=180",
+      "alt": "Collection of skincare bottles with various colors on a light background, featuring text about product ingredients and certifications.",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/11.OLFACTORYMAP_C62_1600x1600_text.webp?v=1782402072&width=180",
+      "alt": "endless scents, always delicious ",
+      "w": 100,
+      "h": 100
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_IMC62_90ML_OVERHEAD_RGB_1452X1452_3ee278f9-5583-42d7-aff1-db599acb3b86.jpg?v=1788866290&width=540",
+      "alt": "Cheirosa 62™ Intense Perfume Mist",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_JB_C62_OVERHEAD_RGB_1452X1452_c0bfd921-07ce-4632-8762-8d6c06ea3d45.jpg?v=1788865902&width=540",
+      "alt": "Cheirosa 62™ Jelly Perfume Balm",
+      "w": 240,
+      "h": 240
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_240ML_OVERHEAD_RGB_1452X1452_222bd1a6-2a46-4d97-9101-d4c20edacc6c.jpg?v=1788866500&width=180",
+      "alt": "Cheirosa 62™ Perfume Mist",
+      "w": 48,
+      "h": 48
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_C62_Mist_PPage_D_ScentIngredients.jpg?v=1788380051&width=720",
+      "alt": "",
+      "w": 533,
+      "h": 597
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_PPage_C62_D_Ritual_Hero.jpg?v=1788380894&width=1080",
+      "alt": "",
+      "w": 800,
+      "h": 886
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_BBC_PPage_D_Ritual_Oil.jpg?v=1788377889&width=436",
+      "alt": "",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/Sol_BBC_PPage_D_Ritual_BBC.jpg?v=1788378071&width=456",
+      "alt": "",
+      "w": 320,
+      "h": 320
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/ia-cheirosa-62-rutial-item-3.jpg?v=1788377170&width=408",
+      "alt": "",
+      "w": 320,
+      "h": 327
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_BB_BC_240ML_OVERHEAD_RGB_1452X1452_cb5b3d96-578a-4163-8c34-8c815fc465eb.jpg?v=1788873312&width=900",
+      "alt": "Brazilian Bum Bum® Cream",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/2_PRODUCTHERO_GOOP_eae405af-e440-4a2e-a91e-7f1b5a6fc527.webp?v=1771356225&width=900",
+      "alt": "Brazilian Bum Bum Cream container with label on a yellow background",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/3_CLINICALBEFOREANDAFTER.webp?v=1771356156&width=900",
+      "alt": "Before and after comparison of cellulite reduction on a person's thigh.",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/5_INGREDIENTBENEFIT.webp?v=1771619149&width=900",
+      "alt": "Skincare mask with ingredients like guarana extract, cupuácu butter, and plant squalane on a yellow background.",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/4_TEXTURE.webp?v=1771356156&width=900",
+      "alt": "Person applying fast-absorbing body cream to their shoulder with a blue background",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/6_CLAIM.webp?v=1771355652&width=1000",
+      "alt": "confidence at your finger tips 100% saw more radiant skin",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/7_SCENTNOTES_ee602b77-4cca-4ce8-b996-6cc000b672e5.webp?v=1771619149&width=1000",
+      "alt": "cheirosa 62 scent pistachio salted caramel vanilla",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/8_FAMILYSCENT_ac84e511-d3ba-482b-91e9-1d5b7ef671e6.webp?v=1771356156&width=1000",
+      "alt": "Bottle of Brazilian Bum Bum 62 with vanilla bean and orange peel on a white background\n\nMaximum cheirosa layer for a longer-lasting fragrance experience",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/12_SKINPAYOFF.webp?v=1771355531&width=1000",
+      "alt": "GIve in to the craving",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/9_ROUTINE_DTC.webp?v=1771356225&width=1000",
+      "alt": "Promotional graphic for Sol de Janeiro Brazilian Play body wash, cream, and scrub with product images and text.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/16_SKINPAYOFF.webp?v=1771355498&width=1000",
+      "alt": "Woman holding a Brazilian Bum Bum Cream container on a beach with text 'Uplifting Since 2015'.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/13_ALLSIZES.webp?v=1771355439&width=1000",
+      "alt": "Bottle of Brazilian Bum Bum Cream with text on a yellow background\n\nBum bums come in all sizes, travel friendly jars & more",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/15_PETACALLOUT.webp?v=1771355352&width=1000",
+      "alt": "formulated without parabens, phthalates mineral oil dermatologist tested peta-certified animal test-free and vegan",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/14_REFILL.webp?v=1771355470&width=1000",
+      "alt": "Two hands holding yellow containers with text about refill options on a yellow background\n\nChoose a refill for 89% les plastic packaging compared to 240ml size. Refills sold separately",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_JET_SET_BB_OVERHEAD_RGB_1452X1452_c282df3f-9f09-4322-a588-f883ac90e546.jpg?v=1788869477&width=900",
+      "alt": "Bum Bum Jet Set",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_3_Benefit.webp?v=1760108913&width=900",
+      "alt": "visibly firming & tightening bum bum routine to go",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_4_Routine.webp?v=1760108913&width=900",
+      "alt": "1. gently cleanse 2. visibly firm 3. layer the iconic scent mini sizes. major sol.",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_5_Wash.webp?v=1760108914&width=900",
+      "alt": "creamy, nourishing body wash",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_6_Cream.webp?v=1760108914&width=900",
+      "alt": "clinically proven to visibly firm & tighten *after 4 weeks of 2x daily use.",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_7_Mist.webp?v=1760108914&width=1000",
+      "alt": "irresistible & sunny perfume mist",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_8_Scent.webp?v=1760108914&width=1000",
+      "alt": "cheirosa 62 scent pistachio, salted caramel, vanilla",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_9_Franchise.webp?v=1760108915&width=1000",
+      "alt": "what's your skin craving? visibly firm & tighten, smooth & visibly brighten, boost collagen*, deeply moisturize *clinical study: based on a 9-day study when using the cream vs. untreated skin",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_10_Formulation.webp?v=1760108915&width=1000",
+      "alt": "peta-certified animal test-free & vegan formulated without mineral oil, parabens and phthalates",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_11_Travel-US.webp?v=1760108919&width=1000",
+      "alt": "pack it. give it. love it. tsa-friendly, reusable bag",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/BBC_Jet_Set.jpg?v=1760108918&width=1000",
+      "alt": "brazilian bum bum jet set package 2",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_240ML_OVERHEAD_RGB_1452X1452_222bd1a6-2a46-4d97-9101-d4c20edacc6c.jpg?v=1788866500&width=900",
+      "alt": "Cheirosa 62™ Perfume Mist",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/2.INGREDIENTS_C62_1600x1600_text.webp?v=1782401620&width=900",
+      "alt": "Vanilla extract bottle with vanilla beans and pistachios on a light blue background",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/1._PRODUCT_HERO_C62_1600x1600_text.webp?v=1782402220&width=900",
+      "alt": "Perfume bottle with vanilla beans and a sprig of mint on a light blue background",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/3.FEELSLIKE_C62_1600x1600_text.webp?v=1782402101&width=900",
+      "alt": "Three people on a beach with a large umbrella, ocean, and clear sky.",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/10.TRAVELSIZE_C62_1600x1600_text.webp?v=1782402041&width=900",
+      "alt": "Two Sol de Janeiro perfume bottles on a beach with ocean view",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/8.LAYERING_C62_1600x1600_text.webp?v=1782401980&width=1000",
+      "alt": "Two bottles of Cheirosa perfume with vanilla, dragon fruit, and flower elements on a colorful background.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/4.YEARSTORY_C62_1600x1600_text.webp?v=1782402130&width=1000",
+      "alt": "Sol de Janeiro fragrance bottle with text about 'The Girl from Ipanema' on a blurred beach background",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/7.SOUNDSLIKE_C62_1600x1600_text.webp?v=1782401952&width=1000",
+      "alt": "Beach scene with people, umbrellas, and mountains in the background",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/6.ROUTINE_C62_1600x1600_text.webp?v=1782402191&width=1000",
+      "alt": "Collection of Sol de Janeiro skincare products with text describing their benefits.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/5.CHEIROSAEFFECT_C62_1600x1600_text.webp?v=1782402159&width=1000",
+      "alt": "Woman in an orange dress holding two bottles against a yellow background with text.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/9.PERFUMEMISTCOLLECTION_C62_1600x1600_text.webp?v=1782402012&width=1000",
+      "alt": "Collection of skincare bottles with various colors on a light background, featuring text about product ingredients and certifications.",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/11.OLFACTORYMAP_C62_1600x1600_text.webp?v=1782402072&width=1000",
+      "alt": "endless scents, always delicious ",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_90ML_OVERHEAD_RGB_1452X1452_9f411850-de16-4951-96a2-7e8ce076c547.jpg?v=1788869245&width=1000",
+      "alt": "Cheirosa 62™ Perfume Mist",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_REFILL_240ML_OVERHEAD_RGB_1452X1452_41fe6e48-7542-45e0-9d48-cb16f7b2fb99.jpg?v=1789060059&width=1000",
+      "alt": "Cheirosa 62™ Perfume Mist",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_GM_COPA_1452X1452_0f64f7ab-038d-4f51-b33f-9453be715258.jpg?v=1788859241&width=900",
+      "alt": "GlowMotions™ Glow Body Oil",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_9.webp?v=1747408114&width=900",
+      "alt": "text on image is new look same illuminating body routine. This image is showing the difference with the new packaging for the sol de janeiro glowmotions glow oil ",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_8.webp?v=1747408116&width=900",
+      "alt": "Image on text reads Irresistible scent pistachio, salted caramel, vanilla. this is an image of the scent notes for sol de janeiro cheirosa 62 ",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_7.webp?v=1747408119&width=900",
+      "alt": "Text on image reads aloe vera extract helps retain moisture, nourishing oil blen softens skin, cupuacu butter deeply nourishes & hydrates. This image is showing a goop swatch of the sol de janeiro glowmotions copacabana bronze shade with key ingredients ",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_6.webp?v=1747408119&width=900",
+      "alt": "text on image reads illuminating hydration. This image is of a model on the beach with the ocean in backgound smiling and looking glowy wearing sol de janeiro glowmotions glow body oil",
+      "w": 400,
+      "h": 400
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_3.webp?v=1747408120&width=1000",
+      "alt": "Before and after of a model wearing sol de janeiro glowmotions glow body oil",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_BrushOil_V1_Ppage_1600x1600_7_1ea53cc3-8cb3-467f-b535-10dde3567dde.webp?v=1747408122&width=1000",
+      "alt": "Text on image reads transfer-resistant barely-there feel. This is an image of a close up of model having the sol de janeiro glowmotions glow body oil on her arm and you can see how glowy and hydrated it makes her skin look",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_product-on-goop.webp?v=1747408124&width=1000",
+      "alt": "Image of the sol de janeiro glowmotions glow body oil in shade copacabana bronze spread out and you can really see how glowy bronze it is ",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_RioSunset_Ppage_1600x1600_product-on-goop.webp?v=1747408123&width=1000",
+      "alt": "Image of the sol de janeiro glowmotions glow body oil in shade rio sunset spread out and you can really see how glowy bronze it is ",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_RioSunset_Ppage_1600x1600_8.webp?v=1747408117&width=1000",
+      "alt": "Image on text reads Irresistible scent pistachio, salted caramel, vanilla. this is an image of the scent notes for sol de janeiro cheirosa 62",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_RioSunset_Ppage_1600x1600_9.webp?v=1747408117&width=1000",
+      "alt": "text on image is new look same illuminating body routine. This image is showing the difference with the new packaging for the sol de janeiro glowmotions glow oil ",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_2.webp?v=1747408129&width=1000",
+      "alt": "Text on image reads copacabana bronze warm bronze shimmer. This is a close up of a goop product shot of sol de janeiro glowmotions glow body oil in copacabana bronze",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_Amazon_Glowmotions2025_CopacabanaBronze_Ppage_2560x2560_5.webp?v=1747408126&width=1000",
+      "alt": "Text on image reads two sheet shimmering finishes rio sunset and copacabana bronze. The image is showing a swatch of the two shades with two different skin types",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_RioSunset_Ppage_1600x1600_7.webp?v=1747408118&width=1000",
+      "alt": "Text on image reads aloe vera extract helps retain moisture, nourishing oil blen softens skin, cupuacu butter deeply nourishes & hydrates. This image is showing a goop swatch of the sol de janeiro glowmotions rio sunset shade with key ingredients ",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_JET_SET_BF_OVERHEAD_RGB_1452X1452_013291e3-0726-4f3c-9bf1-3a8743dd3953.jpg?v=1788868693&width=900",
+      "alt": "Beija Flor™ Jet Set",
+      "w": 400,
+      "h": 400
+    }
+  ],
+  "videos": [],
+  "og_image": "http://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_240ML_OVERHEAD_RGB_1452X1452_222bd1a6-2a46-4d97-9101-d4c20edacc6c.jpg?v=1788866500",
+  "favicons": [
+    "https://soldejaneiro.com/cdn/shop/files/ia-sdj-favicon.png?crop=center&height=32&v=1788381520&width=32"
+  ],
+  "header_svgs": [
+    "<svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 6C12 6.133 11.947 6.26 11.854 6.354C11.76 6.447 11.633 6.5 11.5 6.5H6.5V11.5C6.5 11.633 6.447 11.76 6.354 11.854C6.26 11.947 6.133 12 6 12C5.867 12 5.74 11.947 5.646 11.854C5.553 11.76 5.5 11.633 5.5 11.5V6.5H0.5C0.367 6.5 0.24 6.447 0.146 6.354C0.053 6.26 0 6.133 0 6C0 5.867 0.053 5.74 0.146 5.646C0.24 5.553 0.367 5.5 0.5 5.5H5.5V0.5C5.5 0.367 5.553 0.24 5.646 0.146C5.74 0.053 5.867 0 6 0C6.133 0 6.26 0.053 6.354 0.146C6.447 0.24 6.5 0.367 6.5 0.5V5.5H11.5C11.633 5.5 11.76 5.553 11.854 5.646C11.947 5.74 12 5.867 12 6Z\" fill=\"currentColor\"></path></svg>",
+    "<svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 6C12 6.133 11.947 6.26 11.854 6.354C11.76 6.447 11.633 6.5 11.5 6.5H0.5C0.367 6.5 0.24 6.447 0.146 6.354C0.053 6.26 0 6.133 0 6C0 5.867 0.053 5.74 0.146 5.646C0.24 5.553 0.367 5.5 0.5 5.5H11.5C11.633 5.5 11.76 5.553 11.854 5.646C11.947 5.74 12 5.867 12 6Z\" fill=\"currentColor\"></path></svg>",
+    "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.58417 21.7425V15.0925H7.5225V12.0367H9.58417V10.72C9.58417 7.31583 11.1242 5.73833 14.4658 5.73833C14.8 5.73833 15.2617 5.77333 15.6892 5.82417C16.0094 5.85712 16.327 5.9114 16.64 5.98667V8.7575C16.4591 8.74062 16.2775 8.73062 16.0958 8.7275C15.8923 8.72222 15.6886 8.71972 15.485 8.72C14.8958 8.72 14.4358 8.8 14.0892 8.9775C13.8561 9.09443 13.6602 9.2739 13.5233 9.49583C13.3083 9.84583 13.2117 10.325 13.2117 10.9558V12.0367H16.4775L16.1558 13.7892L15.9167 15.0925H13.2117V21.9633C18.1633 21.365 22 17.1492 22 12.0367C22 6.51417 17.5225 2.03667 12 2.03667C6.4775 2.03667 2 6.51417 2 12.0367C2 16.7267 5.22833 20.6617 9.58417 21.7425Z\" fill=\"currentColor\"></path>\n</svg>",
+    "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17.3383 7.86167C18.0011 7.86167 18.5383 7.32441 18.5383 6.66167C18.5383 5.99893 18.0011 5.46167 17.3383 5.46167C16.6756 5.46167 16.1383 5.99893 16.1383 6.66167C16.1383 7.32441 16.6756 7.86167 17.3383 7.86167Z\" fill=\"currentColor\"></path>\n<path d=\"M12 6.865C10.9844 6.865 9.99159 7.16616 9.14715 7.7304C8.3027 8.29464 7.64453 9.09662 7.25588 10.0349C6.86722 10.9732 6.76553 12.0057 6.96367 13.0018C7.1618 13.9979 7.65086 14.9129 8.36901 15.631C9.08715 16.3491 10.0021 16.8382 10.9982 17.0363C11.9943 17.2345 13.0268 17.1328 13.9651 16.7441C14.9034 16.3555 15.7054 15.6973 16.2696 14.8529C16.8338 14.0084 17.135 13.0156 17.135 12C17.135 10.6381 16.594 9.33201 15.631 8.36901C14.668 7.40601 13.3619 6.865 12 6.865ZM12 15.3333C11.3407 15.3333 10.6963 15.1378 10.1481 14.7716C9.59994 14.4053 9.17269 13.8847 8.9204 13.2756C8.66811 12.6665 8.6021 11.9963 8.73072 11.3497C8.85933 10.7031 9.1768 10.1092 9.64298 9.64298C10.1092 9.1768 10.7031 8.85933 11.3497 8.73072C11.9963 8.6021 12.6665 8.66811 13.2756 8.9204C13.8847 9.17269 14.4053 9.59994 14.7716 10.1481C15.1378 10.6963 15.3333 11.3407 15.3333 12C15.3333 12.8841 14.9821 13.7319 14.357 14.357C13.7319 14.9821 12.8841 15.3333 12 15.3333Z\" fill=\"currentColor\"></path>\n<path d=\"M12 3.80167C14.67 3.80167 14.9867 3.81167 16.0408 3.86C16.6749 3.86753 17.3029 3.98394 17.8975 4.20417C18.3289 4.37058 18.7207 4.62545 19.0476 4.9524C19.3745 5.27934 19.6294 5.67111 19.7958 6.1025C20.0161 6.69711 20.1325 7.32513 20.14 7.95917C20.1883 9.01333 20.1983 9.33 20.1983 12.0008C20.1983 14.6717 20.1883 14.9867 20.14 16.0408C20.1325 16.6749 20.0161 17.3029 19.7958 17.8975C19.6294 18.3289 19.3745 18.7207 19.0476 19.0476C18.7207 19.3745 18.3289 19.6294 17.8975 19.7958C17.3029 20.0161 16.6749 20.1325 16.0408 20.14C14.9867 20.1883 14.67 20.1983 12 20.1983C9.33 20.1983 9.01333 20.1883 7.95917 20.14C7.32513 20.1325 6.69711 20.0161 6.1025 19.7958C5.67111 19.6294 5.27934 19.3745 4.9524 19.0476C4.62545 18.7207 4.37058 18.3289 4.20417 17.8975C3.98394 17.3029 3.86753 16.6749 3.86 16.0408C3.81167 14.9867 3.80167 14.67 3.80167 12C3.80167 9.33 3.81167 9.01333 3.86 7.95917C3.86753 7.32513 3.98394 6.69711 4.20417 6.1025C4.37058 5.67111 4.62545 5.27934 4.9524 4.9524C5.27934 4.62545 5.67111 4.37058 6.1025 4.20417C6.69711 3.98394 7.32513 3.86753 7.95917 3.86C9.01333 3.81167 9.33 3.80167 12 3.80167ZM12 2C9.28417 2 8.94333 2.01167 7.87667 2.06C7.04731 2.07675 6.2268 2.23397 5.45 2.525C4.7856 2.78191 4.18222 3.17481 3.67851 3.67851C3.17481 4.18222 2.78191 4.7856 2.525 5.45C2.23388 6.22706 2.07665 7.04787 2.06 7.8775C2.01167 8.94417 2 9.28333 2 12C2 14.7167 2.01167 15.0567 2.06 16.1233C2.07675 16.9527 2.23397 17.7732 2.525 18.55C2.78191 19.2144 3.17481 19.8178 3.67851 20.3215C4.18222 20.8252 4.7856 21.2181 5.45 21.475C6.22706 21.7661 7.04787 21.9233 7.8775 21.94C8.94417 21.9883 9.28417 22 12 22C14.7158 22 15.0567 21.9883 16.1233 21.94C16.953 21.9233 17.7738 21.7661 18.5508 21.475C19.2152 21.2181 19.8186 20.8252 20.3223 20.3215C20.826 19.8178 21.2189 19.2144 21.4758 18.55C21.7667 17.7729 21.9236 16.9521 21.94 16.1225C21.9883 15.0558 22 14.7167 22 12C22 9.28333 21.9883 8.94333 21.94 7.87667C21.9233 7.04731 21.766 6.2268 21.475 5.45C21.2181 4.7856 20.8252 4.18222 20.3215 3.67851C19.8178 3.17481 19.2144 2.78191 18.55 2.525C17.7729 2.23417 16.9521 2.07722 16.1225 2.06083C15.0558 2.01083 14.7167 2 12 2Z\" fill=\"currentColor\"></path>\n</svg>",
+    "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.6 5.82C15.9164 5.03962 15.5397 4.03743 15.54 3H12.45V15.4C12.4262 16.071 12.1429 16.7066 11.6598 17.1729C11.1767 17.6393 10.5314 17.8999 9.86 17.9C8.44 17.9 7.26 16.74 7.26 15.3C7.26 13.58 8.92 12.29 10.63 12.82V9.66C7.18 9.2 4.16 11.88 4.16 15.3C4.16 18.63 6.92 21 9.85 21C12.99 21 15.54 18.45 15.54 15.3V9.01C16.793 9.90985 18.2974 10.3926 19.84 10.39V7.3C19.84 7.3 17.96 7.39 16.6 5.82Z\" fill=\"currentColor\"></path>\n</svg>",
+    "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M22.0575 6.945C21.938 6.50103 21.704 6.09623 21.3789 5.77113C21.0538 5.44602 20.649 5.212 20.205 5.0925C18.57 4.65 12 4.65 12 4.65C12 4.65 5.43 4.65 3.795 5.0925C3.35103 5.212 2.94623 5.44602 2.62113 5.77113C2.29602 6.09623 2.062 6.50103 1.9425 6.945C1.63721 8.61245 1.48906 10.3049 1.5 12C1.48906 13.6951 1.63721 15.3876 1.9425 17.055C2.062 17.499 2.29602 17.9038 2.62113 18.2289C2.94623 18.554 3.35103 18.788 3.795 18.9075C5.43 19.35 12 19.35 12 19.35C12 19.35 18.57 19.35 20.205 18.9075C20.649 18.788 21.0538 18.554 21.3789 18.2289C21.704 17.9038 21.938 17.499 22.0575 17.055C22.3628 15.3876 22.5109 13.6951 22.5 12C22.5109 10.3049 22.3628 8.61245 22.0575 6.945ZM9.9 15.15V8.85L15.3525 12L9.9 15.15Z\" fill=\"currentColor\"></path>\n</svg>"
+  ],
+  "network_media": [
+    "https://soldejaneiro.com/cdn/shop/t/562/assets/knockout-47bantamweight-webfont.woff2?v=124183142491658336761788376708",
+    "https://soldejaneiro.com/cdn/shop/t/562/assets/noto-sans-regular.woff2?v=30489427087628015741788376709",
+    "https://soldejaneiro.com/cdn/shop/t/562/assets/morning-memories-script-latin.woff2?v=89093354678437343341789674723",
+    "https://soldejaneiro.com/cdn/shop/t/562/assets/noto-sans-semibold.woff2?v=30222764728119968161788376709",
+    "https://soldejaneiro.com/cdn/shop/files/logo.svg?v=1788375686&width=163",
+    "https://soldejaneiro.com/cdn/shop/t/562/assets/noto-sans-medium.woff2?v=30222764728119968161788376709",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_240ML_OVERHEAD_RGB_1452X1452_222bd1a6-2a46-4d97-9101-d4c20edacc6c.jpg?v=1788866500&width=1452",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_IMC62_90ML_OVERHEAD_RGB_1452X1452_3ee278f9-5583-42d7-aff1-db599acb3b86.jpg?v=1788866290&width=540",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_JB_C62_OVERHEAD_RGB_1452X1452_c0bfd921-07ce-4632-8762-8d6c06ea3d45.jpg?v=1788865902&width=540",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_C62_Mist_PPage_D_ScentIngredients.jpg?v=1788380051&width=720",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_240ML_OVERHEAD_RGB_1452X1452_222bd1a6-2a46-4d97-9101-d4c20edacc6c.jpg?v=1788866500&width=180",
+    "https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MRegular.woff2",
+    "https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MMedium.woff2",
+    "https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MSemibold.woff2",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_GiftGuide.jpg?v=1791234431&width=401",
+    "https://soldejaneiro.com/cdn/shop/files/ContentSlot-2-Candles-DSK.jpg?v=1789146595&width=540",
+    "https://soldejaneiro.com/cdn/shop/files/ContentSlot-2-Candles-MOB.jpg?v=1789146524&width=540",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_GlassJar.jpg?v=1788384251&width=400",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Site_Holiday_Gift_Guide_Landing_Page_Hero-M.jpg?v=1790795261&width=540",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Bundles_CologneMistDuo.jpg?v=1788384191&width=402",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_Intense_Mist_4_Collection.jpg?v=1790262442&width=401",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Fragrance_CustomDuo240mL.jpg?v=1788384076&width=400",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_C62.jpg?v=1788384038&width=402",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Body_GlassJar.jpg?v=1788383891&width=400",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Body_C39_Badalada.jpg?v=1788383712&width=402",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Body_DD_ShowerGel.jpg?v=1788383801&width=401",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Hair_MLIC_Mini_Trio.jpg?v=1788384311&width=401",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Hair_Shampoo.jpg?v=1788383952&width=400",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C59_30ML_OVERHEAD_RGB_1452X1452_228590d8-6fc3-45f2-8bd9-5d80993df9ec.jpg?v=1789751680&width=540",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Hair_Conditioner.jpg?v=1788384279&width=400",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_RC_DC_25ML_OVERHEAD_RGB_1452X1452_59b12378-73a5-47e4-8c3e-cf2e1d3150e2.jpg?v=1790694492&width=540",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_JB_C48_OVERHEAD_RGB_1452X1452_f4f7a3db-e42c-49e0-9022-381bb9064009.jpg?v=1788889933&width=540",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C10_90ML_OVERHEAD_RGB_1452X1452_290c074b-0b47-4ad5-a424-1ffccd923c7b.jpg?v=1788866381&width=360",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_JB_C62_OVERHEAD_RGB_1452X1452_c0bfd921-07ce-4632-8762-8d6c06ea3d45.jpg?v=1788865902&width=360",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_IMC62_90ML_OVERHEAD_RGB_1452X1452_3ee278f9-5583-42d7-aff1-db599acb3b86.jpg?v=1788866290&width=360",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_BK_Lip_Butter_1452X1452_f8f42f95-6c16-40e1-bec9-560c2ad54b59.jpg?v=1788859212&width=360",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_BADALADA_39_400ML_OVERHEAD_RGB_1452X1452_8ec21d50-f8ea-4b28-bd23-e8f8b024ace7.jpg?v=1788859932&width=360",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_JET_SET_BF_OVERHEAD_RGB_1452X1452_013291e3-0726-4f3c-9bf1-3a8743dd3953.jpg?v=1788868693&width=360",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_BF_EC_240ML_OVERHEAD_RGB_1452X1452_0a32f8ff-05a1-4a36-9313-6bdc2e3def38.jpg?v=1788873342&width=360",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_NewFeatured_IM59.jpg?v=1788384371&width=401",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_BFOIL_100ML_OVERHEAD_RGB_1452X1452_22efe212-bb95-46a0-8d88-ce9d02ab07d3.jpg?v=1788859451&width=360",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_ContentSlot_M_GlassJar_1d778804-757f-4061-8cf5-2dadd9c86c2a.jpg?v=1788384157&width=320",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_Nav_Bundles_GlassJar.jpg?v=1788383979&width=400",
+    "https://cdn.cookielaw.org/logos/static/ot_close.svg",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_LEAVE-IN-CONDITIONER_C59_210ML_OVERHEAD_RGB_1452X1452_f0635bdb-8ac0-437d-a64c-60806930909d.jpg?v=1788873579&width=540",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_PPage_C62_D_Ritual_Hero.jpg?v=1788380894&width=1080",
+    "https://cdn.cookielaw.org/logos/a1471496-b520-4985-853e-07a3378b1ebd/62d480e8-aa39-4c3e-8d53-8c62a86b9bc3/6810c1aa-2cc1-427f-986c-b11c25140d70/SDJ_logo_medium.png",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_BBC_PPage_D_Ritual_Oil.jpg?v=1788377889&width=436",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_BBC_PPage_D_Ritual_BBC.jpg?v=1788378071&width=456",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_BB_BC_240ML_OVERHEAD_RGB_1452X1452_cb5b3d96-578a-4163-8c34-8c815fc465eb.jpg?v=1788873312&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/ia-cheirosa-62-rutial-item-3.jpg?v=1788377170&width=408",
+    "https://soldejaneiro.com/cdn/shop/files/2_PRODUCTHERO_GOOP_eae405af-e440-4a2e-a91e-7f1b5a6fc527.webp?v=1771356225&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/3_CLINICALBEFOREANDAFTER.webp?v=1771356156&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/5_INGREDIENTBENEFIT.webp?v=1771619149&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/4_TEXTURE.webp?v=1771356156&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_JET_SET_BB_OVERHEAD_RGB_1452X1452_c282df3f-9f09-4322-a588-f883ac90e546.jpg?v=1788869477&width=900",
+    "https://fonts.gstatic.com/s/notosans/v42/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7duw.woff2",
+    "https://cdn.cookielaw.org/logos/a1471496-b520-4985-853e-07a3378b1ebd/62d480e8-aa39-4c3e-8d53-8c62a86b9bc3/f6a8c3b8-3706-49ae-b65a-36ec88f10ee7/SDJ_logo_medium.png",
+    "https://cdn-widgetsrepository.yotpo.com/web-fonts/notosans/v28/notosans-v28-latin-normal-600.woff2",
+    "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_3_Benefit.webp?v=1760108913&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_4_Routine.webp?v=1760108913&width=900",
+    "https://cdn.shopify.com/s/files/1/2826/2250/files/knockout-47bantamweight-webfont.woff2?v=1744293064",
+    "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_5_Wash.webp?v=1760108914&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/FY25_BBJetSet_PPage_6_Cream.webp?v=1760108914&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C62_240ML_OVERHEAD_RGB_1452X1452_222bd1a6-2a46-4d97-9101-d4c20edacc6c.jpg?v=1788866500&width=900",
+    "https://cdn-widgetsrepository.yotpo.com/web-fonts/notosans/v28/notosans-v28-latin-normal-500.woff2",
+    "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "https://soldejaneiro.com/cdn/shop/files/2.INGREDIENTS_C62_1600x1600_text.webp?v=1782401620&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/1._PRODUCT_HERO_C62_1600x1600_text.webp?v=1782402220&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/3.FEELSLIKE_C62_1600x1600_text.webp?v=1782402101&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/10.TRAVELSIZE_C62_1600x1600_text.webp?v=1782402041&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_GM_COPA_1452X1452_0f64f7ab-038d-4f51-b33f-9453be715258.jpg?v=1788859241&width=900",
+    "https://cdn.cookielaw.org/logos/a1471496-b520-4985-853e-07a3378b1ebd/f75731ea-1181-45c0-a45e-6fc7f4f3e919/1d8a7602-81ff-49e4-b5d3-c40e79add9b2/SDJ_logo_medium.png",
+    "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_8.webp?v=1747408116&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_7.webp?v=1747408119&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_9.webp?v=1747408114&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/FY25_BFJetSet_PPage_3_Benefit.webp?v=1760108922&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/SDJ_DTC_Glowmotions2025_CopacabanaBronze_Ppage_1600x1600_6.webp?v=1747408119&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_JET_SET_BF_OVERHEAD_RGB_1452X1452_013291e3-0726-4f3c-9bf1-3a8743dd3953.jpg?v=1788868693&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/FY25_BFJetSet_PPage_4_Routine.webp?v=1760108922&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/FY25_BFJetSet_PPage_5_Wash.webp?v=1760108923&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/5_CLINICALBEFOREANDAFTER_DTC.webp?v=1771355774&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_BF_EC_240ML_OVERHEAD_RGB_1452X1452_0a32f8ff-05a1-4a36-9313-6bdc2e3def38.jpg?v=1788873342&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/3_BEFOREANDAFTER_DTC.webp?v=1771356329&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_BD_BC_240ML_OVERHEAD_RGB_1452X1452_e863c481-13da-4ccb-a448-b53481a0c2b2.jpg?v=1788872872&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/3_BEFOREANDAFTER_DTC_f3571cfb-ddce-483b-9473-dcb7b4241bed.webp?v=1771356400&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/r_bg.jpg?v=1788858433&width=1536",
+    "https://soldejaneiro.com/cdn/shop/files/01_SDJ_PPage_DTC_C40_240ML_OVERHEAD_RGB_1452X1452_af46ed9e-898d-456a-88af-1c52b823a2a1.jpg?v=1788860832&width=900",
+    "https://soldejaneiro.com/cdn/shop/files/2.INGREDIENTS_C62_1600x1600_text.webp?v=1782401620&width=1600",
+    "https://soldejaneiro.com/cdn/shop/files/1._PRODUCT_HERO_C62_1600x1600_text.webp?v=1782402220&width=1600",
+    "https://soldejaneiro.com/cdn/shop/files/1._PRODUCT_HERO_C62_1600x1600_text.webp?v=1782402220&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/2.INGREDIENTS_C62_1600x1600_text.webp?v=1782401620&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/3.FEELSLIKE_C62_1600x1600_text.webp?v=1782402101&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/4.YEARSTORY_C62_1600x1600_text.webp?v=1782402130&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/8.LAYERING_C62_1600x1600_text.webp?v=1782401980&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/10.TRAVELSIZE_C62_1600x1600_text.webp?v=1782402041&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/7.SOUNDSLIKE_C62_1600x1600_text.webp?v=1782401952&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/6.ROUTINE_C62_1600x1600_text.webp?v=1782402191&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/5.CHEIROSAEFFECT_C62_1600x1600_text.webp?v=1782402159&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/9.PERFUMEMISTCOLLECTION_C62_1600x1600_text.webp?v=1782402012&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/11.OLFACTORYMAP_C62_1600x1600_text.webp?v=1782402072&width=180",
+    "https://d3k81ch9hvuctc.cloudfront.net/company/TYbRmA/images/302a4ed1-ad33-447f-be5b-ac32991beb1f.png",
+    "https://fonts.bunny.net/inter/files/inter-latin-400-normal.woff2",
+    "https://cdn.shopify.com/s/files/1/0774/7472/6201/files/verified_badge.png?v=1786024497",
+    "https://assets.narvar.com/delivery-protection/shipping-protection.png",
+    "https://fonts.bunny.net/inter/files/inter-latin-500-normal.woff2",
+    "https://cdn.shopify.com/s/files/1/2826/2250/files/PACKSHOTANDWIPS02_1600x1600_text.webp?v=1787779601",
+    "https://cdn.shopify.com/s/files/1/2826/2250/files/PACKSHOTANDWIPS02_1600x1600_text_56b59f0a-ed50-406b-b4ab-d74809e7410f.webp?v=1787850879",
+    "https://cdn.shopify.com/s/files/1/2826/2250/files/02_SPRITZANDSOL_PACKSHOTANDWIPS_1600x1600_text.webp?v=1787779059",
+    "https://fonts.bunny.net/inter/files/inter-latin-600-normal.woff2",
+    "https://config.gorgias.io/production/Aa90l7EDER2JWorj/smooch_inside/avatar_team_pictures/gpGJBxpNbY2YXZA5/610dd16a-ee2b-4d6c-8dbd-6f9495a58650.png",
+    "https://cdn.shopify.com/s/files/1/2826/2250/files/noto-sans-regular.woff?v=1787876379",
+    "https://cdn.shopify.com/s/files/1/2826/2250/files/knockout-47bantamweight-webfont.woff2?v=1787918367",
+    "https://cdn.shopify.com/s/files/1/2826/2250/files/SDJ_logo_hor_header_x320.png?v=1738144166",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_D_Footer_Social_TK.jpg?v=1788383078&width=238",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_D_Footer_Social_FB.jpg?v=1788383140&width=238",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_D_Footer_Social_PIN.jpg?v=1788383111&width=238",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_D_Footer_Social_YT.jpg?v=1788383261&width=238",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_D_Footer_Social_IG.jpg?v=1788383410&width=238",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_D_Footer_Newsletter_9488f068-5c59-48be-9db3-d92fcded3096.jpg?v=1788382965&width=2880",
+    "https://soldejaneiro.com/cdn/shop/files/sol-de-janeiro-sustainable_20250129095951_4c52ad62-43e4-4708-b0d2-ac651ebfa00f.png?v=1788815232&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/allyant-sol_1c0773cb-d660-4381-8279-01f9be001c14.png?v=1788381012&width=180",
+    "https://soldejaneiro.com/cdn/shop/files/ia-footer-bar-icon.png?v=1788381792&width=62",
+    "https://soldejaneiro.com/cdn/shop/files/Sol_D_Footer_Foundation_55658037-8c93-41d7-9628-a1ea6a545ffa.jpg?v=1788383052&width=2880",
+    "https://cdn-widgetsrepository.yotpo.com/brandkit/custom-fonts/3rDpN9Pt4bd0nDlU4w5UAHDVg66o2ao2LlD94EWF/notosans/noto-sans-regular.woff"
+  ]
+}

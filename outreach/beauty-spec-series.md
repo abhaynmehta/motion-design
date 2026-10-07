@@ -1,8 +1,9 @@
 # Beauty spec series — outreach pack
 
-Four 9:16 reels, each cut **only from the brand's own public content** (product films and campaign clips on its website),
-with the brand's own fonts, colours and logo, a written script, a designed device and a synced sound mix. All four are
-**unsolicited spec work**: not affiliated with or endorsed by the brands. Footage and logos belong to the brands.
+Seven 9:16 reels, each made **only from the brand's own public content** (product films, campaign clips, packshots and
+product-page copy on its website), with the brand's fonts (or the closest open font where theirs is licensed), colours
+and logo, a written script, a designed device and a synced sound mix. All seven are **unsolicited spec work**: not
+affiliated with or endorsed by the brands. Footage, photos and logos belong to the brands.
 
 | # | Brand | Reel | Length | Idea in one line | Device | Music (guide) |
 |---|---|---|---|---|---|---|
@@ -10,6 +11,9 @@ with the brand's own fonts, colours and logo, a written script, a designed devic
 | 02 | Kylie Cosmetics | "one of each, obviously." | 30.6 s | You're not the same girl at 8 am as at 11 pm, so why wear the same scent? | stone-shaped window + a clock rolling through the day | Mixkit "Smooth Jazz" |
 | 03 | Rare Beauty | "just a little." | 26.2 s | You don't have to do it all today. One dot (…okay, two). Find comfort. Breathe. | the dot: a full stop opens into the frame and closes it | Mixkit "Thinking About You" |
 | 04 | Typsy Beauty | "the dessert menu" | 27.7 s | You can't eat this… but you can wear it. 0 calories, 100% compliments. | a café menu; each dish opens into its film; the bill | Mixkit "Pop 05" |
+| 05 | Summer Fridays | "nobody owns just one." | 31.6 s | me: "I only need 1 lip balm." also me: fifteen flavours, zero self-control. | the meme; a shelf of cut-out tubes; tube-shaped reveals; type behind the person; a die-cut sticker | Mixkit "Cherry on Top" |
+| 06 | rhode | "never skip lip day." | 27 s | Every Peptide Lip Shape shade is a workout move, so: a lip workout class. | kinetic type (each word acts out its name), a workout HUD, the whole class | Mixkit "Swish Swed" |
+| 07 | Sol de Janeiro | "departures." | 28 s | Every Cheirosa number is a year in Rio. Pick your year. | a split-flap departures board; bottles land like planes; window seat onto Rio | Mixkit "Latin Lovers" |
 
 Files: `videos/<project>/renders/9x16.mp4` (music + SFX, −14 LUFS) and `9x16_sfx-only.mp4` (SFX only, so a trending song can
 be added in Instagram). The Mixkit tracks (02–04) are free for video use under the Mixkit Stock Music Free License; Kay Beauty’s score is synthesised in code.
@@ -91,6 +95,72 @@ be added in Instagram). The Mixkit tracks (02–04) are free for video use under
 >
 > <your name> · <portfolio / Instagram>
 
+## Summer Fridays — "nobody owns just one."
+
+**DM**
+> Hi! I made a spec reel for Lip Butter Balm from your own product films and photos — the meme: me: "i only need 1 lip
+> balm." also me: fifteen tubes popping onto a shelf. 15 flavours, 0 self-control. Four gateway flavours squeeze their
+> texture into the frame, then the #1 lip brand* (with your YipitData line) and "start with one. (you won't stop at one.)"
+> 32 s, 9:16, yours to post if you like it.
+
+**Email** — Subject: "i only need 1 lip balm" (a Lip Butter Balm reel I made for you)
+> Hi <name>,
+>
+> I made an unsolicited spec reel for Lip Butter Balm using only Summer Fridays' public product films and product photos.
+>
+> It's the meme everyone already makes about you: "me: i only need 1 lip balm." The 1 sits in the wall behind the girl
+> with the soft serve and gets struck out. "also me:" fifteen tubes pop onto a shelf (each pop a little higher, like the
+> self-control draining). Then four gateway flavours each squeeze their texture into the frame, the #1 lip brand* with
+> its source line, a "certified collector" sticker, and "start with one. (you won't stop at one.)"
+>
+> Attached: the reel (32 s, 9:16) and a music-free version. Yours to use if you like it; I'd love to make more.
+>
+> <your name> · <portfolio / Instagram>
+
+## rhode — "never skip lip day."
+
+**DM**
+> Hi! Your Peptide Lip Shape shades are all workout moves, so I made a spec reel that's a lip workout class: "never skip
+> leg day" flips to "lip day", 3-2-1 on the drop, and every shade name acts out its word (lunge leans in, squeeze
+> squeezes, flex flexes), then a speed round and the whole class, 14 shades on 14 faces. 27 s, 9:16, from your own films.
+
+**Email** — Subject: never skip lip day (a Peptide Lip Shape reel I made for you)
+> Hi <name>,
+>
+> I noticed every Peptide Lip Shape shade is named after a move, so I made an unsolicited spec reel that turns the launch
+> into a workout class, cut only from rhode's public shade films and campaign portraits.
+>
+> "never skip leg day." rolls to "lip day." A 3-2-1 drops in; the class starts on the beat drop. Six moves: each word does
+> its move (lunge, stretch, squeeze, flex, twist, lift) above the shade's film, with its descriptor and a coach cue
+> ("lift. feel the burn."). A speed round of the other eight, then the whole class: fourteen shades on fourteen faces.
+> It ends on peptide lip shape, $24, "same time tomorrow?"
+>
+> Attached: the reel (27 s, 9:16) and a music-free version. Yours to post if you like it.
+>
+> <your name> · <portfolio / Instagram>
+
+## Sol de Janeiro — "departures."
+
+**DM**
+> Hi! Every Cheirosa number is a year in Rio, so I made a spec reel where the perfume is a time machine: a split-flap
+> departures board, and each bottle lands like a plane in its year — 1948, 1959 (Chega de Saudade), 1962 (the Girl from
+> Ipanema), 1976 — with a window seat onto Rio from your film. "pick your year." 28 s, 9:16, yours to post if you like it.
+
+**Email** — Subject: pick your year (a Cheirosa reel I made for you)
+> Hi <name>,
+>
+> I made an unsolicited spec reel for the Cheirosa perfume mists from Sol de Janeiro's own packshots, home film and
+> product-page copy.
+>
+> The idea is one you already wrote: every number is a year in Rio. "this perfume is a time machine." A split-flap year
+> flips back from 2026 to 1962, then a departures board lists all ten flights. Four board in time order: each bottle
+> lands on its own colour, with its year's story, its notes and a window seat onto today's Rio; six more fly by, one a
+> beat; then "pick your year." and the ten bottles from $26.
+>
+> Attached: the reel (28 s, 9:16) and a music-free version. Yours to use if you like it.
+>
+> <your name> · <portfolio / Instagram>
+
 ## Kay Beauty — "3 new drops"
 Already delivered earlier in this series (`videos/kay-beauty-three-drops`). Lead with it when writing to Indian brands:
 "I made this for Kay Beauty's three new launches."
@@ -102,5 +172,9 @@ Already delivered earlier in this series (`videos/kay-beauty-three-drops`). Lead
   label them "spec work" in a portfolio.
 - If a brand asks for changes: every mark is in beats in `timeline.json`, every word in `film/film.js`; a re-render is
   minutes.
-- More brands with good public footage (checked during research): Huda Beauty (20 vertical product videos on its site),
-  Rhode (6). SUGAR's videos carry burned-in text; 82°E and Hyphen had too little footage.
+- More brands with good public footage (checked during research): Huda Beauty (20 vertical videos, mostly Huda talking
+  to camera), Milk Makeup (38, many captioned), Plum (11, mostly UGC with captions). SUGAR, Foxtale and Dot & Key carry
+  burned-in text; 82°E and Hyphen had too little footage.
+- Instagram reels can't be pulled from here (Instagram serves a login wall to this server). The same footage usually
+  lives on the brand's own site (Shopify product pages list their videos at /products/<handle>.js). For anything only on
+  Instagram, drop the files into Google Drive and point me at the folder.

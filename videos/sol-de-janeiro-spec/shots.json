@@ -1,0 +1,48 @@
+{
+ "note": "In/out in source seconds (the 1920x1080 home film). Box crops (aspect 0.76) for the plane window; only shots without product in frame (the film shows the Intense line).",
+ "films": {
+  "home": "source/home_93931b.mp4"
+ },
+ "shots": {
+  "beach": {
+   "film": "home",
+   "in": 0.0,
+   "out": 1.62,
+   "mode": "box",
+   "w": 760,
+   "h": 1000,
+   "fx": 0.5,
+   "fy": 0.5
+  },
+  "orchid": {
+   "film": "home",
+   "in": 4.28,
+   "out": 5.11,
+   "mode": "box",
+   "w": 760,
+   "h": 1000,
+   "fx": 0.5,
+   "fy": 0.5
+  },
+  "jersey": {
+   "film": "home",
+   "in": 3.19,
+   "out": 3.73,
+   "mode": "box",
+   "w": 760,
+   "h": 1000,
+   "fx": 0.5,
+   "fy": 0.5
+  },
+  "dance": {
+   "film": "home",
+   "in": 17.4,
+   "out": 20.0,
+   "mode": "box",
+   "w": 760,
+   "h": 1000,
+   "fx": 0.5,
+   "fy": 0.5
+  }
+ }
+}

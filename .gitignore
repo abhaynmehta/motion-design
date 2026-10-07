@@ -16,6 +16,7 @@ videos/*
 !videos/typsy-beauty-spec/
 !videos/summer-fridays-spec/
 !videos/rhode-lip-day-spec/
+!videos/sol-de-janeiro-spec/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
@@ -92,6 +93,18 @@ videos/rhode-lip-day-spec/assets/cut/
 videos/rhode-lip-day-spec/assets/site/*
 !videos/rhode-lip-day-spec/assets/site/info.json
 videos/rhode-lip-day-spec/audio/track/
+# Sol de Janeiro: the brand's films and packshots (and the bottle cut-outs made from them) are fetched by scripts/fetch_sources.sh
+videos/sol-de-janeiro-spec/source/*
+!videos/sol-de-janeiro-spec/source/manifest.json
+videos/sol-de-janeiro-spec/assets/frames/
+videos/sol-de-janeiro-spec/assets/products/*
+!videos/sol-de-janeiro-spec/assets/products/manifest.json
+videos/sol-de-janeiro-spec/assets/cut/
+videos/sol-de-janeiro-spec/assets/site/*
+!videos/sol-de-janeiro-spec/assets/site/info.json
+videos/sol-de-janeiro-spec/audio/track/
+videos/sol-de-janeiro-spec/models/
+videos/sol-de-janeiro-spec/.mp/
 videos/*/review/rfinal/
 videos/*/review/strip_*.jpg
 videos/*/review/source_sheet.jpg
