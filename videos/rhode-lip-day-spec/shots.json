@@ -1,0 +1,156 @@
+{
+ "note": "In/out in source seconds. Sources are 606x1080; every shot is a 940x1060 window crop centred on the lips (fy), which also keeps the burned-in shade captions (bottom 10 % of the squeeze/jump/push films) out of frame.",
+ "films": {
+  "push": "source/peptide-lip-shape-push_49dd27.mp4",
+  "lunge": "source/peptide-lip-shape-lunge_1a7b6d.mp4",
+  "stretch": "source/peptide-lip-shape-stretch_e5c70d.mp4",
+  "squeeze": "source/peptide-lip-shape-squeeze_4bee80.mp4",
+  "flex": "source/peptide-lip-shape-flex_2bccd8.mp4",
+  "twist": "source/peptide-lip-shape-twist_52d9dc.mp4",
+  "lift": "source/peptide-lip-shape-lift_c0ae72.mp4",
+  "balance": "source/peptide-lip-shape-balance_24362d.mp4",
+  "bend": "source/peptide-lip-shape-bend_49426b.mp4",
+  "jump": "source/peptide-lip-shape-jump_f7a122.mp4",
+  "lean": "source/peptide-lip-shape-lean_a45bfc.mp4",
+  "move": "source/peptide-lip-shape-move_c5db2f.mp4",
+  "press": "source/peptide-lip-shape-press_53319c.mp4",
+  "spin": "source/peptide-lip-shape-spin_18281c.mp4"
+ },
+ "shots": {
+  "hook": {
+   "film": "push",
+   "in": 6.55,
+   "out": 9.05,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.5
+  },
+  "lunge": {
+   "film": "lunge",
+   "in": 0.3,
+   "out": 2.4,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.5
+  },
+  "stretch": {
+   "film": "stretch",
+   "in": 1.85,
+   "out": 3.85,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.5
+  },
+  "squeeze": {
+   "film": "squeeze",
+   "in": 1.55,
+   "out": 3.25,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.5
+  },
+  "flex": {
+   "film": "flex",
+   "in": 1.85,
+   "out": 3.45,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.6
+  },
+  "twist": {
+   "film": "twist",
+   "in": 2.85,
+   "out": 4.9,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.45
+  },
+  "lift": {
+   "film": "lift",
+   "in": 0.05,
+   "out": 2.05,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.4
+  },
+  "balance": {
+   "film": "balance",
+   "in": 0.5,
+   "out": 1.1,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.45
+  },
+  "bend": {
+   "film": "bend",
+   "in": 0.5,
+   "out": 1.1,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.45
+  },
+  "jump": {
+   "film": "jump",
+   "in": 11.3,
+   "out": 11.9,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.5
+  },
+  "lean": {
+   "film": "lean",
+   "in": 2.2,
+   "out": 2.8,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.5
+  },
+  "move": {
+   "film": "move",
+   "in": 0.6,
+   "out": 1.2,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.5
+  },
+  "press": {
+   "film": "press",
+   "in": 2.5,
+   "out": 3.1,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.5
+  },
+  "push": {
+   "film": "push",
+   "in": 4.6,
+   "out": 5.2,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.6
+  },
+  "spin": {
+   "film": "spin",
+   "in": 0.3,
+   "out": 0.9,
+   "mode": "box",
+   "w": 940,
+   "h": 1060,
+   "fy": 0.48
+  }
+ }
+}

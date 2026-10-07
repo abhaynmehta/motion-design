@@ -15,6 +15,7 @@ videos/*
 !videos/rare-beauty-spec/
 !videos/typsy-beauty-spec/
 !videos/summer-fridays-spec/
+!videos/rhode-lip-day-spec/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
@@ -82,6 +83,15 @@ videos/summer-fridays-spec/assets/site/*
 videos/summer-fridays-spec/audio/track/
 videos/summer-fridays-spec/models/
 videos/summer-fridays-spec/.mp/
+# rhode: the shade films and product photos (and the pencil crops made from them) are fetched by scripts/fetch_sources.sh
+videos/rhode-lip-day-spec/source/*
+!videos/rhode-lip-day-spec/source/manifest.json
+videos/rhode-lip-day-spec/assets/frames/
+videos/rhode-lip-day-spec/assets/products/
+videos/rhode-lip-day-spec/assets/cut/
+videos/rhode-lip-day-spec/assets/site/*
+!videos/rhode-lip-day-spec/assets/site/info.json
+videos/rhode-lip-day-spec/audio/track/
 videos/*/review/rfinal/
 videos/*/review/strip_*.jpg
 videos/*/review/source_sheet.jpg
