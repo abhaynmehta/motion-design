@@ -47,3 +47,8 @@ fade) and the ten bottles do a last wave on b60. Determinism 36/36.
 Cover check (t16.45): the cut-outs carried part of the packshot shadow (lower left, a pale strip beside the bottle on the
 coloured fields). scripts/clean_cutouts.py mirrors each bottle's clean right edge about its axis (from the cap rows) and
 clears rows with no right edge; 39 lost 29 px of shadow, the others a few px at the base. Re-rendered.
+
+## Final (review/rfinal)
+28.0 s, 1080×1920 @ 30 fps, H.264 yuv420p CRF 16 with adaptive motion blur; −14.1 LUFS, peak −1.5 dBFS. Max gap 2.7 s.
+Known and kept: 3 frames of plain board at 3.47 s (the hook has lifted away, the DEPARTURES header starts flipping);
+sync 12/31 within 45 ms — the rest are whooshes (built into the landings) and flap-clatter texture.
