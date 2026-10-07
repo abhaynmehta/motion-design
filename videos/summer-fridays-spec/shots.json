@@ -1,0 +1,125 @@
+{
+ "note": "In/out in source seconds. All sources are 1:1; size 1920 so the 9:16 frame is a 1:1 draw of the centre band. matte: person mattes (scripts/prep_mattes.py).",
+ "films": {
+  "pt": "source/pink-treats-lip-trio_71f965.mp4",
+  "sc": "source/lip-combo-in-strawberry-soft-serve_d0c3a4.mp4",
+  "tx": "source/the-lip-butter-balm-minis_25f9b7.mp4",
+  "lp": "source/the-lip-butter-balm-minis_263596.mp4",
+  "ck": "source/the-lip-butter-balm-minis_6ea123.mp4"
+ },
+ "shots": {
+  "hook": {
+   "film": "pt",
+   "in": 3.8,
+   "out": 7.6,
+   "mode": "square",
+   "size": 1920,
+   "matte": true
+  },
+  "tx_ss": {
+   "film": "tx",
+   "in": 5.7,
+   "out": 9.5,
+   "mode": "square",
+   "size": 1920
+  },
+  "tx_ch": {
+   "film": "tx",
+   "in": 14.1,
+   "out": 18.5,
+   "mode": "square",
+   "size": 1920
+  },
+  "tx_pg": {
+   "film": "tx",
+   "in": 9.7,
+   "out": 13.9,
+   "mode": "square",
+   "size": 1920
+  },
+  "tx_bc": {
+   "film": "tx",
+   "in": 0.1,
+   "out": 5.5,
+   "mode": "square",
+   "size": 1920
+  },
+  "sc_cone": {
+   "film": "sc",
+   "in": 1.0,
+   "out": 2.0,
+   "mode": "square",
+   "size": 1920,
+   "sticker": [
+    12
+   ],
+   "matte": true
+  },
+  "sc_apply": {
+   "film": "sc",
+   "in": 2.62,
+   "out": 5.3,
+   "mode": "square",
+   "size": 1920,
+   "sticker": [
+    30
+   ]
+  },
+  "lp_ch": {
+   "film": "lp",
+   "in": 7.0,
+   "out": 8.1,
+   "mode": "square",
+   "size": 1920
+  },
+  "lp_pg": {
+   "film": "lp",
+   "in": 8.2,
+   "out": 10.0,
+   "mode": "square",
+   "size": 1920
+  },
+  "lp_ss": {
+   "film": "lp",
+   "in": 10.0,
+   "out": 11.6,
+   "mode": "square",
+   "size": 1920
+  },
+  "lp_bc": {
+   "film": "lp",
+   "in": 11.7,
+   "out": 13.3,
+   "mode": "square",
+   "size": 1920
+  },
+  "lp_arm": {
+   "film": "lp",
+   "in": 0.05,
+   "out": 6.9,
+   "mode": "square",
+   "size": 1920
+  },
+  "ck": {
+   "film": "ck",
+   "in": 0.05,
+   "out": 6.1,
+   "mode": "square",
+   "size": 1920
+  },
+  "pt_smile": {
+   "film": "pt",
+   "in": 15.2,
+   "out": 21.0,
+   "mode": "square",
+   "size": 1920
+  },
+  "pt_flat": {
+   "film": "pt",
+   "in": 0.1,
+   "out": 3.4,
+   "mode": "square",
+   "size": 1920
+  }
+ }
+}

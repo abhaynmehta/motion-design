@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Summer Fridays Just One</title>
+<style>
+  /* summerfridays.com sets everything in Futura PT (Adobe Fonts, licensed to their domain only), so the film uses Jost,
+     an open Futura revival (OFL), plus the site's own accent script Pinyon Script (OFL). Both from Google Fonts. */
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/jost-var.woff2) format('woff2'); font-weight: 100 900; }
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/jost-var-italic.woff2) format('woff2'); font-weight: 100 900; font-style: italic; }
+  @font-face { font-family: 'Script'; src: url(../assets/fonts/pinyon-script-400.woff2) format('woff2'); font-weight: 400; }
+  :root {
+    /* measured on summerfridays.com: backdrop #EEEDEC, ink #000418, rose #B86373 (the one accent), sand #D5D1CA */
+    --beige: #EEEDEC; --ink: #000418; --rose: #B86373; --sand: #D5D1CA; --accent: var(--rose); --bg: var(--beige);
+  }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; overflow: hidden; background: var(--beige); transform-origin: 0 0; color: var(--ink);
+           font-family: 'Display', Futura, Arial, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .abs { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+  .display { font-family: 'Display', Futura, Arial, sans-serif; font-weight: 500; letter-spacing: -0.02em; line-height: 1.0; white-space: nowrap; }
+  .heavy { font-weight: 800; letter-spacing: -0.045em; }
+  .semi { font-weight: 600; }
+  .it { font-style: italic; }
+  .script { font-family: 'Script', cursive; font-weight: 400; letter-spacing: 0; line-height: 1.2; white-space: nowrap; }
+  .caps { text-transform: uppercase; letter-spacing: 0.2em; font-weight: 600; }
+  .line { position: absolute; overflow: hidden; padding: 0.1em 0.05em 0.2em; margin: -0.1em -0.05em 0; white-space: nowrap; }
+  .word { display: inline-block; }
+  .fill { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+  body.play { display: block; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script>window.MATTE_SHOTS = ['hook', 'sc_cone']; window.STICKERS = { sc_apply: [30] };</script>
+<script src="lib/motion.js"></script>
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script src="type.js"></script>
+<script src="shots.js"></script>
+<script src="footage.js"></script>
+<script src="film.js"></script>
+</body>
+</html>

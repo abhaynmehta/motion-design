@@ -1,0 +1,1637 @@
+{
+  "url": "https://summerfridays.com/",
+  "title": "Summer Fridays | Skincare + Hybrid Makeup",
+  "description": "Shop Summer Fridays skincare products. Our collection includes face masks, treatments and serums to leave your skin glowing, with vegan and clean ingredients.",
+  "font_families_by_use": [
+    [
+      "futura-pt, -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+      589
+    ],
+    [
+      "Helvetica, Arial, \"Hiragino Sans GB\", STXihei, \"Microsoft YaHei\", \"WenQuanYi Micro Hei\", Hind, \"MS Gothic\", \"Apple SD Gothic Neo\", NanumBarunGothic, sans-serif",
+      4
+    ],
+    [
+      "Metropolis, Aria, Helvetica, sans-serif",
+      3
+    ],
+    [
+      "\"Pinyon Script\", cursive, sans-serif",
+      2
+    ]
+  ],
+  "font_faces": [
+    {
+      "family": "Expressa",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://summerfridays.com/cdn/shop/t/652/assets/ExpressaEFHeavyRegular.woff2?v=124295627638187309081782218073",
+        "https://summerfridays.com/cdn/shop/t/652/assets/ExpressaEFHeavyRegular.woff?v=12655408354021779751782218072"
+      ]
+    },
+    {
+      "family": "swiper-icons",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA"
+      ]
+    },
+    {
+      "family": "GTStandard-M",
+      "weight": "450",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MRegular.woff2"
+      ]
+    },
+    {
+      "family": "GTStandard-M",
+      "weight": "500",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MMedium.woff2"
+      ]
+    },
+    {
+      "family": "GTStandard-M",
+      "weight": "600",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/shop-assets/static_uploads/shoplift/GTStandard-MSemibold.woff2"
+      ]
+    },
+    {
+      "family": "ITCGaramondStd-LtCond",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/s/files/1/2382/2877/t/321/assets/ITCGaramondStd-LtCond.woff2"
+      ]
+    },
+    {
+      "family": "ITCGaramondStd-LtCond",
+      "weight": "400",
+      "style": "italic",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/s/files/1/2382/2877/t/321/assets/ITCGaramondStd-LtCondIta.woff2"
+      ]
+    },
+    {
+      "family": "Ivar Display",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/s/files/1/2382/2877/files/IvarDisplay-Regular.woff?v=1702502822"
+      ]
+    },
+    {
+      "family": "Maison Neue Extended",
+      "weight": "300",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/s/files/1/2382/2877/t/180/assets/MaisonNeueExtended-Light.woff2?v=4159122430387706621659644571"
+      ]
+    },
+    {
+      "family": "MaisonNeueExtendedBook",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/s/files/1/2382/2877/files/MaisonNeueExtendedWEB-Book.woff?v=1707779887"
+      ]
+    },
+    {
+      "family": "Suisse Intl",
+      "weight": "300",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/s/files/1/2382/2877/files/SuisseIntl-Light-WebS.woff2?v=1702502847"
+      ]
+    },
+    {
+      "family": "Suisse Intl Regular",
+      "weight": "400",
+      "style": "normal",
+      "range": "",
+      "urls": [
+        "https://cdn.shopify.com/s/files/1/2382/2877/files/SuisseIntl-Regular-WebS.woff?v=1702502889"
+      ]
+    }
+  ],
+  "text_colors": [
+    [
+      "rgb(0, 4, 24)",
+      429
+    ],
+    [
+      "rgb(255, 255, 255)",
+      163
+    ],
+    [
+      "rgb(0, 0, 0)",
+      4
+    ],
+    [
+      "rgba(0, 0, 0, 0.7)",
+      2
+    ]
+  ],
+  "bg_colors": [
+    [
+      "rgb(238, 237, 236)",
+      48
+    ],
+    [
+      "rgb(255, 255, 255)",
+      42
+    ],
+    [
+      "rgb(0, 4, 24)",
+      31
+    ],
+    [
+      "rgba(249, 248, 245, 0.6)",
+      28
+    ],
+    [
+      "rgb(92, 120, 153)",
+      15
+    ],
+    [
+      "rgb(213, 209, 202)",
+      10
+    ],
+    [
+      "rgb(0, 0, 0)",
+      6
+    ],
+    [
+      "rgb(184, 99, 115)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.2)",
+      2
+    ],
+    [
+      "rgb(51, 51, 51)",
+      2
+    ],
+    [
+      "rgba(255, 255, 255, 0.7)",
+      2
+    ],
+    [
+      "rgb(52, 57, 77)",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.5)",
+      1
+    ],
+    [
+      "rgb(193, 148, 127)",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.6)",
+      1
+    ],
+    [
+      "rgb(229, 231, 235)",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.3)",
+      1
+    ],
+    [
+      "rgb(239, 68, 68)",
+      1
+    ]
+  ],
+  "css_vars": {
+    "--osano-clear-dialog-background": "rgba(92,120,153,0)",
+    "--osano-button-border-color": "#ffffff",
+    "--osano-dialog-type": "bar",
+    "--osano-display-position": "bottom",
+    "--osano-info-dialog-position": "left",
+    "--osano-widget-position": "left",
+    "--osano-opt-out-widget-position": "left",
+    "--osano-button-background-color": "#ffffff",
+    "--osano-button-foreground-color": "#000418",
+    "--osano-dialog-background-color": "#5c7899",
+    "--osano-dialog-foreground-color": "#ffffff",
+    "--osano-info-dialog-overlay-color": "rgba(0,0,0,0.5)",
+    "--osano-link-color": "#ffffff",
+    "--osano-toggle-off-track-color": "#ffffff",
+    "--osano-toggle-off-thumb-color": "#000418",
+    "--osano-toggle-on-track-color": "#ffffff",
+    "--osano-toggle-on-thumb-color": "#000418",
+    "--osano-widget-color": "#37cd8f",
+    "--osano-widget-outline-color": "#29246a",
+    "--osano-widget-fill-color": "#fff",
+    "--osano-focus-outline-color": "Highlight",
+    "--osano-button-close-color": "#ffffff",
+    "--osano-button-accept-background-color": "#ffffff",
+    "--osano-button-accept-border-color": "#ffffff",
+    "--osano-button-accept-foreground-color": "#000418",
+    "--osano-button-deny-background-color": "#ffffff",
+    "--osano-button-deny-border-color": "#ffffff",
+    "--osano-button-deny-foreground-color": "#000418",
+    "--osano-button-reject-all-background-color": "var(--osano-button-background-color)",
+    "--osano-button-reject-all-background-color-hover": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+    "--osano-button-reject-all-border-color": "var(--osano-button-border-color, var(--osano-button-foreground-color))",
+    "--osano-button-reject-all-foreground-color": "var(--osano-button-foreground-color)",
+    "--osano-button-manage-background-color": "#ffffff",
+    "--osano-button-manage-border-color": "#ffffff",
+    "--osano-button-manage-foreground-color": "#000418",
+    "--osano-info-dialog-link-color": "#ffffff",
+    "--osano-info-dialog-button-close-color": "#ffffff",
+    "--osano-info-dialog-toggle-off-track-color": "#ffffff",
+    "--osano-info-dialog-toggle-off-thumb-color": "#000418",
+    "--osano-info-dialog-toggle-on-track-color": "#ffffff",
+    "--osano-info-dialog-toggle-on-thumb-color": "#000418",
+    "--osano-info-dialog-button-background-color": "#ffffff",
+    "--osano-info-dialog-button-border-color": "#ffffff",
+    "--osano-info-dialog-button-foreground-color": "#000418",
+    "--osano-dialog-gpc-background-color": "var(--osano-dialog-background-color)",
+    "--osano-dialog-gpc-border-color": "var(--osano-dialog-foreground-color)",
+    "--osano-dialog-gpc-foreground-color": "var(--osano-dialog-foreground-color)",
+    "--osano-dialog-gpc-color": "#37cd84",
+    "--osano-info-dialog-gpc-background-color": "var(--osano-info-dialog-background-color, var(--osano-dialog-background-color))",
+    "--osano-info-dialog-gpc-border-color": "var(--osano-info-dialog-foreground-color, var(--osano-dialog-foreground-color))",
+    "--osano-info-dialog-gpc-foreground-color": "var(--osano-info-dialog-foreground-color, var(--osano-dialog-foreground-color))",
+    "--osano-info-dialog-gpc-color": "var(--osano-dialog-gpc-color)",
+    "--osano-gpc-background-color": "#ffffff",
+    "--osano-gpc-border-color": "#058a5e",
+    "--osano-gpc-foreground-color": "#058a5e",
+    "--osano-gpc-color": "#37cd84",
+    "--osano-gpc-background-color-hover": "#ffffff",
+    "--osano-info-dialog-background-color": "#5c7899",
+    "--osano-info-dialog-foreground-color": "#FFFFFF",
+    "--osano-button-background-color-hover": "rgba(255,255,255,0.7)",
+    "--osano-button-deny-background-color-hover": "rgba(255,255,255,0.7)",
+    "--osano-button-accept-background-color-hover": "rgba(255,255,255,0.7)",
+    "--osano-button-manage-background-color-hover": "rgba(255,255,255,0.7)",
+    "--osano-info-dialog-button-background-color-hover": "rgba(255,255,255,0.7)",
+    "--osano-toggle-off-background-color": "#d2cfff",
+    "--osano-toggle-button-off-color": "#ffffff",
+    "--osano-toggle-on-background-color": "#37cd8f",
+    "--osano-toggle-button-on-color": "#f4f4f4",
+    "--osano-button-background-color-contrast": "#ebebeb",
+    "--osano-button-foreground-color-contrast": "#14182c",
+    "--osano-button-accept-background-color-contrast": "#ebebeb",
+    "--osano-button-accept-foreground-color-contrast": "#14182c",
+    "--osano-button-deny-background-color-contrast": "#ebebeb",
+    "--osano-button-deny-foreground-color-contrast": "#14182c",
+    "--osano-button-manage-background-color-contrast": "#ebebeb",
+    "--osano-button-manage-foreground-color-contrast": "#14182c",
+    "--osano-dialog-background-color-contrast": "#708cad",
+    "--osano-dialog-foreground-color-contrast": "#ebebeb",
+    "--osano-link-color-contrast": "#ebebeb",
+    "--osano-toggle-off-track-color-contrast": "#ebebeb",
+    "--osano-toggle-off-track-color-disabled": "#bfbfbf",
+    "--osano-toggle-off-thumb-color-contrast": "#14182c",
+    "--osano-toggle-off-thumb-color-disabled": "#404458",
+    "--osano-toggle-on-track-color-contrast": "#ebebeb",
+    "--osano-toggle-on-track-color-disabled": "#bfbfbf",
+    "--osano-toggle-on-thumb-color-contrast": "#14182c",
+    "--osano-toggle-on-thumb-color-disabled": "#404458",
+    "--osano-info-dialog-button-background-color-contrast": "#ebebeb",
+    "--osano-info-dialog-button-foreground-color-contrast": "#14182c",
+    "--osano-info-dialog-link-color-contrast": "#ebebeb",
+    "--osano-info-dialog-toggle-off-track-color-contrast": "#ebebeb",
+    "--osano-info-dialog-toggle-off-track-color-disabled": "#bfbfbf",
+    "--osano-info-dialog-toggle-off-thumb-color-contrast": "#14182c",
+    "--osano-info-dialog-toggle-off-thumb-color-disabled": "#404458",
+    "--osano-info-dialog-toggle-on-track-color-contrast": "#ebebeb",
+    "--osano-info-dialog-toggle-on-track-color-disabled": "#bfbfbf",
+    "--osano-info-dialog-toggle-on-thumb-color-contrast": "#14182c",
+    "--osano-info-dialog-toggle-on-thumb-color-disabled": "#404458",
+    "--osano-gpc-background-color-contrast": "#ebebeb",
+    "--osano-button-foreground-color-hover": "var(--osano-button-foreground-color-contrast, #14182c)",
+    "--osano-button-background-color-focus": "var(--osano-button-foreground-color-hover, var(--osano-button-foreground-color-contrast))",
+    "--osano-button-foreground-color-focus": "var(--osano-button-background-color-hover, var(--osano-button-background-color-contrast))",
+    "--osano-toggle-off-track-color-hover": "var(--osano-toggle-off-track-color-contrast, #ebebeb)",
+    "--osano-toggle-off-thumb-color-hover": "var(--osano-toggle-off-thumb-color-contrast, #14182c)",
+    "--osano-toggle-off-track-color-focus": "var(--osano-toggle-off-thumb-color-hover, var(--osano-toggle-off-thumb-color-contrast))",
+    "--osano-toggle-off-thumb-color-focus": "var(--osano-toggle-off-track-color-hover, var(--osano-toggle-off-track-color-contrast))",
+    "--osano-toggle-on-track-color-hover": "var(--osano-toggle-on-track-color-contrast, #ebebeb)",
+    "--osano-toggle-on-thumb-color-hover": "var(--osano-toggle-on-thumb-color-contrast, #14182c)",
+    "--osano-toggle-on-track-color-focus": "var(--osano-toggle-on-thumb-color-hover, var(--osano-toggle-on-thumb-color-contrast))",
+    "--osano-toggle-on-thumb-color-focus": "var(--osano-toggle-on-track-color-hover, var(--osano-toggle-on-track-color-contrast))",
+    "--osano-button-accept-foreground-color-hover": "var(--osano-button-accept-foreground-color-contrast, #14182c)",
+    "--osano-button-accept-background-color-focus": "var(--osano-button-accept-foreground-color-hover, var(--osano-button-accept-foreground-color-contrast))",
+    "--osano-button-accept-foreground-color-focus": "var(--osano-button-accept-background-color-hover, var(--osano-button-background-color-hover))",
+    "--osano-button-deny-foreground-color-hover": "var(--osano-button-deny-foreground-color-contrast, #14182c)",
+    "--osano-button-deny-background-color-focus": "var(--osano-button-deny-foreground-color-hover, var(--osano-button-deny-foreground-color-contrast))",
+    "--osano-button-deny-foreground-color-focus": "var(--osano-button-deny-background-color-hover, var(--osano-button-background-color-hover))",
+    "--osano-button-reject-all-background-color-contrast": "var(--osano-button-background-color-contrast, #ebebeb)",
+    "--osano-button-reject-all-foreground-color-contrast": "var(--osano-button-foreground-color-contrast, #14182c)",
+    "--osano-button-reject-all-foreground-color-hover": "var(--osano-button-reject-all-foreground-color-contrast, var(--osano-button-foreground-color-contrast))",
+    "--osano-button-reject-all-background-color-focus": "var(--osano-button-reject-all-foreground-color-hover, var(--osano-button-reject-all-foreground-color-contrast))",
+    "--osano-button-reject-all-foreground-color-focus": "var(--osano-button-reject-all-background-color-hover, var(--osano-button-background-color-hover))",
+    "--osano-button-manage-foreground-color-hover": "var(--osano-button-manage-foreground-color-contrast, #14182c)",
+    "--osano-button-manage-background-color-focus": "var(--osano-button-manage-foreground-color-hover, var(--osano-button-manage-foreground-color-contrast))",
+    "--osano-button-manage-foreground-color-focus": "var(--osano-button-manage-background-color-hover, var(--osano-button-background-color-hover))",
+    "--osano-info-dialog-button-foreground-color-hover": "var(--osano-info-dialog-button-foreground-color-contrast, #14182c)",
+    "--osano-info-dialog-button-background-color-focus": "var(--osano-info-dialog-button-foreground-color-hover, var(--osano-info-dialog-button-foreground-color-contrast))",
+    "--osano-info-dialog-button-foreground-color-focus": "var(--osano-info-dialog-button-background-color-hover, var(--osano-button-background-color-hover))",
+    "--osano-info-dialog-toggle-off-track-color-hover": "var(--osano-info-dialog-toggle-off-track-color-contrast, #ebebeb)",
+    "--osano-info-dialog-toggle-off-thumb-color-hover": "var(--osano-info-dialog-toggle-off-thumb-color-contrast, #14182c)",
+    "--osano-info-dialog-toggle-off-track-color-focus": "var(--osano-info-dialog-toggle-off-thumb-color-hover, var(--osano-info-dialog-toggle-off-thumb-color-contrast))",
+    "--osano-info-dialog-toggle-off-thumb-color-focus": "var(--osano-info-dialog-toggle-off-track-color-hover, var(--osano-info-dialog-toggle-off-track-color-contrast))",
+    "--osano-info-dialog-toggle-on-track-color-hover": "var(--osano-info-dialog-toggle-on-track-color-contrast, #ebebeb)",
+    "--osano-info-dialog-toggle-on-thumb-color-hover": "var(--osano-info-dialog-toggle-on-thumb-color-contrast, #14182c)",
+    "--osano-info-dialog-toggle-on-track-color-focus": "var(--osano-info-dialog-toggle-on-thumb-color-hover, var(--osano-info-dialog-toggle-on-thumb-color-contrast))",
+    "--osano-info-dialog-toggle-on-thumb-color-focus": "var(--osano-info-dialog-toggle-on-track-color-hover, var(--osano-info-dialog-toggle-on-track-color-contrast))",
+    "--font-primary": "futura-pt, -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+    "--font-secondary": "futura-pt, -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+    "--font-body": "futura-pt, -apple-system, BlinkMacSystemFont, \"Segoe UI\", system-ui, sans-serif",
+    "--font-pinyon": "\"Pinyon Script\", cursive, sans-serif",
+    "--font-expressa": "\"Expressa\", cursive, sans-serif",
+    "--font-body-size": "1.6rem",
+    "--font-body-line-height": "2.0rem",
+    "--font-h1-size": "3.0rem",
+    "--font-h1-line-height": "3.6rem",
+    "--font-h1-larger-size-mobile": "3.8rem",
+    "--font-h1-larger-line-height-mobile": "4.5rem",
+    "--font-h1-larger-size-desktop": "4.5rem",
+    "--font-h1-larger-line-height-desktop": "5.2rem",
+    "--font-h2-larger-size-mobile": "3.8rem",
+    "--font-h2-larger-line-height-mobile": "4.5rem",
+    "--font-h2-larger-size-desktop": "4.5rem",
+    "--font-h2-larger-line-height-desktop": "5.2rem",
+    "--font-h2-size": "2.6rem",
+    "--font-h2-line-height": "3.0rem",
+    "--font-hero-title-size-mobile": "3.8rem",
+    "--font-hero-title-line-height-mobile": "4.5rem",
+    "--font-hero-title-size-desktop": "4.5rem",
+    "--font-hero-title-line-height-desktop": "5.2rem",
+    "--font-pinyon-title-size-mobile": "5.5rem",
+    "--font-pinyon-title-line-height-mobile": "5.5rem",
+    "--font-pinyon-title-size-desktop": "8.0rem",
+    "--font-pinyon-title-line-height-desktop": "8.6rem",
+    "--font-expressa-title-size-mobile": "5.5rem",
+    "--font-expressa-title-line-height-mobile": "5.5rem",
+    "--font-expressa-title-size-desktop": "8.0rem",
+    "--font-expressa-title-line-height-desktop": "8.6rem",
+    "--font-h3-size": "1.8rem",
+    "--font-h3-line-height": "2.3rem",
+    "--font-h4-size": "1.6rem",
+    "--font-h4-line-height": "1.9rem",
+    "--font-cta-textlink-size": "1.3rem",
+    "--font-cta-textlink-line-height": "1.8rem",
+    "--font-p-small-size": "1.2rem",
+    "--font-p-small-line-height": "1.5rem",
+    "--font-p-normal-size": "1.6rem",
+    "--font-p-normal-line-height": "2.0rem",
+    "--font-p-large-size": "1.8rem",
+    "--font-p-large-line-height": "2.4rem",
+    "--font-subheader-large-size": "1.9rem",
+    "--font-subheader-large-line-height": "2.4rem",
+    "--font-subheader-small-size": "1.6rem",
+    "--font-subheader-small-line-height": "2.0rem",
+    "--font-superscript-normal-size": "1.3rem",
+    "--font-superscript-normal-line-height": "1.5rem",
+    "--font-input-size-desktop": "1.3rem",
+    "--font-footer-custom-title-size": "4.5rem",
+    "--font-footer-custom-title-line-height": "4.5rem",
+    "--font-button-size": "1.3rem",
+    "--font-button-line-height": "1.7rem",
+    "--white": "#fff",
+    "--black": "#000418",
+    "--ink": "#000418",
+    "--chalk": "#EEEDEC",
+    "--morning-sky": "#5c7899",
+    "--clay": "#D5D1CA",
+    "--ink-40": "rgba(0, 4, 24, 0.30)",
+    "--chalk-40": "rgba(238, 237, 236, 0.40)",
+    "--accent-blue": "#5c7899",
+    "--orange": "#FD6210",
+    "--yellow": "#EEEB7B",
+    "--red": "#EA3333",
+    "--afternoon-sky": "#ACD5E9",
+    "--skeleton-1": "#F6F7F8",
+    "--skeleton-2": "#EDEEF1",
+    "--transition-all": "all .3s linear",
+    "--transition-duration": ".3s",
+    "--transition-timing-function": "linear",
+    "--swiper-theme-color": "#007aff",
+    "--announcement-height": "4.2rem",
+    "--rivo-aw-background-color": "#ffffff",
+    "--rivo-aw-desktop-sidebar-left": "0px",
+    "--rivo-aw-desktop-sidebar-right": "auto",
+    "--rivo-aw-desktop-slidein-translate-x": "-100%",
+    "--rivo-aw-desktop-slideout-translate-x": "-100%",
+    "--rivo-aw-heading-font-color": "#000418",
+    "--rivo-aw-body-primary-font-color": "#000418",
+    "--rivo-aw-body-secondary-font-color": "#000418",
+    "--rivo-aw-border-color": "#eeedec",
+    "--rivo-aw-subdued-color": "#f7f7f7",
+    "--rivo-aw-icon-color": "#000418",
+    "--rivo-aw-primary-color": "#5c7899",
+    "--rivo-aw-favorite-button-active-color": "#5c7899",
+    "--rivo-aw-toast-offset-left": "15px",
+    "--rivo-aw-toast-offset-right": "auto",
+    "--rivo-aw-default-font-size": "16px",
+    "--rivo-aw-input-font-size": "16px",
+    "--rivo-aw-section-title-font-size": "19px",
+    "--rivo-aw-logged-out-title-font-size": "26px",
+    "--rivo-aw-logged-out-subtitle-font-size": "16px",
+    "--rivo-aw-mini-block-title-font-size": "16px",
+    "--rivo-aw-mini-block-subtitle-font-size": "16px",
+    "--rivo-aw-login-footer-font-size": "12px",
+    "--rivo-aw-footer-font-size": "14px",
+    "--rivo-aw-toast-background-color": "#d5d1ca",
+    "--rivo-aw-toast-font-color": "#000418",
+    "--rivo-aw-home-featured-content-image-position": "center center",
+    "--rivo-aw-compare-at-price-color": "#c70000",
+    "--rivo-aw-bg": "#5c7899",
+    "--rivo-aw-border-radius": "4px"
+  },
+  "headings": [
+    "BUTTON: Skip to main content  [Arial 13.3333px 400 ls normal rgb(0, 0, 0)]",
+    "BUTTON: Enable accessibility for low vision  [Arial 13.3333px 400 ls normal rgb(0, 0, 0)]",
+    "BUTTON: Open the accessibility menu  [Arial 13.3333px 400 ls normal rgb(0, 0, 0)]",
+    "A: Skip to content  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "P: FREE SHIPPING ON U.S. ORDERS $35+ Learn More  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(255, 255, 255)]",
+    "A: Learn More  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(255, 255, 255)]",
+    "LI: Shop | Shop  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: Shop  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls normal rgb(0, 4, 24)]",
+    "A: Shop  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "LI: About | About  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: About  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls normal rgb(0, 4, 24)]",
+    "A: About  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "LI: Blog  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "A: Blog  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "LI: Rewards  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "A: Rewards  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "LI: Account  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "A: Account  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: 0  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls normal rgb(0, 4, 24)]",
+    "H1: Holiday Collection  [\"Pinyon Script\", cursive, sans-serif 70px 400 ls -0.75px rgb(255, 255, 255)]",
+    "P: Indulge in limited-edition lip treats  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 20px 450 ls 0.13px rgb(255, 255, 255)]",
+    "A: SHOP NOW  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H2: Discover Our Community Favorites  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(0, 4, 24)]",
+    "H3: Blush Butter Balm |  | Soft Strawberry  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Blush Butter Balm  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "P: Soft Strawberry  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 0.11px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $26  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$26  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Cloud Dew® Gel Cream Moisturizer  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Cloud Dew® Gel Cream Moisturizer  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "BUTTON: Select Size  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $38  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$16-$38  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: SoftLine Lip Liner |  | Cinnamon  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: SoftLine Lip Liner  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "P: Cinnamon  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 0.11px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $20  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$20  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Sunlit Vanilla™ Eau de Parfum  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Sunlit Vanilla™ Eau de Parfum  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "BUTTON: Select Size  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $82  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$30-$82  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Flushed Lip Stain |  | Mocha  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Flushed Lip Stain  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "P: Mocha  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 0.11px rgb(0, 4, 24)]",
+    "BUTTON: Notify Me |  |          |             Adding... |         $22  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: NOTIFY ME | $22  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: The Lip Butter Balm Minis  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: The Lip Butter Balm Minis  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $25  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Holiday Treat Duo  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Holiday Treat Duo  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $40  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Body Butter Balm |  | Vanilla  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Body Butter Balm  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "P: Vanilla  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 0.11px rgb(0, 4, 24)]",
+    "BUTTON: Select Size  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $32  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$18-$32  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Bronzer Butter Balm |  | Sand  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Bronzer Butter Balm  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "P: Sand  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 0.11px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $32  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$32  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Jet Lag™ Eye Patches  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Jet Lag™ Eye Patches  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "BUTTON: Select  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $24  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$24-$50  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Lip Butter Balm |  | Iced Coffee  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Lip Butter Balm  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "P: Iced Coffee  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 0.11px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $24  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$24  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Dream Lip Oil |  | Bare Sand  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: Dream Lip Oil  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "P: Bare Sand  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 0.11px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $26  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$26  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: The Jet Lag™ Essentials Set  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: The Jet Lag™ Essentials Set  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $34  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: ShadeDrops® SPF 50 Mineral Milk Sunscreen  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "A: ShadeDrops® SPF 50 Mineral Milk Sunscreen  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls -0.14px rgb(0, 4, 24)]",
+    "BUTTON: Select Size  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $38  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$38-$62  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H2: The Flushed Lip Stain Collection  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(255, 255, 255)]",
+    "H3: Flushed Lip Stain  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(255, 255, 255)]",
+    "BUTTON: ADD TO BAG | $22  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(255, 255, 255)]",
+    "A: Add to Bag |                                 $22  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(255, 255, 255)]",
+    "A: LEARN MORE  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(255, 255, 255)]",
+    "A: BEST-SELLING | Skincare + Hybrid-Makeup | SHOP NOW  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "H2: Skincare + Hybrid-Makeup  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(255, 255, 255)]",
+    "A: AWARD-WINNING | Lip Butter Balm | SHOP NOW  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "H2: Lip Butter Balm  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(255, 255, 255)]",
+    "A: SOOTHING | Eczema-Safe Essentials | SHOP NOW  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "H2: Eczema-Safe Essentials  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(255, 255, 255)]",
+    "H2: The Lip Butter Balm Collection  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(255, 255, 255)]",
+    "H3: Lip Butter Balm  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(255, 255, 255)]",
+    "BUTTON: ADD TO BAG | $24  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(255, 255, 255)]",
+    "A: Add to Bag |                                 $24  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(255, 255, 255)]",
+    "A: LEARN MORE  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(255, 255, 255)]",
+    "H2: Effortless, Everyday Moisturizers  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(0, 4, 24)]",
+    "H3: Jet Lag Mask® + Moisturizer  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "A: Jet Lag Mask® + Moisturizer  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "P: Multitasking moisturizer + mask for deep hydration  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: Select Size  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $49  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$26-$49  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Cloud Dew® Gel Cream Moisturizer  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "A: Cloud Dew® Gel Cream Moisturizer  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "P: Lightweight gel cream with new travel-friendly packaging  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: Select Size  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $38  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "A: Add to Bag$16-$38  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Rich Cushion Cream Ultra Plumping Moisturizer  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "A: Rich Cushion Cream Ultra Plumping Moisturizer  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "P: Ultra rich cream to hydrate, plump and help support skin's barrier  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $52  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H3: Jet Lag™ Deep Hydration Serum  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "A: Jet Lag™ Deep Hydration Serum  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "P: Lightweight serum formulated to hydrate and soothe skin  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "BUTTON: ADD TO BAG | $44  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(0, 4, 24)]",
+    "H2: Beauty You Look Forward To  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(0, 4, 24)]",
+    "H3: JOIN THE SELF-CARE CLUB | Rewards  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "BUTTON: JOIN THE SELF-CARE CLUB | Rewards  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.78px rgb(0, 4, 24)]",
+    "P: Earn points every time you shop when you join our rewards program. Redeem points for exclusive discounts, early access to sales and free products. Learn more.  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "A: Learn more.  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "LI: SUBSCRIBE & SAVE | Get 15% Off  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "H3: SUBSCRIBE & SAVE | Get 15% Off  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "BUTTON: SUBSCRIBE & SAVE | Get 15% Off  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.78px rgb(0, 4, 24)]",
+    "LI: RECYCLE WITH US | Get $25 back  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(0, 4, 24)]",
+    "H3: RECYCLE WITH US | Get $25 back  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 18px 450 ls -0.27px rgb(0, 4, 24)]",
+    "BUTTON: RECYCLE WITH US | Get $25 back  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.78px rgb(0, 4, 24)]",
+    "H2: Follow us @summerfridays  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(255, 255, 255)]",
+    "A: @summerfridays  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(255, 255, 255)]",
+    "H2: Stay Up To Date  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 26px 450 ls -0.52px rgb(255, 255, 255)]",
+    "A: Terms  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 12px 450 ls 0.13px rgb(255, 255, 255)]",
+    "A: Privacy  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 12px 450 ls 0.13px rgb(255, 255, 255)]",
+    "BUTTON: SUBSCRIBE  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(255, 255, 255)]",
+    "BUTTON: SHOP  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 13px 450 ls 1.1px rgb(255, 255, 255)]",
+    "LI: Shop All  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(255, 255, 255)]",
+    "A: Shop All  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(255, 255, 255)]",
+    "LI: Best Sellers  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(255, 255, 255)]",
+    "A: Best Sellers  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(255, 255, 255)]",
+    "LI: Skincare  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(255, 255, 255)]",
+    "A: Skincare  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(255, 255, 255)]",
+    "LI: Lip Care  [futura-pt, -apple-system, BlinkMacSystemFont, \"Seg 16px 450 ls 0.13px rgb(255, 255, 255)]"
+  ],
+  "images": [
+    {
+      "src": "https://summerfridays.com/",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative",
+      "w": 40,
+      "h": 40
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/body_wh.svg",
+      "alt": "",
+      "w": 60,
+      "h": 60
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative",
+      "w": 40,
+      "h": 40
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Jet-Lag-Overnight-Bundle-Model.jpg?v=1710460674&width=1000",
+      "alt": "Woman with Jet Kag Overnight applied on her face",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/HP-About-Navigation.jpg?v=1756327760&width=1000",
+      "alt": "Woman in a swimsuit lying on a boat deck with blue water in the background",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/US.png?v=1697144498&width=44",
+      "alt": "The flag of United States",
+      "w": 22,
+      "h": 22
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/US.png?v=1697144498&width=44",
+      "alt": "",
+      "w": 22,
+      "h": 22
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/AU.png?v=1697144498&width=44",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/CA.png?v=1697144498&width=44",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/FR.png?v=1697144498&width=44",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/DE.png?v=1697144498&width=44",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/NZ.png?v=1697144498&width=44",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/GB.png?v=1697144921&width=44",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/HolidayLBB-Desktop_HP.jpg?v=1789511650&width=2560",
+      "alt": "SummerFridays beauty media",
+      "w": 1250,
+      "h": 703
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Blush-Butter-Balm-Community-Cover.jpg?v=1758317151&width=1000",
+      "alt": "Makeup products including blushes and a brush on a blue background",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Blush-Butter-Balm-Soft-Strawberry.jpg?v=1750795541&width=200",
+      "alt": "Soft Strawberry",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-soft-strawberry_72x.png?v=7298150968167207343",
+      "alt": "Soft Strawberry",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-pink-sunset_72x.png?v=14797464890881869386",
+      "alt": "Pink Sunset",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-sweet-rose_72x.png?v=16812851072809370711",
+      "alt": "Sweet Rosé",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-toasted-terracotta_72x.png?v=3017054718650637791",
+      "alt": "Toasted Terracotta",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-dusty-rose_72x.png?v=14560478849135350949",
+      "alt": "Dusty Rose",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-berry-spritz_72x.png?v=7577259484709936764",
+      "alt": "Berry Spritz",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/2026-Cloud-Dew-How-To.jpg?v=1765414229&width=1000",
+      "alt": "Cloud Dew® Gel Cream Moisturizer",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/CloudDew2026Main.jpg?v=1761087465&width=200",
+      "alt": "Cloud Dew® Gel Cream Moisturizer",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Liners-How-To.jpg?v=1768950752&width=1000",
+      "alt": "SoftLine Lip Liner Cinnamon",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/cinnamon-softline-liner-main_81313e70-4bbd-4c8c-a9cc-abc3e5f872c3.jpg?v=1768936971&width=200",
+      "alt": "SoftLine Lip Liner Cinnamon",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-sugar_72x.png?v=10174779226378531808",
+      "alt": "Sugar",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-toffee_72x.png?v=11390842981586509554",
+      "alt": "Toffee",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-rose_72x.png?v=8420723668371707404",
+      "alt": "Rosé",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-latte_72x.png?v=14500711922745728215",
+      "alt": "Latte",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-pecan_72x.png?v=15578755198855615330",
+      "alt": "Pecan",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-cinnamon_72x.png?v=3171181143852866793",
+      "alt": "Cinnamon",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-espresso_72x.png?v=15170974528108914920",
+      "alt": "Espresso",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-brownie_72x.png?v=9224542455993716150",
+      "alt": "Brownie",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Sunlit-Vanilla-How-To.jpg?v=1772155756&width=1000",
+      "alt": "Gold-colored bottles with labels on a light background",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Sunlit-Vanilla-Main.jpg?v=1771625369&width=200",
+      "alt": "Sunlit Vanilla™ Eau de Parfum",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Lip-Stains-How-To.jpg?v=1769034375&width=1000",
+      "alt": "Flushed Lip Stain Mocha",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Mocha-Lip-Stains-Main.jpg?v=1769028828&width=200",
+      "alt": "Flushed Lip Stain Mocha",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-almond_72x.png?v=12352641551915083152",
+      "alt": "Almond",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-slipper_72x.png?v=7809070622543848110",
+      "alt": "Slipper",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-rosette_72x.png?v=18416371894625418874",
+      "alt": "Rosette",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-maple_72x.png?v=10893397260796323067",
+      "alt": "Maple",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-plum_72x.png?v=14710593302644459373",
+      "alt": "Plum",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-mocha_72x.png?v=7280977063263296839",
+      "alt": "Mocha",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB-Minis-HP-UGC-Cover.jpg?v=1789599360&width=1000",
+      "alt": "The Lip Butter Balm Minis",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/The-LBB-Minis-Main-2026.jpg?v=1788194631&width=200",
+      "alt": "The Lip Butter Balm Minis",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/UGC-HP-Cover-Holiday-Duo.jpg?v=1790611832&width=1000",
+      "alt": "Holiday Treat Duo",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/HolidayTreatDuoMain.jpg?v=1789074796&width=200",
+      "alt": "Holiday Treat Duo",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Body-Butter-Community-Vanilla.jpg?v=1786117752&width=1000",
+      "alt": "Body Butter Balm Vanilla",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/BodyButterMainVanilla.jpg?v=1784648595&width=200",
+      "alt": "Body Butter Balm Vanilla",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Bronzer_How_To.jpg?v=1778187560&width=1000",
+      "alt": "Bronzer Butter Balm Sand",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Bronzer-Butter-Balm-Main-Sand.jpg?v=1776469555&width=200",
+      "alt": "Bronzer Butter Balm Sand",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-sand_72x.png?v=15352715530275777271",
+      "alt": "Sand",
+      "w": 72,
+      "h": 68
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-clay_72x.png?v=7703100452574844015",
+      "alt": "Clay",
+      "w": 72,
+      "h": 71
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-dune_72x.png?v=4865704386523763262",
+      "alt": "Dune",
+      "w": 72,
+      "h": 69
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-desert_72x.png?v=6833602426373430151",
+      "alt": "Desert",
+      "w": 68,
+      "h": 70
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-haze_72x.png?v=4504170768675897999",
+      "alt": "Haze",
+      "w": 71,
+      "h": 68
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-sienna_72x.png?v=6058502291205123668",
+      "alt": "Sienna",
+      "w": 65,
+      "h": 64
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/PDP-Jet-Lag-Mist-how-To.jpg?v=1740535160&width=1000",
+      "alt": "Close up shot of multiple Jet Lat Eye Patches",
+      "w": 660,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Jet-Lag-Eye-Patches-with-Box.jpg?v=1742317136&width=200",
+      "alt": "Jet Lag™ Eye Patches",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Lip_Butter_Balm_Iced_Coffee_Community_Cover.jpg?v=1762901403&width=1000",
+      "alt": "Five brown tubes of 'Summer Fridays' product on a gradient blue background",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB-Iced-Coffee-Square.jpg?v=1736362917&width=200",
+      "alt": "Lip Butter Balm Iced Coffee",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-vanilla_72x.png?v=2849234754589688536",
+      "alt": "Vanilla",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-mocha-bonbon_72x.png?v=6470211561284178462",
+      "alt": "Mocha Bonbon",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-sugar-plum_72x.png?v=4516126416374037846",
+      "alt": "Sugar Plum",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-strawberry-soft-serve_72x.png?v=5263422310201822342",
+      "alt": "Strawberry Soft Serve",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-pink-sugar_72x.png?v=6538016081217513079",
+      "alt": "Pink Sugar",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-pink-guava_72x.png?v=2231760346664299834",
+      "alt": "Pink Guava",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-toasted-marshmallow_72x.png?v=4735269379955009291",
+      "alt": "Toasted Marshmallow",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-iced-coffee_72x.png?v=15442730959499744948",
+      "alt": "Iced Coffee",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-vanilla-beige_72x.png?v=12104014591878994628",
+      "alt": "Vanilla Beige",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-hot-cocoa_72x.png?v=9044916267412631535",
+      "alt": "Hot Cocoa",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-brown-sugar_72x.png?v=2435579544192484133",
+      "alt": "Brown Sugar",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-cherry_72x.png?v=6615832802201607358",
+      "alt": "Cherry",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-poppy_72x.png?v=10960574471777892008",
+      "alt": "Poppy",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-sweet-mint_72x.png?v=16532247297057441007",
+      "alt": "Sweet Mint",
+      "w": 72,
+      "h": 72
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Dream-Lil-Oil-HP-Social-Gallery.jpg?v=1758317337&width=1000",
+      "alt": "Four bottles of Summer Fridays Dream Lip Oil on a dark background",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Dream-Lip-Oil-Main-Square-Bare-Sand.jpg?v=1736360077&width=200",
+      "alt": "Dream Lip Oil Bare Sand",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-pink-cloud_72x.png?v=8428292824505787153",
+      "alt": "Pink Cloud",
+      "w": 72,
+      "h": 53
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-rose-bud_72x.png?v=5476213824651029734",
+      "alt": "Rose Bud",
+      "w": 72,
+      "h": 53
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-bare-sand_72x.png?v=995481565421872720",
+      "alt": "Bare Sand",
+      "w": 72,
+      "h": 53
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-warm-beige_72x.png?v=6231115117944354292",
+      "alt": "Warm Beige",
+      "w": 72,
+      "h": 53
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-blush-dreams_72x.png?v=6750218288844306152",
+      "alt": "Blush Dreams",
+      "w": 72,
+      "h": 53
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-soft-mauve_72x.png?v=11290281481402781951",
+      "alt": "Soft Mauve",
+      "w": 72,
+      "h": 53
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-midnight-berry_72x.png?v=2832561611038658206",
+      "alt": "Midnight Berry",
+      "w": 72,
+      "h": 53
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/swatch-rosewood-nights_72x.png?v=16812725169149332816",
+      "alt": "Rosewood Nights",
+      "w": 72,
+      "h": 53
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Jet-Lag-Essentials-Set-HP-Cover.jpg?v=1743449904&width=1000",
+      "alt": "Jet Lag™ Essentials Set",
+      "w": 660,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Jet-Lag-Essentials-Set-Main.jpg?v=1738259485&width=200",
+      "alt": "Jet Lag™ Essentials Set",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/ShadeDrops-SPF50-How-To.jpg?v=1776460993&width=1000",
+      "alt": "ShadeDrops® Broad Spectrum SPF 50 Mineral Milk Sunscreen",
+      "w": 767,
+      "h": 1000
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/US-shadedrops-spf-50-main.jpg?v=1777579666&width=200",
+      "alt": "ShadeDrops® Broad Spectrum SPF 50 Mineral Milk Sunscreen",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Rosette-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Rosette",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Slipper-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Slipper",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Maple-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Maple",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Plum-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Plum",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Mocha-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Mocha",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Almond-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Almond",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Slipper-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Slipper",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Rosette-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Rosette",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Maple-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Maple",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Plum-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Plum",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Almond-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Almond",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Stains_Mocha-Shadow.png?v=1769457784&width=680",
+      "alt": "Flushed Lip Stain - Mocha",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/Shelfie_homepage_95d77953-2794-456f-898a-31eac04d99eb.jpg?v=1778280610&width=885",
+      "alt": "SummerFridays beauty media",
+      "w": 528,
+      "h": 656
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBBSugarPlum_homepage.jpg?v=1789512896&width=885",
+      "alt": "SummerFridays beauty media",
+      "w": 528,
+      "h": 656
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/NEA_homepage_3e1d5588-97bf-4f7c-9273-9010c2e9bc01.jpg?v=1773780031&width=885",
+      "alt": "Collection of Summer Fridays skincare products on a beige background",
+      "w": 528,
+      "h": 656
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_BrownSugar-Shadow.png?v=1744401356&width=680",
+      "alt": "Lip Butter Balm - Brown Sugar",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_IcedCoffee-Shadow.png?v=1744401357&width=680",
+      "alt": "Lip Butter Balm - Iced Coffee",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_HotCocoa-Shadow_1.png?v=1763509030&width=680",
+      "alt": "Lip Butter Balm - Hot Cocoa",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_ToastedMarshmallow-Shadow.png?v=1774987680&width=680",
+      "alt": "Lip Butter Balm - Toasted Marshmallow",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/tOGBjNPA.png?v=1715766234&width=680",
+      "alt": "Lip Butter Balm - Vanilla",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_MochaBonbon-Shadow.png?v=1788907000&width=680",
+      "alt": "Lip Butter Balm - Mocha Bonbon",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_Sugarplum-Shadow.png?v=1788907000&width=680",
+      "alt": "Lip Butter Balm - Sugar Plum",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_StrawberrySoftServe-Shadow.png?v=1786035775&width=680",
+      "alt": "Lip Butter Balm - Strawberry Soft Serve",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_PinkSugar-Shadow.png?v=1744401356&width=680",
+      "alt": "Lip Butter Balm - Pink Sugar",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_PinkGuava-Shadow.png?v=1747260146&width=680",
+      "alt": "Lip Butter Balm - Pink Guava",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_Cherry-Shadow.png?v=1744401356&width=680",
+      "alt": "Lip Butter Balm - Cherry",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_Poppy-Shadow.png?v=1744401356&width=680",
+      "alt": "Lip Butter Balm - Poppy",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_SweetMint-Shadow.png?v=1744401356&width=680",
+      "alt": "Lip Butter Balm - Sweet Mint",
+      "w": 680,
+      "h": 680
+    },
+    {
+      "src": "https://summerfridays.com/cdn/shop/files/LBB_VanillaBeige-Shadow.png?v=1744401356&width=680",
+      "alt": "Lip Butter Balm - Vanilla Beige",
+      "w": 680,
+      "h": 680
+    }
+  ],
+  "videos": [
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/93344c07d3e540a2a15a68ed8365744e.thumbnail.0000000000.jpg?v=1762900715&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/93344c07d3e540a2a15a68ed8365744e.thumbnail.0000000000.jpg?v=1762900715&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/ac7a9323502b4daf806d65fb6cfa418c.thumbnail.0000000000.jpg?v=1769126052&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/ac7a9323502b4daf806d65fb6cfa418c.thumbnail.0000000000.jpg?v=1769126052&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/d33f3c407a81499c92b7607e1c44f0ad.thumbnail.0000000000.jpg?v=1771021180&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/d33f3c407a81499c92b7607e1c44f0ad.thumbnail.0000000000.jpg?v=1771021180&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/9de89c73201840bfa3f9fc28b150e5d6.thumbnail.0000000000.jpg?v=1775000743&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/9de89c73201840bfa3f9fc28b150e5d6.thumbnail.0000000000.jpg?v=1775000743&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/11cf0b7d8fc843738b0d496a25ff87f9.thumbnail.0000000000.jpg?v=1784579309&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/11cf0b7d8fc843738b0d496a25ff87f9.thumbnail.0000000000.jpg?v=1784579309&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/4a8050db74e14b118a6bc9a9af5db328.thumbnail.0000000000.jpg?v=1789599332&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/4a8050db74e14b118a6bc9a9af5db328.thumbnail.0000000000.jpg?v=1789599332&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/9c67cf65fbe14f1db9f3b43054f84d17.thumbnail.0000000000.jpg?v=1790611777&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/9c67cf65fbe14f1db9f3b43054f84d17.thumbnail.0000000000.jpg?v=1790611777&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/8337619af322429f96431f6e7bc1bffc.thumbnail.0000000000.jpg?v=1786117009&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/8337619af322429f96431f6e7bc1bffc.thumbnail.0000000000.jpg?v=1786117009&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/198e6b1d6fc643d69f00c44ea34c14a5.thumbnail.0000000000.jpg?v=1784578116&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/198e6b1d6fc643d69f00c44ea34c14a5.thumbnail.0000000000.jpg?v=1784578116&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/ac492ce003d847b7aebc076e2141b129.thumbnail.0000000000.jpg?v=1740534552&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/ac492ce003d847b7aebc076e2141b129.thumbnail.0000000000.jpg?v=1740534552&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/112305be72dc4cacab2ca353d59a3095.thumbnail.0000000000.jpg?v=1762901391&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/112305be72dc4cacab2ca353d59a3095.thumbnail.0000000000.jpg?v=1762901391&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/0a7fe7591d664263982c62f3b3bbac9c.thumbnail.0000000000.jpg?v=1750970966&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/0a7fe7591d664263982c62f3b3bbac9c.thumbnail.0000000000.jpg?v=1750970966&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/68320d8effd94780a3b2c891d7dd8294.thumbnail.0000000000.jpg?v=1743449834&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/68320d8effd94780a3b2c891d7dd8294.thumbnail.0000000000.jpg?v=1743449834&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/bff83c9fcbf04b64ae4d6c915c8ba8e5.thumbnail.0000000000.jpg?v=1778537632&width=200"
+    },
+    {
+      "src": "",
+      "poster": "https://summerfridays.com/cdn/shop/files/preview_images/bff83c9fcbf04b64ae4d6c915c8ba8e5.thumbnail.0000000000.jpg?v=1778537632&width=200"
+    }
+  ],
+  "og_image": "https://cdn.shopify.com/s/files/1/2382/2877/files/logo_c9dbae13-648a-48fc-a1f0-126bf2c9a9f1.png?height=628&pad_color=edebe8&v=1613616236&width=1200",
+  "favicons": [
+    "https://summerfridays.com/cdn/shop/files/SF_FAVICON.png?crop=center&height=32&v=1731364857&width=32"
+  ],
+  "header_svgs": [
+    "<svg class=\"icon icon-line \" aria-hidden=\"true\" focusable=\"false\">\n    <use xlink:href=\"#line\"></use>\n</svg>",
+    "<svg class=\"icon icon-line \" aria-hidden=\"true\" focusable=\"false\">\n    <use xlink:href=\"#line\"></use>\n</svg>",
+    "<svg class=\"icon icon-search \" aria-hidden=\"true\" focusable=\"false\">\n    <use xlink:href=\"#search\"></use>\n</svg>",
+    "<svg class=\"icon icon-arrow-right \" aria-hidden=\"true\" focusable=\"false\">\n    <use xlink:href=\"#arrow-right\"></use>\n</svg>",
+    "<svg class=\"icon icon-logo-mobile \" aria-hidden=\"true\" focusable=\"false\">\n    <use xlink:href=\"#logo-mobile\"></use>\n</svg>",
+    "<svg class=\"icon icon-logo-desktop \" aria-hidden=\"true\" focusable=\"false\">\n    <use xlink:href=\"#logo-desktop\"></use>\n</svg>"
+  ],
+  "network_media": [
+    "https://summerfridays.com/cdn/shop/files/US.png?v=1697144498&width=44",
+    "https://summerfridays.com/cdn/shop/files/HolidayLBB-Desktop_HP.jpg?v=1789511650&width=2560",
+    "https://summerfridays.com/cdn/shop/t/450/assets/ExpressaEFHeavyRegular.woff2?v=124295627638187309081776610676",
+    "https://summerfridays.com/cdn/shop/files/preview_images/4a8050db74e14b118a6bc9a9af5db328.thumbnail.0000000000.jpg?v=1789599332&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/9c67cf65fbe14f1db9f3b43054f84d17.thumbnail.0000000000.jpg?v=1790611777&width=200",
+    "https://fonts.gstatic.com/s/pinyonscript/v24/6xKpdSJbL9-e9LuoeQiDRQR8WOXaOg.woff2",
+    "https://summerfridays.com/cdn/shop/files/preview_images/8337619af322429f96431f6e7bc1bffc.thumbnail.0000000000.jpg?v=1786117009&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/198e6b1d6fc643d69f00c44ea34c14a5.thumbnail.0000000000.jpg?v=1784578116&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/ac492ce003d847b7aebc076e2141b129.thumbnail.0000000000.jpg?v=1740534552&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/112305be72dc4cacab2ca353d59a3095.thumbnail.0000000000.jpg?v=1762901391&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/0a7fe7591d664263982c62f3b3bbac9c.thumbnail.0000000000.jpg?v=1750970966&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/68320d8effd94780a3b2c891d7dd8294.thumbnail.0000000000.jpg?v=1743449834&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/bff83c9fcbf04b64ae4d6c915c8ba8e5.thumbnail.0000000000.jpg?v=1778537632&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/93344c07d3e540a2a15a68ed8365744e.thumbnail.0000000000.jpg?v=1762900715&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/d33f3c407a81499c92b7607e1c44f0ad.thumbnail.0000000000.jpg?v=1771021180&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/ac7a9323502b4daf806d65fb6cfa418c.thumbnail.0000000000.jpg?v=1769126052&width=200",
+    "https://summerfridays.com/cdn/shop/files/preview_images/9de89c73201840bfa3f9fc28b150e5d6.thumbnail.0000000000.jpg?v=1775000743&width=200",
+    "https://summerfridays.com/cdn/shop/files/swatch-soft-strawberry_60x.png?v=7298150968167207343",
+    "https://summerfridays.com/cdn/shop/files/preview_images/11cf0b7d8fc843738b0d496a25ff87f9.thumbnail.0000000000.jpg?v=1784579309&width=200",
+    "https://summerfridays.com/cdn/shop/files/swatch-pink-sunset_60x.png?v=14797464890881869386",
+    "https://summerfridays.com/cdn/shop/files/swatch-sweet-rose_60x.png?v=16812851072809370711",
+    "https://summerfridays.com/cdn/shop/files/swatch-toasted-terracotta_60x.png?v=3017054718650637791",
+    "https://summerfridays.com/cdn/shop/files/swatch-berry-spritz_60x.png?v=7577259484709936764",
+    "https://summerfridays.com/cdn/shop/files/swatch-dusty-rose_60x.png?v=14560478849135350949",
+    "https://summerfridays.com/cdn/shop/files/swatch-pink-guava_60x.png?v=2231760346664299834",
+    "https://summerfridays.com/cdn/shop/files/swatch-vanilla_60x.png?v=2849234754589688536",
+    "https://summerfridays.com/cdn/shop/files/swatch-sugar-plum_60x.png?v=4516126416374037846",
+    "https://summerfridays.com/cdn/shop/files/swatch-mocha-bonbon_60x.png?v=6470211561284178462",
+    "https://summerfridays.com/cdn/shop/files/swatch-strawberry-soft-serve_60x.png?v=5263422310201822342",
+    "https://summerfridays.com/cdn/shop/files/swatch-pink-sugar_60x.png?v=6538016081217513079",
+    "https://summerfridays.com/cdn/shop/files/swatch-toasted-marshmallow_60x.png?v=4735269379955009291",
+    "https://summerfridays.com/cdn/shop/files/swatch-iced-coffee_60x.png?v=15442730959499744948",
+    "https://summerfridays.com/cdn/shop/files/swatch-vanilla-beige_60x.png?v=12104014591878994628",
+    "https://summerfridays.com/cdn/shop/files/swatch-hot-cocoa_60x.png?v=9044916267412631535",
+    "https://summerfridays.com/cdn/shop/files/swatch-cherry_60x.png?v=6615832802201607358",
+    "https://summerfridays.com/cdn/shop/files/swatch-brown-sugar_60x.png?v=2435579544192484133",
+    "https://summerfridays.com/cdn/shop/files/swatch-poppy_60x.png?v=10960574471777892008",
+    "https://summerfridays.com/cdn/shop/files/swatch-sweet-mint_60x.png?v=16532247297057441007",
+    "https://summerfridays.com/cdn/shop/files/LBB-Minis-HP-UGC-Cover.jpg?v=1789599360&width=1000",
+    "https://summerfridays.com/cdn/shop/files/The-LBB-Minis-Main-2026.jpg?v=1788194631&width=200",
+    "https://summerfridays.com/cdn/shop/files/UGC-HP-Cover-Holiday-Duo.jpg?v=1790611832&width=1000",
+    "https://summerfridays.com/cdn/shop/files/Body-Butter-Community-Vanilla.jpg?v=1786117752&width=1000",
+    "https://summerfridays.com/cdn/shop/files/HolidayTreatDuoMain.jpg?v=1789074796&width=200",
+    "https://summerfridays.com/cdn/shop/files/BodyLayeringSetMainVanilla.jpg?v=1791221191&width=200",
+    "https://cdn.userway.org/widgetapp/images/body_wh.svg",
+    "https://summerfridays.com/cdn/shop/files/Bronzer_How_To.jpg?v=1778187560&width=1000",
+    "https://summerfridays.com/cdn/shop/t/652/assets/ExpressaEFHeavyRegular.woff2?v=124295627638187309081782218073",
+    "https://summerfridays.com/cdn/shop/files/Bronzer-Butter-Balm-Main-Sand.jpg?v=1776469555&width=200",
+    "https://summerfridays.com/cdn/shop/files/BodyButterMainVanilla.jpg?v=1784648595&width=200",
+    "https://summerfridays.com/cdn/shop/files/swatch-sand_72x.png?v=15352715530275777271",
+    "https://summerfridays.com/cdn/shop/files/swatch-clay_72x.png?v=7703100452574844015",
+    "https://summerfridays.com/cdn/shop/files/swatch-dune_72x.png?v=4865704386523763262",
+    "https://summerfridays.com/cdn/shop/files/swatch-desert_72x.png?v=6833602426373430151",
+    "https://summerfridays.com/cdn/shop/files/swatch-haze_72x.png?v=4504170768675897999",
+    "https://summerfridays.com/cdn/shop/files/swatch-sienna_72x.png?v=6058502291205123668",
+    "https://summerfridays.com/cdn/shop/files/PDP-Jet-Lag-Mist-how-To.jpg?v=1740535160&width=1000",
+    "https://summerfridays.com/cdn/shop/files/Jet-Lag-Eye-Patches-with-Box.jpg?v=1742317136&width=200",
+    "https://summerfridays.com/cdn/shop/files/Lip_Butter_Balm_Iced_Coffee_Community_Cover.jpg?v=1762901403&width=1000",
+    "https://summerfridays.com/cdn/shop/files/LBB-Iced-Coffee-Square.jpg?v=1736362917&width=200",
+    "https://summerfridays.com/cdn/shop/files/swatch-vanilla_72x.png?v=2849234754589688536",
+    "https://summerfridays.com/cdn/shop/files/swatch-mocha-bonbon_72x.png?v=6470211561284178462",
+    "https://summerfridays.com/cdn/shop/files/swatch-sugar-plum_72x.png?v=4516126416374037846",
+    "https://summerfridays.com/cdn/shop/files/swatch-strawberry-soft-serve_72x.png?v=5263422310201822342",
+    "https://summerfridays.com/cdn/shop/files/swatch-pink-guava_72x.png?v=2231760346664299834",
+    "https://summerfridays.com/cdn/shop/files/swatch-pink-sugar_72x.png?v=6538016081217513079",
+    "https://summerfridays.com/cdn/shop/files/swatch-toasted-marshmallow_72x.png?v=4735269379955009291",
+    "https://summerfridays.com/cdn/shop/files/swatch-vanilla-beige_72x.png?v=12104014591878994628",
+    "https://summerfridays.com/cdn/shop/files/swatch-iced-coffee_72x.png?v=15442730959499744948",
+    "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+    "https://summerfridays.com/cdn/shop/files/swatch-hot-cocoa_72x.png?v=9044916267412631535",
+    "https://summerfridays.com/cdn/shop/files/swatch-brown-sugar_72x.png?v=2435579544192484133",
+    "https://summerfridays.com/cdn/shop/files/swatch-poppy_72x.png?v=10960574471777892008",
+    "https://summerfridays.com/cdn/shop/files/swatch-cherry_72x.png?v=6615832802201607358",
+    "https://summerfridays.com/cdn/shop/files/swatch-sweet-mint_72x.png?v=16532247297057441007",
+    "https://summerfridays.com/cdn/shop/files/Dream-Lil-Oil-HP-Social-Gallery.jpg?v=1758317337&width=1000",
+    "https://summerfridays.com/cdn/shop/files/Dream-Lip-Oil-Main-Square-Bare-Sand.jpg?v=1736360077&width=200",
+    "https://summerfridays.com/cdn/shop/files/swatch-pink-cloud_72x.png?v=8428292824505787153",
+    "https://summerfridays.com/cdn/shop/files/swatch-bare-sand_72x.png?v=995481565421872720",
+    "https://summerfridays.com/cdn/shop/files/swatch-rose-bud_72x.png?v=5476213824651029734",
+    "https://summerfridays.com/cdn/shop/files/swatch-warm-beige_72x.png?v=6231115117944354292",
+    "https://summerfridays.com/cdn/shop/files/swatch-blush-dreams_72x.png?v=6750218288844306152",
+    "https://summerfridays.com/cdn/shop/files/swatch-soft-mauve_72x.png?v=11290281481402781951",
+    "https://summerfridays.com/cdn/shop/files/swatch-midnight-berry_72x.png?v=2832561611038658206",
+    "https://shop.app/pay/assets/sprite.svg",
+    "https://summerfridays.com/cdn/shop/files/swatch-rosewood-nights_72x.png?v=16812725169149332816",
+    "https://summerfridays.com/cdn/shop/files/Jet-Lag-Essentials-Set-Main.jpg?v=1738259485&width=200",
+    "https://summerfridays.com/cdn/shop/files/Jet-Lag-Essentials-Set-HP-Cover.jpg?v=1743449904&width=1000",
+    "https://summerfridays.com/cdn/shop/files/ShadeDrops-SPF50-How-To.jpg?v=1776460993&width=1000",
+    "https://summerfridays.com/cdn/shop/files/US-shadedrops-spf-50-main.jpg?v=1777579666&width=200",
+    "https://summerfridays.com/cdn/shop/files/Stains_Rosette-Shadow.png?v=1769457784&width=680",
+    "https://summerfridays.com/cdn/shop/files/Stains_Slipper-Shadow.png?v=1769457784&width=680",
+    "https://summerfridays.com/cdn/shop/files/Stains_Plum-Shadow.png?v=1769457784&width=680",
+    "https://summerfridays.com/cdn/shop/files/Stains_Maple-Shadow.png?v=1769457784&width=680",
+    "https://summerfridays.com/cdn/shop/files/Stains_Mocha-Shadow.png?v=1769457784&width=680",
+    "https://summerfridays.com/cdn/shop/files/Stains_Almond-Shadow.png?v=1769457784&width=680",
+    "https://summerfridays.com/cdn/shop/files/Shelfie_homepage_95d77953-2794-456f-898a-31eac04d99eb.jpg?v=1778280610&width=885",
+    "https://summerfridays.com/cdn/shop/files/LBB_BrownSugar-Shadow.png?v=1744401356&width=680",
+    "https://summerfridays.com/cdn/shop/files/LBBSugarPlum_homepage.jpg?v=1789512896&width=885",
+    "https://summerfridays.com/cdn/shop/files/LBB_IcedCoffee-Shadow.png?v=1744401357&width=680",
+    "https://summerfridays.com/cdn/shop/files/NEA_homepage_3e1d5588-97bf-4f7c-9273-9010c2e9bc01.jpg?v=1773780031&width=885",
+    "https://summerfridays.com/cdn/shop/files/LBB_HotCocoa-Shadow_1.png?v=1763509030&width=680",
+    "https://summerfridays.com/cdn/shop/files/LBB_ToastedMarshmallow-Shadow.png?v=1774987680&width=680",
+    "https://summerfridays.com/cdn/shop/files/tOGBjNPA.png?v=1715766234&width=680",
+    "https://summerfridays.com/cdn/shop/files/LBB_MochaBonbon-Shadow.png?v=1788907000&width=680",
+    "https://creatives.attn.tv/summerfridays/futura%20medium%20bt_9b0874de.ttf",
+    "https://summerfridays.com/cdn/shop/files/LBB_Sugarplum-Shadow.png?v=1788907000&width=680",
+    "https://summerfridays.com/cdn/shop/files/LBB_StrawberrySoftServe-Shadow.png?v=1786035775&width=680",
+    "https://summerfridays.com/cdn/shop/files/LBB_PinkSugar-Shadow.png?v=1744401356&width=680",
+    "https://summerfridays.com/cdn/shop/files/LBB_PinkGuava-Shadow.png?v=1747260146&width=680",
+    "https://creatives.attn.tv/summerfridays/PinyonScript-Regular_8d20042a.ttf",
+    "https://creatives.attn.tv/summerfridays/03_SF_Logo_White_4b759717.png",
+    "https://cdn.shopify.com/s/files/1/2382/2877/files/Summer_Fridays_Featured.webp?v=1781139077",
+    "https://shopify-assets.shopifycdn.com/shop-assets/static_uploads/shoplift/GTStandard-MMedium.woff2",
+    "https://shopify-assets.shopifycdn.com/shop-assets/static_uploads/shoplift/GTStandard-MRegular.woff2",
+    "https://fonts.shopifycdn.com/jost/jost_n4.d47a1b6347ce4a4c9f437608011273009d91f2b7.woff2?h1=c3VtbWVyZnJpZGF5cy5jb20&hmac=31632860ff805ad48f5c3dfcd3389b3a7ed3e54c0a27ddbb4ae906948856de3b",
+    "https://cdn.shopify.com/s/files/1/2382/2877/files/01_SF_Logo_TM_Black_x320.png?v=1723833187",
+    "https://summerfridays.com/cdn/shop/files/Seal-logo-CMYK.png?height=130&v=1706148424",
+    "https://summerfridays.com/cdn/shop/files/Jet-Lag-Main-Square.jpg?v=1720469004&width=1000",
+    "https://summerfridays.com/cdn/shop/files/CloudDew2026Main.jpg?v=1761087465&width=1000",
+    "https://summerfridays.com/cdn/shop/files/Rich-Cushion-Cream-Main-Square.jpg?v=1720469444&width=1000",
+    "https://summerfridays.com/cdn/shop/files/Jet-Lag-Deep-Hydration-Serum-Square.jpg?v=1736359417&width=1000",
+    "https://summerfridays.com/cdn/shop/files/BestofBeauty_Outline.png?height=130&v=1757711580",
+    "https://summerfridays.com/cdn/shop/files/Blush-Butter-Balm-Community-Cover.jpg?v=1758317151&width=1000",
+    "https://summerfridays.com/cdn/shop/files/Blush-Butter-Balm-Soft-Strawberry.jpg?v=1750795541&width=200",
+    "https://summerfridays.com/cdn/shop/files/swatch-soft-strawberry_72x.png?v=7298150968167207343",
+    "https://summerfridays.com/cdn/shop/files/swatch-pink-sunset_72x.png?v=14797464890881869386",
+    "https://summerfridays.com/cdn/shop/files/swatch-toasted-terracotta_72x.png?v=3017054718650637791",
+    "https://summerfridays.com/cdn/shop/files/swatch-dusty-rose_72x.png?v=14560478849135350949",
+    "https://summerfridays.com/cdn/shop/files/swatch-sweet-rose_72x.png?v=16812851072809370711",
+    "https://summerfridays.com/cdn/shop/files/2026-Cloud-Dew-How-To.jpg?v=1765414229&width=1000",
+    "https://summerfridays.com/cdn/shop/files/swatch-berry-spritz_72x.png?v=7577259484709936764",
+    "https://summerfridays.com/cdn/shop/files/CloudDew2026Main.jpg?v=1761087465&width=200",
+    "https://summerfridays.com/cdn/shop/files/Liners-How-To.jpg?v=1768950752&width=1000",
+    "https://summerfridays.com/cdn/shop/files/cinnamon-softline-liner-main_81313e70-4bbd-4c8c-a9cc-abc3e5f872c3.jpg?v=1768936971&width=200",
+    "https://summerfridays.com/cdn/shop/files/swatch-sugar_72x.png?v=10174779226378531808",
+    "https://summerfridays.com/cdn/shop/files/swatch-latte_72x.png?v=14500711922745728215",
+    "https://summerfridays.com/cdn/shop/files/swatch-rose_72x.png?v=8420723668371707404",
+    "https://summerfridays.com/cdn/shop/files/swatch-toffee_72x.png?v=11390842981586509554",
+    "https://summerfridays.com/cdn/shop/files/swatch-cinnamon_72x.png?v=3171181143852866793",
+    "https://summerfridays.com/cdn/shop/files/swatch-pecan_72x.png?v=15578755198855615330",
+    "https://summerfridays.com/cdn/shop/files/swatch-espresso_72x.png?v=15170974528108914920",
+    "https://summerfridays.com/cdn/shop/files/swatch-brownie_72x.png?v=9224542455993716150",
+    "https://summerfridays.com/cdn/shop/files/Sunlit-Vanilla-How-To.jpg?v=1772155756&width=1000",
+    "https://summerfridays.com/cdn/shop/files/Sunlit-Vanilla-Main.jpg?v=1771625369&width=200",
+    "https://summerfridays.com/cdn/shop/files/swatch-almond_72x.png?v=12352641551915083152",
+    "https://summerfridays.com/cdn/shop/files/Mocha-Lip-Stains-Main.jpg?v=1769028828&width=200",
+    "https://summerfridays.com/cdn/shop/files/Lip-Stains-How-To.jpg?v=1769034375&width=1000",
+    "https://summerfridays.com/cdn/shop/files/swatch-slipper_72x.png?v=7809070622543848110",
+    "https://summerfridays.com/cdn/shop/files/swatch-rosette_72x.png?v=18416371894625418874",
+    "https://summerfridays.com/cdn/shop/files/swatch-maple_72x.png?v=10893397260796323067",
+    "https://summerfridays.com/cdn/shop/files/swatch-plum_72x.png?v=14710593302644459373",
+    "https://summerfridays.com/cdn/shop/files/swatch-mocha_72x.png?v=7280977063263296839",
+    "https://summerfridays.com/cdn/shop/files/stripes.png?v=1727719616&width=711",
+    "https://summerfridays.com/cdn/shop/files/HP-Footer-V2.jpg?v=1789150624&width=1000",
+    "https://summerfridays.com/cdn/shop/files/HOL-26-Feed-2.jpg?v=1789081234&width=700",
+    "https://summerfridays.com/cdn/shop/files/LBBMINIS-1.jpg?v=1788194655&width=700",
+    "https://summerfridays.com/cdn/shop/files/DUO-Model.jpg?v=1789075272&width=700",
+    "https://summerfridays.com/cdn/shop/files/HOL-26-Feed-1.jpg?v=1789081234&width=700",
+    "https://summerfridays.com/cdn/shop/files/HOL-26-Feed-6.jpg?v=1789081234&width=700",
+    "https://summerfridays.com/cdn/shop/files/DUO-goop.jpg?v=1789075046&width=700",
+    "https://summerfridays.com/cdn/shop/files/MARSHMALLOWSET-3.jpg?v=1788292899&width=700",
+    "https://summerfridays.com/cdn/shop/files/MOCHABONBON-6.jpg?v=1788470301&width=700",
+    "https://summerfridays.com/cdn/shop/files/HOL-26-Feed-7.jpg?v=1789081233&width=700",
+    "https://summerfridays.com/cdn/shop/files/HOL-26-Feed-3.jpg?v=1789081233&width=700",
+    "https://summerfridays.com/cdn/shop/files/LBB_SweetMint-Shadow.png?v=1744401356&width=680",
+    "https://summerfridays.com/cdn/shop/files/LBB_Cherry-Shadow.png?v=1744401356&width=680",
+    "https://summerfridays.com/cdn/shop/files/LBB_Poppy-Shadow.png?v=1744401356&width=680",
+    "https://summerfridays.com/cdn/shop/files/LBB_VanillaBeige-Shadow.png?v=1744401356&width=680"
+  ]
+}

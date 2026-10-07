@@ -14,6 +14,7 @@ videos/*
 !videos/kylie-cosmetics-spec/
 !videos/rare-beauty-spec/
 !videos/typsy-beauty-spec/
+!videos/summer-fridays-spec/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
@@ -68,6 +69,19 @@ videos/typsy-beauty-spec/assets/frames/
 videos/typsy-beauty-spec/assets/site/*
 !videos/typsy-beauty-spec/assets/site/info.json
 videos/typsy-beauty-spec/audio/track/
+# Summer Fridays: the brand's films and product photos (and the cut-outs and person mattes made from them) are fetched and
+# rebuilt by scripts/fetch_sources.sh, never committed; fonts are OFL and committed
+videos/summer-fridays-spec/source/*
+!videos/summer-fridays-spec/source/manifest.json
+videos/summer-fridays-spec/assets/frames/
+videos/summer-fridays-spec/assets/products/
+videos/summer-fridays-spec/assets/cut/
+videos/summer-fridays-spec/assets/mattes/
+videos/summer-fridays-spec/assets/site/*
+!videos/summer-fridays-spec/assets/site/info.json
+videos/summer-fridays-spec/audio/track/
+videos/summer-fridays-spec/models/
+videos/summer-fridays-spec/.mp/
 videos/*/review/rfinal/
 videos/*/review/strip_*.jpg
 videos/*/review/source_sheet.jpg
