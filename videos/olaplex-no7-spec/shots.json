@@ -1,0 +1,110 @@
+{
+ "note": "In/out in source seconds. Before/after replays: the brand's 1080x1080 films cropped to their top 860 rows (the white disclaimer band is replaced by our legal line). UGC: 606x1080 vertical, full-bleed. Every shot shows N\u00ba.7 or hair it was used on.",
+ "films": {
+  "ba1": "source/olaplex-n-7-bonding-oil-60ml_1af941.mp4",
+  "ba2": "source/olaplex-n-7-bonding-oil-60ml_36d6d7.mp4",
+  "ba3": "source/olaplex-n-7-bonding-oil-60ml_a49d25.mp4",
+  "wh": "source/home_e5e871.mp4",
+  "bl": "source/home_743b74.mp4"
+ },
+ "shots": {
+  "frizz": {
+   "film": "ba1",
+   "in": 5.45,
+   "out": 6.75,
+   "mode": "box",
+   "w": 1080,
+   "h": 860,
+   "fy": 0.3981,
+   "shows": "frizzy dark curls, the brand's BEFORE replay (held)",
+   "category": "hair"
+  },
+  "frizz2": {
+   "film": "ba2",
+   "in": 5.45,
+   "out": 6.75,
+   "mode": "box",
+   "w": 1080,
+   "h": 860,
+   "fy": 0.3981,
+   "shows": "frizzy copper hair, the brand's BEFORE replay (held)",
+   "category": "hair"
+  },
+  "frizz3": {
+   "film": "ba3",
+   "in": 5.45,
+   "out": 6.75,
+   "mode": "box",
+   "w": 1080,
+   "h": 860,
+   "fy": 0.3981,
+   "shows": "frizzy brunette waves, the brand's BEFORE replay (held)",
+   "category": "hair"
+  },
+  "drops": {
+   "film": "wh",
+   "in": 8.6,
+   "out": 9.65,
+   "mode": "full",
+   "shows": "she tips the amber N\u00ba.7 bottle and taps drops into her palm",
+   "category": "hair"
+  },
+  "work": {
+   "film": "wh",
+   "in": 9.7,
+   "out": 10.4,
+   "mode": "full",
+   "shows": "she flips her hair and works the N\u00ba.7 through it",
+   "category": "hair"
+  },
+  "ba_curls": {
+   "film": "ba1",
+   "in": 0.0,
+   "out": 3.6,
+   "mode": "box",
+   "w": 1080,
+   "h": 860,
+   "fy": 0.3981,
+   "shows": "dark curls before/after N\u00ba.7 (unretouched)",
+   "category": "hair"
+  },
+  "ba_copper": {
+   "film": "ba2",
+   "in": 0.0,
+   "out": 3.6,
+   "mode": "box",
+   "w": 1080,
+   "h": 860,
+   "fy": 0.3981,
+   "shows": "copper straight hair before/after N\u00ba.7 (unretouched)",
+   "category": "hair"
+  },
+  "ba_waves": {
+   "film": "ba3",
+   "in": 0.0,
+   "out": 3.6,
+   "mode": "box",
+   "w": 1080,
+   "h": 860,
+   "fy": 0.3981,
+   "shows": "brunette waves before/after N\u00ba.7 (unretouched)",
+   "category": "hair"
+  },
+  "gloss": {
+   "film": "wh",
+   "in": 13.6,
+   "out": 17.0,
+   "mode": "full",
+   "shows": "the woman who applied N\u00ba.7, long glossy hair, turning",
+   "category": "hair"
+  },
+  "flip": {
+   "film": "bl",
+   "in": 17.8,
+   "out": 19.4,
+   "mode": "full",
+   "shows": "the blonde woman scrunches and flips her glossy waves",
+   "category": "hair"
+  }
+ }
+}

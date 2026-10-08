@@ -28,7 +28,7 @@ if (!S) { fail('L00', 'script.json missing: write it first (playbook/templates/s
 
 // ------------------------------------------------------------------ L01 one message
 {
-  const smp = (S.smp || '').trim(), n = words(smp).length, sentences = smp.split(/[.!?](?!\.)/).filter((x) => x.trim()).length;
+  const smp = (S.smp || '').trim(), n = words(smp).length, sentences = smp.split(/[.!?]+(?=\s|$)/).filter((x) => x.trim()).length;   // a stop inside a number (56.6) is not a sentence end
   if (!smp) fail('L01', 'no SMP');
   else if (n > 14 || sentences > 1) fail('L01', `SMP must be one sentence ≤ 14 words (has ${n} words, ${sentences} sentences): "${smp}"`);
   else pass('L01', `SMP: "${smp}" (${n} words)`);
@@ -116,6 +116,11 @@ const supers = [];
   for (const m of film.matchAll(/font\s*=\s*[`'"][^`'"]*?(\d+)px/g)) if (+m[1] < 44) small.push(`canvas ${m[1]}px`);
   if (small.length) fail('L05', `${small.length} text line(s) below 44 px (add to small_ok only if legal/source): ${small.slice(0, 6).join(' · ')}`);
   else pass('L05', 'every readable line ≥ 44 px');
+  // L15: type inside the Reels/TikTok safe area (9:16 at 1080x1920: UI covers the top 14 % and the bottom 20 %)
+  const out = [], reY = new RegExp(`\\bline\\(\\s*[^,()]+,\\s*${lit}\\s*,\\s*[^,()]+,\\s*(\\d+)\\s*,\\s*(\\d+)`, 'g');
+  for (let m; (m = reY.exec(film));) { const y = +m[4], sz = +m[5]; if (y < 269 || y + sz > 1536) out.push(`"${m[2] ?? m[3]}" y ${y}–${y + sz}`); }
+  if (out.length) fail('L15', `${out.length} line(s) outside the Reels safe area (y 269–1536): ${out.slice(0, 5).join(' · ')}`);
+  else pass('L15', 'every DOM line inside the Reels safe area (y 269–1536); canvas type: check review safe_9x16.jpg');
   const fams = new Set([...html.matchAll(/font-family:\s*'([^']+)'\s*;\s*src/g)].map((x) => x[1]));
   if (fams.size > 2) warn('L05', `${fams.size} font families (${[...fams].join(', ')}): two is the rule`);
   for (const t of supers) if (words(t).length > 10) warn('L05', `super of ${words(t).length} words: "${t}"`);
@@ -181,14 +186,17 @@ const prior = REG.reels.filter((r) => r.slug !== path.basename(PROJ));
 const MP4 = opt('render');
 if (MP4) {
   const mp4 = fs.existsSync(path.resolve(MP4)) ? path.resolve(MP4) : path.resolve(PROJ, MP4);
-  const p = spawnSync('python3', [path.join(HERE, 'audit_render.py'), mp4], { encoding: 'utf8' });
+  const cta = beats.find((b) => b.role === 'cta');                       // L13 exempts the end card
+  const p = spawnSync('python3', [path.join(HERE, 'audit_render.py'), mp4, ...(cta ? ['--until', String(cta.from)] : [])], { encoding: 'utf8' });
   if (p.status) fail('L04', `audit_render failed: ${p.stderr}`);
   else {
     const m = JSON.parse(p.stdout.trim().split('\n').pop());
     const lvl = (v, ok, bad) => (v <= ok ? 'PASS' : v <= bad ? 'WARN' : 'FAIL');
     add('L04', lvl(m.canvas_frames, 0.2, 0.3), `${(m.canvas_frames * 100).toFixed(0)} % of frames are mostly flat pale canvas (≤ 20 %)`);
     add('L04', lvl(m.longest_pale_run_s, 2, 3), `longest pale stretch ${m.longest_pale_run_s} s (≤ 2 s)`);
-    add('L13', m.changes_per_s >= 1.5 ? 'PASS' : m.changes_per_s >= 1.2 ? 'WARN' : 'FAIL', `${m.changes_per_s} picture changes per second (≥ 1.5)`);
+    const span = cta ? ` before the CTA (${m.until_s} s)` : '';
+    add('L13', m.changes_per_s >= 1.5 ? 'PASS' : m.changes_per_s >= 1.2 ? 'WARN' : 'FAIL', `${m.changes_per_s} picture changes per second${span} (≥ 1.5)`);
+    add('L13', lvl(m.longest_hold_s, 2, 3), `longest still hold${span} ${m.longest_hold_s} s (≤ 2 s)`);
   }
 }
 

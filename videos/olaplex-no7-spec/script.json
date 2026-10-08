@@ -1,0 +1,158 @@
+{
+  "brand": "OLAPLEX",
+  "url": "https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml",
+  "product": {
+    "name": "Nº.7 Bonding Oil",
+    "short": "bonding oil",
+    "category": "hair",
+    "price": "$32",
+    "where": "olaplex.com"
+  },
+  "range": [],
+  "range_reason": "",
+  "audience": "A 26-year-old with frizz-prone hair who styles it every morning and watches it puff up by lunch.",
+  "insight": "You don't have bad hair days; you have humid days, and humidity wins every one of them.",
+  "smp": "Three drops and humidity loses.",
+  "shape": "tension-release",
+  "hook_type": "tension",
+  "device": "a live match broadcast: a scoreboard of Humidity vs Your Hair, humidity 3 – 0 up, then before/after replays bring your hair back to win 3 – 4",
+  "device_why": "frizz is a daily fight with the weather; the score turns the 72-hour frizz claim into a result you can watch flip",
+  "recall": {
+    "what": "Olaplex Nº.7 Bonding Oil",
+    "does": "tames frizz and boosts shine",
+    "why": "72-hour frizz control against humidity"
+  },
+  "claims": [
+    {
+      "text": "125% more shine* (*compared to bleached hair without Nº.7)",
+      "source": "product page: https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+    },
+    {
+      "text": "72HR frizz control and humidity resistance",
+      "source": "product page: https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+    },
+    {
+      "text": "77% reduction in breakage",
+      "source": "product page: https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+    },
+    {
+      "text": "just 2-3 drops",
+      "source": "product page: https://olaplex.com/products/olaplex-n-7-bonding-oil-30ml"
+    },
+    {
+      "text": "$32 (30 ml)",
+      "source": "store variant price, olaplex.com products.json"
+    },
+    {
+      "text": "unretouched; results with Nº.4, Nº.5 and Nº.7",
+      "source": "the before/after film's own caption on the product page"
+    }
+  ],
+  "small_ok": [
+    "unretouched",
+    "vs. bleached hair",
+    "HUMIDITY",
+    "YOUR HAIR",
+    "FULL TIME",
+    "LIVE"
+  ],
+  "music": {
+    "title": "Abracadabra",
+    "artist": "Lady Gaga",
+    "source": "song",
+    "genre": "dance pop",
+    "bpm": 126,
+    "song_start_s": 0,
+    "drop_at_s": 16.51,
+    "why": "a transformation song — 'abracadabra' is the before/after; its biggest lift (16.5 s of the 30 s preview) lands on 'your hair wins'"
+  },
+  "look": {
+    "ground": "dark",
+    "bg": "#0C0B0A",
+    "why": "a night-match broadcast: near-black ground, white type, the oil's amber as the one accent"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "role": "hook",
+      "from": 0,
+      "to": 2.7,
+      "says": "humidity wins again.",
+      "shows": "three frizzy BEFOREs from the brand's replays, one per beat; humidity scores on each: 3 – 0",
+      "tags": [
+        "tension"
+      ],
+      "shots": [
+        "frizz",
+        "frizz2",
+        "frizz3"
+      ],
+      "serves": "names the daily fight and who's losing it"
+    },
+    {
+      "id": "turn",
+      "role": "turn",
+      "from": 2.7,
+      "to": 6.51,
+      "says": "until three drops of Nº.7.",
+      "shows": "she taps Nº.7 drops into her palm and works them through her hair, then the bottle lands as the hero",
+      "tags": [
+        "product",
+        "demo"
+      ],
+      "shots": [
+        "drops",
+        "work"
+      ],
+      "serves": "brings in the product as the move that changes the game"
+    },
+    {
+      "id": "proof",
+      "role": "proof",
+      "from": 6.51,
+      "to": 16.51,
+      "says": "125% more shine. 72-hour frizz control.",
+      "shows": "three unretouched before/after replays (dark curls, copper straight, brunette waves); after each point the after takes the whole screen; your hair pulls back 1, 2, 3",
+      "tags": [
+        "result",
+        "demo"
+      ],
+      "shots": [
+        "ba_curls",
+        "ba_copper",
+        "ba_waves"
+      ],
+      "serves": "proves it with the brand's own before/after and claims"
+    },
+    {
+      "id": "payoff",
+      "role": "payoff",
+      "from": 16.51,
+      "to": 21.27,
+      "says": "your hair wins.",
+      "shows": "on the song's lift the winner, 3 – 4: glossy hair flips from two women who used Nº.7; FULL TIME",
+      "tags": [
+        "result"
+      ],
+      "shots": [
+        "gloss",
+        "flip"
+      ],
+      "serves": "lands the SMP as a feeling: you beat the weather"
+    },
+    {
+      "id": "cta",
+      "role": "cta",
+      "from": 21.27,
+      "to": 24.1,
+      "says": "Nº.7 bonding oil · $32 · olaplex.com",
+      "shows": "the Nº.7 bottle hero on black, the OLAPLEX wordmark",
+      "tags": [
+        "product"
+      ],
+      "shots": [],
+      "serves": "what to buy, what it costs, where"
+    }
+  ],
+  "waivers": {}
+}

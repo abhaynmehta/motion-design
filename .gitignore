@@ -17,6 +17,8 @@ videos/*
 !videos/summer-fridays-spec/
 !videos/rhode-lip-day-spec/
 !videos/sol-de-janeiro-spec/
+!videos/olaplex-no7-spec/
+!videos/glossier-ultralip-spec/
 videos/*/review/stills/
 videos/*/review/r1/
 videos/*/review/r2/
@@ -105,7 +107,21 @@ videos/sol-de-janeiro-spec/assets/site/*
 videos/sol-de-janeiro-spec/audio/track/
 videos/sol-de-janeiro-spec/models/
 videos/sol-de-janeiro-spec/.mp/
+# Olaplex / Glossier: the brands' films and packshots (and the cut-outs made from them) are fetched by scripts/fetch_sources.sh
+videos/olaplex-no7-spec/source/*
+!videos/olaplex-no7-spec/source/manifest.json
+videos/olaplex-no7-spec/assets/frames/
+videos/olaplex-no7-spec/assets/products/
+videos/olaplex-no7-spec/assets/cut/
+videos/olaplex-no7-spec/assets/site/*
+!videos/olaplex-no7-spec/assets/site/info.json
+videos/glossier-ultralip-spec/source/*
+!videos/glossier-ultralip-spec/source/manifest.json
+videos/glossier-ultralip-spec/assets/frames/
+videos/glossier-ultralip-spec/assets/products/
+videos/glossier-ultralip-spec/assets/cut/
 videos/*/review/rfinal/
+videos/*/review/rr*/
 videos/*/review/strip_*.jpg
 videos/*/review/source_sheet.jpg
 
@@ -113,3 +129,4 @@ videos/*/review/source_sheet.jpg
 videos/*/audio/track/
 videos/*/audio/song*
 videos/*/renders/*_song*.mp4
+videos/*/renders/.*.split

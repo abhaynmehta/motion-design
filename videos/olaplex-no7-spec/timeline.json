@@ -1,0 +1,117 @@
+{
+ "note": "BEATS on the Abracadabra preview grid (126 bpm, beat 0.4762 s, beat 0 = 0.316 s). Story: humidity 3 – 0 your hair on three BEFOREs → until 3 drops of Nº.7 → three before/after replays, your hair pulls back 1, 2, 3 → on the song's lift: the winner, 3 – 4: your hair wins → Nº.7 Bonding Oil $32.",
+ "title": "OLAPLEX Nº.7 Bonding Oil — humidity vs your hair (spec)",
+ "duration": 24.2,
+ "fps": 30,
+ "bpm": 126,
+ "formats": [
+  "9x16"
+ ],
+ "music": {
+  "source": "supplied",
+  "track": "Lady Gaga — \"Abracadabra\" (30 s iTunes preview, temp track, never committed), 0–24.2 s",
+  "sections": []
+ },
+ "voiceover": null,
+ "marks": {
+  "hook": 0,
+  "turn": 5,
+  "bottle": 8.5,
+  "proof": 13,
+  "p1": 16,
+  "s2": 20,
+  "p2": 23,
+  "s3": 27,
+  "p3": 30,
+  "payoff": 34,
+  "flip": 39,
+  "cta": 44,
+  "done": 50.17
+ },
+ "sfx": [
+  {
+   "at": 0.5,
+   "type": "beep",
+   "gain": 0.4,
+   "pitch": 0.7,
+   "what": "humidity scores (1)"
+  },
+  {
+   "at": 2,
+   "type": "beep",
+   "gain": 0.4,
+   "pitch": 0.66,
+   "what": "humidity scores (2)"
+  },
+  {
+   "at": 3.5,
+   "type": "beep",
+   "gain": 0.4,
+   "pitch": 0.62,
+   "what": "humidity scores (3)"
+  },
+  {
+   "at": 7.5,
+   "type": "whoosh",
+   "gain": 0.22,
+   "what": "her hair flips as she works the oil through"
+  },
+  {
+   "at": "bottle",
+   "type": "thump",
+   "gain": 0.45,
+   "what": "the Nº.7 bottle lands"
+  },
+  {
+   "at": "p1",
+   "type": "beep",
+   "gain": 0.4,
+   "pitch": 1.0,
+   "what": "point: your hair 1"
+  },
+  {
+   "at": "p2",
+   "type": "beep",
+   "gain": 0.4,
+   "pitch": 1.12,
+   "what": "point: your hair 2"
+  },
+  {
+   "at": "p3",
+   "type": "beep",
+   "gain": 0.42,
+   "pitch": 1.26,
+   "what": "point: your hair 3"
+  },
+  {
+   "at": 33.9,
+   "type": "beep",
+   "gain": 0.42,
+   "pitch": 1.25,
+   "what": "the winner: your hair 4"
+  },
+  {
+   "at": "payoff",
+   "type": "whistle",
+   "gain": 0.32,
+   "pitch": 1.0,
+   "what": "full time (on the song's lift)"
+  },
+  {
+   "at": 44.2,
+   "type": "whoosh",
+   "gain": 0.35,
+   "what": "the bottle rises for the end"
+  },
+  {
+   "at": 45,
+   "type": "chime",
+   "gain": 0.3,
+   "what": "OLAPLEX"
+  }
+ ],
+ "mix": {
+  "music": 0,
+  "sfx": -9
+ }
+}

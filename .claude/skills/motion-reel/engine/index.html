@@ -8,8 +8,10 @@
   @font-face { font-family: 'Display'; src: url(../assets/fonts/display.woff2) format('woff2'); font-weight: 100 900; }
   @font-face { font-family: 'UI'; src: url(../assets/fonts/ui.woff2) format('woff2'); font-weight: 100 900; }
   :root {
-    /* style guide tokens: ONE accent unless the brief says otherwise */
-    --bg: #f6f5f1; --ink: #121212; --ink-2: #55534e; --accent: #e8552b; --card: #ffffff;
+    /* style guide tokens: ONE accent unless the brief says otherwise. --bg starts dark on purpose: a pale ground is how
+       the early beauty reels ended up 'white white' and empty (playbook L04). Pick footage, a dark or a colour ground;
+       pale only with script.json look.ground "pale" and a reason (the gate checks this value). */
+    --bg: #141312; --ink: #121212; --ink-2: #55534e; --accent: #e8552b; --card: #ffffff;
   }
   html, body { margin: 0; background: #000; overflow: hidden; }
   #stage { position: relative; overflow: hidden; background: var(--bg); transform-origin: 0 0;

@@ -7,6 +7,8 @@
 //   whoosh   morph / whip / push-through: band-passed noise sweeping up, PEAKING at the cue time, panned L → R
 //   riser    build into a drop: 2 s filtered noise + rising tone, PEAKING at the cue time (set the cue on the drop)
 //   shutter  hard cut / wipe: two band-passed noise clacks
+//   silk     soft air whoosh (match cuts) · chime  small bell · boom  deep soft impact · shimmer  high glints · drop  water-drop plip
+//   beep / longbeep  interval-timer beeps · whistle  a coach's pea whistle · pa  airport ding-dong chime
 // Cue fields: t (s), type, gain (0.8), pitch (1 = nominal; sync.mjs jitters ±6 %), pan (-1..1)
 import fs from 'node:fs';
 
@@ -68,7 +70,80 @@ function shutter(p, seed) {
   for (let i = 0; i < n; i++) { const t = i / SR; x[i] = nz[i] * (Math.exp(-t * 90) + 0.8 * (t > 0.035 ? Math.exp(-(t - 0.035) * 110) : 0)) * 1.3; }
   return { x, lead: 0 };
 }
-const SYN = { click, tick, pop, thump, whoosh, riser, shutter };
+function silk(p, seed) {     // soft air whoosh: 0.45 s build, 0.35 s release, peaks on the cue, travels L → R
+  const pre = 0.45, post = 0.35, n = Math.round((pre + post) * SR);
+  const bp = sweepBP(noise(n, seed), (t) => (240 + 2400 * Math.sin(Math.PI * 0.5 * Math.min(1, t / pre)) ** 2) * p, 0.9);
+  const lo = lp(noise(n, seed + 1), 500);
+  for (let i = 0; i < n; i++) {
+    const t = i / SR, u = Math.min(1, t / pre);
+    const env = t < pre ? Math.pow(Math.sin(Math.PI * 0.5 * u), 3) : Math.exp(-(t - pre) * 9);
+    bp[i] = (bp[i] * 0.55 + lo[i] * 0.5) * env;
+  }
+  return { x: bp, lead: pre, stereo: true };
+}
+function chime(p, seed) {    // small bell on A5: inharmonic partials, long decay
+  const n = Math.round(2.6 * SR), x = new Float32Array(n), f = 880 * p, r = mulberry32(seed);
+  const parts = [[1, 1, 1.0], [2.0, 0.42, 0.62], [2.76, 0.30, 0.45], [5.4, 0.14, 0.25], [8.93, 0.06, 0.14]];
+  const ph = parts.map(() => r() * TAU);
+  for (let i = 0; i < n; i++) {
+    const t = i / SR; let v = 0;
+    parts.forEach(([k, a, d], j) => { v += a * Math.sin(TAU * f * k * t + ph[j]) * Math.exp(-t / (0.9 * d)); });
+    x[i] = v * Math.min(1, t / 0.002) * 0.55;
+  }
+  return { x, lead: 0 };
+}
+function boom(p, seed) {     // deep, soft impact: falling sub, warm body, felt thump
+  const n = Math.round(3.0 * SR), x = new Float32Array(n), nz = lp(lp(noise(n, seed), 180), 180); let ph = 0;
+  for (let i = 0; i < n; i++) {
+    const t = i / SR, f = (34 + 26 * Math.exp(-t / 0.18)) * p; ph += TAU * f / SR;
+    x[i] = Math.tanh(1.5 * (Math.sin(ph) * Math.exp(-t / 1.1) + Math.sin(TAU * 98 * t) * Math.exp(-t / 0.12) * 0.35 + nz[i] * Math.exp(-t / 0.06) * 6));
+  }
+  return { x, lead: 0 };
+}
+function shimmer(p, seed) {  // high glints (D6 F#6 A6 D7) swelling into the cue, then a long airy decay
+  const pre = 0.35, n = Math.round((pre + 1.8) * SR), x = new Float32Array(n), r = mulberry32(seed);
+  const notes = [1174.66, 1479.98, 1760.0, 2349.32].map((f) => [f * p, r() * TAU, 1.5 + 2 * r()]);
+  for (let i = 0; i < n; i++) {
+    const t = i / SR, env = t < pre ? Math.pow(t / pre, 2) : Math.exp(-(t - pre) / 0.6);
+    let v = 0; for (const [f, ph, am] of notes) v += Math.sin(TAU * f * t + ph) * (0.55 + 0.45 * Math.sin(TAU * am * t));
+    x[i] = v * env * 0.22;
+  }
+  return { x, lead: pre };
+}
+function drop(p, seed) {     // water-drop plip: a sine that leaps up an octave and a half in 25 ms, tiny tail, soft splash
+  const n = Math.round(0.28 * SR), x = new Float32Array(n), nz = hp(lp(noise(n, seed), 7000), 1800); let ph = 0;
+  for (let i = 0; i < n; i++) {
+    const t = i / SR, f = (520 + 1250 * (1 - Math.exp(-t / 0.012))) * p; ph += TAU * f / SR;
+    x[i] = Math.sin(ph) * Math.exp(-t / 0.045) * Math.min(1, t / 0.0015) * 0.85 + nz[i] * Math.exp(-Math.abs(t - 0.03) / 0.012) * 0.12;
+  }
+  return { x, lead: 0 };
+}
+function beep(p, seed) {     // interval-timer beep: 880 Hz with a little third harmonic, 130 ms, soft edges
+  const n = Math.round(0.13 * SR), x = new Float32Array(n);
+  for (let i = 0; i < n; i++) { const t = i / SR, env = Math.min(1, t / 0.004) * Math.min(1, (0.13 - t) / 0.02); x[i] = (Math.sin(TAU * 880 * p * t) + 0.18 * Math.sin(TAU * 2640 * p * t)) * env * 0.5; }
+  return { x, lead: 0 };
+}
+const longbeep = (p, seed) => { const n = Math.round(0.42 * SR), x = new Float32Array(n);
+  for (let i = 0; i < n; i++) { const t = i / SR, env = Math.min(1, t / 0.004) * Math.min(1, (0.42 - t) / 0.06); x[i] = (Math.sin(TAU * 1320 * p * t) + 0.18 * Math.sin(TAU * 3960 * p * t)) * env * 0.5; }
+  return { x, lead: 0 }; };
+function whistle(p, seed) {  // coach's pea whistle: ~2.9 kHz tone trilled at 28 Hz by the pea, breathy band of noise, 0.5 s
+  const len = 0.5 * Math.min(1.6, Math.max(0.6, 1 / p)), n = Math.round(len * SR), x = new Float32Array(n);
+  const air = sweepBP(noise(n, seed), () => 3000 * p, 0.25); let ph = 0;
+  for (let i = 0; i < n; i++) {
+    const t = i / SR, trill = Math.sin(TAU * 28 * t), f = 2900 * p * (1 + 0.035 * trill); ph += TAU * f / SR;
+    const env = Math.min(1, t / 0.012) * Math.min(1, (len - t) / 0.05);
+    x[i] = (Math.sin(ph) * (0.72 + 0.28 * trill) * 0.42 + air[i] * 0.35) * env;
+  }
+  return { x, lead: 0 };
+}
+function pa(p, seed) {       // airport PA chime: ding (E5) then dong (C5), soft bells with a long tail
+  const n = Math.round(1.9 * SR), x = new Float32Array(n);
+  const note = (f, t0, t) => { const u = t - t0; if (u < 0) return 0; const env = Math.min(1, u / 0.008) * Math.exp(-u / 0.55);
+    return (Math.sin(TAU * f * u) + 0.25 * Math.sin(TAU * 2 * f * u) * Math.exp(-u / 0.2) + 0.08 * Math.sin(TAU * 3.01 * f * u) * Math.exp(-u / 0.12)) * env; };
+  for (let i = 0; i < n; i++) { const t = i / SR; x[i] = (note(659.25 * p, 0, t) + note(523.25 * p, 0.42, t)) * 0.42; }
+  return { x, lead: 0 };
+}
+const SYN = { click, tick, pop, thump, whoosh, riser, shutter, silk, chime, boom, shimmer, drop, beep, longbeep, whistle, pa };
 
 cues.forEach((c, k) => {
   if (!SYN[c.type]) throw new Error(`unknown sfx type "${c.type}" (have: ${Object.keys(SYN).join(', ')})`);
