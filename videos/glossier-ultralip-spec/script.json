@@ -1,0 +1,167 @@
+{
+  "brand": "Glossier",
+  "url": "https://www.glossier.com/products/ultralip",
+  "product": {
+    "name": "Ultralip",
+    "short": "ultralip",
+    "category": "lip",
+    "price": "$22",
+    "where": "glossier.com"
+  },
+  "range": [],
+  "range_reason": "",
+  "audience": "A 27-year-old who loves how lipstick looks but reaches for lip balm every morning, because lipstick feels like dressing up.",
+  "insight": "Lipstick is the skinny jeans of the makeup bag: great in photos, off the second you get home. So most days you reach for balm instead.",
+  "smp": "The (cashmere) sweatpants of lipstick.",
+  "shape": "reframe",
+  "hook_type": "reframe",
+  "device": "a garment care label sewn into the top of the frame: the lipstick is labelled like your favourite sweatpants (front: name, back: composition, size: shades), ending on a price hang tag",
+  "device_why": "the brand's own line compares Ultralip to sweatpants; a woven care label is how clothes tell you what they're made of, so the label delivers the proof (balm + gloss + tint) in the metaphor's own language",
+  "recall": {
+    "what": "Glossier Ultralip",
+    "does": "moisture of a balm, sheen of a gloss, colour of a tint",
+    "why": "lipstick as comfortable as sweatpants: you'll live in it"
+  },
+  "claims": [
+    {
+      "text": "The (cashmere) sweatpants of lipstick.",
+      "source": "product page headline: https://www.glossier.com/products/ultralip"
+    },
+    {
+      "text": "the rich moisture of a balm, the sheen of a gloss and the buildable color of a lip tint",
+      "source": "product page description: https://www.glossier.com/products/ultralip"
+    },
+    {
+      "text": "9 shades (Lucite, Pony, Cranberry, Cachet, Portrait, Ember, Villa, Crest, Flute)",
+      "source": "variant list, glossier.com products.json"
+    },
+    {
+      "text": "$22",
+      "source": "variant price, glossier.com products.json"
+    }
+  ],
+  "small_ok": [
+    "COMPOSITION",
+    "CARE",
+    "SIZE",
+    "MADE FOR LIPS",
+    "Lucite",
+    "shade names"
+  ],
+  "music": {
+    "title": "Snooze",
+    "artist": "SZA",
+    "source": "song",
+    "genre": "R&B",
+    "bpm": 143,
+    "song_start_s": 4.43,
+    "drop_at_s": 15.11,
+    "why": "a slow, cosy R&B love song for a lipstick you never want to take off; the reel enters on a bar line 4.43 s into the 30 s preview so the chorus lift (19.54 s in the preview) lands on 'you'll live in it.'"
+  },
+  "look": {
+    "ground": "dark",
+    "bg": "#2A0A12",
+    "why": "the ground is a deep berry knit, the colour of the darker Ultralip shades; Glossier pink is the one accent, on the woven label and the price tag; white type"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "role": "hook",
+      "from": 0.0,
+      "to": 3.36,
+      "says": "lipstick, but make it sweatpants.",
+      "shows": "an extreme close-up of the Glossier tube swiping across her lips; on 'sweatpants.' a woven care label drops in at the neckline (Glossier. ULTRALIP) and the film settles under it",
+      "tags": [
+        "product",
+        "demo"
+      ],
+      "shots": [
+        "swipe",
+        "swipe2"
+      ],
+      "serves": "sets up the joke: lipstick that feels like comfy clothes"
+    },
+    {
+      "id": "turn",
+      "role": "turn",
+      "from": 3.36,
+      "to": 5.88,
+      "says": "Ultralip: the (cashmere) sweatpants of lipstick.",
+      "shows": "she holds the pink Ultralip tube up by her cheek; the label grows and its front reads the line",
+      "tags": [
+        "product"
+      ],
+      "shots": [
+        "hold"
+      ],
+      "serves": "names the product and lands the brand's own line as the SMP"
+    },
+    {
+      "id": "proof",
+      "role": "proof",
+      "from": 5.88,
+      "to": 10.91,
+      "says": "balm + gloss + tint, in one.",
+      "shows": "the label turns to its composition; each row lands with its proof: lips pressing soft, a glossy lip catching the light, a second swipe building colour",
+      "tags": [
+        "demo",
+        "result"
+      ],
+      "shots": [
+        "press",
+        "sheen",
+        "build"
+      ],
+      "serves": "proves why it's comfortable AND still lipstick: three products' benefits in one"
+    },
+    {
+      "id": "shades",
+      "role": "montage",
+      "from": 10.91,
+      "to": 15.11,
+      "says": "one size. 9 shades.",
+      "shows": "the label turns to SIZE; quick cuts of Ultralip going on four skin tones in four shades, ending on Glossier's product photo of the bullets standing together",
+      "tags": [
+        "range",
+        "product"
+      ],
+      "shots": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
+      "serves": "sweatpants fit everyone: the range in the metaphor's terms"
+    },
+    {
+      "id": "payoff",
+      "role": "payoff",
+      "from": 15.11,
+      "to": 18.47,
+      "says": "wear daily. live in it.",
+      "shows": "on the chorus lift the label turns to CARE (wear daily. live in it.); she laughs with the tube by her cheek, then a second woman turns, glossy lips",
+      "tags": [
+        "result"
+      ],
+      "shots": [
+        "smile",
+        "pose"
+      ],
+      "serves": "lands the SMP as a feeling: the lipstick you never take off"
+    },
+    {
+      "id": "cta",
+      "role": "cta",
+      "from": 18.47,
+      "to": 21.83,
+      "says": "Ultralip · $22 · glossier.com",
+      "shows": "the Ultralip tube hero on the berry knit, a pink hang tag with the price, the Glossier. wordmark",
+      "tags": [
+        "product"
+      ],
+      "shots": [],
+      "serves": "what to buy, what it costs, where"
+    }
+  ],
+  "waivers": {}
+}

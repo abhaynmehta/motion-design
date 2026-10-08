@@ -1,8 +1,8 @@
 # Beauty spec series — outreach pack
 
-Seven 9:16 reels, each made **only from the brand's own public content** (product films, campaign clips, packshots and
+Nine 9:16 reels, each made **only from the brand's own public content** (product films, campaign clips, packshots and
 product-page copy on its website), with the brand's fonts (or the closest open font where theirs is licensed), colours
-and logo, a written script, a designed device and a synced sound mix. All seven are **unsolicited spec work**: not
+and logo, a written script, a designed device and a synced sound mix. All nine are **unsolicited spec work**: not
 affiliated with or endorsed by the brands. Footage, photos and logos belong to the brands.
 
 | # | Brand | Reel | Length | Idea in one line | Device | Music (guide) |
@@ -14,9 +14,15 @@ affiliated with or endorsed by the brands. Footage, photos and logos belong to t
 | 05 | Summer Fridays | "nobody owns just one." | 31.6 s | me: "I only need 1 lip balm." also me: fifteen flavours, zero self-control. | the meme; a shelf of cut-out tubes; tube-shaped reveals; type behind the person; a die-cut sticker | Mixkit "Cherry on Top" |
 | 06 | rhode | "never skip lip day." | 27 s | Every Peptide Lip Shape shade is a workout move, so: a lip workout class. | kinetic type (each word acts out its name), a workout HUD, the whole class | Mixkit "Swish Swed" |
 | 07 | Sol de Janeiro | "departures." | 28 s | Every Cheirosa number is a year in Rio. Pick your year. | a split-flap departures board; bottles land like planes; window seat onto Rio | Mixkit "Latin Lovers" |
+| 08 | OLAPLEX | "humidity vs your hair." | 24.2 s | Three drops and humidity loses. | a live match: humidity 3 – 0 up, the brand's unretouched before/after replays bring your hair back to win 3 – 4 | temp: Lady Gaga "Abracadabra" (dance pop) |
+| 09 | Glossier | "the (cashmere) sweatpants of lipstick." | 22.3 s | Lipstick, but make it sweatpants: balm + gloss + tint, in one. You'll live in it. | a woven care label sewn into the frame (name, composition, size, care) and a price hang tag | temp: SZA "Snooze" (R&B) |
 
 Files: `videos/<project>/renders/9x16.mp4` (music + SFX, −14 LUFS) and `9x16_sfx-only.mp4` (SFX only, so a trending song can
 be added in Instagram). The Mixkit tracks (02–04) are free for video use under the Mixkit Stock Music Free License; Kay Beauty’s score is synthesised in code.
+From 08 on, every reel is written first as a script (`script.json`, playbook) and cut to a real trending song. The song
+cut (`renders/9x16_song.mp4`) is for the pitch only: it is copyrighted, never committed and never posted by us — send it
+with the line "music is a temp track"; the brand posts with the song from the in-app library (cue sheet in each
+project's `docs/music_cue.md`). `renders/9x16.mp4` is the SFX-only version.
 
 ## How to send
 - **Who:** the social/content lead or brand marketing manager (LinkedIn: "<brand> social media manager / content lead"),
@@ -158,6 +164,49 @@ be added in Instagram). The Mixkit tracks (02–04) are free for video use under
 > beat; then "pick your year." and the ten bottles from $26.
 >
 > Attached: the reel (28 s, 9:16) and a music-free version. Yours to use if you like it.
+>
+> <your name> · <portfolio / Instagram>
+
+## OLAPLEX — "humidity vs your hair."
+
+**DM**
+> Hi! Frizz is a daily match against the weather, so I made a spec reel for Nº.7 as a live broadcast: humidity goes 3 – 0
+> up, then three drops and your unretouched before/after replays bring the hair back to win 3 – 4, on the lift of
+> "Abracadabra". 24 s, 9:16, built from your own films and claims. Yours to post if you like it.
+
+**Email** — Subject: humidity 3, your hair 4 (a Nº.7 reel I made for you)
+> Hi <name>,
+>
+> I made an unsolicited spec reel for Nº.7 Bonding Oil from OLAPLEX's own before/after films, creator clips and product
+> page.
+>
+> One idea: three drops and humidity loses. It plays as a live match. Humidity scores on three frizzy BEFOREs (3 – 0);
+> "until 3 drops."; the bottle; then your unretouched replays pull it back one point per after, each with its claim
+> (125% more shine*, 72-hour frizz control, 77% less breakage, footnoted); full time on the song's lift: "your hair
+> wins." Then Nº.7 Bonding Oil, $32, olaplex.com.
+>
+> Attached: the reel with a temp track (Lady Gaga, "Abracadabra") and a music-free version. Yours to use if you like it.
+>
+> <your name> · <portfolio / Instagram>
+
+## Glossier — "the (cashmere) sweatpants of lipstick."
+
+**DM**
+> Hi! You called Ultralip "the (cashmere) sweatpants of lipstick", so I made a spec reel that labels it like clothing: a
+> woven care tag sewn into the frame — composition: moisture of a balm, sheen of a gloss, colour of a tint; size: 9
+> shades; care: wear daily, live in it. 22 s, 9:16, from your own films. Yours to post if you like it.
+
+**Email** — Subject: lipstick, but make it sweatpants (an Ultralip reel I made for you)
+> Hi <name>,
+>
+> I made an unsolicited spec reel for Ultralip from Glossier's own application films, packshots and product page.
+>
+> The idea is your line: the (cashmere) sweatpants of lipstick. "lipstick, but make it sweatpants." — then a woven care
+> label drops in at the neckline and the reel reads it like clothes: composition (balm, gloss, tint, each with its
+> proof shot), size (one size, 9 shades, four skin tones), and on the chorus: care — "wear daily. live in it." It
+> ends on the tube and a hang tag: Ultralip, $22.
+>
+> Attached: the reel with a temp track (SZA, "Snooze") and a music-free version. Yours to use if you like it.
 >
 > <your name> · <portfolio / Instagram>
 

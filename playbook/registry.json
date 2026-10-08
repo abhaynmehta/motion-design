@@ -80,6 +80,16 @@
       "music": "Lady Gaga — Abracadabra",
       "ground": "dark",
       "smp": "Three drops and humidity loses."
+    },
+    {
+      "slug": "glossier-ultralip-spec",
+      "brand": "Glossier",
+      "device": "a garment care label sewn into the top of the frame: the lipstick is labelled like your favourite sweatpants (front: name, back: composition, size: shades), ending on a price hang tag",
+      "hook_type": "reframe",
+      "genre": "R&B",
+      "music": "SZA — Snooze",
+      "ground": "dark",
+      "smp": "The (cashmere) sweatpants of lipstick."
     }
   ]
 }

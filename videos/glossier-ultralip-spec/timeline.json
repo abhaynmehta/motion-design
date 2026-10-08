@@ -1,0 +1,122 @@
+{
+ "note": "BEATS on the Snooze preview grid (142.9 bpm, beat 0.4198 s, reel beat 0 = song beat 10 = 4.43 s in the preview; bars of 4 start on the kick). Story: lipstick, but make it sweatpants → the care label: Ultralip, the (cashmere) sweatpants of lipstick → composition: moisture of a balm, sheen of a gloss, colour of a tint → size: one size, 9 shades → on the chorus lift: you'll live in it → Ultralip $22 glossier.com.",
+ "title": "Glossier Ultralip — the (cashmere) sweatpants of lipstick (spec)",
+ "duration": 22.3,
+ "fps": 30,
+ "bpm": 142.93,
+ "formats": [
+  "9x16"
+ ],
+ "music": {
+  "source": "supplied",
+  "track": "SZA — \"Snooze\" (30 s iTunes preview from 4.43 s, temp track, never committed)",
+  "sections": []
+ },
+ "voiceover": null,
+ "marks": {
+  "hook": 0,
+  "w2": 2,
+  "label": 4,
+  "swipe2": 6,
+  "turn": 8,
+  "smp": 9,
+  "proof": 14,
+  "r1": 14.5,
+  "r2": 18,
+  "r3": 22,
+  "shades": 26,
+  "m2": 28,
+  "m3": 30,
+  "m4": 32,
+  "m5": 34,
+  "payoff": 36,
+  "pose": 40,
+  "cta": 44,
+  "tag": 45,
+  "logo": 46,
+  "done": 53.1
+ },
+ "sfx": [
+  {
+   "at": "label",
+   "type": "silk",
+   "gain": 0.45,
+   "what": "the woven label drops in at the neckline"
+  },
+  {
+   "at": 4.35,
+   "to": 5.2,
+   "every": 0.125,
+   "type": "tick",
+   "gain": 0.16,
+   "pitch": 1.4,
+   "what": "a burst of machine stitches sews it on"
+  },
+  {
+   "at": 13.72,
+   "type": "silk",
+   "gain": 0.35,
+   "what": "the label turns over: composition"
+  },
+  {
+   "at": "r1",
+   "type": "pop",
+   "gain": 0.3,
+   "what": "row: moisture of a balm"
+  },
+  {
+   "at": "r2",
+   "type": "pop",
+   "gain": 0.3,
+   "pitch": 1.12,
+   "what": "row: sheen of a gloss"
+  },
+  {
+   "at": 22.15,
+   "type": "pop",
+   "gain": 0.3,
+   "pitch": 1.25,
+   "what": "row: colour of a tint"
+  },
+  {
+   "at": 25.84,
+   "type": "silk",
+   "gain": 0.35,
+   "what": "the label turns over: size"
+  },
+  {
+   "at": 35.64,
+   "type": "silk",
+   "gain": 0.35,
+   "what": "the label turns over: care (on the chorus lift)"
+  },
+  {
+   "at": 43.55,
+   "type": "whoosh",
+   "gain": 0.28,
+   "what": "the label lifts, the film slides away, the tube rises"
+  },
+  {
+   "at": "cta",
+   "type": "thump",
+   "gain": 0.4,
+   "what": "the Ultralip tube lands"
+  },
+  {
+   "at": "tag",
+   "type": "silk",
+   "gain": 0.3,
+   "what": "the price tag swings in"
+  },
+  {
+   "at": 46.16,
+   "type": "chime",
+   "gain": 0.28,
+   "what": "Glossier."
+  }
+ ],
+ "mix": {
+  "music": 0,
+  "sfx": -9
+ }
+}

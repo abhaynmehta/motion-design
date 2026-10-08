@@ -1,0 +1,163 @@
+{
+ "note": "In/out in source seconds. Both films are Glossier's own Ultralip application videos from the product page (864x1080, 30 fps). Window shots: 1080x1110 crops for the frame under the care label; full: 9:16 full-bleed (hook and payoff). Every shot shows Ultralip on lips. In/out points sit inside the films' own edits (ffmpeg scdet: A cuts at 1.03 2.53 4.47 6.03 7.43 9.13 10.47 12.0 12.87; B at 0.67 1.4 1.77 2.9 4.17 4.9 7.37 10.17 11.53 13.67).",
+ "films": {
+  "A": "source/ultralip_1720c8.mp4",
+  "B": "source/ultralip_79381c.mp4"
+ },
+ "shots": {
+  "swipe": {
+   "film": "B",
+   "in": 4.95,
+   "out": 7.3,
+   "mode": "full",
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "extreme close-up: the pink Glossier. tube swipes Ultralip across her lips",
+   "category": "lip"
+  },
+  "swipe2": {
+   "film": "A",
+   "in": 4.5,
+   "out": 5.3,
+   "mode": "box",
+   "w": 1080,
+   "h": 1110,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.55,
+   "shows": "a second swipe of deep red Ultralip on her lower lip",
+   "category": "lip"
+  },
+  "hold": {
+   "film": "B",
+   "in": 11.6,
+   "out": 13.6,
+   "mode": "box",
+   "w": 1080,
+   "h": 1110,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she holds the Ultralip tube up by her cheek and smiles",
+   "category": "lip"
+  },
+  "press": {
+   "film": "B",
+   "in": 10.2,
+   "out": 11.45,
+   "mode": "box",
+   "w": 1080,
+   "h": 1110,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "a fingertip presses her soft, moisturised lower lip",
+   "category": "lip"
+  },
+  "sheen": {
+   "film": "A",
+   "in": 12.03,
+   "out": 12.83,
+   "mode": "box",
+   "w": 1080,
+   "h": 1110,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "glossy red lips catching the light",
+   "category": "lip"
+  },
+  "build": {
+   "film": "A",
+   "in": 7.5,
+   "out": 9.1,
+   "mode": "box",
+   "w": 1080,
+   "h": 1110,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "a second swipe builds the colour on her lips",
+   "category": "lip"
+  },
+  "m1": {
+   "film": "A",
+   "in": 9.17,
+   "out": 10.0,
+   "mode": "box",
+   "w": 1080,
+   "h": 1110,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "deep berry Ultralip going on, dark skin tone",
+   "category": "lip"
+  },
+  "m2": {
+   "film": "B",
+   "in": 2.95,
+   "out": 3.8,
+   "mode": "box",
+   "w": 1080,
+   "h": 1110,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "mauve-brown Ultralip going on, light skin tone",
+   "category": "lip"
+  },
+  "m3": {
+   "film": "A",
+   "in": 0.0,
+   "out": 0.85,
+   "mode": "box",
+   "w": 1080,
+   "h": 1110,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "sheer pink Ultralip, the Glossier. tube at her lips",
+   "category": "lip"
+  },
+  "m4": {
+   "film": "B",
+   "in": 4.2,
+   "out": 4.87,
+   "mode": "box",
+   "w": 1080,
+   "h": 1110,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "plum Ultralip going on, deep skin tone",
+   "category": "lip"
+  },
+  "smile": {
+   "film": "B",
+   "in": 14.5,
+   "out": 15.55,
+   "mode": "box",
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.56,
+   "shows": "she laughs with glossy berry lips, the tube by her cheek",
+   "category": "lip",
+   "w": 1080,
+   "h": 1110
+  },
+  "pose": {
+   "film": "A",
+   "in": 13.8,
+   "out": 15.25,
+   "mode": "box",
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.6,
+   "shows": "she tilts her head, glossy red lips, a small smile",
+   "category": "lip",
+   "w": 1080,
+   "h": 1110
+  }
+ }
+}
