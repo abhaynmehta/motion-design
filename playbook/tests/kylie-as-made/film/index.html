@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kylie Cosmetics Mood Stones</title>
+<style>
+  /* The site's own faces (kyliecosmetics.com theme assets; fetched by scripts/fetch_sources.sh, never committed):
+     Display = TT Chocolates (regular, demibold, italic) · UI = Univers LT Std Bold Condensed (labels, caps). */
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/tt-chocolate-400.woff2) format('woff2'); font-weight: 400; }
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/tt-chocolate-400-italic.woff2) format('woff2'); font-weight: 400; font-style: italic; }
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/tt-chocolate-600.woff2) format('woff2'); font-weight: 600; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/universltstd-bold-700.woff2) format('woff2'); font-weight: 700; }
+  :root {
+    /* measured on kyliecosmetics.com: page #F8F1F4, pink #EFD7E5, mauve #B3848F (accent), deep mauve #A06674, ink #393939 */
+    --paper: #F8F1F4; --pink: #EFD7E5; --mauve: #B3848F; --deep: #A06674; --ink: #393939; --night: #0E0B0C; --cream: #FFF8F4;
+    --accent: var(--deep); --bg: var(--paper);
+  }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; overflow: hidden; background: var(--paper); transform-origin: 0 0; color: var(--ink);
+           font-family: 'UI', 'Helvetica Neue', Arial, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .abs { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+  .display { font-family: 'Display', 'Helvetica Neue', Arial, sans-serif; font-weight: 400; letter-spacing: -0.035em; line-height: 0.98; white-space: nowrap; }
+  .demi { font-weight: 600; }
+  .it { font-style: italic; }
+  .ui { font-family: 'UI', Arial, sans-serif; font-weight: 700; line-height: 1.1; white-space: nowrap; }
+  .caps { text-transform: uppercase; letter-spacing: 0.22em; }
+  .line { position: absolute; overflow: hidden; padding: 0.1em 0.04em 0.2em; margin: -0.1em -0.04em 0; white-space: nowrap; }
+  .word { display: inline-block; }
+  .fill { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+  body.play { display: block; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="lib/motion.js"></script>
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script src="type.js"></script>
+<script src="shots.js"></script>
+<script src="footage.js"></script>
+<script src="film.js"></script>
+</body>
+</html>

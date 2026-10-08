@@ -16,6 +16,9 @@ import { spawn, spawnSync } from 'node:child_process';
 import { createRequire } from 'node:module';
 
 const ROOT = process.cwd();
+// The playbook gate (playbook/LESSONS.md): a final render refuses to start while preflight reports a FAIL, and the
+// finished file gets its pixel checks. Found by walking up from the project to the repo's playbook/.
+const GATE = (() => { let d = ROOT; for (let i = 0; i < 6; i++) { const g = path.join(d, 'playbook/tools/preflight.mjs'); if (fs.existsSync(g)) return g; d = path.dirname(d); } return null; })();
 const require = createRequire(path.join(ROOT, 'package.json'));
 let chromium;
 try { ({ chromium } = require('playwright')); } catch {
@@ -152,6 +155,10 @@ for (const fmt of FORMATS) {
       const f = path.join(dir, `t${t.toFixed(3)}.png`); fs.writeFileSync(f, await F.png(t)); console.log('wrote', path.relative(ROOT, f));
     }
   } else {
+    const FINAL = !DRAFT && !has('range');
+    if (FINAL && GATE && spawnSync('node', [GATE, ROOT], { stdio: 'inherit' }).status) {
+      console.error('\nfinal render blocked: fix the preflight FAILs above (or waive one in script.json with a reason)'); process.exit(1);
+    }
     const fps = +opt('fps', DRAFT ? 30 : F.FPS);
     const blur = !DRAFT && String(opt('blur', '1')) !== '0';
     const [a, b] = has('range') ? String(opt('range')).split(',').map(Number) : [0, F.DUR];
@@ -197,6 +204,7 @@ for (const fmt of FORMATS) {
     }
     p.stdin.end(); await done;
     console.log(`\nwrote ${path.relative(ROOT, out)}  ${N} frames @ ${fps} fps${blur ? '  sub-frames ' + JSON.stringify(hist) : ''}${withAudio ? '  + ' + path.relative(ROOT, AUDIO) : '  (silent)'}  ${((Date.now() - t0) / 1000).toFixed(0)}s`);
+    if (FINAL && GATE) { console.log('\npixel checks (playbook gate):'); spawnSync('node', [GATE, ROOT, '--render', out], { stdio: 'inherit' }); }
   }
   await F.page.close();
 }

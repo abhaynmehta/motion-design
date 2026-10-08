@@ -2,6 +2,11 @@
 
 Apply these in every project, including one with no CLAUDE.md. A project's CLAUDE.md wins where it is stricter.
 
+**Before these rules: the playbook.** `playbook/LESSONS.md` (L01–L14) is what went wrong in past reels and how not to
+repeat it. Every reel starts with `script.json` (`playbook/SCRIPT_METHOD.md`), tags its footage, and passes
+`node <repo>/playbook/tools/preflight.mjs .` — `render.mjs` refuses a final render while it reports a FAIL.
+Look and type: `playbook/LOOK.md`. Music: `playbook/MUSIC.md` (a real song first, cut to its drop).
+
 ## Render contract
 - The film is a pure function of time. `window.seek(t)` paints frame t, in any order, cold or after any other frame.
 - Render mode has no CSS transitions or animations, no `setTimeout`, no `requestAnimationFrame`, no `Date`, and no state carried between frames (no module variable mutated in `run()`).

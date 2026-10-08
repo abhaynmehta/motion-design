@@ -1,0 +1,12 @@
+{
+  "_help": "One entry per finished reel, newest last. preflight.mjs --register appends; the repeat checks (L11, L06) read it.",
+  "reels": [
+    { "slug": "kay-beauty-three-drops", "brand": "Kay Beauty", "device": "strips that open into each launch", "hook_type": "stat", "genre": "synth score", "music": "synthesised", "ground": "pale", "smp": "3 new drops" },
+    { "slug": "kylie-cosmetics-spec", "brand": "Kylie Cosmetics", "device": "stone-shaped window + clock", "hook_type": "tension", "genre": "smooth jazz", "music": "Mixkit Smooth Jazz", "ground": "pale", "smp": "one of each, obviously" },
+    { "slug": "rare-beauty-spec", "brand": "Rare Beauty", "device": "the dot window", "hook_type": "tension", "genre": "soft pop", "music": "Mixkit Thinking About You", "ground": "pale", "smp": "just a little" },
+    { "slug": "typsy-beauty-spec", "brand": "Typsy Beauty", "device": "a cafe menu and bill", "hook_type": "sensory", "genre": "pop", "music": "Mixkit Pop 05", "ground": "footage", "smp": "you can't eat this, but you can wear it" },
+    { "slug": "summer-fridays-spec", "brand": "Summer Fridays", "device": "meme photo + product shelf", "hook_type": "meme", "genre": "pop", "music": "Mixkit Cherry on Top", "ground": "pale", "smp": "nobody owns just one" },
+    { "slug": "rhode-lip-day-spec", "brand": "rhode", "device": "workout HUD + kinetic words in a window", "hook_type": "pun", "genre": "house", "music": "Mixkit Swish Swed", "ground": "pale", "smp": "never skip lip day" },
+    { "slug": "sol-de-janeiro-spec", "brand": "Sol de Janeiro", "device": "split-flap departures board", "hook_type": "pun", "genre": "bossa nova", "music": "Mixkit Latin Lovers", "ground": "colour", "smp": "every number is a year in rio" }
+  ]
+}

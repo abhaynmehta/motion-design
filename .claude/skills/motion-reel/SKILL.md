@@ -18,12 +18,20 @@ Fill `brief.md` (template in `templates/`). Required inputs:
 - formats
 - brand colours and fonts (default: measured from the site)
 - reference film (optional)
-- music: a supplied file or `synth`
+- music: a real song (supplied, or a 30 s preview via the iTunes Search API — `playbook/MUSIC.md`); stock/synth only if the user asks
 - voiceover: Fish Audio (voice) or none
 
 If the user names a preset, apply it in step 1. `--preset <name>` looks in the project's `presets/` first, then in this skill's own `presets/` (`blank`, `lukas-yt`, plus any the user added): it fills the brand, colours, fonts, timeline defaults, voiceover and house notes. Then ask only for what it left as `?`.
 
 Ask for every missing input in ONE AskUserQuestion round. Use a default only where the user says "your call".
+
+## 0b. Script before anything else (playbook)
+Read `playbook/AUDIT.md` (what went wrong before) and `playbook/LESSONS.md`. Then research the product and write
+`script.json` (template copied by init from `playbook/templates/script.json`; method in `playbook/SCRIPT_METHOD.md`):
+audience, insight, ONE single-minded proposition, story shape, beats with says / shows / serves, claims with sources,
+the song and its drop, the look (footage, dark or colour ground — not pale). Tag every shot in `shots.json` with
+`shows` and `category`. Run `node <repo>/playbook/tools/preflight.mjs .` until the script-level checks pass, before
+designing a single frame.
 
 ## 1. Scaffold
 ```
@@ -47,7 +55,7 @@ ffmpeg -i ref.mp4 -vf "select='gt(scene,0.3)',showinfo" -f null - 2>&1 | grep pt
 Write `docs/style_guide.md` from the template: palette (measured hex and source), type, rhythm (the reference's measured shot table), transitions, camera, texture, text in/out, and sound. Take the reference's grammar, never its content.
 
 ## 4. Beat grid
-Set the bpm, duration and marks in `timeline.json`. Then:
+Pick the song first (`playbook/MUSIC.md`) and find its grid and drop: `python3 <repo>/playbook/tools/find_drop.py audio/track/<song>`. The turn/reveal sits on the drop. Set the bpm, duration and marks in `timeline.json`. Then:
 - **Synth music:** `python3 scripts/music.py`, then `python3 scripts/beats.py audio/music.wav --stem audio/drums.wav`.
 - **Supplied music:** copy it to `audio/music.wav`, then `python3 scripts/beats.py audio/music.wav`.
 
@@ -84,10 +92,10 @@ Each round:
 4. **Critic:** spawn a fresh subagent with `reference/CRITIQUE.md`, the project path and N. It LOOKS at every sheet and strip, scores the 8 criteria with evidence, and appends the round to `docs/review_log.md`.
 5. Fix the 3 worst problems, verify each fix with stills or clips, and log what changed.
 
-Stop only when the verdict is SHIP: every score ≥ 8 and at least 3 rounds done. Never show the user a film before that.
+Stop only when the verdict is SHIP: the stranger test passes, every score ≥ 8, and at least 3 rounds done. Never show the user a film before that.
 
 ## 9. Final render, SFX, mix, all formats
-1. **Render** the primary format: `node scripts/render.mjs` (60 fps, adaptive 180° motion blur). Watch it via `review.py` on the final: `python3 scripts/review.py final`.
+1. **Render** the primary format: `node scripts/render.mjs` (60 fps, adaptive 180° motion blur). It runs the playbook gate first and refuses on a FAIL; afterwards it prints the pixel checks (pale canvas, picture energy). When clean, register the reel: `node <repo>/playbook/tools/preflight.mjs . --register`. Watch it via `review.py` on the final: `python3 scripts/review.py final`.
 2. **SFX:** re-check `metrics.sync` on the final. Nudge marks or gains in `timeline.sfx`, then run `sync.mjs` and `sfx.mjs`.
 3. **Mix:** `python3 scripts/mix.py`. It must reach -14 LUFS with true peak ≤ -1 dBTP and print no WARNING.
 4. **All formats:** `node scripts/render.mjs --all` (or `--mux --all` if only the audio changed). Run `python3 scripts/review.py final` again and look at every `phone_*.jpg` and `safe_9x16.jpg`.

@@ -1,0 +1,28 @@
+{
+  "_help": "Fill BEFORE any design. playbook/SCRIPT_METHOD.md explains each field; playbook/tools/preflight.mjs checks it. Times in seconds.",
+  "brand": "",
+  "url": "",
+  "product": { "name": "", "short": "", "category": "fragrance | lip | face | skin | body | hair | eyes | nails | tool", "price": "", "where": "" },
+  "range": [],
+  "range_reason": "",
+  "audience": "one person, in a sentence",
+  "insight": "a true, slightly uncomfortable observation about that person",
+  "smp": "the ONE thing the reel must land, one sentence, <= 14 words",
+  "shape": "tension-release | demo | before-after | reframe | desire | pov",
+  "hook_type": "tension | meme | result | sensory | pun | question | stat",
+  "device": "the visual idea that delivers the SMP (one world for the whole reel)",
+  "device_why": "why this device IS the message, in a sentence",
+  "recall": { "what": "product name as a stranger would say it", "does": "what it does for them", "why": "why they should care" },
+  "claims": [ { "text": "", "source": "url or 'product page: <url>'" } ],
+  "small_ok": [ "texts allowed below 44 px: legal lines, sources" ],
+  "music": { "title": "", "artist": "", "source": "song | supplied", "genre": "", "bpm": 0, "song_start_s": 0, "drop_at_s": 0, "why": "" },
+  "look": { "ground": "footage | dark | colour | pale", "bg": "#000000", "why": "" },
+  "beats": [
+    { "id": "hook", "role": "hook", "from": 0, "to": 3, "says": "", "shows": "", "tags": ["product"], "shots": [], "serves": "" },
+    { "id": "turn", "role": "turn", "from": 3, "to": 8, "says": "", "shows": "", "tags": [], "shots": [], "serves": "" },
+    { "id": "proof", "role": "proof", "from": 8, "to": 16, "says": "", "shows": "", "tags": ["demo"], "shots": [], "serves": "" },
+    { "id": "payoff", "role": "payoff", "from": 16, "to": 22, "says": "", "shows": "", "tags": [], "shots": [], "serves": "" },
+    { "id": "cta", "role": "cta", "from": 22, "to": 25, "says": "", "shows": "", "tags": ["product"], "shots": [], "serves": "" }
+  ],
+  "waivers": {}
+}

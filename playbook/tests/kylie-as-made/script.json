@@ -1,0 +1,136 @@
+{
+ "brand": "Kylie Cosmetics",
+ "url": "https://kyliecosmetics.com",
+ "product": {
+  "name": "Mood Stones eau de parfum",
+  "short": "mood stones",
+  "category": "fragrance",
+  "price": "",
+  "where": "kyliecosmetics.com"
+ },
+ "range": [
+  "Cashmere Muse",
+  "Blush Wood",
+  "Velvet Brew"
+ ],
+ "range_reason": "",
+ "audience": "",
+ "insight": "you're not the same girl at 8 am as at 11 pm",
+ "smp": "you're not the same girl at 8 am as you are at 11 pm, so why wear the same scent?",
+ "shape": "desire",
+ "hook_type": "tension",
+ "device": "stone-shaped window + clock",
+ "device_why": "the stone shape echoes the bottles",
+ "recall": {
+  "what": "Mood Stones eau de parfum",
+  "does": "three scents for three moods of the day",
+  "why": "match your scent to your mood"
+ },
+ "claims": [
+  {
+   "text": "bergamot, mandarin blossom",
+   "source": "product page"
+  }
+ ],
+ "small_ok": [],
+ "music": {
+  "title": "Smooth Jazz",
+  "artist": "Mixkit",
+  "source": "stock",
+  "genre": "smooth jazz",
+  "bpm": 67.5,
+  "song_start_s": 0,
+  "drop_at_s": 0,
+  "why": ""
+ },
+ "look": {
+  "ground": "pale",
+  "bg": "#F6EFEF",
+  "why": ""
+ },
+ "beats": [
+  {
+   "id": "hook",
+   "role": "hook",
+   "from": 0,
+   "to": 5.3,
+   "says": "you're not the same girl at 8 am as you are at 11 pm, so why wear the same scent?",
+   "shows": "eye crop, then the stacked bottles",
+   "tags": [
+    "person"
+   ],
+   "shots": [
+    "eyes",
+    "stack"
+   ],
+   "serves": "sets up moods"
+  },
+  {
+   "id": "am",
+   "role": "turn",
+   "from": 5.3,
+   "to": 12.5,
+   "says": "8:00 am cashmere muse. soft, clean, a quiet escape.",
+   "shows": "bottle at sea, lime, rocks, hands, stone",
+   "tags": [],
+   "shots": [
+    "csea",
+    "clime",
+    "crocks",
+    "bhands",
+    "bclose",
+    "cpalms",
+    "ctrio"
+   ],
+   "serves": "morning scent"
+  },
+  {
+   "id": "pm",
+   "role": "turn",
+   "from": 12.5,
+   "to": 19.6,
+   "says": "3:00 pm blush wood. warm skin, a little flirty.",
+   "shows": "Kylie applying blush, rose, rocks, bottle",
+   "tags": [],
+   "shots": [
+    "kblush",
+    "brose",
+    "brocks",
+    "bbottle"
+   ],
+   "serves": "afternoon scent"
+  },
+  {
+   "id": "night",
+   "role": "payoff",
+   "from": 19.6,
+   "to": 27,
+   "says": "11:00 pm velvet brew. bold, smooth, a little mysterious.",
+   "shows": "bottle, coffee, jelly, Kylie selfie, tea",
+   "tags": [],
+   "shots": [
+    "vhand",
+    "vrocks",
+    "coffee",
+    "plum",
+    "khair",
+    "tea"
+   ],
+   "serves": "night scent"
+  },
+  {
+   "id": "end",
+   "role": "cta",
+   "from": 27,
+   "to": 30.5,
+   "says": "three moods. one of each, obviously.",
+   "shows": "three thumbnails on cream, logo",
+   "tags": [
+    "product"
+   ],
+   "shots": [],
+   "serves": "close"
+  }
+ ],
+ "waivers": {}
+}

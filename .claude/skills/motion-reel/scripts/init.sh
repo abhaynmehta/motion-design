@@ -23,6 +23,8 @@ cp "$SKILL"/engine/lib/motion.js "$SKILL"/engine/lib/motion.test.js "$DEST"/film
 for f in render.mjs sync.mjs sfx.mjs capture.mjs beats.py music.py vo.py mix.py review.py preset.mjs; do cp "$SKILL/scripts/$f" "$DEST/scripts/"; done
 cp "$SKILL"/templates/brief.md "$SKILL"/templates/timeline.json "$DEST"/
 cp "$SKILL"/templates/docs/*.md "$DEST"/docs/
+# the playbook script template (repo root playbook/), the first thing every reel fills in
+for P in "$SKILL/../../../playbook/templates/script.json" "playbook/templates/script.json"; do [ -f "$P" ] && { cp "$P" "$DEST"/script.json; break; }; done
 date -u +"created %Y-%m-%dT%H:%M:%SZ by motion-reel init" > "$DEST"/.owner
 
 [ -n "$PRESET" ] && node "$SKILL"/scripts/preset.mjs "$PRESET" "$DEST"

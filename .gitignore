@@ -108,3 +108,8 @@ videos/sol-de-janeiro-spec/.mp/
 videos/*/review/rfinal/
 videos/*/review/strip_*.jpg
 videos/*/review/source_sheet.jpg
+
+# copyrighted songs used as temp tracks for pitches: never committed (playbook/MUSIC.md)
+videos/*/audio/track/
+videos/*/audio/song*
+videos/*/renders/*_song*.mp4

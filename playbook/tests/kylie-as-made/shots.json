@@ -1,0 +1,183 @@
+{
+ "note": "In/out points in source seconds (cuts found with ffmpeg scene detection). size 1920 = opens to full frame.",
+ "films": {
+  "vb": "source/velvet-brew-eau-de-parfum_035ec5.mp4",
+  "cm": "source/cashmere-muse-eau-de-parfum_bdaaba.mp4",
+  "bw": "source/blush-wood-eau-de-parfum_57af81.mp4",
+  "kb": "source/home_aedd9c.mp4",
+  "kh": "source/kylies-oscars-2026-look-bundle_a25cc7.mp4"
+ },
+ "shots": {
+  "eyes": {
+   "film": "vb",
+   "in": 2.0,
+   "out": 3.76,
+   "mode": "square",
+   "size": 1080,
+   "shows": "extreme close-up of Kylie's eye (reads as an eye-makeup tutorial)",
+   "category": "neutral"
+  },
+  "stack": {
+   "film": "vb",
+   "in": 3.84,
+   "out": 5.48,
+   "mode": "square",
+   "size": 1080,
+   "shows": "the three Mood Stones bottles stacked like pebbles",
+   "category": "fragrance"
+  },
+  "csea": {
+   "film": "cm",
+   "in": 4.0,
+   "out": 6.46,
+   "mode": "square",
+   "size": 1920,
+   "shows": "a hand holding Cashmere Muse against the sea",
+   "category": "fragrance"
+  },
+  "clime": {
+   "film": "cm",
+   "in": 7.08,
+   "out": 8.15,
+   "mode": "square",
+   "size": 1920,
+   "shows": "a sliced lime (notes)",
+   "category": "neutral"
+  },
+  "crocks": {
+   "film": "cm",
+   "in": 1.08,
+   "out": 2.31,
+   "mode": "square",
+   "size": 1920,
+   "shows": "woman on rocks, black and white",
+   "category": "neutral"
+  },
+  "cpalms": {
+   "film": "cm",
+   "in": 11.25,
+   "out": 12.56,
+   "mode": "square",
+   "size": 1920,
+   "shows": "palms",
+   "category": "neutral"
+  },
+  "ctrio": {
+   "film": "cm",
+   "in": 12.62,
+   "out": 15.7,
+   "mode": "square",
+   "size": 1920,
+   "shows": "three bottles",
+   "category": "fragrance"
+  },
+  "bhands": {
+   "film": "bw",
+   "in": 3.84,
+   "out": 5.02,
+   "mode": "square",
+   "size": 1080,
+   "shows": "hands holding stones, black and white",
+   "category": "neutral"
+  },
+  "bclose": {
+   "film": "bw",
+   "in": 5.08,
+   "out": 5.94,
+   "mode": "square",
+   "size": 1920,
+   "shows": "a stone close-up",
+   "category": "fragrance"
+  },
+  "kblush": {
+   "film": "kb",
+   "in": 3.14,
+   "out": 4.62,
+   "mode": "square",
+   "size": 1920,
+   "shows": "Kylie pressing blush onto her cheek with a puff",
+   "category": "face"
+  },
+  "brose": {
+   "film": "bw",
+   "in": 14.0,
+   "out": 14.78,
+   "mode": "square",
+   "size": 1920,
+   "shows": "a rose (notes)",
+   "category": "neutral"
+  },
+  "brocks": {
+   "film": "bw",
+   "in": 2.58,
+   "out": 3.77,
+   "mode": "square",
+   "size": 1920,
+   "shows": "woman on rocks",
+   "category": "neutral"
+  },
+  "bbottle": {
+   "film": "bw",
+   "in": 11.8,
+   "out": 12.52,
+   "mode": "square",
+   "size": 1920,
+   "shows": "Blush Wood bottle on rocks",
+   "category": "fragrance"
+  },
+  "vhand": {
+   "film": "vb",
+   "in": 7.57,
+   "out": 8.82,
+   "mode": "square",
+   "size": 1080,
+   "shows": "hand holding Velvet Brew",
+   "category": "fragrance"
+  },
+  "vrocks": {
+   "film": "vb",
+   "in": 13.88,
+   "out": 15.85,
+   "mode": "square",
+   "size": 1920,
+   "shows": "Velvet Brew on sand",
+   "category": "fragrance"
+  },
+  "coffee": {
+   "film": "vb",
+   "in": 7.02,
+   "out": 7.53,
+   "mode": "square",
+   "size": 1920,
+   "shows": "coffee pour (notes)",
+   "category": "neutral"
+  },
+  "plum": {
+   "film": "vb",
+   "in": 8.86,
+   "out": 10.24,
+   "mode": "square",
+   "size": 1920,
+   "shows": "a red jelly (notes)",
+   "category": "neutral"
+  },
+  "khair": {
+   "film": "kh",
+   "in": 1.55,
+   "out": 3.65,
+   "mode": "square",
+   "size": 1080,
+   "shows": "Kylie's Oscars makeup look selfie (a makeup bundle film)",
+   "category": "face"
+  },
+  "tea": {
+   "film": "vb",
+   "in": 16.3,
+   "out": 17.92,
+   "mode": "square",
+   "size": 1080,
+   "shows": "red tea (notes)",
+   "category": "neutral"
+  }
+ }
+}
