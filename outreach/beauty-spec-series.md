@@ -1,8 +1,8 @@
 # Beauty spec series — outreach pack
 
-Eleven 9:16 reels, each made **only from the brand's own public content** (product films, campaign clips, packshots and
+Twelve 9:16 reels (eleven beauty and fashion, plus Mokobara travel gear), each made **only from the brand's own public content** (product films, campaign clips, packshots and
 product-page copy on its website), with the brand's fonts (or the closest open font where theirs is licensed), colours
-and logo, a written script, a designed device and a synced sound mix. All eleven are **unsolicited spec work**: not
+and logo, a written script, a designed device and a synced sound mix. All twelve are **unsolicited spec work**: not
 affiliated with or endorsed by the brands. Footage, photos and logos belong to the brands.
 
 | # | Brand | Reel | Length | Idea in one line | Device | Music (guide) |
@@ -18,6 +18,7 @@ affiliated with or endorsed by the brands. Footage, photos and logos belong to t
 | 09 | Glossier | "the (cashmere) sweatpants of lipstick." | 22.3 s | Lipstick, but make it sweatpants: balm + gloss + tint, in one. You'll live in it. | a woven care label sewn into the frame (name, composition, size, care) and a price hang tag | temp: SZA "Snooze" (R&B) |
 | 10 | Minimalist (India) | "50 likha. 56.6 nikla." | 22 s | SPF 50 on the label, 56.6 in the lab. (Hinglish) | a lab readout that climbs on the build, freezes on the song's stop, locks past the 50 on the slam | temp: Karan Aujla "Tauba Tauba" |
 | 11 | Underneat (India, Kusha Kapila) | "roll down? aaj nahi." | 20.9 s | Shapewear that stays up. (Hinglish) | a coral waistband band: the words roll off it until the tiny loop clips it up | temp: "Shararat" (Dhurandhar) |
+| 12 | Mokobara (India, travel) | "time spent digging: 0 seconds." | 17.6 s | In the Transit Z, time spent digging is zero seconds. (Hinglish) | a zip: a torch hunts in a black bag, a zip rips it into Mokobara yellow, every compartment zips open to its item, 0 SEC each | temp: Hanumankind & Kalmi "Big Dawgs" |
 
 Files: `videos/<project>/renders/9x16.mp4` (music + SFX, −14 LUFS) and `9x16_sfx-only.mp4` (SFX only, so a trending song can
 be added in Instagram). The Mixkit tracks (02–04) are free for video use under the Mixkit Stock Music Free License; Kay Beauty’s score is synthesised in code.
@@ -244,6 +245,27 @@ project's `docs/music_cue.md`). `renders/9x16.mp4` is the SFX-only version.
 > reel is a waistband: a coral band carries every line, and while gravity wins the words sag and roll off it. On the
 > drop of "Shararat" the tiny loop clips on, the band locks, and from then on nothing moves — ending in the fitted dress
 > and ₹1,999, XS to 5XL. Your film's own captions sit under the band, so it reads as one piece.
+>
+> Attached: the reel with a temp track and a music-free version. Yours to use if you like it.
+>
+> <your name> · <portfolio / Instagram>
+
+## Mokobara — "time spent digging: 0 seconds."
+
+**DM**
+> Hi! Your Transit Z film says "time spent digging = 0 seconds", so I made a spec reel around it: it opens inside a
+> black bag — laptop at 2 %, "charger kahan hai?", a torch hunting — and on the 808 of "Big Dawgs" a zip rips it open
+> into Mokobara yellow. Every compartment then zips open to its item, 0 SEC each. 18 s, from your own product films. Yours
+> if you like it.
+
+**Email** — Subject: time spent digging: 0 seconds (a Transit Z reel I made for you)
+> Hi <name>,
+>
+> I made an unsolicited spec reel for the Transit Z Backpack from Mokobara's own product films. It starts with the moment
+> every laptop-carrier knows — battery at 2 %, hand lost in a black bag — then a zip rips the dark open into your yellow,
+> and the charger, cards, keys and phone each come out of their own pocket in 0 seconds. Every shot is keyed off its
+> studio white onto Mokobara yellow, so the reel lives inside the lining; it ends on your own line, "time spent digging:
+> 0 seconds", and ₹6,299.
 >
 > Attached: the reel with a temp track and a music-free version. Yours to use if you like it.
 >

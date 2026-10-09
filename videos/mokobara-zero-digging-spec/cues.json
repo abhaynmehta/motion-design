@@ -1,0 +1,151 @@
+{
+ "sr": 48000,
+ "duration": 17.6,
+ "measured": true,
+ "cues": [
+  {
+   "t": 0.025,
+   "type": "click",
+   "gain": 0.35,
+   "pitch": 0.7,
+   "pan": -0.022,
+   "beat": 0.05,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "torch clicks on"
+  },
+  {
+   "t": 2.33,
+   "type": "rip",
+   "gain": 0.8,
+   "pitch": 0.977,
+   "pan": 0.081,
+   "beat": 4.66,
+   "mark": "rip",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the zip rips the dark open (on the 808)"
+  },
+  {
+   "t": 4.65,
+   "type": "click",
+   "gain": 0.4,
+   "pitch": 1,
+   "pan": 0.059,
+   "beat": 9.3,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "charger: 0 SEC (a stopwatch stopped at zero)"
+  },
+  {
+   "t": 5,
+   "type": "zip",
+   "gain": 0.55,
+   "pitch": 0.958,
+   "pan": -0.139,
+   "beat": 10,
+   "mark": "cards",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "card holder zips open"
+  },
+  {
+   "t": 5.6,
+   "type": "click",
+   "gain": 0.4,
+   "pitch": 1.05,
+   "pan": 0.091,
+   "beat": 11.2,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "cards: 0 SEC"
+  },
+  {
+   "t": 6.165,
+   "type": "zip",
+   "gain": 0.55,
+   "pitch": 1.08,
+   "pan": 0.151,
+   "beat": 12.33,
+   "mark": "keys",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "key holder zips open"
+  },
+  {
+   "t": 7.15,
+   "type": "click",
+   "gain": 0.4,
+   "pitch": 1.1,
+   "pan": -0.103,
+   "beat": 14.3,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "chaabi: 0 SEC"
+  },
+  {
+   "t": 7.665,
+   "type": "zip",
+   "gain": 0.55,
+   "pitch": 0.94,
+   "pan": -0.229,
+   "beat": 15.33,
+   "mark": "phone",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "magnetic pocket zips open"
+  },
+  {
+   "t": 8.5,
+   "type": "click",
+   "gain": 0.4,
+   "pitch": 1.15,
+   "pan": -0.217,
+   "beat": 17,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "phone: 0 SEC"
+  },
+  {
+   "t": 9.33,
+   "type": "zip",
+   "gain": 0.55,
+   "pitch": 1.12,
+   "pan": 0.06,
+   "beat": 18.66,
+   "mark": "shut",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "zipped shut"
+  },
+  {
+   "t": 11.5,
+   "type": "thump",
+   "gain": 0.55,
+   "pitch": 0.987,
+   "pan": -0.193,
+   "beat": 23,
+   "mark": "zero",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the 0 lands"
+  },
+  {
+   "t": 13.5,
+   "type": "zip",
+   "gain": 0.5,
+   "pitch": 0.9,
+   "pan": -0.16,
+   "beat": 27,
+   "mark": "cta",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "end card zips open"
+  }
+ ]
+}

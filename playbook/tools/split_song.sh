@@ -19,4 +19,7 @@ ffmpeg -v error -y -i "renders/${F}_song.mp4" -i audio/sfx.wav -map 0:v -map 1:a
   -af "loudnorm=I=-14:TP=-1:LRA=11:$M:linear=true,aresample=48000" -c:a aac -b:a 192k -shortest -movflags +faststart "renders/$F.mp4"
 touch "renders/.$F.split"
 echo "renders/${F}_song.mp4 (song, gitignored) · renders/$F.mp4 (SFX only)"
-ffmpeg -v info -i "renders/$F.mp4" -af ebur128 -f null - 2>&1 | grep -E "^\s+I:" | tail -1
+I=$(ffmpeg -v info -i "renders/$F.mp4" -af ebur128 -f null - 2>&1 | grep -E "^\s+I:" | tail -1 | awk '{print $2}')
+echo "SFX-only loudness: $I LUFS"
+# linear gain is bound by the true peak: very sparse SFX (a few clicks and zips) land below -14 rather than being crushed
+python3 -c "import sys; sys.exit(0 if float('$I') >= -15 else 1)" || echo "note: sparse SFX stay below -14 LUFS under linear gain (true-peak bound); the song cut is the -14 reference"

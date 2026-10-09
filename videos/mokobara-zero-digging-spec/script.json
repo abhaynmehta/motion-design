@@ -1,0 +1,147 @@
+{
+  "brand": "Mokobara",
+  "url": "https://www.mokobara.com/products/transit-z-backpack",
+  "product": {
+    "name": "Transit Z Backpack",
+    "short": "transit z",
+    "category": "backpack",
+    "price": "₹6,299",
+    "where": "mokobara.com"
+  },
+  "range": [],
+  "range_reason": "",
+  "audience": "A 27-year-old designer in Bengaluru who works out of cafés and airport lounges, lives out of one backpack, and whose laptop always dies at 2 %.",
+  "insight": "The charger is always in the bag, just never where the hand goes: a black bag is a black hole, and you dig through it blind while the battery hits 2 %.",
+  "smp": "In the Transit Z, time spent digging is zero seconds.",
+  "shape": "demo",
+  "hook_type": "tension",
+  "device": "zips: in the dark of a black-hole bag a torch beam hunts for the charger; on the bass a zip rips the dark open into Mokobara yellow, and each compartment then opens with its own zip and its item is found in 0 sec",
+  "device_why": "the product's whole promise is compartments you unzip and find things in at once, so every cut is a zip opening one compartment, and the dark-to-yellow rip is the lining itself",
+  "recall": {
+    "what": "Mokobara Transit Z Backpack",
+    "does": "its own pocket for the charger, cards, keys and phone: 0 sec digging",
+    "why": "you find anything in the bag instantly, even when the laptop is at 2 %"
+  },
+  "claims": [
+    {
+      "text": "Time spent digging = 0 seconds; the suspended charger pocket helps you find your tech essentials ASAP, so you can plug in your laptop before it dies",
+      "source": "Mokobara's own Transit Z film (product page video, cdn.shopify.com …90428710.mp4)"
+    },
+    {
+      "text": "front bucket compartment with a key holder and cardholder",
+      "source": "product description: https://www.mokobara.com/products/transit-z-backpack"
+    },
+    {
+      "text": "secret magnetic pocket for passport, boarding pass and cellphone",
+      "source": "product description: https://www.mokobara.com/products/transit-z-backpack"
+    },
+    {
+      "text": "₹6,299; 30 litres; fits up to a 15.6-inch laptop",
+      "source": "mokobara.com/products/transit-z-backpack.js (price 629900 paise; description)"
+    }
+  ],
+  "small_ok": [],
+  "music": {
+    "title": "Big Dawgs",
+    "artist": "Hanumankind & Kalmi",
+    "source": "song",
+    "genre": "Indian hip-hop",
+    "bpm": 120,
+    "song_start_s": 0.032,
+    "drop_at_s": 2.33,
+    "why": "the Kerala rapper's global Reels anthem: a swaggering track for a bag that has its life sorted; the preview's quiet open gives the dark hook 2.3 s, then the 808 lands exactly when the zip rips the dark open"
+  },
+  "look": {
+    "ground": "colour",
+    "bg": "#F7C443",
+    "why": "Mokobara's own yellow (measured off its mailer box): the colour of the Transit Z lining, so the whole reel lives inside the bag; the hook alone is black (the black-hole bag), and every shot is keyed off its white studio sweep onto the yellow"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "role": "hook",
+      "from": 0,
+      "to": 2.33,
+      "says": "laptop: 2%. charger kahan hai?",
+      "shows": "cold open in the dark: a giant yellow 2%; a torch beam hunts across a black backpack and lands on the hands at its zip",
+      "tags": [
+        "tension",
+        "product"
+      ],
+      "shots": [
+        "zip"
+      ],
+      "serves": "the moment everyone with a laptop has lived: battery dying, hand lost in a black bag"
+    },
+    {
+      "id": "reveal",
+      "role": "reveal",
+      "from": 2.33,
+      "to": 5.0,
+      "says": "charger: 0 sec.",
+      "shows": "on the 808 the zip rips the dark open into yellow; the lid flips open; a hand pulls the charger out of its own pocket in one move",
+      "tags": [
+        "product",
+        "demo"
+      ],
+      "shots": [
+        "open",
+        "charger",
+        "charger2"
+      ],
+      "serves": "answers the hook at once: the charger has its own suspended pocket"
+    },
+    {
+      "id": "proof",
+      "role": "proof",
+      "from": 5.0,
+      "to": 10.5,
+      "says": "cards. chaabi. phone. 0 sec each.",
+      "shows": "each compartment zips open: a card goes into the card holder, a hand closes on the keys hanging from the key holder, the phone slides into the secret magnetic pocket; then the bag zips shut: sab sorted",
+      "tags": [
+        "demo",
+        "in-use"
+      ],
+      "shots": [
+        "cards",
+        "keys",
+        "phone",
+        "shut"
+      ],
+      "serves": "proves it is not one trick pocket: everything has its own place"
+    },
+    {
+      "id": "payoff",
+      "role": "payoff",
+      "from": 10.5,
+      "to": 13.5,
+      "says": "time spent digging: 0 seconds.",
+      "shows": "the zipped-shut Transit Z alone on yellow, front then three-quarters back; a giant 0",
+      "tags": [
+        "result",
+        "product"
+      ],
+      "shots": [
+        "pack",
+        "pack3"
+      ],
+      "serves": "lands the SMP in Mokobara's own words"
+    },
+    {
+      "id": "cta",
+      "role": "cta",
+      "from": 13.5,
+      "to": 17.0,
+      "says": "Transit Z Backpack · ₹6,299 · mokobara.com",
+      "shows": "the Transit Z packshot, the mokobara logo, the name, the price, the site",
+      "tags": [
+        "product"
+      ],
+      "shots": [
+        "pack2"
+      ],
+      "serves": "what to buy, what it costs, where"
+    }
+  ],
+  "waivers": {}
+}

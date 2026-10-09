@@ -1,0 +1,266 @@
+{
+ "note": "In/out in source seconds, inside the films' own edits (scdet). A = Mokobara's Transit Z product film (black colourway, 810x1080, 24 fps); C = its 'Time spent digging = 0 seconds' charger-pocket film (900x1080). Every shot keeps the full source width at 1.33x (A) or 1.2x (C) (playbook L16) and drops the burned-in labels by cropping rows: A's labels sit in rows 105-130 and 955-1000, C's caption in rows 85-180. scripts/prep_key.py then keys the white studio sweep out (contact shadows kept) and bakes each frame onto the reel's ground; 'rgba' shots keep the alpha so type can sit behind the bag. 'protect' = MediaPipe magic-touch keypoints (x, y in the output frame) on white things the key would eat (the phone); 'feather' fades a cut edge into the ground.",
+ "films": {
+  "A": "source/transit-z-backpack_4b89c6.mp4",
+  "C": "source/transit-z-backpack_41cf79.mp4"
+ },
+ "shots": {
+  "zip": {
+   "film": "A",
+   "in": 9.75,
+   "out": 10.42,
+   "mode": "box",
+   "w": 1080,
+   "h": 1440,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "key": {
+    "ground": "#0F0E0D"
+   },
+   "shows": "close-up: hands at the black Transit Z's front zip pull, starting to unzip",
+   "category": "backpack"
+  },
+  "open": {
+   "film": "A",
+   "in": 11.27,
+   "out": 11.9,
+   "mode": "box",
+   "w": 1080,
+   "h": 1253,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.4352,
+   "key": {
+    "ground": "#F7C443"
+   },
+   "shows": "the front bucket lid flips open: yellow lining floods out",
+   "category": "backpack"
+  },
+  "charger": {
+   "film": "C",
+   "in": 0.02,
+   "out": 0.94,
+   "mode": "box",
+   "w": 1080,
+   "h": 1056,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5926,
+   "key": {
+    "ground": "#F7C443",
+    "grow": 150,
+    "protect": [
+     [
+      0.42,
+      0.5
+     ]
+    ],
+    "holes": [
+     0.65,
+     0.3,
+     1.0,
+     1.0
+    ]
+   },
+   "shows": "a hand unzips the tech compartment: the suspended charger pocket opens",
+   "category": "backpack"
+  },
+  "charger2": {
+   "film": "C",
+   "in": 0.98,
+   "out": 1.44,
+   "mode": "box",
+   "w": 1080,
+   "h": 1056,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5926,
+   "key": {
+    "ground": "#F7C443",
+    "grow": 150,
+    "protect": [
+     [
+      0.42,
+      0.5
+     ]
+    ],
+    "holes": [
+     0.65,
+     0.3,
+     1.0,
+     1.0
+    ]
+   },
+   "shows": "the hand takes the charger out of its pocket (the film's put-it-in shot, played in reverse)",
+   "category": "backpack"
+  },
+  "cards": {
+   "film": "A",
+   "in": 11.95,
+   "out": 12.55,
+   "mode": "box",
+   "w": 1080,
+   "h": 1253,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5648,
+   "key": {
+    "ground": "#F7C443",
+    "feather": {
+     "top": 90
+    },
+    "grow": 60,
+    "protect": [
+     [
+      0.5,
+      0.88
+     ]
+    ]
+   },
+   "shows": "a hand slides a card wallet into the card holder in the yellow front bucket",
+   "category": "backpack"
+  },
+  "keys": {
+   "film": "A",
+   "in": 20.36,
+   "out": 21.0,
+   "mode": "box",
+   "w": 1080,
+   "h": 1253,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5648,
+   "key": {
+    "ground": "#F7C443",
+    "feather": {
+     "top": 90
+    },
+    "grow": 60,
+    "protect": [
+     [
+      0.5,
+      0.88
+     ]
+    ]
+   },
+   "shows": "a hand closes on the keys hanging from the key holder (the film's shot played in reverse)",
+   "category": "backpack"
+  },
+  "phone": {
+   "film": "A",
+   "in": 34.4,
+   "out": 34.94,
+   "mode": "box",
+   "w": 1080,
+   "h": 1253,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5648,
+   "key": {
+    "ground": "#F7C443",
+    "feather": {
+     "top": 220
+    },
+    "protect": [
+     {
+      "pt": [
+       0.54,
+       0.3
+      ],
+      "pt2": [
+       0.53,
+       0.39
+      ],
+      "frames": [
+       0,
+       5
+      ],
+      "box": [
+       0.4,
+       0.08,
+       0.68,
+       0.47
+      ]
+     }
+    ],
+    "grow": 200,
+    "holes": [
+     0.6,
+     0.0,
+     1.0,
+     0.45
+    ]
+   },
+   "shows": "a phone slides into the hidden magnetic pocket at the top of the bag's back panel",
+   "category": "backpack"
+  },
+  "shut": {
+   "film": "A",
+   "in": 21.7,
+   "out": 22.22,
+   "mode": "box",
+   "w": 1080,
+   "h": 1440,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "key": {
+    "ground": "#F7C443"
+   },
+   "shows": "hands zip the bag shut",
+   "category": "backpack"
+  },
+  "pack": {
+   "film": "A",
+   "in": 37.06,
+   "out": 37.73,
+   "mode": "box",
+   "w": 1080,
+   "h": 1440,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "key": {
+    "ground": "#F7C443",
+    "out": "rgba"
+   },
+   "shows": "the closed black Transit Z alone, the camera slowly pushing in",
+   "category": "backpack"
+  },
+  "pack2": {
+   "film": "A",
+   "in": 37.77,
+   "out": 38.1,
+   "mode": "box",
+   "w": 1080,
+   "h": 1440,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "key": {
+    "ground": "#F7C443",
+    "out": "rgba"
+   },
+   "shows": "the Transit Z closer, front on",
+   "category": "backpack"
+  },
+  "pack3": {
+   "film": "A",
+   "in": 38.64,
+   "out": 39.19,
+   "mode": "box",
+   "w": 1080,
+   "h": 1440,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "key": {
+    "ground": "#F7C443",
+    "out": "rgba"
+   },
+   "shows": "the Transit Z from three-quarters behind: the S-shaped straps and the back panel",
+   "category": "backpack"
+  }
+ }
+}
