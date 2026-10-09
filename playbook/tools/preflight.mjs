@@ -97,6 +97,37 @@ const dur = beats.length ? Math.max(...beats.map((b) => b.to)) : 0;
   }
 }
 
+// ------------------------------------------------------------------ L16 clip quality: upscale per shot
+{
+  const SH = json('shots.json');
+  if (SH && SH.shots) {
+    const dims = {};
+    const probe = (f) => {
+      if (dims[f]) return dims[f];
+      const r = spawnSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', path.join(PROJ, f)], { encoding: 'utf8' });
+      const [w, h] = (r.stdout || '').trim().split(',').map(Number);
+      return (dims[f] = w && h ? { w, h } : null);
+    };
+    const rows = [], missing = [];
+    for (const [k, s] of Object.entries(SH.shots)) {
+      const src = (SH.films || {})[s.film]; const d = src && probe(src);
+      if (!d) { missing.push(k); continue; }
+      const z = s.zoom || 1, mode = s.mode || 'full';
+      let cw, ow;                                   // crop width in source px, output width in frame px (same logic as prep_frames.py)
+      if (mode === 'full') { cw = Math.min(d.w, d.h * 9 / 16) / z; let ch = cw * 16 / 9; if (ch > d.h) cw = (d.h / z) * 9 / 16; ow = 1080; }
+      else if (mode === 'box') { cw = d.w / z; if (cw * s.h / s.w > d.h) cw = (d.h / z) * s.w / s.h; ow = s.w; }
+      else { cw = Math.min(d.w, d.h) / z; ow = s.size || 1080; }
+      rows.push([k, (ow / cw) * (s.display || 1)]);
+    }
+    if (missing.length) warn('L16', `${missing.length} shot(s) without a readable source (run scripts/fetch_sources.sh): ${missing.slice(0, 4).join(', ')}`);
+    const bad = rows.filter(([, u]) => u > 1.6), soft = rows.filter(([, u]) => u > 1.4 && u <= 1.6);
+    const fmt = (l) => l.map(([k, u]) => `${k} ${u.toFixed(2)}×`).join(' · ');
+    if (bad.length) fail('L16', `${bad.length} shot(s) upscaled past 1.6× (soft on a phone): ${fmt(bad)} — frame them smaller or crop less`);
+    if (soft.length) warn('L16', `${soft.length} shot(s) upscaled 1.4–1.6× (slightly soft): ${fmt(soft)}`);
+    if (!bad.length && !soft.length && rows.length) pass('L16', `every shot ≤ 1.4× its source (max ${Math.max(...rows.map((r) => r[1])).toFixed(2)}×)`);
+  }
+}
+
 // ------------------------------------------------------------------ L05 type (parsed from film.js) and L07 recall
 const film = read('film/film.js') || '', html = read('film/index.html') || '';
 const supers = [];
@@ -121,6 +152,16 @@ const supers = [];
   for (let m; (m = reY.exec(film));) { const y = +m[4], sz = +m[5]; if (y < 269 || y + sz > 1536) out.push(`"${m[2] ?? m[3]}" y ${y}–${y + sz}`); }
   if (out.length) fail('L15', `${out.length} line(s) outside the Reels safe area (y 269–1536): ${out.slice(0, 5).join(' · ')}`);
   else pass('L15', 'every DOM line inside the Reels safe area (y 269–1536); canvas type: check review safe_9x16.jpg');
+  // L17: a designed type scale (sizes of every readable line: DOM lines and canvas helpers with { size: N })
+  const sizes = [];
+  for (const re of res) { re.lastIndex = 0; let m; while ((m = re.exec(film))) { const z = +m[4]; if (z >= 44) sizes.push(z); } }
+  const uniq = [...new Set(sizes)].sort((x, y) => x - y);
+  if (uniq.length) {
+    if (uniq.length > 8) fail('L17', `${uniq.length} distinct type sizes (${uniq.join(', ')}): pick 3–4 from one ratio (LOOK.md)`);
+    else if (uniq.length > 5) warn('L17', `${uniq.length} distinct type sizes (${uniq.join(', ')}): aim for 3–4 from one ratio`);
+    if (uniq[uniq.length - 1] / uniq[0] < 2.5) warn('L17', `weak hierarchy: biggest line ${uniq[uniq.length - 1]} px is < 2.5× the smallest readable ${uniq[0]} px`);
+    if (uniq.length <= 5 && uniq[uniq.length - 1] / uniq[0] >= 2.5) pass('L17', `type scale: ${uniq.join(' / ')} px`);
+  }
   const fams = new Set([...html.matchAll(/font-family:\s*'([^']+)'\s*;\s*src/g)].map((x) => x[1]));
   if (fams.size > 2) warn('L05', `${fams.size} font families (${[...fams].join(', ')}): two is the rule`);
   for (const t of supers) if (words(t).length > 10) warn('L05', `super of ${words(t).length} words: "${t}"`);

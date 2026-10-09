@@ -2,7 +2,7 @@
 
 Read in this order:
 1. `AUDIT.md` — every reel so far, critiqued honestly, with measurements; the root causes.
-2. `LESSONS.md` — the 15 lessons (L01–L15) and which ones the gate checks.
+2. `LESSONS.md` — the 17 lessons (L01–L17) and which ones the gate checks.
 3. `SCRIPT_METHOD.md` — research → insight → single-minded proposition → story shape → beat sheet (says / shows /
    serves) → supers → the stranger test. Worked example: the Kylie reel rewritten.
 4. `LOOK.md` — grounds, layout and type that hold a phone screen.
