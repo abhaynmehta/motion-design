@@ -1,0 +1,151 @@
+{
+ "sr": 48000,
+ "duration": 22,
+ "measured": true,
+ "cues": [
+  {
+   "t": 0,
+   "type": "thump",
+   "gain": 0.45,
+   "pitch": 0.995,
+   "pan": -0.096,
+   "beat": 0,
+   "mark": "hook",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the tube lands"
+  },
+  {
+   "t": 1.57875,
+   "type": "pop",
+   "gain": 0.35,
+   "pitch": 1.019,
+   "pan": 0.059,
+   "beat": 2.5,
+   "mark": "h2",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "par hai kya?"
+  },
+  {
+   "t": 3.789,
+   "type": "riser",
+   "gain": 0.4,
+   "pitch": 0.958,
+   "pan": -0.139,
+   "beat": 6,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the readout climbs through the build, into the stop"
+  },
+  {
+   "t": 7.578,
+   "type": "boom",
+   "gain": 0.55,
+   "pitch": 1.022,
+   "pan": 0.151,
+   "beat": 12,
+   "mark": "reveal",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "SLAM: 56.6"
+  },
+  {
+   "t": 7.578,
+   "type": "longbeep",
+   "gain": 0.3,
+   "pitch": 1.3,
+   "pan": -0.103,
+   "beat": 12,
+   "mark": "reveal",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the lab readout locks"
+  },
+  {
+   "t": 8.52525,
+   "type": "click",
+   "gain": 0.4,
+   "pitch": 0.945,
+   "pan": -0.217,
+   "beat": 13.5,
+   "mark": "pa",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "PA++++"
+  },
+  {
+   "t": 10.104,
+   "type": "shutter",
+   "gain": 0.4,
+   "pitch": 1.014,
+   "pan": -0.056,
+   "beat": 16,
+   "mark": "proof",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the close-up: no white cast"
+  },
+  {
+   "t": 12.63,
+   "type": "silk",
+   "gain": 0.35,
+   "pitch": 0.954,
+   "pan": -0.16,
+   "beat": 20,
+   "mark": "light",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "pressed in like a moisturiser"
+  },
+  {
+   "t": 15.156,
+   "type": "thump",
+   "gain": 0.45,
+   "pitch": 0.98,
+   "pan": -0.047,
+   "beat": 24,
+   "mark": "payoff",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the tube again"
+  },
+  {
+   "t": 16.10325,
+   "type": "pop",
+   "gain": 0.4,
+   "pitch": 1.051,
+   "pan": 0.033,
+   "beat": 25.5,
+   "mark": "nikla",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "56.6 nikla."
+  },
+  {
+   "t": 17.99775,
+   "type": "whoosh",
+   "gain": 0.3,
+   "pitch": 0.94,
+   "pan": -0.148,
+   "beat": 28.5,
+   "mark": "cta",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "to the end card"
+  },
+  {
+   "t": 18.62925,
+   "type": "chime",
+   "gain": 0.3,
+   "pitch": 0.973,
+   "pan": 0.139,
+   "beat": 29.5,
+   "mark": "logo",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "Minimalist"
+  }
+ ]
+}

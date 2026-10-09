@@ -208,10 +208,7 @@
     window.seek = (t) => paint(Math.max(0, Math.min(DUR - 1e-6, t)));
     window.READY = (async () => {
       // a missing face must be loud (the render logs [page] warnings) but not fatal: the stack falls back
-      // load with a sample that spans the unicode-range subsets (₹ € – · … live in latin-ext / punctuation files): a subset
-      // that loads lazily on first use paints a fallback glyph on that frame (Underneat's ₹1,999 failed render --verify)
-      const SAMPLE = 'AaGgQq09 ₹€£$%&–—·•…×“”‘’ ÁáÉéÑñ';
-      await Promise.all(C.fonts.map((f) => document.fonts.load(f, SAMPLE).then((r) => { if (!r.length) console.warn(`font not loaded: ${f} (falling back)`); },
+      await Promise.all(C.fonts.map((f) => document.fonts.load(f).then((r) => { if (!r.length) console.warn(`font not loaded: ${f} (falling back)`); },
         () => console.warn(`font failed: ${f} — check the @font-face url in film/index.html (falling back)`))));
       await document.fonts.ready;
       const imgs = [...document.images];

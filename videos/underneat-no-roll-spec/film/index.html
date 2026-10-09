@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Underneat No Roll</title>
+<style>
+  /* Underneat's own type isn't reachable (the site sits behind a bot check): Bricolage Grotesque (OFL) carries the
+     brand's cheek; Inter Tight (OFL) for small labels. ₹ comes from the latin-ext files. */
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/bricolage-grotesque-500-800.woff2) format('woff2'); font-weight: 500 800;
+               unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FEFF; }
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/bricolage-grotesque-500-800-ext.woff2) format('woff2'); font-weight: 500 800; unicode-range: U+0100-02BA, U+20A0-20AB, U+20AD-20C4; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/inter-tight-600.woff2) format('woff2'); font-weight: 600;
+               unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FEFF; }
+  @font-face { font-family: 'UI'; src: url(../assets/fonts/inter-tight-600-ext.woff2) format('woff2'); font-weight: 600; unicode-range: U+0100-02BA, U+20A0-20AB, U+20AD-20C4; }
+  :root {
+    /* a warm black stage; Underneat's coral (#EB6242, measured off the brand's own end card) is the waistband band and
+       the logo, nothing else; white type */
+    --ground: #17110F; --coral: #EB6242; --ink: #FFFFFF; --bg: var(--ground);
+  }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; overflow: hidden; background: var(--ground); transform-origin: 0 0; color: #fff;
+           font-family: 'Display', 'Helvetica Neue', Arial, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .display { font-family: 'Display', sans-serif; font-weight: 800; letter-spacing: -0.03em; line-height: 0.92; white-space: nowrap; }
+  .ui { font-family: 'UI', sans-serif; font-weight: 600; letter-spacing: 0.06em; line-height: 1.1; white-space: nowrap; text-transform: uppercase; }
+  .line { position: absolute; overflow: hidden; padding: 0.1em 0.05em 0.18em; margin: -0.1em -0.05em 0; white-space: nowrap; }
+  .word { display: inline-block; }
+  body.play { display: block; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="lib/motion.js"></script>
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script src="type.js"></script>
+<script src="shots.js"></script>
+<script src="footage.js"></script>
+<script src="film.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+{
+ "note": "BEATS on the Tauba Tauba preview grid (95 bpm, beat 0.6315 s; reel beat 0 = song beat 4 = 2.96 s). Story: SPF 50 likha hai. par hai kya? → humne lab se poocha (the readout climbs) → the groove stops (beat 11) → slam: SPF 56.6, PA++++ → white cast? zero. → moisturiser jaisa halka. → 50 likha. 56.6 nikla. → Minimalist SPF 50 ₹359.",
+ "title": "Minimalist SPF 50 — 50 likha, 56.6 nikla (spec)",
+ "duration": 22.0,
+ "fps": 30,
+ "bpm": 95.01,
+ "formats": [
+  "9x16"
+ ],
+ "music": {
+  "source": "supplied",
+  "track": "Karan Aujla — \"Tauba Tauba\" (30 s iTunes preview from 2.96 s, temp track, never committed)",
+  "sections": []
+ },
+ "voiceover": null,
+ "marks": {
+  "hook": 0,
+  "h2": 2.5,
+  "squirt": 3.5,
+  "turn": 5.5,
+  "lab": 6,
+  "stop": 11,
+  "reveal": 12,
+  "pa": 13.5,
+  "proof": 16,
+  "light": 20,
+  "payoff": 24,
+  "nikla": 25.5,
+  "cta": 28.5,
+  "logo": 29.5,
+  "done": 34.8
+ },
+ "sfx": [
+  {
+   "at": "hook",
+   "type": "thump",
+   "gain": 0.45,
+   "what": "the tube lands"
+  },
+  {
+   "at": "h2",
+   "type": "pop",
+   "gain": 0.35,
+   "what": "par hai kya?"
+  },
+  {
+   "at": 6,
+   "type": "riser",
+   "gain": 0.4,
+   "what": "the readout climbs through the build, into the stop"
+  },
+  {
+   "at": "reveal",
+   "type": "boom",
+   "gain": 0.55,
+   "what": "SLAM: 56.6"
+  },
+  {
+   "at": "reveal",
+   "type": "longbeep",
+   "gain": 0.3,
+   "pitch": 1.3,
+   "what": "the lab readout locks"
+  },
+  {
+   "at": "pa",
+   "type": "click",
+   "gain": 0.4,
+   "what": "PA++++"
+  },
+  {
+   "at": "proof",
+   "type": "shutter",
+   "gain": 0.4,
+   "what": "the close-up: no white cast"
+  },
+  {
+   "at": "light",
+   "type": "silk",
+   "gain": 0.35,
+   "what": "pressed in like a moisturiser"
+  },
+  {
+   "at": "payoff",
+   "type": "thump",
+   "gain": 0.45,
+   "what": "the tube again"
+  },
+  {
+   "at": "nikla",
+   "type": "pop",
+   "gain": 0.4,
+   "what": "56.6 nikla."
+  },
+  {
+   "at": "cta",
+   "type": "whoosh",
+   "gain": 0.3,
+   "what": "to the end card"
+  },
+  {
+   "at": "logo",
+   "type": "chime",
+   "gain": 0.3,
+   "what": "Minimalist"
+  }
+ ],
+ "mix": {
+  "music": 0,
+  "sfx": -8
+ }
+}

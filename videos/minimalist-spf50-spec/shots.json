@@ -1,0 +1,79 @@
+{
+ "note": "In/out in source seconds. One film: Minimalist's own SPF 50 application video from the product page (608x1080, 23.976 fps; edits at 1.54, 3.21, 38.87 s). Shots are crops at <= 1.38x their source pixels (playbook L16); the application shots are cut out with person mattes (prep_mattes.py) and set on Minimalist orange.",
+ "films": {
+  "A": "source/multi-vitamin-spf-50_68cd44.mp4"
+ },
+ "shots": {
+  "squeeze": {
+   "film": "A",
+   "in": 1.62,
+   "out": 3.15,
+   "mode": "box",
+   "w": 840,
+   "h": 840,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.62,
+   "shows": "she squeezes Minimalist SPF 50 from the tube into her palm",
+   "category": "sunscreen"
+  },
+  "dots": {
+   "film": "A",
+   "in": 3.3,
+   "out": 8.0,
+   "mode": "box",
+   "w": 820,
+   "h": 1456,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she dots the sunscreen across her forehead, cheeks and nose",
+   "category": "sunscreen",
+   "matte": true,
+   "display": 1.12
+  },
+  "blend": {
+   "film": "A",
+   "in": 12.0,
+   "out": 17.0,
+   "mode": "box",
+   "w": 820,
+   "h": 1456,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she blends it in with both hands",
+   "category": "sunscreen",
+   "matte": true,
+   "display": 1.12
+  },
+  "after": {
+   "film": "A",
+   "in": 38.95,
+   "out": 41.6,
+   "mode": "box",
+   "w": 820,
+   "h": 1012,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.42,
+   "shows": "close-up after: skin bare and even, no white cast",
+   "category": "sunscreen"
+  },
+  "press": {
+   "film": "A",
+   "in": 26.0,
+   "out": 31.0,
+   "mode": "box",
+   "w": 820,
+   "h": 1456,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she presses it into her skin like a moisturiser",
+   "category": "sunscreen",
+   "matte": true,
+   "display": 1.12
+  }
+ }
+}

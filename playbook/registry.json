@@ -90,6 +90,26 @@
       "music": "SZA — Snooze",
       "ground": "dark",
       "smp": "The (cashmere) sweatpants of lipstick."
+    },
+    {
+      "slug": "minimalist-spf50-spec",
+      "brand": "Minimalist",
+      "device": "a lab gauge that tests the tube's printed claim live: a measuring bar with the label's 50 marked on it climbs on the build and lands past it at 56.6 on the drop, over a cut-out of her applying it on Minimalist orange",
+      "hook_type": "question",
+      "genre": "Punjabi pop / Bollywood",
+      "music": "Karan Aujla — Tauba Tauba (From \"Bad Newz\")",
+      "ground": "colour",
+      "smp": "SPF 50 on the label, 56.6 in the lab."
+    },
+    {
+      "slug": "underneat-no-roll-spec",
+      "brand": "Underneat",
+      "device": "a coral waistband: one band across the frame carries every line; while gravity wins, the words roll down off it; when the tiny loop clips on, the band locks and the words stay up",
+      "hook_type": "pain",
+      "genre": "Bollywood dance",
+      "music": "Shashwat Sachdev, Madhubanti Bagchi & Jasmine Sandlas — Shararat (From \"Dhurandhar\")",
+      "ground": "dark",
+      "smp": "Shapewear that stays up."
     }
   ]
 }

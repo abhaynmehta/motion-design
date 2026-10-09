@@ -1,0 +1,139 @@
+{
+ "sr": 48000,
+ "duration": 20.9,
+ "measured": true,
+ "cues": [
+  {
+   "t": 1.19084,
+   "type": "whoosh",
+   "gain": 0.25,
+   "pitch": 0.8,
+   "pan": -0.022,
+   "beat": 2.6,
+   "mark": "roll1",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the first words roll off the band"
+  },
+  {
+   "t": 2.9313,
+   "type": "whoosh",
+   "gain": 0.25,
+   "pitch": 0.75,
+   "pan": -0.096,
+   "beat": 6.4,
+   "mark": "roll3",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "rolled off again"
+  },
+  {
+   "t": 7.00763,
+   "type": "whoosh",
+   "gain": 0.3,
+   "pitch": 0.7,
+   "pan": 0.081,
+   "beat": 15.3,
+   "mark": "fall",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "gravity wins once more"
+  },
+  {
+   "t": 7.32824,
+   "type": "click",
+   "gain": 0.55,
+   "pitch": 0.9,
+   "pan": 0.059,
+   "beat": 16,
+   "mark": "reveal",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the tiny loop clips on; the band locks (on the drop)"
+  },
+  {
+   "t": 8.24427,
+   "type": "click",
+   "gain": 0.45,
+   "pitch": 0.958,
+   "pan": -0.139,
+   "beat": 18,
+   "mark": "clip",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "clip to the bra centre"
+  },
+  {
+   "t": 9.16031,
+   "type": "click",
+   "gain": 0.45,
+   "pitch": 1.1,
+   "pan": 0.091,
+   "beat": 20,
+   "mark": "clip2",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "clip to the shorts"
+  },
+  {
+   "t": 10.99237,
+   "type": "pop",
+   "gain": 0.3,
+   "pitch": 1.036,
+   "pan": -0.103,
+   "beat": 24,
+   "mark": "proof",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "walk."
+  },
+  {
+   "t": 11.70229,
+   "type": "pop",
+   "gain": 0.3,
+   "pitch": 1.1,
+   "pan": -0.229,
+   "beat": 25.55,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "spin."
+  },
+  {
+   "t": 12.41221,
+   "type": "pop",
+   "gain": 0.3,
+   "pitch": 1.2,
+   "pan": -0.217,
+   "beat": 27.1,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "bend."
+  },
+  {
+   "t": 14.81679,
+   "type": "thump",
+   "gain": 0.45,
+   "pitch": 1.014,
+   "pan": -0.056,
+   "beat": 32.35,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "aaj nahi."
+  },
+  {
+   "t": 17.12061,
+   "type": "chime",
+   "gain": 0.28,
+   "pitch": 0.954,
+   "pan": -0.16,
+   "beat": 37.38,
+   "mark": null,
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "underneat"
+  }
+ ]
+}

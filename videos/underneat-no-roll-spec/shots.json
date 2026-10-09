@@ -1,0 +1,151 @@
+{
+ "note": "In/out in source seconds, inside the film's own edits (scdet). One film: Underneat's own how-to for the High-Waisted Tummy Tucker Shorts (606x1080, 29.97 fps, product page). Every shot is the full source frame in an 840x1497 window (1.39x, playbook L16). The film's burned-in captions sit in source rows 695-760; the reel's coral band covers exactly that strip.",
+ "films": {
+  "A": "source/mid-waist-butt-lifting-shorts_370aaf.mp4"
+ },
+ "shots": {
+  "roll": {
+   "film": "A",
+   "in": 14.8,
+   "out": 16.15,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she grabs the shorts' waistband and rolls it down",
+   "category": "shapewear"
+  },
+  "rolled": {
+   "film": "A",
+   "in": 16.22,
+   "out": 18.05,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "the waistband rolled up like a cinnamon roll at her belly",
+   "category": "shapewear"
+  },
+  "laugh": {
+   "film": "A",
+   "in": 11.8,
+   "out": 13.6,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she laughs at the camera",
+   "category": "shapewear"
+  },
+  "hold": {
+   "film": "A",
+   "in": 7.35,
+   "out": 8.95,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she holds up the High Waist Tummy Tucker Shorts",
+   "category": "shapewear"
+  },
+  "loop": {
+   "film": "A",
+   "in": 36.08,
+   "out": 37.12,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "close-up: the tiny loop held up in her fingers",
+   "category": "shapewear"
+  },
+  "clip": {
+   "film": "A",
+   "in": 40.88,
+   "out": 41.9,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she clips one end of the loop to her bra centre",
+   "category": "shapewear"
+  },
+  "clip2": {
+   "film": "A",
+   "in": 41.98,
+   "out": 43.08,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "and the other end to the shorts",
+   "category": "shapewear"
+  },
+  "boom": {
+   "film": "A",
+   "in": 43.95,
+   "out": 44.9,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she smiles: the shorts sit high and stay",
+   "category": "shapewear"
+  },
+  "move": {
+   "film": "A",
+   "in": 47.4,
+   "out": 50.5,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she walks, spins with her arms up, and lunges: the waistband stays put",
+   "category": "shapewear"
+  },
+  "dress": {
+   "film": "A",
+   "in": 54.1,
+   "out": 55.75,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "she stands in a fitted brown dress, smooth",
+   "category": "shapewear"
+  },
+  "dress2": {
+   "film": "A",
+   "in": 57.25,
+   "out": 58.25,
+   "mode": "box",
+   "w": 840,
+   "h": 1497,
+   "zoom": 1.0,
+   "fx": 0.5,
+   "fy": 0.5,
+   "shows": "medium: hands on hips in the fitted dress",
+   "category": "shapewear"
+  }
+ }
+}

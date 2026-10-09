@@ -1,0 +1,163 @@
+{
+  "brand": "Underneat",
+  "url": "https://www.underneat.in/products/high-waist-tummy-tucker-shorts",
+  "product": {
+    "name": "High Waist Tummy Tucker Shorts",
+    "short": "tummy tucker shorts",
+    "category": "shapewear",
+    "price": "₹1,999",
+    "where": "underneat.in"
+  },
+  "range": [],
+  "range_reason": "",
+  "audience": "A 27-year-old in Delhi who owns one bodycon dress for weddings and one pair of shapewear she hates, because by the second song it has rolled down to her hips.",
+  "insight": "Every woman who has worn shapewear to a party has spent half the night discreetly yanking up a waistband that keeps rolling down.",
+  "smp": "Shapewear that stays up.",
+  "shape": "tension-release",
+  "hook_type": "pain",
+  "device": "a coral waistband: one band across the frame carries every line; while gravity wins, the words roll down off it; when the tiny loop clips on, the band locks and the words stay up",
+  "device_why": "roll-down is the one thing everyone hates about shapewear; the band is a waistband, so the type itself shows the problem and the fix — and it sits exactly over the film's own captions",
+  "recall": {
+    "what": "Underneat High Waist Tummy Tucker Shorts",
+    "does": "a tiny loop clips the shorts to your bra so they don't roll down",
+    "why": "you can walk, spin and bend in a fitted dress and nothing moves"
+  },
+  "claims": [
+    {
+      "text": "the little loop on the shorts clips to your bra centre: 'instant… you're not rolling down today'",
+      "source": "Underneat's how-to film for the High-Waisted Tummy Tucker Shorts (product page video)"
+    },
+    {
+      "text": "₹1,999",
+      "source": "variant price, underneat.in products.json"
+    },
+    {
+      "text": "sizes XS/S to 5XL",
+      "source": "variant options, underneat.in products.json"
+    },
+    {
+      "text": "seamless, no-show finish, invisible under clothing",
+      "source": "product description, underneat.in"
+    }
+  ],
+  "small_ok": [
+    "XS",
+    "5XL"
+  ],
+  "music": {
+    "title": "Shararat (From \"Dhurandhar\")",
+    "artist": "Shashwat Sachdev, Madhubanti Bagchi & Jasmine Sandlas",
+    "source": "song",
+    "genre": "Bollywood dance",
+    "bpm": 131,
+    "song_start_s": 5.42,
+    "drop_at_s": 7.33,
+    "why": "a cheeky Bollywood dance number (shararat = mischief) for a cheeky brand; its preview builds with no kick until 12.75 s; the reel enters on a bar line 5.42 s in, so the drop lands as the loop clips on"
+  },
+  "look": {
+    "ground": "dark",
+    "bg": "#17110F",
+    "why": "a warm black stage (not another orange after Minimalist): the brand's coral lives only in the waistband band and the logo; the film's warm studio light glows against it"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "role": "hook",
+      "from": 0,
+      "to": 3.21,
+      "says": "shapewear? phir se roll down.",
+      "shows": "she rolls the shorts' waistband down like a cinnamon roll; the words on the band roll down with it",
+      "tags": [
+        "tension",
+        "product"
+      ],
+      "shots": [
+        "roll",
+        "rolled"
+      ],
+      "serves": "names the pain in one line every woman has lived"
+    },
+    {
+      "id": "turn",
+      "role": "turn",
+      "from": 3.21,
+      "to": 7.33,
+      "says": "gravity ko belly se pyaar hai.",
+      "shows": "she laughs at the camera holding up the high-waist shorts",
+      "tags": [
+        "tension",
+        "product"
+      ],
+      "shots": [
+        "laugh",
+        "hold"
+      ],
+      "serves": "turns the pain into the brand's own joke, and brings in the product"
+    },
+    {
+      "id": "reveal",
+      "role": "reveal",
+      "from": 7.33,
+      "to": 10.99,
+      "says": "meet the tiny loop.",
+      "shows": "on the drop: the little loop held up, clipped to her bra centre, clipped to the shorts; the band locks",
+      "tags": [
+        "product",
+        "demo"
+      ],
+      "shots": [
+        "loop",
+        "clip",
+        "clip2",
+        "boom"
+      ],
+      "serves": "the one feature that answers the pain"
+    },
+    {
+      "id": "proof",
+      "role": "proof",
+      "from": 10.99,
+      "to": 14.2,
+      "says": "walk. spin. bend. nothing moves.",
+      "shows": "she walks, spins and lunges; the waistband stays put",
+      "tags": [
+        "demo",
+        "result"
+      ],
+      "shots": [
+        "move"
+      ],
+      "serves": "proves it under movement"
+    },
+    {
+      "id": "payoff",
+      "role": "payoff",
+      "from": 14.2,
+      "to": 16.95,
+      "says": "roll down? aaj nahi.",
+      "shows": "she stands in a fitted dress, smooth, hands on hips",
+      "tags": [
+        "result"
+      ],
+      "shots": [
+        "dress",
+        "dress2"
+      ],
+      "serves": "lands the SMP as attitude: not today"
+    },
+    {
+      "id": "cta",
+      "role": "cta",
+      "from": 16.95,
+      "to": 20.38,
+      "says": "Tummy Tucker Shorts · ₹1,999 · underneat.in",
+      "shows": "the Underneat logo, the product name, the price, XS to 5XL",
+      "tags": [
+        "product"
+      ],
+      "shots": [],
+      "serves": "what to buy, what it costs, where, and that it fits"
+    }
+  ],
+  "waivers": {}
+}

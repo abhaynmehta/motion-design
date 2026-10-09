@@ -1,0 +1,119 @@
+{
+ "note": "BEATS on the Shararat preview grid (131 bpm, beat 0.458 s; reel beat 0 = song beat 11 = 5.42 s). Story: shapewear? phir se roll down. (the words roll off the waistband band) → gravity ko belly se pyaar hai → DROP: meet the tiny loop (it clips; the band locks) → walk. spin. bend. nothing moves. → roll down? aaj nahi. → Tummy Tucker Shorts ₹1,999 XS–5XL underneat.in.",
+ "title": "Underneat Tummy Tucker Shorts — roll down? aaj nahi. (spec)",
+ "duration": 20.9,
+ "fps": 30,
+ "bpm": 131,
+ "formats": [
+  "9x16"
+ ],
+ "music": {
+  "source": "supplied",
+  "track": "\"Shararat\" (Dhurandhar) — 30 s iTunes preview from 5.42 s, temp track, never committed",
+  "sections": []
+ },
+ "voiceover": null,
+ "marks": {
+  "hook": 0,
+  "roll1": 2.6,
+  "roll2": 3.5,
+  "roll3": 6.4,
+  "turn": 7,
+  "turn2": 8.5,
+  "hold": 11.5,
+  "fall": 15.3,
+  "reveal": 16,
+  "clip": 18,
+  "clip2": 20,
+  "boom": 22,
+  "proof": 24,
+  "spin": 25.7,
+  "bend": 27.3,
+  "still": 29,
+  "payoff": 31,
+  "nahi": 32.5,
+  "dress2": 34.5,
+  "cta": 37,
+  "logo": 37.6,
+  "done": 45.6
+ },
+ "sfx": [
+  {
+   "at": "roll1",
+   "type": "whoosh",
+   "gain": 0.25,
+   "pitch": 0.8,
+   "what": "the first words roll off the band"
+  },
+  {
+   "at": "roll3",
+   "type": "whoosh",
+   "gain": 0.25,
+   "pitch": 0.75,
+   "what": "rolled off again"
+  },
+  {
+   "at": "fall",
+   "type": "whoosh",
+   "gain": 0.3,
+   "pitch": 0.7,
+   "what": "gravity wins once more"
+  },
+  {
+   "at": "reveal",
+   "type": "click",
+   "gain": 0.55,
+   "pitch": 0.9,
+   "what": "the tiny loop clips on; the band locks (on the drop)"
+  },
+  {
+   "at": "clip",
+   "type": "click",
+   "gain": 0.45,
+   "what": "clip to the bra centre"
+  },
+  {
+   "at": "clip2",
+   "type": "click",
+   "gain": 0.45,
+   "pitch": 1.1,
+   "what": "clip to the shorts"
+  },
+  {
+   "at": "proof",
+   "type": "pop",
+   "gain": 0.3,
+   "what": "walk."
+  },
+  {
+   "at": 25.55,
+   "type": "pop",
+   "gain": 0.3,
+   "pitch": 1.1,
+   "what": "spin."
+  },
+  {
+   "at": 27.1,
+   "type": "pop",
+   "gain": 0.3,
+   "pitch": 1.2,
+   "what": "bend."
+  },
+  {
+   "at": 32.35,
+   "type": "thump",
+   "gain": 0.45,
+   "what": "aaj nahi."
+  },
+  {
+   "at": 37.38,
+   "type": "chime",
+   "gain": 0.28,
+   "what": "underneat"
+  }
+ ],
+ "mix": {
+  "music": 0,
+  "sfx": -8
+ }
+}

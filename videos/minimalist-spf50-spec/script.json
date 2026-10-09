@@ -1,0 +1,163 @@
+{
+  "brand": "Minimalist",
+  "url": "https://beminimalist.co/products/multi-vitamin-spf-50",
+  "product": {
+    "name": "Minimalist SPF 50 Sunscreen",
+    "short": "spf 50",
+    "category": "sunscreen",
+    "price": "₹359",
+    "where": "beminimalist.co"
+  },
+  "range": [],
+  "range_reason": "",
+  "audience": "A 24-year-old in Delhi who wears sunscreen through a 44° summer, has watched the viral 'we tested your sunscreen' videos, and no longer believes the number printed on the tube.",
+  "insight": "Every tube says SPF 50. After the test videos, nobody takes the number on trust any more.",
+  "smp": "SPF 50 on the label, 56.6 in the lab.",
+  "shape": "demo-proof",
+  "hook_type": "question",
+  "device": "a lab gauge that tests the tube's printed claim live: a measuring bar with the label's 50 marked on it climbs on the build and lands past it at 56.6 on the drop, over a cut-out of her applying it on Minimalist orange",
+  "device_why": "Minimalist's whole brand is published proof (ingredients with percentages, lab reports on the page); the gauge turns their lab report into a moment you watch happen",
+  "recall": {
+    "what": "Minimalist SPF 50 sunscreen",
+    "does": "SPF 56.6 and PA++++ in an independent lab, no white cast, light like a moisturiser",
+    "why": "the number on the tube is proven, not just printed"
+  },
+  "claims": [
+    {
+      "text": "SPF value obtained: 56.6, PA ++++ — in-vivo, ISO 24444:2019, Advanced Science Laboratories (independent third-party lab)",
+      "source": "product page, Clinical Results: https://beminimalist.co/products/multi-vitamin-spf-50"
+    },
+    {
+      "text": "broad spectrum SPF 50, PA++++",
+      "source": "product page and pack"
+    },
+    {
+      "text": "does not leave any white cast",
+      "source": "product page FAQ and description"
+    },
+    {
+      "text": "spreads easily like a lightweight moisturiser",
+      "source": "product page description"
+    },
+    {
+      "text": "₹359 (50 g)",
+      "source": "variant price, beminimalist.co products.js"
+    }
+  ],
+  "small_ok": [
+    "independent lab",
+    "in-vivo",
+    "ISO 24444",
+    "Advanced Science Laboratories",
+    "LABEL",
+    "LAB"
+  ],
+  "music": {
+    "title": "Tauba Tauba (From \"Bad Newz\")",
+    "artist": "Karan Aujla",
+    "source": "song",
+    "genre": "Punjabi pop / Bollywood",
+    "bpm": 95,
+    "song_start_s": 2.96,
+    "drop_at_s": 7.58,
+    "why": "the most-used Indian reel audio of its year; its groove stops dead for one beat and slams back — the stop holds 'par hai kya?', the slam lands SPF 56.6"
+  },
+  "look": {
+    "ground": "colour",
+    "bg": "#EE5A24",
+    "why": "Minimalist's own orange (the SPF line on the tube) as a full colour field: it reads as sun, it makes the white tube and her black top pop, and it's nothing like the last two (near-black, berry)"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "role": "hook",
+      "from": 0.0,
+      "to": 3.47,
+      "says": "SPF 50 likha hai. par hai kya?",
+      "shows": "the Minimalist SPF 50 tube lands on orange ('SPF 50' lifted out huge), then she squeezes it into her palm",
+      "tags": [
+        "product",
+        "tension"
+      ],
+      "shots": [
+        "squeeze"
+      ],
+      "serves": "voices the doubt every buyer has about the number on the tube"
+    },
+    {
+      "id": "turn",
+      "role": "turn",
+      "from": 3.47,
+      "to": 7.58,
+      "says": "humne lab se poocha.",
+      "shows": "she dots it on her face (cut out on orange) while a lab readout panel measures: the bar climbs past nothing toward the label's 50; independent lab · in-vivo · ISO 24444",
+      "tags": [
+        "demo"
+      ],
+      "shots": [
+        "dots"
+      ],
+      "serves": "the brand answers with a test, not a promise"
+    },
+    {
+      "id": "reveal",
+      "role": "reveal",
+      "from": 7.58,
+      "to": 10.1,
+      "says": "SPF 56.6. PA++++.",
+      "shows": "on the slam the readout lands past the 50 tick at 56.6, PA++++; she blends it in",
+      "tags": [
+        "result",
+        "product"
+      ],
+      "shots": [
+        "blend"
+      ],
+      "serves": "the proof: more than the label claims, measured"
+    },
+    {
+      "id": "proof",
+      "role": "proof",
+      "from": 10.1,
+      "to": 15.16,
+      "says": "white cast? zero. moisturiser jaisa halka.",
+      "shows": "a close-up of her face after: no white cast; then she presses it in like a moisturiser",
+      "tags": [
+        "result",
+        "demo"
+      ],
+      "shots": [
+        "after",
+        "press"
+      ],
+      "serves": "answers the next two doubts: does it leave a cast, does it feel heavy"
+    },
+    {
+      "id": "payoff",
+      "role": "payoff",
+      "from": 15.16,
+      "to": 18.0,
+      "says": "50 likha. 56.6 nikla.",
+      "shows": "the tube stands centre on orange between '50 likha.' and '56.6 nikla.'",
+      "tags": [
+        "product"
+      ],
+      "shots": [],
+      "serves": "lands the SMP as a line people will repeat"
+    },
+    {
+      "id": "cta",
+      "role": "cta",
+      "from": 18.0,
+      "to": 21.47,
+      "says": "Minimalist SPF 50 · ₹359 · beminimalist.co",
+      "shows": "the tube, the Minimalist wordmark, the price and where",
+      "tags": [
+        "product"
+      ],
+      "shots": [],
+      "serves": "what to buy, what it costs, where (the lab report is on the page)"
+    }
+  ],
+  "waivers": {}
+}

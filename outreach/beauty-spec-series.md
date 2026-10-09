@@ -1,8 +1,8 @@
 # Beauty spec series — outreach pack
 
-Nine 9:16 reels, each made **only from the brand's own public content** (product films, campaign clips, packshots and
+Eleven 9:16 reels, each made **only from the brand's own public content** (product films, campaign clips, packshots and
 product-page copy on its website), with the brand's fonts (or the closest open font where theirs is licensed), colours
-and logo, a written script, a designed device and a synced sound mix. All nine are **unsolicited spec work**: not
+and logo, a written script, a designed device and a synced sound mix. All eleven are **unsolicited spec work**: not
 affiliated with or endorsed by the brands. Footage, photos and logos belong to the brands.
 
 | # | Brand | Reel | Length | Idea in one line | Device | Music (guide) |
@@ -16,6 +16,8 @@ affiliated with or endorsed by the brands. Footage, photos and logos belong to t
 | 07 | Sol de Janeiro | "departures." | 28 s | Every Cheirosa number is a year in Rio. Pick your year. | a split-flap departures board; bottles land like planes; window seat onto Rio | Mixkit "Latin Lovers" |
 | 08 | OLAPLEX | "humidity vs your hair." | 24.2 s | Three drops and humidity loses. | a live match: humidity 3 – 0 up, the brand's unretouched before/after replays bring your hair back to win 3 – 4 | temp: Lady Gaga "Abracadabra" (dance pop) |
 | 09 | Glossier | "the (cashmere) sweatpants of lipstick." | 22.3 s | Lipstick, but make it sweatpants: balm + gloss + tint, in one. You'll live in it. | a woven care label sewn into the frame (name, composition, size, care) and a price hang tag | temp: SZA "Snooze" (R&B) |
+| 10 | Minimalist (India) | "50 likha. 56.6 nikla." | 22 s | SPF 50 on the label, 56.6 in the lab. (Hinglish) | a lab readout that climbs on the build, freezes on the song's stop, locks past the 50 on the slam | temp: Karan Aujla "Tauba Tauba" |
+| 11 | Underneat (India, Kusha Kapila) | "roll down? aaj nahi." | 20.9 s | Shapewear that stays up. (Hinglish) | a coral waistband band: the words roll off it until the tiny loop clips it up | temp: "Shararat" (Dhurandhar) |
 
 Files: `videos/<project>/renders/9x16.mp4` (music + SFX, −14 LUFS) and `9x16_sfx-only.mp4` (SFX only, so a trending song can
 be added in Instagram). The Mixkit tracks (02–04) are free for video use under the Mixkit Stock Music Free License; Kay Beauty’s score is synthesised in code.
@@ -207,6 +209,43 @@ project's `docs/music_cue.md`). `renders/9x16.mp4` is the SFX-only version.
 > ends on the tube and a hang tag: Ultralip, $22.
 >
 > Attached: the reel with a temp track (SZA, "Snooze") and a music-free version. Yours to use if you like it.
+>
+> <your name> · <portfolio / Instagram>
+
+## Minimalist — "50 likha. 56.6 nikla."
+
+**DM**
+> Hi! After all the SPF test videos nobody trusts the number on a tube, and your SPF 50 page carries an independent
+> in-vivo report: 56.6. So I made a Hinglish spec reel around it — "SPF 50 likha hai. par hai kya?" — a lab readout
+> freezes on the song's stop and slams to 56.6. 22 s, 9:16, from your own film. Yours to post if you like it.
+
+**Email** — Subject: 50 likha. 56.6 nikla. (an SPF reel I made for you)
+> Hi <name>,
+>
+> I made an unsolicited spec reel for the SPF 50 from Minimalist's own application film, packshot and the lab report on
+> the product page. One idea: the label says 50, the lab measured 56.6. It plays in Hinglish over a lab readout, then
+> answers the next two doubts (white cast? zero. moisturiser jaisa halka.) and ends on ₹359.
+>
+> Attached: the reel with a temp track ("Tauba Tauba") and a music-free version. Yours to use if you like it.
+>
+> <your name> · <portfolio / Instagram>
+
+## Underneat — "roll down? aaj nahi."
+
+**DM**
+> Hi! Roll-down is the one thing everyone hates about shapewear, so I made a spec reel for the Tummy Tucker Shorts where
+> the words literally roll off a waistband — "gravity ko belly se pyaar hai" — until the tiny loop clips it up on the
+> drop. Walk, spin, bend, nothing moves; roll down? aaj nahi. 21 s, from your own how-to film. Yours if you like it.
+
+**Email** — Subject: roll down? aaj nahi. (a Tummy Tucker reel I made for you)
+> Hi <name>,
+>
+> I made an unsolicited spec reel for the High Waist Tummy Tucker Shorts from Underneat's own how-to film. The whole
+> reel is a waistband: a coral band carries every line, and while gravity wins the words sag and roll off it. On the
+> drop of "Shararat" the tiny loop clips on, the band locks, and from then on nothing moves — ending in the fitted dress
+> and ₹1,999, XS to 5XL. Your film's own captions sit under the band, so it reads as one piece.
+>
+> Attached: the reel with a temp track and a music-free version. Yours to use if you like it.
 >
 > <your name> · <portfolio / Instagram>
 
