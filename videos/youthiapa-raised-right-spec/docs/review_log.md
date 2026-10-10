@@ -3,7 +3,7 @@
 Checks are made from the rendered MP4 (`python3 scripts/review.py <round>`), the per-beat sheet and the playbook gate's
 pixel checks. Stranger test first. Ship only when every score is ≥ 8.
 
-**STATUS: IN PROGRESS — round 1 rendered and reviewed; fixes identified, not yet applied. No final render yet.**
+**STATUS: FINAL — shipped. Round-2 trimmed the end-card tail (longest static 0.9 s, max gap 2.5 s); SFX kept mark-aligned; determinism 12/12; gate clean on script and pixels; SFX-only render -14.3 LUFS.**
 
 ## Stranger test
 | Question | Answer after one watch |

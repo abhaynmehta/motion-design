@@ -1,8 +1,8 @@
 # Beauty spec series — outreach pack
 
-Twelve 9:16 reels (eleven beauty and fashion, plus Mokobara travel gear), each made **only from the brand's own public content** (product films, campaign clips, packshots and
+Thirteen 9:16 reels (beauty, fashion, travel and streetwear), each made **only from the brand's own public content** (product films, campaign clips, packshots and
 product-page copy on its website), with the brand's fonts (or the closest open font where theirs is licensed), colours
-and logo, a written script, a designed device and a synced sound mix. All twelve are **unsolicited spec work**: not
+and logo, a written script, a designed device and a synced sound mix. All thirteen are **unsolicited spec work**: not
 affiliated with or endorsed by the brands. Footage, photos and logos belong to the brands.
 
 | # | Brand | Reel | Length | Idea in one line | Device | Music (guide) |
@@ -19,6 +19,7 @@ affiliated with or endorsed by the brands. Footage, photos and logos belong to t
 | 10 | Minimalist (India) | "50 likha. 56.6 nikla." | 22 s | SPF 50 on the label, 56.6 in the lab. (Hinglish) | a lab readout that climbs on the build, freezes on the song's stop, locks past the 50 on the slam | temp: Karan Aujla "Tauba Tauba" |
 | 11 | Underneat (India, Kusha Kapila) | "roll down? aaj nahi." | 20.9 s | Shapewear that stays up. (Hinglish) | a coral waistband band: the words roll off it until the tiny loop clips it up | temp: "Shararat" (Dhurandhar) |
 | 12 | Mokobara (India, travel) | "time spent digging: 0 seconds." | 17.6 s | In the Transit Z, time spent digging is zero seconds. (Hinglish) | a zip: a torch hunts in a black bag, a zip rips it into Mokobara yellow, every compartment zips open to its item, 0 SEC each | temp: Hanumankind & Kalmi "Big Dawgs" |
+| 13 | Youthiapa (India, Bhuvan Bam) | "Mummy ke rules." | 19.3 s | Raised Right (mostly): tees for kids who broke every house rule. (Hinglish) | Mummy's rules handwritten; each one broken by an evidence photo and struck through in marker; the song's dead stop is the glare, the slam is "Raised Right." | temp: In The Night No Control (1996) |
 
 Files: `videos/<project>/renders/9x16.mp4` (music + SFX, −14 LUFS) and `9x16_sfx-only.mp4` (SFX only, so a trending song can
 be added in Instagram). The Mixkit tracks (02–04) are free for video use under the Mixkit Stock Music Free License; Kay Beauty’s score is synthesised in code.
@@ -266,6 +267,26 @@ project's `docs/music_cue.md`). `renders/9x16.mp4` is the SFX-only version.
 > and the charger, cards, keys and phone each come out of their own pocket in 0 seconds. Every shot is keyed off its
 > studio white onto Mokobara yellow, so the reel lives inside the lining; it ends on your own line, "time spent digging:
 > 0 seconds", and ₹6,299.
+>
+> Attached: the reel with a temp track and a music-free version. Yours to use if you like it.
+>
+> <your name> · <portfolio / Instagram>
+
+## Youthiapa — "Mummy ke rules."
+
+**DM**
+> Hi! "Raised Right" is literally a parent's line, so I made a spec reel that's Mummy's house rulebook being broken one
+> photo at a time — sofa pe joote, ghar mein ball, skateboard, phone 2 minute — each struck through, with Bhuvan as the
+> rule-breaker. The song stops on the glare ("ye kya pehna hai?") and slams back on "Raised Right." 19 s, from your own
+> films. Yours if you like it.
+
+**Email** — Subject: Mummy ke rules (a Raised Right reel I made for you)
+> Hi <name>,
+>
+> I made an unsolicited spec reel for Raised Right by Youthiapa. The whole reel is a desi parent's rulebook: each house
+> rule is written by hand and then broken by a printed "evidence photo" that slaps down and strikes the rule out — ending
+> on the answer to "aur ye kya pehna hai?": Raised Right (mostly). Cut to "In The Night No Control" so the song's dead
+> stop is the glare and the slam is the brand. Built entirely from your own campaign and sofa films.
 >
 > Attached: the reel with a temp track and a music-free version. Yours to use if you like it.
 >
