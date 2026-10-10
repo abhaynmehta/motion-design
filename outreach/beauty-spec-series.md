@@ -1,8 +1,8 @@
 # Beauty spec series — outreach pack
 
-Thirteen 9:16 reels (beauty, fashion, travel and streetwear), each made **only from the brand's own public content** (product films, campaign clips, packshots and
+Fourteen 9:16 reels (beauty, fashion, travel, streetwear and innerwear), each made **only from the brand's own public content** (product films, campaign clips, packshots and
 product-page copy on its website), with the brand's fonts (or the closest open font where theirs is licensed), colours
-and logo, a written script, a designed device and a synced sound mix. All thirteen are **unsolicited spec work**: not
+and logo, a written script, a designed device and a synced sound mix. All fourteen are **unsolicited spec work**: not
 affiliated with or endorsed by the brands. Footage, photos and logos belong to the brands.
 
 | # | Brand | Reel | Length | Idea in one line | Device | Music (guide) |
@@ -20,6 +20,7 @@ affiliated with or endorsed by the brands. Footage, photos and logos belong to t
 | 11 | Underneat (India, Kusha Kapila) | "roll down? aaj nahi." | 20.9 s | Shapewear that stays up. (Hinglish) | a coral waistband band: the words roll off it until the tiny loop clips it up | temp: "Shararat" (Dhurandhar) |
 | 12 | Mokobara (India, travel) | "time spent digging: 0 seconds." | 17.6 s | In the Transit Z, time spent digging is zero seconds. (Hinglish) | a zip: a torch hunts in a black bag, a zip rips it into Mokobara yellow, every compartment zips open to its item, 0 SEC each | temp: Hanumankind & Kalmi "Big Dawgs" |
 | 13 | Youthiapa (India, Bhuvan Bam) | "Mummy ke rules." | 19.3 s | Raised Right (mostly): tees for kids who broke every house rule. (Hinglish) | Mummy's rules handwritten; each one broken by an evidence photo and struck through in marker; the song's dead stop is the glare, the slam is "Raised Right." | temp: In The Night No Control (1996) |
+| 14 | Bummer (India, innerwear) | "underrated views." | 17.7 s | Modal Stretch Trunks hide a view only you get. (Hinglish) | a window: each trunk's scenic printed waistband becomes a framed landscape named like a holiday spot; four views swap on the four-on-the-floor kick | temp: Aap Jaisa Koi (Nazia Hassan, 1980) |
 
 Files: `videos/<project>/renders/9x16.mp4` (music + SFX, −14 LUFS) and `9x16_sfx-only.mp4` (SFX only, so a trending song can
 be added in Instagram). The Mixkit tracks (02–04) are free for video use under the Mixkit Stock Music Free License; Kay Beauty’s score is synthesised in code.
@@ -287,6 +288,27 @@ project's `docs/music_cue.md`). `renders/9x16.mp4` is the SFX-only version.
 > rule is written by hand and then broken by a printed "evidence photo" that slaps down and strikes the rule out — ending
 > on the answer to "aur ye kya pehna hai?": Raised Right (mostly). Cut to "In The Night No Control" so the song's dead
 > stop is the glare and the slam is the brand. Built entirely from your own campaign and sofa films.
+>
+> Attached: the reel with a temp track and a music-free version. Yours to use if you like it.
+>
+> <your name> · <portfolio / Instagram>
+
+## Bummer — "underrated views."
+
+**DM**
+> Hi! Your trunks' best feature is the one nobody sees — the scenic printed waistband. So I made a spec reel that treats
+> each one as a little "view": desk pe view nahi? tumhaare trunks mein hai. Aurora, Cold Rush, Foliage, Sunspill snap in
+> on the beat of "Aap Jaisa Koi", then a wall of views — ek naya view, roz. 18 s, from your own packshots. Yours if you
+> like it.
+
+**Email** — Subject: underrated views (a Modal Stretch Trunks reel I made for you)
+> Hi <name>,
+>
+> I made an unsolicited spec reel for Bummer's Modal Stretch Trunks. The idea is that the one good view in a grey office
+> day is the one nobody can see — the scenic printed waistband. Each trunk arrives as a "postcard" with a viewfinder and
+> a place-name (Aurora / northern lights, Cold Rush / snow, Foliage / woods, Sunspill / golden hour), swapping on the
+> four-on-the-floor of "Aap Jaisa Koi", then stacking into a wall of views at ₹599. Built entirely from your own
+> packshots, drawn crisp.
 >
 > Attached: the reel with a temp track and a music-free version. Yours to use if you like it.
 >

@@ -1,0 +1,26 @@
+{
+ "note": "BEATS on the Aap Jaisa Koi preview grid (108.4 bpm, beat 0.5535 s; reel beat 0 = song beat 3 = 2.05 s). Story: no view at your desk? (a boring grey window) → your trunks have one → four scenic-waistband trunks swap on the kicks, each named like a place (Aurora/northern lights, Cold Rush/fresh snow, Foliage/deep woods, Sunspill/golden hour) → BIG KICK: all four as a wall of views, 'ek naya view, roz.' → Modal Stretch Trunks ₹599, bummer.in.",
+ "title": "Bummer Modal Stretch Trunks — underrated views (spec)",
+ "duration": 17.7,
+ "fps": 30,
+ "bpm": 108.4,
+ "formats": ["9x16"],
+ "music": { "source": "supplied", "track": "\"Aap Jaisa Koi\" (Nazia Hassan, 1980) — 30 s iTunes preview from 2.05 s, temp track, never committed", "sections": [] },
+ "voiceover": null,
+ "marks": {
+  "hook": 0, "h2": 2,
+  "reveal": 4, "aurora": 4, "cold": 8, "foliage": 12, "sunspill": 16,
+  "pay": 20, "roz": 21.5,
+  "cta": 26, "price": 27.5, "url": 29,
+  "done": 32
+ },
+ "sfx": [
+  { "at": "reveal", "type": "shutter", "gain": 0.45, "what": "the first postcard snaps in" },
+  { "at": "cold", "type": "shutter", "gain": 0.45, "pitch": 1.06, "what": "Cold Rush" },
+  { "at": "foliage", "type": "shutter", "gain": 0.45, "pitch": 0.96, "what": "Foliage" },
+  { "at": "sunspill", "type": "shutter", "gain": 0.45, "pitch": 1.1, "what": "Sunspill" },
+  { "at": "pay", "type": "boom", "gain": 0.6, "what": "the wall of views (on the big kick)" },
+  { "at": "cta", "type": "chime", "gain": 0.3, "what": "the bummer logo" }
+ ],
+ "mix": { "music": 0, "sfx": -7 }
+}

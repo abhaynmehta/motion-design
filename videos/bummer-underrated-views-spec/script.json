@@ -1,0 +1,114 @@
+{
+  "brand": "Bummer",
+  "url": "https://bummer.in/",
+  "product": {
+    "name": "Modal Stretch Trunks",
+    "short": "trunks",
+    "category": "apparel",
+    "price": "₹599",
+    "where": "bummer.in"
+  },
+  "range": [
+    "Aurora",
+    "Cold Rush",
+    "Foliage",
+    "Sunspill"
+  ],
+  "range_reason": "one trunk, four scenic waistbands: each Modal Stretch Trunk hides a different little landscape nobody but you sees",
+  "audience": "A 26-year-old in a Bengaluru open-plan office whose desk faces a wall, who orders fun basics online and lives in soft trunks on weekends.",
+  "insight": "The one good view in a grey cubicle day is the one nobody can see — the scenic waistband hiding under your jeans.",
+  "smp": "Bummer Modal Stretch Trunks hide a view only you get.",
+  "shape": "reframe",
+  "hook_type": "reframe",
+  "device": "a window: a trunk's scenic waistband reads as a framed landscape with a place-name; four views snap in on the four-on-the-floor kick and gather into a wall of them",
+  "device_why": "Bummer's signature is the photographic scenic waistband, so the product detail literally becomes the 'view' the line is about — the hidden luxury under your clothes",
+  "recall": {
+    "what": "Bummer's Modal Stretch Trunks",
+    "does": "soft modal trunks with a scenic-waistband view",
+    "why": "a different little view hiding under your jeans every day, soft enough to forget you're wearing"
+  },
+  "claims": [
+    {
+      "text": "Modal Stretch Trunks, ₹599, in scenic-waistband prints Aurora / Cold Rush / Foliage / Sunspill",
+      "source": "bummer.in/products.json (Modal Stretch Trunks variants and prices)"
+    },
+    {
+      "text": "the packshots: Bummer's own product images for each trunk",
+      "source": "bummer.in product pages (Shopify CDN, assets/products/)"
+    }
+  ],
+  "small_ok": [],
+  "music": {
+    "title": "Aap Jaisa Koi",
+    "artist": "Nazia Hassan",
+    "source": "song",
+    "genre": "Indo-disco",
+    "bpm": 108.4,
+    "song_start_s": 2.05,
+    "drop_at_s": 11.07,
+    "why": "the 1980 Qurbani Indo-disco classic (retro, flirty — 'someone like you') for a cheeky little luxury; its four-on-the-floor lets each view land on a kick and the wall of views on the song's biggest kick"
+  },
+  "look": {
+    "ground": "dark",
+    "bg": "#0C1E4A",
+    "why": "a deep night-sky navy so the scenic waistband 'views' glow like lit windows against it; one sky-cyan accent; the trunks arrive as bright white-bordered postcards"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "role": "hook",
+      "from": 0,
+      "to": 2.21,
+      "says": "desk pe view nahi?",
+      "shows": "a dull grey office 'window' — a flat rectangle of nothing — on the navy; the cursor-blink feeling of a cubicle",
+      "tags": [
+        "tension"
+      ],
+      "shots": [],
+      "serves": "names the grey-cubicle feeling in three words"
+    },
+    {
+      "id": "proof",
+      "role": "proof",
+      "from": 2.21,
+      "to": 11.07,
+      "says": "your view's on your waistband.",
+      "shows": "on the kick a grey office 'window' snaps into a bright postcard: four scenic-waistband trunks swap in on the four-on-the-floor beat — Aurora (northern lights), Cold Rush (snow), Foliage (woods), Sunspill (golden hour), each named like a holiday spot",
+      "tags": [
+        "product",
+        "texture",
+        "result"
+      ],
+      "shots": [],
+      "serves": "proves it's a collection of real printed views, not one gimmick"
+    },
+    {
+      "id": "payoff",
+      "role": "payoff",
+      "from": 11.07,
+      "to": 14.39,
+      "says": "ek naya view, roz.",
+      "shows": "on the big kick the four postcards stack into a 2×2 wall of views; soft modal fabric reads up close",
+      "tags": [
+        "result",
+        "product"
+      ],
+      "shots": [],
+      "serves": "lands the SMP: a new view every day, just for you"
+    },
+    {
+      "id": "cta",
+      "role": "cta",
+      "from": 14.39,
+      "to": 17.5,
+      "says": "Modal Stretch Trunks · ₹599 · bummer.in",
+      "shows": "the bummer wordmark, the product name, the price, the site",
+      "tags": [
+        "product"
+      ],
+      "shots": [],
+      "serves": "what to buy, what it costs, where"
+    }
+  ],
+  "waivers": {}
+}

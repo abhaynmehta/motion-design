@@ -1,0 +1,79 @@
+{
+ "sr": 48000,
+ "duration": 17.7,
+ "measured": true,
+ "cues": [
+  {
+   "t": 2.214,
+   "type": "shutter",
+   "gain": 0.45,
+   "pitch": 0.995,
+   "pan": -0.096,
+   "beat": 4,
+   "mark": "reveal",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the first postcard snaps in"
+  },
+  {
+   "t": 4.428,
+   "type": "shutter",
+   "gain": 0.45,
+   "pitch": 1.06,
+   "pan": 0.081,
+   "beat": 8,
+   "mark": "cold",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "Cold Rush"
+  },
+  {
+   "t": 6.642,
+   "type": "shutter",
+   "gain": 0.45,
+   "pitch": 0.96,
+   "pan": 0.059,
+   "beat": 12,
+   "mark": "foliage",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "Foliage"
+  },
+  {
+   "t": 8.856,
+   "type": "shutter",
+   "gain": 0.45,
+   "pitch": 1.1,
+   "pan": -0.174,
+   "beat": 16,
+   "mark": "sunspill",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "Sunspill"
+  },
+  {
+   "t": 11.07,
+   "type": "boom",
+   "gain": 0.6,
+   "pitch": 0.967,
+   "pan": 0.091,
+   "beat": 20,
+   "mark": "pay",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the wall of views (on the big kick)"
+  },
+  {
+   "t": 14.391,
+   "type": "chime",
+   "gain": 0.3,
+   "pitch": 1.036,
+   "pan": -0.103,
+   "beat": 26,
+   "mark": "cta",
+   "snapped_to_hit": false,
+   "snap_ms": 0,
+   "what": "the bummer logo"
+  }
+ ]
+}

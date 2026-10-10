@@ -75,9 +75,11 @@ Committed & delivered (SFX-only render in each `renders/9x16.mp4`; song cut sent
 | 09 | glossier-ultralip-spec | the (cashmere) sweatpants of lipstick | garment care label + hang tag | R&B | dark |
 | 10 | minimalist-spf50-spec | SPF 50 on the label, 56.6 in the lab (Hinglish) | lab gauge climbs past 50 to 56.6 on the drop | Tauba Tauba (Karan Aujla) | colour (orange) |
 | 11 | underneat-no-roll-spec | shapewear that stays up / roll down? aaj nahi (Hinglish) | coral waistband band; words roll off until the loop clips it | Shararat (Dhurandhar) | dark |
-| 12 | **mokobara-zero-digging-spec** | time spent digging: 0 seconds (Hinglish) | torch in a black bag → zip rips dark into yellow → each pocket 0 SEC | Big Dawgs (Hanumankind & Kalmi) | colour (yellow) |
+| 12 | mokobara-zero-digging-spec | time spent digging: 0 seconds (Hinglish) | torch in a black bag → zip rips dark into yellow → each pocket 0 SEC | Big Dawgs (Hanumankind & Kalmi) | colour (yellow) |
+| 13 | youthiapa-raised-right-spec | Raised Right (mostly): tees for kids who broke every house rule (Hinglish) | Mummy's rules handwritten; each broken by an evidence photo + struck through; song's dead stop = the glare, slam = "Raised Right" | In The Night No Control (1996) | dark (green) |
+| 14 | bummer-underrated-views-spec | Modal Stretch Trunks hide a view only you get (Hinglish) | a scrolling filmstrip of scenic-waistband trunks through a fixed viewfinder, each named like a holiday spot | Aap Jaisa Koi (Nazia Hassan, 1980) | dark (navy) |
 
-Outreach pack for the series: `outreach/beauty-spec-series.md` (DM + email per brand; reel 12 added).
+Outreach pack for the series: `outreach/beauty-spec-series.md` (DM + email per brand; reels 1–14).
 
 ### Mokobara (#12) — notable technique (committed this session, commit `3b834c1`)
 - Films shot on a white studio sweep → **`scripts/prep_key.py`** keys the sweep out and bakes each frame onto the reel
@@ -87,22 +89,21 @@ Outreach pack for the series: `outreach/beauty-spec-series.md` (DM + email per b
 - New SFX `zip` / `rip` synths added to `sfx.mjs` (skill engine + project copy).
 - Needs a MediaPipe venv to rebuild frames (see below).
 
-## IN PROGRESS → Youthiapa "Raised Right" (#13, `videos/youthiapa-raised-right-spec/`)
-Bhuvan Bam's streetwear label; the fourth Indian reel, new niche (apparel), new device, new music genre.
-- **Concept (SMP):** *Raised Right (mostly): tees for kids who broke every house rule.* Device = **Mummy's house rules**
-  handwritten in Kalam; as each is broken, a printed **evidence photo** slaps onto a pile and the rule is **struck
-  through in orange marker**. The song's **dead stop** is the parent's glare into the lens ("aur ye kya pehna hai?"); the
-  **slam** is the answer: "Raised Right." Ends with Bhuvan tee-after-tee → "(mostly.)" → logo, tees ₹1,499, cargos
-  ₹1,999, youthiapa.com.
-- **Music:** "In The Night No Control" (Khiladiyon Ka Khiladi, 1996) — a 90s Bollywood track Reels revived in 2026
-  (parents' era, "no control" is the joke). 137.3 bpm, reel enters on song beat 14 (6.51 s); slam at reel 11.8 s.
-- **Fonts:** Kalam 700 (handwriting) + Bodoni Moda 800 (brand wordmark), both OFL, committed.
-- **State:** `script.json`, `shots.json`, `timeline.json`, `film/film.js`, `prep_music.py`, docs and `fetch_sources.sh`
-  all written; **gate is clean (L01–L17)**; **round-1 draft rendered and reviewed**. Not final yet.
-- **Next steps (in `docs/review_log.md`):** (1) fix sync — shutter/whoosh SFX pre-roll makes slaps read early (mean 66 ms;
-  shift cues ~3 frames or trim the shutter lead), (2) close the 3.9 s gap before the CTA (bring the end card in a beat
-  sooner / add a small move), (3) check end-card safe area; then `--verify`, final render, gate `--render`,
-  `split_song.sh`, register, cover, fill the review log, commit, deliver the song cut. Then mark task #30 done.
+### Youthiapa "Raised Right" (#13) and Bummer "underrated views" (#14) — shipped this session
+Both final, gate-clean (script + pixels), determinism 12/12, registered, outreach added, committed and delivered.
+- **Youthiapa (streetwear, Bhuvan Bam):** Mummy's house rules handwritten in Kalam; each broken by a printed evidence
+  photo that slaps onto a pile and strikes the rule out in orange; the song's dead stop is the glare, the slam is
+  "Raised Right." Fonts Kalam + Bodoni Moda (OFL).
+- **Bummer (innerwear):** the real product truth is the scenic printed waistband, so each trunk is a "view." Built from
+  still packshots (1254 px) as a **constant-scroll filmstrip** behind a fixed cyan viewfinder — crisp (≤0.7×, L16) and
+  always moving (needed to pass **L13**, which is tuned for full-frame video: a static postcard reel scored 0.63
+  changes/s and failed; the scrolling strip scores 4/s). Fonts Archivo + DM Mono (OFL).
+- **Stills-reel lesson:** a reel built from product stills must keep large-area motion going (a scroll/carousel), not
+  just a Ken-Burns drift — the gate's `changes_per_s` needs mean full-frame luminance diff > 12 per 0.25 s, which a
+  small static card on a dark ground never reaches. Full-bleed is not an option when the source is < ~1700 px (L16).
+
+**No reel is mid-build right now.** Next candidate brands with usable assets: `bummer.in` (more prints), `sleepyowl.co`
+(coffee, 1 film), or re-scan the inventory. Always pick a new device/hook/ground/genre (registry L11 enforces it).
 
 ## Rebuilding uncommitted (heavy) assets on a fresh machine
 Each project commits only source (code, JSON, docs, OFL fonts, `source/manifest.json`). Brand films, extracted frames,
