@@ -1,0 +1,164 @@
+{
+ "note": "BEATS on the 'In The Night No Control' preview grid (137.3 bpm, beat 0.437 s; reel beat 0 = song beat 14 = 6.51 s). Story: Mummy ke rules — 1. sofa pe joote nahi (Bhuvan Bam flips on the sofa in sneakers) · 2. ghar mein ball nahi · 3. skateboard? haddi tootegi · 4. phone pe sirf 2 minute — each struck through in orange as its evidence photo lands → 'aur ye kya pehna hai?' (the song's dead stop = the glare) → SLAM: Raised Right. → the prints → Bhuvan in tee after tee: (mostly.) → logo, tees ₹1,499, cargos ₹1,999, youthiapa.com.",
+ "title": "Raised Right by Youthiapa — Mummy ke rules (spec)",
+ "duration": 21.0,
+ "fps": 30,
+ "bpm": 137.3,
+ "formats": [
+  "9x16"
+ ],
+ "music": {
+  "source": "supplied",
+  "track": "\"In The Night No Control\" (Khiladiyon Ka Khiladi, 1996) — 30 s iTunes preview from 6.51 s, temp track, never committed",
+  "sections": []
+ },
+ "voiceover": null,
+ "marks": {
+  "hook": 0,
+  "p1": 0.6,
+  "s1": 2.5,
+  "r2": 5,
+  "p2": 6,
+  "p2b": 7.5,
+  "s2": 8.5,
+  "r3": 10,
+  "p3": 11,
+  "s3": 12.5,
+  "r4": 15,
+  "p4": 16,
+  "s4": 17.5,
+  "q": 20,
+  "glare": 21,
+  "stop": 22.4,
+  "raised": 25.2,
+  "slam": 27,
+  "t1": 28,
+  "t2": 29,
+  "t3": 30,
+  "t4": 31,
+  "pay": 33,
+  "m1": 33,
+  "m2": 34,
+  "m3": 35,
+  "m4": 36,
+  "m5": 37,
+  "m6": 38,
+  "mostly": 35,
+  "cta": 39,
+  "price": 40.5,
+  "url": 41.8,
+  "done": 48
+ },
+ "sfx": [
+  {
+   "at": "p1",
+   "type": "shutter",
+   "gain": 0.5,
+   "what": "an evidence photo slaps down"
+  },
+  {
+   "at": "p2",
+   "type": "shutter",
+   "gain": 0.5,
+   "what": "an evidence photo slaps down"
+  },
+  {
+   "at": "p2b",
+   "type": "shutter",
+   "gain": 0.5,
+   "what": "an evidence photo slaps down"
+  },
+  {
+   "at": "p3",
+   "type": "shutter",
+   "gain": 0.5,
+   "what": "an evidence photo slaps down"
+  },
+  {
+   "at": "p4",
+   "type": "shutter",
+   "gain": 0.5,
+   "what": "an evidence photo slaps down"
+  },
+  {
+   "at": "glare",
+   "type": "shutter",
+   "gain": 0.5,
+   "what": "an evidence photo slaps down"
+  },
+  {
+   "at": "s1",
+   "type": "whoosh",
+   "gain": 0.28,
+   "pitch": 1.5,
+   "what": "Mummy's rule struck through in orange marker"
+  },
+  {
+   "at": "s2",
+   "type": "whoosh",
+   "gain": 0.28,
+   "pitch": 1.6,
+   "what": "Mummy's rule struck through in orange marker"
+  },
+  {
+   "at": "s3",
+   "type": "whoosh",
+   "gain": 0.28,
+   "pitch": 1.7,
+   "what": "Mummy's rule struck through in orange marker"
+  },
+  {
+   "at": "s4",
+   "type": "whoosh",
+   "gain": 0.28,
+   "pitch": 1.8,
+   "what": "Mummy's rule struck through in orange marker"
+  },
+  {
+   "at": "slam",
+   "type": "boom",
+   "gain": 0.7,
+   "what": "Raised Right. (the beat slams back)"
+  },
+  {
+   "at": "t1",
+   "type": "shutter",
+   "gain": 0.3,
+   "what": "a print slaps onto the stack"
+  },
+  {
+   "at": "t2",
+   "type": "shutter",
+   "gain": 0.3,
+   "what": "a print slaps onto the stack"
+  },
+  {
+   "at": "t3",
+   "type": "shutter",
+   "gain": 0.3,
+   "what": "a print slaps onto the stack"
+  },
+  {
+   "at": "t4",
+   "type": "shutter",
+   "gain": 0.3,
+   "what": "a print slaps onto the stack"
+  },
+  {
+   "at": "mostly",
+   "type": "pop",
+   "gain": 0.35,
+   "what": "(mostly.)"
+  },
+  {
+   "at": "cta",
+   "type": "chime",
+   "gain": 0.3,
+   "what": "the Raised Right logo"
+  }
+ ],
+ "mix": {
+  "music": 0,
+  "sfx": -6
+ }
+}

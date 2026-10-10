@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Youthiapa Raised Right</title>
+<style>
+  /* Raised Right's wordmark is a custom high-contrast display; Bodoni Moda (OFL) carries it for the brand lines. Mummy's
+     rules are handwritten in Kalam (Indian Type Foundry, OFL); ₹ comes from Kalam's latin-ext file. */
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/bodoni-moda-800.woff2) format('woff2'); font-weight: 800;
+               unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FEFF; }
+  @font-face { font-family: 'Display'; src: url(../assets/fonts/bodoni-moda-800-ext.woff2) format('woff2'); font-weight: 800; unicode-range: U+0100-02BA, U+20A0-20AB, U+20AD-20C4; }
+  @font-face { font-family: 'Hand'; src: url(../assets/fonts/kalam-700.woff2) format('woff2'); font-weight: 700;
+               unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FEFF; }
+  @font-face { font-family: 'Hand'; src: url(../assets/fonts/kalam-700-ext.woff2) format('woff2'); font-weight: 700; unicode-range: U+0100-02BA, U+20A0-20AB, U+20AD-20C4; }
+  :root {
+    /* bottle green (the green Raised Right tee in shadow); white type and prints; the orange tee's orange is the marker */
+    --green: #0E1A15; --orange: #FF6B1A; --ink: #FFFFFF; --bg: var(--green);
+  }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; overflow: hidden; background: var(--bg); transform-origin: 0 0; color: var(--ink);
+           font-family: 'Hand', 'Helvetica Neue', Arial, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  body.play { display: block; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="lib/motion.js"></script>
+<script src="data.js"></script>
+<script src="core.js"></script>
+<script src="type.js"></script>
+<script src="shots.js"></script>
+<script src="footage.js"></script>
+<script src="film.js"></script>
+</body>
+</html>

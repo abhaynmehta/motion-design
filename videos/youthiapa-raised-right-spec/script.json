@@ -1,0 +1,151 @@
+{
+  "brand": "Youthiapa",
+  "url": "https://youthiapa.com/",
+  "product": {
+    "name": "Raised Right by Youthiapa",
+    "short": "raised right",
+    "category": "apparel",
+    "price": "₹1,499",
+    "where": "youthiapa.com"
+  },
+  "range": [
+    "Raised Right tees (₹1,499)",
+    "Raised Right cargos (₹1,999)"
+  ],
+  "range_reason": "the collection is the product: one attitude (the kid who broke every house rule and turned out fine) on oversized printed tees and cargos",
+  "audience": "A 21-year-old in Delhi who still lives at home, still hears 'joote utaaro!' every evening, and grew up on BB Ki Vines.",
+  "insight": "Every desi kid grew up under the same list of house rules, broke every one of them, and still swears they were raised right.",
+  "smp": "Raised Right (mostly): tees for kids who broke every house rule.",
+  "shape": "tension-release",
+  "hook_type": "meme",
+  "device": "Mummy's house rules handwritten in a list; as each one is broken, an evidence photo slaps onto a pile and the rule gets struck through in marker",
+  "device_why": "the brand's name is a parent's phrase, so the reel is a desi parent's rulebook being broken one photo at a time, ending on the answer to 'ye kya pehna hai?': Raised Right",
+  "recall": {
+    "what": "Raised Right, Youthiapa's (Bhuvan Bam's) line of oversized printed tees and cargos",
+    "does": "tees and cargos for breaking Mummy's rules",
+    "why": "it's the desi childhood you actually had, worn loud: raised right, mostly"
+  },
+  "claims": [
+    {
+      "text": "Raised Right by Youthiapa: printed oversized tees ₹1,499, cargos ₹1,999, sizes XS-2XL",
+      "source": "youthiapa.com/products.json (tag 'Raised Right'; variant prices and sizes)"
+    },
+    {
+      "text": "the footage: Youthiapa's own Raised Right campaign film and Bhuvan Bam's sofa film",
+      "source": "youthiapa.com homepage videos (Shopify CDN, source/manifest.json)"
+    }
+  ],
+  "small_ok": [],
+  "music": {
+    "title": "In The Night No Control",
+    "artist": "Sumitra Iyer, Anu Malik & Dev Kohli",
+    "source": "song",
+    "genre": "90s Bollywood dance-pop",
+    "bpm": 137.3,
+    "song_start_s": 6.506,
+    "drop_at_s": 11.8,
+    "why": "the 1996 Khiladiyon Ka Khiladi track Reels revived in 2026: our parents' era of music for a reel about breaking their rules, and 'no control' is the joke; its dead stop is Mummy's glare and the slam is Raised Right"
+  },
+  "look": {
+    "ground": "dark",
+    "bg": "#0E1A15",
+    "why": "a deep bottle-green ground (the colour of the green Raised Right tee in shadow), not black again: white handwriting, white-bordered prints, the tee's orange only for the strike-throughs, rule numbers and (mostly.)"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "role": "hook",
+      "from": 0,
+      "to": 2.18,
+      "says": "Mummy ke rules: sofa pe joote nahi.",
+      "shows": "frame 0: the handwritten rule; a photo slaps down: Bhuvan Bam flipping on the sofa in sneakers and the orange Raised Right tee; the rule is struck through",
+      "tags": [
+        "person",
+        "product",
+        "tension"
+      ],
+      "shots": [
+        "sofa"
+      ],
+      "serves": "the meme every desi kid knows, broken by the founder himself in the product"
+    },
+    {
+      "id": "turn",
+      "role": "turn",
+      "from": 2.18,
+      "to": 11.8,
+      "says": "ball, skateboard, phone. ye kya pehna hai?",
+      "shows": "rule after rule broken in Raised Right: basketball indoors, a kickflip, the landline; each struck through; then the song stops dead on Bhuvan's glare into the lens",
+      "tags": [
+        "tension",
+        "in-use"
+      ],
+      "shots": [
+        "dribble",
+        "spin",
+        "skate",
+        "phone",
+        "glare"
+      ],
+      "serves": "escalates the joke and sets up the question the brand name answers"
+    },
+    {
+      "id": "proof",
+      "role": "proof",
+      "from": 11.8,
+      "to": 14.42,
+      "says": "Raised Right.",
+      "shows": "on the slam the pile is swept away: RAISEDRIGHT embossed on the orange tee, then the prints slap down one per beat: flower-pot face, van-turtle, line-art butterfly, red mushroom",
+      "tags": [
+        "product",
+        "texture",
+        "in-use"
+      ],
+      "shots": [
+        "emboss",
+        "flowers",
+        "turtle",
+        "butterfly",
+        "mushroom"
+      ],
+      "serves": "answers 'ye kya pehna hai?' with the name, and shows the prints are the point"
+    },
+    {
+      "id": "payoff",
+      "role": "payoff",
+      "from": 14.42,
+      "to": 17.04,
+      "says": "Raised Right. (mostly.)",
+      "shows": "Bhuvan to the lens in tee after tee, one per beat; Mummy's hand adds (mostly.)",
+      "tags": [
+        "person",
+        "result"
+      ],
+      "shots": [
+        "w1",
+        "o1",
+        "k1",
+        "w2",
+        "g1",
+        "o2"
+      ],
+      "serves": "lands the wink: you broke the rules and still turned out right"
+    },
+    {
+      "id": "cta",
+      "role": "cta",
+      "from": 17.04,
+      "to": 20.54,
+      "says": "Raised Right · tees ₹1,499 · youthiapa.com",
+      "shows": "the Raised Right by Youthiapa logo, tees ₹1,499, cargos ₹1,999, youthiapa.com",
+      "tags": [
+        "product"
+      ],
+      "shots": [
+        "logo"
+      ],
+      "serves": "what to buy, what it costs, where"
+    }
+  ],
+  "waivers": {}
+}
